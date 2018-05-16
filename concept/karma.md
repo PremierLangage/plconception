@@ -9,7 +9,7 @@ Exemple : Pour la programmation un enseignant a un karma en C, python, compilati
 Le karma est défini par les enseignents entres eux. TODO
 
 Un enseignant peut valider un tag ou un exercice proposé par un utilisateur s'il a au minimum 15 points dans la discipline de l'exercice.
-Exemple : Un enseignant qui a 15 points de karma en C peut valider les exercices et les tags proposés par des utilisateurs.
+Exemple : Un enseignant qui a 15 points de karma en C peut valider les exercices et les tags proposés par des utilisateurs en C.
 
 Le karma n'est pas défintif, il est évolutif. TODO
 
