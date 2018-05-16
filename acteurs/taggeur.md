@@ -1,6 +1,8 @@
 # Taggeur
 
-TODO donner plus de précision sur les taggeurs confirmés et non confirmés.
+TODO donner plus de précision sur les taggeurs confirmés et non confirmés. Compléter les données et les cas d'utilisation
+
+## Fonctionnalités demandées.
 
 Un taggeur est chargé de tagger un exercice et/ou un cours.
 
@@ -14,3 +16,12 @@ Les acteurs suivant sont des taggeurs confirmés : TODO
 
 Les acteurs suivant sont des taggeurs non confirmés : TODO
 
+### Données primaires
+
+Karma du taggeur.
+
+### Données secondaires
+
+### Données générées
+
+## Cas d'utilisation associées
