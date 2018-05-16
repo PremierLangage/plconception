@@ -1,5 +1,5 @@
 ﻿
-# Révision
+# Réviser
 Objectif : Permettre à l'étudiant de revoir les notions qui a besoin de connaitre pour l'examen.
 
 Résumé général : Donner accès à des cours et des exercices d'une matière que l'étudiant souhaite réviser.
