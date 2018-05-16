@@ -11,7 +11,7 @@ Niveau7= Cours réutilisé (pas d'auto promotion ;)
 Niveau9= template d'un langage (un grader complet).
 
 Les cercles sont des communautés de créateurs et d'utilisateur ou l'on est accepté sur présentation d'exercices correspondant au besoin du cercle. Les critères du cercle variant d'un cercle à l'autre.
-Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique puloté par DR.
+Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique piloté par DR.
 
 Le créateur d'exercice produit des exercices, des feuilles, des templates et des cours réutilisables sur la plate forme.
 
