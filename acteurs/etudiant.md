@@ -4,9 +4,9 @@
 
 Accessibilité 24/7 + mobiles.
 
-Accès après les examens.
+Accès après les examens ?? je ne comprends pas bien ??.
 Nombre d'essais important.
-Feedback immédiats (résultat de ses exercices, ce qu'il a pensé d'un exercice, ce qu'il a pensé d'un cours).
+Feedbacks immédiats (résultat de ses exercices, ce qu'il a pensé d'un exercice, ce qu'il a pensé d'un cours).
 Variété des exercices.
 
 Badges (preuves d'avancement et de travail).
