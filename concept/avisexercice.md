@@ -18,6 +18,7 @@ Hors sujet : S'il pense que l'exercice n'a rien à voir avec la notion qu'on veu
 
 Autre : S'il veut laisser un commentaire particuliers.
 
+Chaque avis est anonyme.
 
 
 
