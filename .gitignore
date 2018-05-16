@@ -3,6 +3,9 @@
 .AppleDouble
 .LSOverride
 
+### Pycharm ###
+.idea/*
+
 # Icon must end with two \r
 Icon
 
