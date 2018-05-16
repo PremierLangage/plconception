@@ -37,11 +37,17 @@ des feuilles/exercices voulus dans la base de données s'ils sont présents.
 ## Scénarios
 
 MAIN SUCCESS SCENARIO
+
 S	[l'étudiant peut accéder aux feuilles/exercices qu'il veut faire]
+
 1	[L'étudiant se connecte]
+
 2	[L'étudiant essaie d'accéder aux feuilles/exercices qu'il veut faire]
+
 3	[Recherche dans la base de données]
+
 4	[L'étudiant accède aux feuilles/exercices qu'il veut faire]
+
 
 
 RELATED INFORMATION

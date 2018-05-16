@@ -1,5 +1,5 @@
 ﻿
-# Révision
+# Réviser
 Objectif : Permettre à l'étudiant de revoir les notions qui a besoin de connaitre pour l'examen.
 
 Résumé général : Donner accès à des cours et des exercices d'une matière que l'étudiant souhaite réviser.
@@ -33,8 +33,13 @@ des cours et exercices voulus dans la base de données s'ils sont présents.
 ## Scénarios
 
 MAIN SUCCESS SCENARIO
+
 S	[l'étudiant peut accéder aux cours et exercices voulus pour réviser]
+
 1	[L'étudiant se connecte]
+
 2	[L'étudiant essaie d'accéder aux cours et exercices voulus depuis le tableau de bord]
+
 3	[Recherche dans la base de données]
+
 4	[L'étudiant accède aux cours et exercices qu'il veut réviser]

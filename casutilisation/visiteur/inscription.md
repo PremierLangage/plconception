@@ -5,7 +5,7 @@ Objectif :  Permet l'inscription d'un visiteur.
 
 Résumé général: S'effectue lorsqu'un visiteur clique sur le bouton "S'inscrire", il lui suffit donc d'entrer les informations demandé.
 
-#Données :
+# Données :
 
 Acteur Principal : Visiteur
 
