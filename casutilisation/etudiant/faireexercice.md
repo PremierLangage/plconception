@@ -56,10 +56,15 @@ quitter lorsqu'il reprendra son exercice.
 MAIN SUCCESS SCENARIO
 
 S	[l'étudiant peut faire un exercice]
+
 1	[L'étudiant se trouve sur la page d'un exercice]
+
 2	[L'étudiant répond à l'énoncé et valide]
+
 3	[Sa réponse est correcte et il peut soit donner son avis sur l'exercice ou passer au suivant]
+
 4	[L'exercice est terminé]
+
 
 
 EXTENSION SCENARIOS
@@ -73,6 +78,7 @@ EXTENSION SCENARIOS
 1 : Sa réponse est fausse et il peut soit donner son avis sur l'exercice ou passer au suivant
 
 2 : Le travail que l'étudiant a effectué est sauvegardé
+
 
 
 RELATED INFORMATION
