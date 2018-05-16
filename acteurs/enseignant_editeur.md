@@ -1,6 +1,6 @@
-# Enseignant
+# Enseignant éditeur
 
-Les enseignants utilisent la plateforme pour faire leurs enseignements, ils ont besoin de suivre un groupe d'élève.
+Les enseignants éditeurs utilisent la plateforme pour faire leurs enseignements, ils ont besoin de suivre un groupe d'élève.
 
 Modifier cette section
 Fonctionnalités demandées
