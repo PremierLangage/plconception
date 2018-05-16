@@ -22,15 +22,15 @@
 
 
    ### III. Github
-
-1. Essayer de choisir une tâche à la fois dans premierlangage/pl-conception dans
+1. La gestions des tâches sera dans la partie "Projects/pl-conception" du repo plgitlogin/premierlangage
+2. Essayer de choisir une tâche à la fois dans **premierlangage/pl-conception** dans
 la partie "To do" et la choisir avant de commencer à modifier le ou les fichiers
 en question en la déplaçant dans la partie "In progress"
 
-2. Les **modifications** devront être **poussées régulièrement**, pour éviter les
+3. Les **modifications** devront être **poussées régulièrement**, pour éviter les
 conflits d'ajout/supression entre les fichiers.
 
-3. Si vous avez terminé votre travail sur une partie, veuillez mettre la tâche
+4. Si vous avez terminé votre travail sur une partie, veuillez mettre la tâche
 de premierlangage/pl-conception dans la partie "Done"
 
 
