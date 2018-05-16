@@ -10,3 +10,7 @@ Un taggeur confirmé est autorisé à créer, modifier, et valider les tags d'un
 
 Un taggeur non confirmé est autorisé à créer ou modifier les tags d'un exercice. Cependant, chacunes de ses actions sont soumises à une vérification par un taggeur confirmé.
 
+Les acteurs suivant sont des taggeurs confirmés : TODO
+
+Les acteurs suivant sont des taggeurs non confirmés : TODO
+
