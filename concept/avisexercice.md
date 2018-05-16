@@ -1,6 +1,6 @@
 #  Avis Exercice
 
-TODO ajouter des avis (et les compléter si nécessaire), associer chaque avis à une note (pour les statistiques).
+TODO ajouter des avis (et les compléter si nécessaire), associer chaque avis à une note ? (pour les statistiques).
 
 L'avis d'un exercice c'est ce que l'utilisateur a pensé du niveau d'un exercice après l'avoir terminé.
 
@@ -18,6 +18,7 @@ Hors sujet : S'il pense que l'exercice n'a rien à voir avec la notion qu'on veu
 
 Autre : S'il veut laisser un commentaire particuliers.
 
+Chaque avis est anonyme.
 
 
 
