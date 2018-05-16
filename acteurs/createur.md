@@ -1,5 +1,9 @@
 # Créateur
 
+TODO compléter les données et les cas d'utilisation, modif foctionnalités
+
+## Fonctionnalités demandées.
+
 le créateur à un niveau et il appartient à des cercles.
 Le niveau est défini par le type d'exercice que le créateur à écrit qui est utilisé dans un context de classe.
 A chaque niveau est associé un badge
@@ -27,4 +31,12 @@ il veut pourvoir proposer des exercices dans différents contextes (niveau, cerc
 il a besoin de validation, de tests, de framework de tests. Il veux des retours sur ces exercices (combien de ses exercices sont utllisé et lesquelles).
 
 il faut un mécanisme (organisation) pour faire passer du code de l'exercice vers le template et du template vers la librairie promotion.
+
+### Données primaires
+
+### Données secondaires
+
+### Données générées
+
+## Cas d'utilisation associées
 
