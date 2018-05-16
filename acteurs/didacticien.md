@@ -4,5 +4,5 @@ L'utilisateur didactitien est celui qui regroupe les besoin d'analyse des donné
 
 l'objectif du didactitien est de trouvez les exercices qui sont les plus efficaces pour faire comprendre les notions.
 
-
+TODO de quelles données parle ton ici ???
 
