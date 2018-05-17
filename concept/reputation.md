@@ -8,3 +8,4 @@ La réputation n'a pas de limite et peut monter à l'infini. Cele permet de valo
 
 Il augmente lorsque l'enseignant propose des exercices et des tags qui ont été validé.
 
+<!--- Author : Hugo Validator : name -->

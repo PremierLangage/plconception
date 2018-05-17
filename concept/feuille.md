@@ -11,3 +11,5 @@ Une même feuille d'exercice peut servir pour plusieurs cours.
 Exemple : Une même feuille d'exercice peut servir pour le langage C, python ...
 
 Chaque feuilles d'exercice modifier doit être recharger afin d'être mises à jour.
+
+<!--- Author : Hugo Validator : name -->

@@ -12,3 +12,4 @@ Un exercice doit être placer dans une [feuille d'exercice](feuille.md) par un e
 
 Les exercices à valider doivent apparaitre dans le [centre de notification](centredenotification.md) des professeurs ayant l'autorisation de les valider.
 
+<!--- Author : Hugo Validator : name -->

@@ -25,3 +25,5 @@ Karma du taggeur.
 ### Données générées
 
 ## Cas d'utilisation associées
+
+<!--- Author : Hugo Validator : name -->

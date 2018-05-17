@@ -4,3 +4,4 @@ Récompense attribuée à un acteur, attestée par un logo visuel, et ouvrant de
 
 Exemple de récompense visuelle possible : https://threejs.org/examples/webgl_materials_reflectivity.html
 
+<!--- Author : Hugo Validator : name -->

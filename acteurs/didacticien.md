@@ -27,3 +27,5 @@ l'objectif du didactitien est de trouver les exercices qui sont les plus efficac
 
 TODO de quelles données parle ton ici ???
 
+<!--- Author : Hugo Validator : name -->
+

@@ -5,3 +5,5 @@ Un devoir maison est une feuille d'exercice que les étudiants doivent faire sur
 Les exercices de la feuilles sont plus difficile et plus long à faire.
 
 L'enseignant peut intervenir pendant la durée du devoir pour éditer le DM de tous les étudiants. (Ex. Pour donner un indice sur un exercice difficile).
+
+<!--- Author : Hugo Validator : name -->

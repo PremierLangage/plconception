@@ -11,3 +11,5 @@ Une fois la deadline passé, l'application place les étudiants qui n'ont pas de
 Une fois la deadline passer, les étudiants ont donc tous un salon attribué, et les salons sont validés.
 
 L'appli peut permettre à l'enseignant d'empêcher la constitution d'un même groupe (oblige les groupe à être différent à chaque projet ou encore pour tous les projets).
+
+<!--- Author : Hugo Validator : name -->

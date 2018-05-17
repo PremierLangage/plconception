@@ -9,7 +9,5 @@ Exemple :
 Pour un étudiant : Ajout d'un nouveau cours, d'une nouvelle feuille d'exercice.
 Pour un enseignant : exercices à valider, tags à valider, ajout d'un avis sur ses exercices/cours.
 
-
-
-
+<!--- Author : Hugo Validator : name -->
 

@@ -40,4 +40,6 @@ Feedback (pour les exercices, les cours), note, badge, temps passé à faire un 
 
 [Réviser](../casutilisation/etudiant/reviser.md)
 
+<!--- Author : Hugo Validator : name -->
+
 
