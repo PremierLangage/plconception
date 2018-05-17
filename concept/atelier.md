@@ -2,7 +2,7 @@
 
 TODO faciliter la compréhension de l'atelier.
 
-FIXME problème pour la note du correcteur parce qu'il peut pas avoir exacteement la même note que l'application, à approfondir
+FIXME problème pour la note du correcteur parce qu'il peut pas avoir exactement la même note que l'application, à approfondir
 
 Un atelier permet aux étudiants de se corriger entre eux. C'est à dire que chaque étudiant doit corriger plusieurs étudiants (choisis de manière aléatoire) sur un ou plusieurs exercices qu'ils ont fait. La correction se fait de manière anonyme.
 
