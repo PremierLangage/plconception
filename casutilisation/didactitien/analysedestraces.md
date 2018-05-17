@@ -1,6 +1,6 @@
 
 # Analyse les traces
-Objectif :  Permet au didactitien de faire des statistiques sur les exercices pour les analyser afin de savoir ceux qui 
+Objectif :  Permettre au didactitien de faire des statistiques sur les exercices pour les analyser afin de savoir ceux qui 
 sont les plus efficaces, ceux qu'induisent l'élève en erreur etc.
 
 Résumé général : Le didactitien choisi un ensemble de données, soit tout les exercices fait par un élève ,  une classe, un niveau, un type de cours. Soit toutes les réalisation d'un exercice ou d'un type d'exercice/ensemble d'exercice.
@@ -54,5 +54,11 @@ S	[Accès à la base données, analyse des informations en lien avec les exercic
 2	[Accès à la base de données, analyse les données utiles au didactitien à propos des exercices]
 3	[Plusieurs statistiques disponibles issus de l'analyse de ces données]
 </PRE>
+
+
+<!--- 
+Author : Raphael
+Validator :  
+-->
 
 
