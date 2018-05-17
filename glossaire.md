@@ -8,7 +8,7 @@
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tableau de bord qui permet de visualiser les informations jugées importantes et de monitorer les classes
 
 **[classe](concept/classe.md)**\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un espace qui regroupe des cours, des feuilles d'exercice ansi que des étudiant qui peuvent consulter le contenu de la classe en question. 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un espace qui regroupe des cours, des feuilles d'exercice ansi que des étudiant qui          peuvent consulter le contenu de la classe en question. 
  
 **[sheet](concept/feuille.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
