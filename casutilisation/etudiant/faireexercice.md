@@ -1,6 +1,6 @@
 ﻿
 # Faire exercice
-Objectif : Pemettre à l'étudiant de faire un exercice
+Objectif : Permettre à l'étudiant de faire un exercice
 
 Résumé général : Donner accès à des exercices pour qu'un étudiant puisse les faire
 
