@@ -16,3 +16,7 @@
 **[grain](concept/grain.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;notion
  
+<!---
+Author : Elaad
+Validator :
+-->
