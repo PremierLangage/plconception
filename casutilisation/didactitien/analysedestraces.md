@@ -43,12 +43,12 @@ Accès à la base de données, recherche des informations en lien avec les exerc
 ## Scénarios
 
 TODO
-<FIXME>
+<PRE> FIXME
 MAIN SUCCESS SCENARIO
 S	[Accès à la base données, analyse des informations en lien avec les exercice]
 1	[Commence lorsque le didactitien souhaite accéder à ses statistiques]
 2	[Accès à la base de données, analyse les données utiles au didactitien à propos des exercices]
 3	[Plusieurs statistiques disponibles issus de l'analyse de ces données]
-</FIXME>
+</PRE>
 
 
