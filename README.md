@@ -46,3 +46,9 @@ utiliser l'indicateur **TODO**.
 
 3. N'hésitez pas à **rajouter** des **sections** dans un template, lorsque celle ci vous
 paraît **pertinante**
+
+4. Ajouter l'auteur et celui qui a validé le fichier à la fin 
+`<!---
+Author : name
+Validator : name
+-->`
