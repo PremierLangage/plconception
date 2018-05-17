@@ -15,7 +15,7 @@ Concurrence : Non
 
 ## Pré-conditions
 
-L'étudiant doit être connecté(login.md), être inscrit à un cours, une feuille doit avoir été ajouter et avoir accès à une feuille (accesfeuilleexercice.md).
+L'étudiant doit être connecté(login.md), TODO être inscrit à un cours, TODO une feuille doit avoir été ajouter et avoir accès à une feuille (accesfeuilleexercice.md).
 
 
 ## Post Conditions
