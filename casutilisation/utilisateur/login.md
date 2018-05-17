@@ -1,7 +1,7 @@
 # Login
 
 
-Objectif :  Permettre la connexion d'un utilisateur tout en conservant les données sur son avancement.
+Objectif :  Permettre la connexion d'un utilisateur.
 
 Résumé général: S'effectue lorsqu'un utilisateur ou un visiteur veux se connecter.
 
@@ -33,10 +33,10 @@ L'inscription dois être effectué préalablement.
 	TODO
 
 
-En cas de succès : L'utilisateur a accès à son compte. Une session est créée, l'utilisateur est soit placé sur son Tableaudebord soit sur la dernière page où il était.
+En cas de succès : L'utilisateur a accès à son compte. Une session est créée, l'utilisateur est placé sur sa page d'accueil.
 
 
-En cas d'échec: affiche d'erreur mot de passe, actualisation de la page de connection.
+En cas d'échec: affiche d'erreur mot de passe, actualisation de la page de connexion.
 
 # Navigation / IHM  :
 
@@ -80,4 +80,10 @@ na.  Action causing branching:
 Concurrency    Si un utilisateur tente de se connecter avec une autre instance on ferme la première.
 
 Include Use Cases    [Inscription](/inscription.md)
+
+
+<!--- 
+Author : Jordan
+Validator : Raphael 
+-->
  

@@ -1,7 +1,7 @@
 # Tableau de bord
 
 
-Objectif :  Permet à l'utilisateur de voir sa progression, ces difficultés, ces cours, ces exercices, son classement par rapport à toute ça promotion, il s'agit d'un tableau suivie.
+Objectif :  Permet à l'utilisateur de voir sa progression, ses difficultés, ses cours, ses exercices, son classement par rapport à toute sa promotion, il s'agit d'un tableau de suivie.
 
 Résumé général: Lorsque l'utilisateur se connecte il a directement accès à son tableau de bord.
 
@@ -15,7 +15,7 @@ Fréquence   : fréquence de la connexion
 
 Concurrence : Oui
 
-Déclencheur : se déclenche lorsque l'utilisateur se connect, quand il clique sur le bouton "Tableau de bord", ou encore lors de l'actualisation de la page.
+Déclencheur : se déclenche lorsque l'utilisateur se connecte, quand il clique sur le bouton "Tableau de bord", ou encore lors de l'actualisation de la page.
 
 
 ## Pré-conditions
@@ -25,8 +25,8 @@ Déclencheur : se déclenche lorsque l'utilisateur se connect, quand il clique s
 
 	classe
 
-Avoir un compte dans la base de donnée, pour cela il dois [s'inscrire](/inscription.md).
-L'inscription dois être effectué préalablement.
+Avoir un compte dans la base de données, pour cela il doit [s'inscrire](/inscription.md).
+L'inscription doit être effectué préalablement.
 
 ## Post Conditions
 
@@ -37,9 +37,9 @@ L'inscription dois être effectué préalablement.
 
 	classement étudiant
 
-	validation de tag pour les porfs avec un bon karma dans la discipline TODO
+	validation de tag pour les profs avec un bon karma dans la discipline TODO
 
-En cas de succès : L'utilisateur voit tous son suivie, les excercices qu'il a réussi, qu'il a raté, qu'il n'a pas fait, il voit son "classement" dans la classe et les cours.
+En cas de succès : L'utilisateur voit tous son suivie, les exercices qu'il a réussi, qu'il a raté, qu'il n'a pas fait, il voit son "classement" dans la classe et les cours.
 
 En cas d'échec: ré-actualiser la page internet.
 
@@ -47,7 +47,7 @@ En cas d'échec: ré-actualiser la page internet.
 
 Principe de navigation du scénario principal, organisation de l'IHM.
 
-Une fois que l'utilisateur s'est connecté, il voit directement son tableau de bord ou il voit son suivi, son classement, ces difficultés dans les matières qu'il est tenu de suivre, il a alors la possibilité de faire de [reviser](/revision.md), d'[étudier](/etude.md), en fesant des exercices, en regardant les cours, il aura aussi la possibilité d'effectuer des [exercices](/exercice.md) qui lui sont assigné.
+Une fois que l'utilisateur s'est connecté, il voit directement son tableau de bord ou il voit son suivi, son classement, ses difficultés dans les matières qu'il est tenu de suivre, il a alors la possibilité de faire de [reviser](/reviser.md), d'[étudier](/etudier.md), en faisant des exercices, en regardant les cours, il aura aussi la possibilité d'effectuer des [exercices](/exercice.md) qui lui sont assigné.
 
 ## Scénarios
 
@@ -55,15 +55,15 @@ Une fois que l'utilisateur s'est connecté, il voit directement son tableau de b
 
 Step    Action
 
-S    [L'utilisateur est sur la page d'acceuil apres s'etre connecté, il a accès au tableau de bord]
+S    [L'utilisateur est sur la page d'acceuil après s'être connecté, il a accès au tableau de bord]
 
 1    [Ce cas d'utilisation commence quand l'utilisateur clique sur le bouton "Tableau de bord", quand il se connecte ou encore quand on entre l'url dans un navigateur.]
 
-2    [il voit ces difficulté en rouge].
+2    [il voit ses difficulté en rouge].
 
-3    [il voit ces cours].
+3    [il voit ses cours].
 
-4    [il voit ces exercices].
+4    [il voit ses exercices].
 
 5    [il voit les exercices pas fait en blanc].
 
@@ -71,11 +71,17 @@ S    [L'utilisateur est sur la page d'acceuil apres s'etre connecté, il a accè
 
 7    [il voit son suivi].
 
-8    [Ce cas d'utilisation se finis lorsque l'utilisateur change de page internet].
+8    [Ce cas d'utilisation se finit lorsque l'utilisateur change de page internet].
 
 # RELATED INFORMATION
 
 Concurrency    [Le tableau de bord s'actualise en temps réel.]
 
-Include Use Cases    [Exercice](/exercice.md), [Etude](/etude.md),[Revision](/revision.md)
+Include Use Cases    [Exercice](/exercice.md), [Etudier](/etudier.md),[Reviser](/reviser.md)
+
+
+<!--- 
+Author : Jordan
+Validator : Raphael 
+-->
  

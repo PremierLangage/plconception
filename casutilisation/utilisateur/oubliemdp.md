@@ -36,16 +36,16 @@ Connaitre au minimun son login et l'adresse mail associé.
 
 	nouveau mot de passe
 
-En cas de succès : L'utilisateur dois rentrer son login ainsi que l'address mail associé, un mail de reinitialisation de mot de passe seras envoyé.
+En cas de succès : L'utilisateur dois rentrer son login ainsi que l'adresse mail associé, un mail de reinitialisation de mot de passe sera envoyé.
 
-En cas d'échec : affichage d'erreur de login ou d'address mail, on réactualise la page.
+En cas d'échec : affichage d'erreur de login ou d'adresse mail, on réactualise la page.
 
 # Navigation / IHM  :
 
 Principe de navigation du scénario principal, organisation de l'IHM.
 
 L'utilisateur est sur la page de connexion, il clique sur "oublie de mot de passe" une fenêtre s'ouvre ou il dois entrer un login correct et l'adresse mail associé à ce login.
-Ceci seras vérifié grace à la base de donné, un mail seras envoyé, pour réinitialiser la mot de passe.
+Ceci sera vérifié grace à la base de données, un mail sera envoyé, pour réinitialiser la mot de passe.
 
 ## Scénarios :
 
@@ -57,21 +57,21 @@ S    L'utilisateur est sur la page de connexion, il clique sur "oublie de mot de
 
 1    Ce cas d'utilisation commence quand l'utilisateur clique sur le bouton "oublie de mot de passe" ou quand on entre l'url dans un navigateur.
 
-2    On entre son login et l'adresse mail associé à ce login.
+2    L'utilisateur entre son login et l'adresse mail associé à ce login.
 
-3    On clique sur le bouton "Reinitialiser mon mot de passe".
+3    L'utilisateur clique sur le bouton "Reinitialiser mon mot de passe".
 
 4	 Un mail est envoyé à l'utilisateur.
 
 5	 il dois à nouveau entrer son login, et confirmer 2 fois son nouveau mot de passe si il souhaite le changer.
 
-4    Ce cas d'utilisation se finis lorsque l'utilisateur a accès à son compte après s'etre connecté.
+4    Ce cas d'utilisation se finit lorsque l'utilisateur a accès à son compte après s'etre connecté.
 
 EXTENSION SCENARIOS
 
 Step    Branching Condition
 
-1	 Lorsque l'utilisateur s'est trompée dans ses informations (login ou adress mail). Etape 2 du scénario principale.
+1	 Lorsque l'utilisateur s'est trompée dans ses informations (login ou adresse mail). Etape 2 du scénario principale.
 
 na.  Action causing branching:
 
@@ -81,4 +81,10 @@ na.  Action causing branching:
 # RELATED INFORMATION
 
 Include Use Cases    [Inscription](/inscription.md)
+
+
+<!--- 
+Author : Jordan
+Validator : Raphael 
+-->
  
