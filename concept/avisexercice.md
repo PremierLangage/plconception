@@ -9,13 +9,21 @@ L'avis d'un exercice c'est ce que l'utilisateur a pensé du niveau d'un exercice
 Après avoir terminé un exercice, on lui propose plusieurs choix possible.
 
 Ces choix sont par exemple :
+
 NEUTRE: Avis par défaut
+
 Inutile : Si l'exercice est trop facile et qu'il considère que l'exercice ne peut pas le faire progresser.
+
 Excellent : S'il pense que l'exercice lui a permis d'acquérir les notions voulus.
+
 Sympa: exo sympa
+
 Amusant : ...
+
 Trop difficile : Si l'exercice n'est pas adapté au niveau du cours.
+
 Hors sujet : S'il pense que l'exercice n'a rien à voir avec la notion qu'on veut lui faire apprendre. FIXME pensez vous que les élèves ont une idée de la notion qu'ils doivent apprendre ?
+
 Autre : S'il veut laisser un commentaire particuliers.
 
 Chaque avis est anonyme.
