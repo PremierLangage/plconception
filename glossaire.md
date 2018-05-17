@@ -4,7 +4,7 @@
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;module de premier langage qui permet d'éxécuter du code fournit de façon sécurisée
  sans qu'il compromise le serveur.
  
-**dashbord**\
+**[dashbord](concept/tableaudebord.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tableau de bord qui permet de visualiser les informations jugées importantes et de monitorer les classes
 
 **[classe](concept/classe.md)**\
