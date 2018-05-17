@@ -1,5 +1,5 @@
 ﻿
-# Accès feuille/exercice
+# Faire exercice
 Objectif : Pemettre à l'étudiant de faire un exercice
 
 Résumé général : Donner accès à des exercices pour qu'un étudiant puisse les faire
@@ -15,7 +15,7 @@ Concurrence : Non
 
 ## Pré-conditions
 
-L'étudiant doit être connecté(login.md) et avoir accès à un exercice(accesfeuilleexercice.md).
+L'étudiant doit être connecté(login.md), être inscrit à un cours, une feuille doit avoir été ajouter et avoir accès à une feuille (accesfeuilleexercice.md).
 
 
 ## Post Conditions
@@ -59,7 +59,7 @@ S	[l'étudiant peut faire un exercice]
 
 1	[L'étudiant se trouve sur la page d'un exercice]
 
-2	[L'étudiant répond à l'énoncé et valide]
+2	[L'étudiant répond à l'énoncé et valide sa réponse]
 
 3	[Sa réponse est correcte et il peut soit donner son avis sur l'exercice ou passer au suivant]
 
