@@ -42,13 +42,13 @@ l'indiquer en utilisant l'indacteur **FIXME**.
 
 2. Si vous êtes confronté à un problèmes que vous ne pouvez pas résoudre tout de
 suite, ou que vous jugez qu'il méritte une plus grande réfléxion, veuillez
-utiliser l'indicateur **TODO**.
+utiliser l'indicateur **TODO** sur une seule **ligne**.
 
 3. N'hésitez pas à **rajouter** des **sections** dans un template, lorsque celle ci vous
 paraît **pertinante**
 
-4. Ajouter l'auteur et celui qui a validé le fichier à la fin 
+4. Ajouter l'auteur et celui qui a validé le fichier à la fin.
 `<!---
-Author : name\
+Author : name
 Validator : name
 -->`
