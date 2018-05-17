@@ -74,3 +74,7 @@ Concurrency    Quand un enseignant modifie une activité, les autres enseignant 
 
 Include Use Cases    [Editeur](/editeur.md)
  
+<!--- 
+Author : Jordan
+Validator :  
+-->

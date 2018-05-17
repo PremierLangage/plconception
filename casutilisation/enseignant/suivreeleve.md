@@ -83,5 +83,7 @@ Concurrency    Quand plusieurs enseignant suive en même temps un même étudian
 
 Include Use Cases    [Editeur](/editeur.md) [Tableau de bord](/tableaudebors.md)
  
-<!--- Author : Jordan
-Validator : name -->
+<!---
+Author : Jordan
+Validator : name
+-->

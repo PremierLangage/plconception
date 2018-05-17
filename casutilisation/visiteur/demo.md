@@ -65,4 +65,3 @@ na.  Action causing branching:
 # RELATED INFORMATION
 
 Include Use Cases    [Inscription](/inscription.md) [Excercice](/acessfeuilleexercice.md)
- 

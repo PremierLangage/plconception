@@ -1,6 +1,5 @@
-
-﻿
 # Accès feuille/exercice
+
 Objectif : Permettre à l'étudiant d'accéder à des feuilles/exercices
 
 Résumé général : Donner accès à des feuilles/exercices pour qu'un étudiant puisse les faire
