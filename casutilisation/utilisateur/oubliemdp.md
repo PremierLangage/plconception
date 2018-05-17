@@ -1,7 +1,7 @@
 # Oublie de mot de passe
 
 
-Objectif :  Si un utilisateur perd ces informations de connextion, on donne un solution notament grace a un mail de reinitialisation de maot de passe, cela permet de réduir le nombre de compte inutilisé et de na pas perdre inutilement des utilisateurs.
+Objectif :  Si un utilisateur perd ses informations de connexion, on donne une solution notamment grace à un mail de reinitialisation de mot de passe, cela permet de réduire le nombre de compte inutilisé et de na pas perdre inutilement des utilisateurs.
 
 Résumé général: S'effectue lorsqu'un utilisateur veut se connecter.
 
