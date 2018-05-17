@@ -10,8 +10,6 @@ En dessous du vote, l'étudiant peut aussi laisser un comentaire en plus de la n
 
 Chaque avis est anonyme.
 
-La liste des avis possibles est modifiable, le responsable de cours peux la fixer ou au contraire laisser libre cours à l'imagination des participants.
-
 <!--- Author : Hugo Validator : name -->
 
 
