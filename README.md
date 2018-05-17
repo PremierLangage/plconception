@@ -49,6 +49,6 @@ paraît **pertinante**
 
 4. Ajouter l'auteur et celui qui a validé le fichier à la fin 
 `<!---
-Author : name
+Author : name\
 Validator : name
 -->`
