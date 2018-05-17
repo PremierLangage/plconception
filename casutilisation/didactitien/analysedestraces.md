@@ -19,7 +19,11 @@ Acteur Principal : Didactitien
 
 Avoir des exercices présents dans la base de données et un certain nombres d'exercice réalisés par des 
 étudiants pour pouvoir analyser les résultats.
-
+<Pre>
+Le use case login.
+Le use case choisir son rôle.
+Les use case permettant la réalisation d'exercices ;)
+</pre>
 
 ## Post Conditions
 
