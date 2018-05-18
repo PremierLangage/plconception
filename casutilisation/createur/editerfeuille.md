@@ -1,15 +1,15 @@
 # Editer une feuille d'exercice
 
 
-Objectif :  Permet à un enseignant d'éditer une feuille d'exercice présent dans sa discipline.
+Objectif :  Permet à un enseignant d'éditer une feuille d'exercices présent dans une une de ses disciplines.
 
-Résumé général : S'effectue lorsqu'un enseignant veut modifier un exercice.
+Résumé général : S'effectue lorsqu'un enseignant veut modifier une feuille.
 
 # Données :
 
 Acteur Principal : Enseignant
 
-Acteurs secondaires : Admin
+Acteur secondaire : Admin
 
 Concurrence : Non
 
@@ -19,9 +19,11 @@ Déclencheur : Se déclenche lorsqu'un enseignant veut modifier une feuille.
 
 ### Données d'entrées :
 
-	la feuille avant les modifications
-
 	Avoir un compte enseignant dans la base de données.
+
+	Pouvoir faire une recherche de toutes les feuilles existantes dans une de ses disciplines.
+
+	la feuille avant les modifications
 
 ## Post Conditions :
 
@@ -29,10 +31,11 @@ Déclencheur : Se déclenche lorsqu'un enseignant veut modifier une feuille.
 
 	feuille modifiée
 
+Editer une feuille revient à modifier l'ordre des exercices dans une feuille ou changer les exercices présent dans la feuille.
 
 En cas de succès : On sauvegarde la feuille modifiée dans la base de données.
 
-En cas d'échec : Grâce à la [sauvegarde continue](/editeur.md) l'enseignant ne perd pas les modifications qu'il a effectué en "local".
+En cas d'échec : Grâce à la [sauvegarde continue](/editeur.md) l'enseignant ne perd pas les modifications qu'il a effectué en "local". La base de données reste inchangée.
 
 # Navigation / IHM  :
 
@@ -48,7 +51,7 @@ L'enseignant peut aussi [modifer un exercice](/editerexercice.md).
 
 Step    Action
 
-S    L'enseignant modifie l'exercice et le valide ce qui est sauvegarder dans la base de données.
+S    L'enseignant modifie la feuille et le valide, la feuille est sauvegarder dans la base de données.
 
 1    Ce cas d'utilisation commence quand l'enseignant clique sur le bouton "éditer" ou quand on entre l'url d'édition de l'exercice dans un navigateur.
 

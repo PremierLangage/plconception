@@ -28,6 +28,6 @@ Voir vérification syntaxique dans le glossaire.
 
 %%%%
 Remarques: on veut un mode ou l'on ne perd pas de travail,
-le fichier courrant si il n'a pas de nom est sauvegardé sous le nom untitled dans un repertoire caché réservé à l'utilisateur courrant.
-Pendant l'édition le fichier courrant est sauvegardé dans une copie dans le répertoire chaché  zone tamon spécifique à l'utilisateur.
+le fichier courant si il n'a pas de nom est sauvegardé sous le nom untitled dans un repertoire caché réservé à l'utilisateur courant.
+Pendant l'édition le fichier courrant est sauvegardé dans une copie dans le répertoire caché  zone tampon spécifique à l'utilisateur.
 Le fichier en cours d'édition sera sauvegardé toutes les X=10 seconde et si il y a une modification ou si il y a un signal de l'éditeur (le truc le plus malin a voir avec les capacités de l'éditeur). 
