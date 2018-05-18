@@ -20,6 +20,7 @@ Déclencheur : Se déclenche lorsqu'un enseignant clique sur le bouton "Validati
 ### Données d'entrées :
 
 	Les disciplines a fort karma de l'enseignant.
+	
 	Tags, exercices, ressources de la discipline en attente de validation
 
 Avoir un compte enseignant dans la base de donnée.
