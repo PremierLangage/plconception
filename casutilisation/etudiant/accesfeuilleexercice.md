@@ -56,6 +56,6 @@ Include Use Cases	[Login](login.md)
 
 <!--- 
 Author : Raphael
-Validator :  
+Validator :  Hugo
 -->
 

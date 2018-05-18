@@ -1,6 +1,6 @@
-﻿
+
 # Réviser
-Objectif : Permettre à l'étudiant de revoir les notions qui a besoin de connaitre pour l'examen.
+Objectif : Permettre à l'étudiant de revoir les notions qu'il a besoin de connaitre pour l'examen.
 
 Résumé général : Donner accès à des cours et des exercices d'une matière que l'étudiant souhaite réviser.
 
@@ -8,7 +8,6 @@ Résumé général : Donner accès à des cours et des exercices d'une matière 
 # Données
 
 Acteur Principal : Etudiant
-
 
 
 ## Pré-conditions
@@ -44,9 +43,7 @@ S	[l'étudiant peut accéder aux cours et exercices voulus pour réviser]
 
 4	[L'étudiant accède aux cours et exercices qu'il veut réviser]
 
-
-
 <!--- 
 Author : Raphael
-Validator :  
+Validator :  Hugo
 -->

@@ -1,6 +1,7 @@
-﻿
+
 # Etudier
-Objectif : Pemettre à l'étudiant d'assimiler de nouvelles notions
+
+Objectif : Permettre à l'étudiant d'assimiler des nouvelles notions
 
 Résumé général : Donner accès à des cours et des exercices d'une matière que l'étudiant veut ou doit étudier
 
@@ -50,6 +51,6 @@ S	[l'étudiant peut accéder aux cours et exercices voulus pour étudier]
 
 <!--- 
 Author : Raphael
-Validator :  
+Validator :  Hugo
 -->
 

@@ -1,10 +1,10 @@
 
 # Analyse les traces
 Objectif : Permettre au didactitien de faire des statistiques sur les exercices pour les analyser afin de savoir ceux qui 
-sont les plus efficaces, ceux qu'induisent l'élève en erreur etc.
+sont les plus efficaces, ceux qu'induisent l'étudiant en erreur etc.
 
-Résumé général : Le didactitien choisit un ensemble de données, soit tout les exercices fait par un élève, une classe, un niveau, un type de cours. Soit toutes les réalisations d'un exercice ou d'un type d'exercice/ensemble d'exercice.
-Ensuite il choisit les paramêtres/propriété/valeurs qu'il souhaite voir sur cet ensemble de données. 
+Résumé général : Le didactitien choisit un ensemble de données, soit tous les exercices fait par un élève, une classe, un niveau, un type de cours. Soit toutes les réalisations d'un exercice ou d'un type d'exercice/ensemble d'exercice.
+Ensuite il choisit les paramètres/propriété/valeurs qu'il souhaite voir sur cet ensemble de données.
 Ensuite il choisit le format d'affichage.
 Le système affiche les données dans le mode d'affichage choisi et le didactitien peut enfin 
 analyser les données. 
@@ -52,14 +52,14 @@ TODO
 MAIN SUCCESS SCENARIO
 S	[Analyse des informations demandées par le didactiten, affichage des données trouvées]
 1	[Commence lorsque le didactitien souhaite accéder à ses statistiques]
-2	[Accès à la base de données, analyse les données demandé par le didactitien suivant les paramêtres qu'il a choisit]
+2	[Accès à la base de données, analyse les données demandé par le didactitien suivant les paramètres qu'il a choisit]
 3	[Plusieurs statistiques disponibles issus de l'analyse de ces données]
 </PRE>
 
 
 <!--- 
 Author : Raphael
-Validator : 
+Validator : Hugo
 -->
 
 
