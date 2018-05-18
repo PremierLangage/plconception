@@ -1,27 +1,33 @@
 # Editer une feuille d'exercice
 
 
-Objectif :  Permet à un enseignant d'éditer une feuille d'exercice présent dans sa discipline.
+Objectif :  Permet à un enseignant d'éditer une feuille d'exercices présent dans une de ses disciplines.
 
-Résumé général : S'effectue lorsqu'un enseignant veut modifier un exercice.
+Résumé général : S'effectue lorsqu'un enseignant veut modifier une feuille.
+
 
 # Données :
 
 Acteur Principal : Enseignant
 
-Acteurs secondaires : Admin
+Acteur secondaire : Admin
 
 Concurrence : Non
 
 Déclencheur : Se déclenche lorsqu'un enseignant veut modifier une feuille.
 
+
+
 ## Pré-conditions :
 
 ### Données d'entrées :
 
+	Avoir un compte enseignant dans la base de données.
+
+	TODO Pouvoir faire une recherche de toutes les feuilles existantes dans une de ses disciplines.
+
 	la feuille avant les modifications
 
-	Avoir un compte enseignant dans la base de données.
 
 ## Post Conditions :
 
@@ -29,18 +35,21 @@ Déclencheur : Se déclenche lorsqu'un enseignant veut modifier une feuille.
 
 	feuille modifiée
 
+Editer une feuille revient à modifier l'ordre des exercices dans une feuille, changer les exercices présent dans la feuille ou supprimer des exercices de la feuille.
 
 En cas de succès : On sauvegarde la feuille modifiée dans la base de données.
 
-En cas d'échec : Grâce à la [sauvegarde continue](/editeur.md) l'enseignant ne perd pas les modifications qu'il a effectué en "local".
+En cas d'échec : Grâce à la [sauvegarde continue](/editeur.md) l'enseignant ne perd pas les modifications qu'il a effectué en "local". La base de données reste inchangée.
+
 
 # Navigation / IHM  :
 
 Principe de navigation du scénario principal, organisation de l'IHM.
 
-L'enseignant a choisi d'éditer une feuille d'exercice, il arrive donc sur une page ou il voit la feuille d'exercice dans son état actuel (les exercices, l'ordre des exercice etc..), cependant il peut le modifier en changeant l'ordre des exercices, en supprimant un exercice, ou encore en ajoutant un exercice.
+L'enseignant a choisi d'éditer une feuille d'exercice, il recherche la feuille qu'il veut éditer, une fois trouver il arrive sur une page ou il voit la feuille d'exercice dans son état actuel (les exercices, l'ordre des exercices, etc..), il peut la modifier en changeant l'ordre des exercices, en supprimant un exercice, ou encore en ajoutant un exercice.
 
 L'enseignant peut aussi [modifer un exercice](/editerexercice.md).
+
 
 ##Scénarios :
 
@@ -48,19 +57,20 @@ L'enseignant peut aussi [modifer un exercice](/editerexercice.md).
 
 Step    Action
 
-S    L'enseignant modifie l'exercice et le valide ce qui est sauvegarder dans la base de données.
+S    L'enseignant modifie la feuille et le valide, la feuille est sauvegarder dans la base de données.
 
-1    Ce cas d'utilisation commence quand l'enseignant clique sur le bouton "éditer" ou quand on entre l'url d'édition de l'exercice dans un navigateur.
+1    Ce cas d'utilisation commence quand l'enseignant recherche la feuille qu'il veut modifié et clique sur le bouton "éditer" ou quand on entre l'url d'édition de la feuille dans un navigateur.
 
-2    On voit dans un éditeur l'exercice dans son état actuel sans modification.
+2    On voit dans un éditeur la feuille dans son état actuel sans modification.
 
-3    L'enseignant peut modifier tout ce qu'il veut dans l'exercice, même le supprimer. (balises, type d'exercice, tag etc...)
+3    L'enseignant peut modifier tout ce qu'il veut dans la feuille, même la supprimer. (changer l'ordre des exercices, les exercices contenus dans la feuille)
 
-4    Il valide, ce qu'il a modifié dans l'exercice. (save dans la base de données)
+4    Il valide, ce qu'il a modifié dans la feuille. (sauvegarde dans la base de données)
 
 5    Ce cas d'utilisation se finit lorsque l'enseignant a validé ses modifications.
 
-EXTENSION 
+
+EXTENSION SCENARIOS
 
 Step    Branching Condition
 
@@ -73,13 +83,14 @@ na.  Action causing branching:
 
 # RELATED INFORMATION
 
-Concurrency    Quand un enseignant modifie un exercice, les autres enseignants ne peuvent pas modifier le même exercice.
+Concurrency    Quand un enseignant modifie une feuille, les autres enseignants ne peuvent pas modifier la même feuille.
 
 Include Use Cases    [Editeur](/editeur.md)
+		     [modifer un exercice](/editerexercice.md)
  
 
 <!--- 
 Author : Jordan
-Validator : 
+Validator : Raphael
 -->
 
