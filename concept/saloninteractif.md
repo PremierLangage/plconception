@@ -12,4 +12,7 @@ Cela permet donc à l'enseignant de voir le taux de réponse pour chaque répons
 
 Les réponses données par les étudiants sont anonymes
 
-<!--- Author : Hugo Validator : name -->
+<!--- 
+Author : Hugo 
+Validator : Raphael 
+-->
