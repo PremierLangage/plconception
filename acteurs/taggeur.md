@@ -12,9 +12,9 @@ Un taggeur confirmé est autorisé à déposer un tag sur un exercice, modifier 
 
 Un taggeur non confirmé est autorisé à déposer un tag sur un exercice, ou modifier un tag d'un exercice. Cependant, chacunes de ses actions sont soumises à une vérification par un taggeur confirmé.
 
-Les acteurs suivant sont des taggeurs confirmés : TODO
+Les acteurs suivants sont des taggeurs confirmés : TODO
 
-Les acteurs suivant sont des taggeurs non confirmés : TODO
+Les acteurs suivants sont des taggeurs non confirmés : TODO
 
 ### Données primaires
 
