@@ -1,14 +1,12 @@
 # AVIS Exercice
 
-TODO Si on n'a pas réussi l'exercice peut on donner un avis ?
-
 L'avis d'un exercice c'est ce que l'utilisateur a pensé de ce dernier (trop dur, trop facile, ...) après l'avoir terminé.
 
 Les avis peuvent être proposer à la fin de chaque exercices (réussite ou échec) car ils ont peu d'intérêt si l'étudiant n'a pas fait l'exercice.
 Ils peuvent aussi être proposer lorsque l'étudiant a terminé la feuille d'exercice (Ou une partie des exercices), il peut donc donner son avis que sur les exercices qu'il a tenté.
 
 Ils sont représentés par des cases à cocher en plus d'une zone de texte "commentaire" qui permet aux étudiants d'écrire leur pensée sur l'exercice ou bien de justifier leur(s) choix.
-L'étudiant peut cocher plusieurs options (choix) s'il le veut. Les cases à cocher contiennent des options qui peuvent être créer, modifier, supprimer par un administrateur (CRUD).
+L'étudiant peut cocher plusieurs options (choix) s'il le veut. Les cases à cocher sont des options qui peuvent être créer, modifier, supprimer par un administrateur (CRUD).
 
 Un avis est facultatif, il n'est pas obligé de cocher des options et/ou remplir la zone de texte "commmentaire".
 
@@ -49,6 +47,9 @@ Trop long : s'il pense que l'exo est trop long.
 Amusant : exercice sympa et fun
 
 
-<!--- Author : Hugo Validator : name -->
+<!---
+Author : Hugo
+Validator : Jordan
+-->
 
 
