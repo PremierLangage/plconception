@@ -1,10 +1,12 @@
 #  Feuille
 
-C'est une feuille qui regroupe plusieurs [exercices](exercice.md). Synonyme : pltp.
+TODO préciser le chargement d'un objet
+
+C'est une feuille qui regroupe un ou plusieurs [exercices](exercice.md). Synonyme : pltp.
 
 Chaque feuille est modifiable par les acteurs autorisés (enseignant ou groupe d'enseignant responsable du cours)
 
-La feuille d'exercice n'a pas forcément un thème précis, elle peut être composé de plusieurs [exercices](exercice.md) ayant un thème différent, elle dépend donc du choix de l'enseignant.
+La feuille d'exercice n'a pas forcément un thème précis, elle peut être composé de plusieurs [exercices](exercice.md) ayant un thème différent, elle dépend donc du choix de l'enseignant. (Exemple : Feuille de révision pour l'exam final)
 Exemple : Une feuille d'exercice de probabilité, ou encore une feuille d'exercice sur les suites et les séries.
 
 Une même feuille d'exercice peut servir pour plusieurs cours.
