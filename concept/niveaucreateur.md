@@ -1,5 +1,9 @@
 
 # Niveau d'un créateur 
 
-cf. [plconception/acteurs/createur.md]( l'acteur créateur )
+cf. [L'acteur créateur]( plconception/acteurs/createur.md)
 
+<!---
+Author : 
+Validator : Jordan
+-->

@@ -1,7 +1,6 @@
 # Cours
 
-Un cours est à ensemble de notion à assimiler et qui doit permettre aux étudiants de réussir les exercices qui sont associés au cours.
-(Exemple: un cours de C, probabilité, python ...)
+Un cours est un ensemble de notion à assimiler (que l'on représente aussi sous forme de graphe de notion) et qui doit permettre aux étudiants de réussir les exercices qui sont associés au cours. (Exemple:un cours de C, probabilité, python ...)
 
 Il doit être créer par les enseignants et peuvent être éditer par ces derniers.
 
@@ -13,4 +12,7 @@ Chaque cours est accessible à n'importe quel étudiant à condition qu'il soit 
 
 Chaque cours contient une ou plusieurs [feuilles d'exercice](feuille.md).
 
-<!--- Author : Hugo Validator : name -->
+<!---
+Author : Hugo
+Validator : Jordan
+-->

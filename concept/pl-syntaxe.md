@@ -1,7 +1,8 @@
-
 # la syntaxe pl
 
+[Doc pl](premierlangage/repo/plbank/doc/)
 
-TODO recopier ici la doc 
-
-
+<!---
+Author : Jordan
+Validator : Jordan
+-->
