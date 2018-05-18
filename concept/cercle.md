@@ -9,3 +9,8 @@ Le cercle par défaut de tout les créateurs est le cercle créateurs. On y est 
 (on peut se faire virer ....).
 
 Les cercles ont un forum associé.
+
+<!---
+Author :
+Validator : Jordan
+-->
