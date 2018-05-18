@@ -13,7 +13,7 @@ Acteurs secondaires : Admin
 
 Concurrence : Non
 
-Déclencheur : Se déclenche lorsqu'un enseignant veut modifier une activité.
+Déclencheur : Se déclenche lorsqu'un enseignant veut modifier un exercice.
 
 ## Pré-conditions :
 
