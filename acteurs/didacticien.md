@@ -4,9 +4,7 @@ TODO ajouter d'autres statistique ? TODO compléter les données et les cas d'ut
 
 Acteur secondaire
 
-L'utilisateur didactitien est celui qui regroupe les besoin d'analyse des données stockés dans la base de données.
-
-L'utilisateur didactitien est celui qui regroupe les besoins d'analyse des données stockées dans la base de données. FIXME Je ne comprends pas bien la première phrase.
+L'utilisateur didactitien est celui qui à partir des données (moyenne d'un exercice, temps pour le faire ...) trouve les exercices les plus efficaces afin de faire comprendre une notion à un utilisateur.
 
 ### Données primaires
 
@@ -23,7 +21,7 @@ Statistiques (taux de réussite des exercices, le temps passé pour faire chaque
 [Accéder à une feuille d'exercice](../casutilisation/didacticien/analysedestraces.md)
 
 =======
-l'objectif du didactitien est de trouver les exercices qui sont les plus efficaces pour faire comprendre les notions. FIXME Peut-on remplacer "trouver les exercices" par "trouver les moyens, par exemple les exercices ou les stratégies," un peu moins réducteur (il peut aussi fabriquer des exercices :-) 
+FIXME Peut-on remplacer "trouver les exercices" par "trouver les moyens, par exemple les exercices ou les stratégies," un peu moins réducteur (il peut aussi fabriquer des exercices :-) 
 
 TODO de quelles données parle ton ici ???
 
