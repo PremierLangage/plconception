@@ -39,7 +39,7 @@ de Projects/Conception dans la partie "Done"
 
 5. Créer une issue associée à la tâche pour pouvoir discuter dans l'issue et ainsi garder un historique.
 `Créer une issue avec un titre qui fait référence à la tâche et dans le corps, mettre un lien vers le fichier en question
-et rajouter dans la tâche l'issue : [Issue numero](#numero)
+et rajouter dans la tâche l'issue : [Issue numero](#numero)`
 
    ### IV. Modification des fichiers
 
