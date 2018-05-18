@@ -14,17 +14,20 @@
 
    ### II. Conventions
 
-1. Je n'utiliserai que des **minuscules pures** pour le nom des fichiers et dossiers
+1. Je n'utiliserai que des **minuscules pures** pour le nom des fichiers et dossiers, et les nom des fichiers devront suivre
+le nommage utilisé dans les liens dans "Projects/Conception" associé à la tâche.
 
-2. Les fichiers concernant la conception, doivent être écrit en **markdown**
+3. Les fichiers concernant la conception, doivent être écrit en **markdown**
 
-3. les **liens** devront utiliser le format  : 
+4. les **liens** devront utiliser le format  : 
 `[link name](relative_path/file.md)`
 
 
    ### III. Github
-1. La gestions des tâches sera dans la partie "Projects/pl-conception" du repo plgitlogin/premierlangage
-2. Essayer de choisir une tâche à la fois dans **premierlangage/pl-conception** dans
+   
+1. La gestions des tâches sera dans la partie "Projects/Conception"
+
+2. Essayer de choisir une tâche à la fois dans **Projects/Conception** dans
 la partie "To do" et la choisir avant de commencer à modifier le ou les fichiers
 en question en la déplaçant dans la partie "In progress"
 
@@ -32,8 +35,11 @@ en question en la déplaçant dans la partie "In progress"
 conflits d'ajout/supression entre les fichiers.
 
 4. Si vous avez terminé votre travail sur une partie, veuillez mettre la tâche
-de premierlangage/pl-conception dans la partie "Done"
+de Projects/Conception dans la partie "Done"
 
+5. Créer une issue associée à la tâche pour pouvoir discuter dans l'issue et ainsi garder un historique.
+`Créer une issue avec un titre qui fait référence à la tâche et dans le corps, mettre un lien vers le fichier en question
+et rajouter dans la tâche l'issue : [Issue numero](#numero)
 
    ### IV. Modification des fichiers
 
