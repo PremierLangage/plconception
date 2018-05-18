@@ -4,7 +4,7 @@ TODO faciliter la compréhension de l'atelier.
 
 FIXME problème pour la note du correcteur parce qu'il peut pas avoir exactement la même note que l'application, à approfondir
 
-Un atelier permet aux étudiants de se corriger entre eux.
+Un atelier permet aux étudiants de se corriger entre eux. (Grâce à une grille d'évaluation)
 C'est à dire que chaque étudiant doit corriger les exercices plusieurs étudiants (choisis aléatoirement). La correction se fait de manière anonyme.
 
 L'enseignant peut choisir si l'atelier se fait en groupe ou non. Si l'atelier se fait en groupe, chaque groupe corrige donc d'autres groupes (aléatoire aussi).
