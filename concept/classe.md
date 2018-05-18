@@ -2,8 +2,15 @@
 
 TODO définir précisement l'acteur responsable
 
+Une classe a un nom.
+
 Une classe est un ensemble d'étudiant.
 
-FIXME Une classe peut être affecté à un ou plusieurs [cours](cours.md) par un acteur (TODO à définir)/// DR je pense que c'est l'inverse on affecte un cours dans une classe. 
+Un ou plusieurs [cours](/cours.md) peuvent être affecté à une classe par un acteur (TODO à définir).
 
-une classe à un niveau: CM2, 6ième, Terminal, L2, M1
+Une classe a un niveau: CM2, 6ème, Terminal, L2, M1
+
+<!---
+Author : Hugo
+Validator : Jordan
+-->

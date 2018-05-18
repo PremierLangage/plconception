@@ -30,6 +30,11 @@ Un inspecteur d'académie décide d'augmenter/diminuer le karma d'un enseignant 
 
 Un enseignant obtient une agrégation de mathématique, son karma va donc augmenter.
 
+<!---
+Author : Hugo 
+Validator : Jordan
+-->
+
 
 
 

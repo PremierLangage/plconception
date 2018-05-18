@@ -34,3 +34,5 @@ Cours, feuille d'examen
 
 [Editer une activité](../casutilisation/enseignant/editeractivite.md)
 
+<!--- Author : Hugo Validator : name -->
+

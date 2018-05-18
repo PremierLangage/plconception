@@ -1,7 +1,6 @@
 # Stratégie
 
-La stratégie est la façon dont est utilisée une feuille d'exercice, en définissant
-un enchaînement d'exercices dans un but précis.
+La stratégie est l'élément qui gère la dynamique d'interaction d'un étudiant avec une feuille d'exercice.
 
 Exemple : 
 * Un mode **révision** qui sélectionne les exercices qu'un [étudiant](../acteurs/etudiant.md) n'a pas réussi
@@ -18,11 +17,11 @@ L'intérêt n'est pas de créer une stratégie individuelle pour chaque élève 
 stratégies qui puissent s'adapter en fonction des données récoltés qui puisse être adapté automatiquement pour chaque
 étudiants (succès, échecs, nombre d'essais etc)
 
-Cependant un Enseignant doit pouvoir avoir la possiblité de créer une stratégie, et de la **partager via une URL** 
+Cependant un Enseignant doit pouvoir avoir la possiblité de créer une stratégie en lien avec des notions ([tags](tag.md))
+, et de la **partager via une URL** 
 
 
 <!--- 
 Author : Elaad 
 Validator : -
 -->
-

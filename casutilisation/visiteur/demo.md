@@ -3,7 +3,7 @@
 
 Objectif :  Permettre à un visiteur de faire un test de l'application.
 
-Résumé général: S'effectue lorsqu'un visiteur veux faire un essaie de l'application.
+Résumé général: S'effectue lorsqu'un visiteur veut faire un essaie de l'application.
 
 # Données :
 
@@ -19,6 +19,8 @@ Déclencheur : Se déclenche lorsqu'un visiteur clique sur le bouton faire une d
 
 Avoir une connexion internet.
 
+Au moins une feuille d'exercices disponible.
+
 ## Post Conditions :
 
 ### Données sortie :
@@ -28,7 +30,7 @@ Avoir une connexion internet.
 En cas de succès : Le visiteur fini la [démonstration](/acessfeuilleexercice.md), on lui propose donc de [s'inscrire](/inscription.md) sur l'application.
 
 
-En cas d'échec : .Si le visiteur quite la démo on reviens sur la page d'acceuil des visteurs.
+En cas d'échec : Si le visiteur quitte la démo on reviens sur la page d'acceuil des visteurs.
 
 # Navigation / IHM  :
 
@@ -45,18 +47,18 @@ S    Le visiteur est sur la page d'acceuil et choisie de faire une démo.
 
 1    Ce cas d'utilisation commence quand le visiteur clique sur le bouton "Faire une démo" ou quand on entre l'url de démo dans un navigateur.
 
-2    Il a accès à une feuille d'exercice qui peut faire.
+2    Il a accès à une feuille d'exercice qu'il peut faire.
 
-3    Une fois la feuille finis il a la possibilité de s'inscrire sur le site.
+3    Une fois la feuille finie il a la possibilité de s'inscrire sur le site.
 
-4    Ce cas d'utilisation se fini lorsque le visiteur s'inscrit sur l'application ou quite le site.
+4    Ce cas d'utilisation se finit lorsque le visiteur s'inscrit sur l'application ou quitte le site.
 
 
 EXTENSION SCENARIOS
 
 Step    Branching Condition
 
-1	 Lorsque le visiteur ne fini pas la feuille et quitte avant. Etape 3 du scénario principale.
+1	 Lorsque le visiteur ne finit pas la feuille et quitte avant. Etape 3 du scénario principale.
 
 na.  Action causing branching:
 
@@ -65,4 +67,10 @@ na.  Action causing branching:
 # RELATED INFORMATION
 
 Include Use Cases    [Inscription](/inscription.md) [Excercice](/acessfeuilleexercice.md)
- 
+
+
+<!--- 
+Author : Jordan
+Validator : Raphael
+-->
+

@@ -1,3 +1,8 @@
+# Editeur de champs
 
-mode d'édition ou chaque variables/champs du pl est éditée séparément.
+Mode d'édition ou chaque [balise](/balise.md) de pl est éditée.
  
+<!---
+Author : 
+Validator : Jordan
+-->

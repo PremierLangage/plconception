@@ -40,3 +40,5 @@ il faut un mécanisme (organisation) pour faire passer du code de l'exercice ver
 
 ## Cas d'utilisation associées
 
+<!--- Author : Hugo Validator : name -->
+

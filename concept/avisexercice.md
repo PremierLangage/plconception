@@ -1,35 +1,55 @@
-#  Avis Exercice
+# AVIS Exercice
 
-Les AVIS doivent être proposé à la fin de chaque exercice (si l'option est possitionnée, sinon juste un bouton suivant, l'option se positionne dans le pl mais peut être modifié par la stratégie).
+L'avis d'un exercice c'est ce que l'utilisateur a pensé de ce dernier (trop dur, trop facile, ...) après l'avoir terminé.
 
-FIXME associer chaque avis à une note ? (pour les statistiques). DR: je suis pas conviencu par cela , une note ne reflexte pas des avis du genre : bien adapté au cours + trop facile + trop long + amusant (c'est quoi la note ????).
+Les avis peuvent être proposer à la fin de chaque exercices (réussite ou échec) car ils ont peu d'intérêt si l'étudiant n'a pas fait l'exercice.
+Ils peuvent aussi être proposer lorsque l'étudiant a terminé la feuille d'exercice (Ou une partie des exercices), il peut donc donner son avis que sur les exercices qu'il a tenté.
 
-L'avis d'un exercice c'est ce que l'utilisateur a pensé du niveau d'un exercice après l'avoir terminé.
+Ils sont représentés par des cases à cocher en plus d'une zone de texte "commentaire" qui permet aux étudiants d'écrire leur pensée sur l'exercice ou bien de justifier leur(s) choix.
+L'étudiant peut cocher plusieurs options (choix) s'il le veut. Les cases à cocher sont des options qui peuvent être créer, modifier, supprimer par un administrateur (CRUD).
 
-Après avoir terminé un exercice, on lui propose plusieurs choix possible.
-
-Ces choix sont par exemple :
-
-NEUTRE: Avis par défaut
-
-Inutile : Si l'exercice est trop facile et qu'il considère que l'exercice ne peut pas le faire progresser.
-
-Excellent : S'il pense que l'exercice lui a permis d'acquérir les notions voulus.
-
-Sympa: exo sympa
-
-Amusant : ...
-
-Trop difficile : Si l'exercice n'est pas adapté au niveau du cours.
-
-Hors sujet : S'il pense que l'exercice n'a rien à voir avec la notion qu'on veut lui faire apprendre. FIXME pensez vous que les élèves ont une idée de la notion qu'ils doivent apprendre ?
-
-Autre : S'il veut laisser un commentaire particuliers.
+Un avis est facultatif, il n'est pas obligé de cocher des options et/ou remplir la zone de texte "commmentaire".
 
 Chaque avis est anonyme.
 
-La liste des avis possibles est modifiable, le responsable de cours peux la fixer ou au contraire laisser libre cours à l'imagination des participants.
+En cas d'échec, il faut essayer de savoir pourquoi l'utilisateur n'a pas réussi à faire l'exercice.
+
+Il faut faire attention car il y a 2 cas d'échec différents :
+
+Soit il a échoué sans avoir essayer (ex. abandon au bout de 10s).
+
+Soit il a échoué en ayant essayer.
+
+S'il n'a pas essayé, il ne lui propose pas de donner son avis, il peut donc directement passer au prochain exercice.
+
+Exemple d'options si l'étudiant a échoué :
+
+Trop difficile : s'il pense que l'exo a un niveau trop élevé.
+
+Trop long : s'il pense que l'exo est trop long.
+
+Amusant : exercice fun
+
+Enoncé trop compliquer à comprendre : s'il pense que l'énoncé n'est pas assez explicite.
+
+Exemple en cas de réussite :
+
+NEUTRE: Avis par défaut
+
+Inutile : Si l'exercice est beaucoup trop facile et qu'il pense que ce dernier n'a aucune utilité.
+
+Facile : Si l'exercice est facile
+
+Trop difficile : s'il pense que l'exo a un niveau trop élevé.
+
+Trop long : s'il pense que l'exo est trop long.
+
+Amusant : exercice sympa et fun
 
 
+<!---
+Author : Hugo
+Validator : Jordan
+-->
 
 

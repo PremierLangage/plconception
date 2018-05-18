@@ -1,6 +1,5 @@
-
-﻿
 # Accès feuille/exercice
+
 Objectif : Permettre à l'étudiant d'accéder à des feuilles/exercices
 
 Résumé général : Donner accès à des feuilles/exercices pour qu'un étudiant puisse les faire
@@ -53,4 +52,10 @@ S	[l'étudiant peut accéder aux feuilles/exercices qu'il veut faire]
 RELATED INFORMATION
 
 Include Use Cases	[Login](login.md)
+
+
+<!--- 
+Author : Raphael
+Validator :  
+-->
 
