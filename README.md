@@ -4,6 +4,8 @@ La partie conception de Premierlangage.
 Ce sous projet de permier langage à pour objectif de faire la conception de la version 2 du logiciel. 
 
 Cette version 2 à pour objectifs:
+
+
   -> fournir une version plus sécurisé avec des tests plus approfondis dans plus de contextes.
   -> fournir un application django de gestion de classe avec des tableaux de bord pour le professeur
   -> une administration des classes, groupes et utilsateurs plus étandue tout en conservant l'accès LTI
