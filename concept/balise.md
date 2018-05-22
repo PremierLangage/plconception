@@ -4,10 +4,11 @@
 Champs d'un exercice une feuille ou un cours.
 
 Les exercices pl sont des dictionnaires, chaque couple clef valeur est appellée une balise. Par exemple :
-
+<pre>
   text==
   coucou c'est l'énoncé
   ==
+</pre>
 
 Est une balise text contenant "\ncoucou c'est l'énoncé\n"
 
