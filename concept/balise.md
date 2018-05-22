@@ -4,9 +4,11 @@
 Champs d'un exercice une feuille ou un cours.
 
 Les exercices pl sont des dictionnaires, chaque couple clef valeur est appellée une balise. Par exemple :
-text==
-coucou c'est l'énoncé
-==
+
+  text==
+  coucou c'est l'énoncé
+  ==
+
 Est une balise text contenant "\ncoucou c'est l'énoncé\n"
 
 Berk="kiki"
