@@ -14,7 +14,7 @@ A chaque niveau est associé un badge:
 * Niveau7: Cours réutilisé (pas d'auto promotion ;)
 * Niveau9: template d'un langage (un grader complet).
 
-Les niveaux ne nécessite pas de prérequis. C'est à dire qu'il n'y pas besoin de terminer le niveau 1 pour accéder au niveau supérieur.
+Les niveaux ne nécessite pas de prérequis. C'est à dire qu'il n'est pas nécessaire de terminer le niveau 1 pour accéder au niveau supérieur.
 
 Les cercles sont des communautés de créateurs et d'utilisateurs où l'on est accepté sur présentation d'exercices correspondant au besoins du cercle. Les critères du cercle variant d'un cercle à l'autre.
 Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique piloté par DR.
