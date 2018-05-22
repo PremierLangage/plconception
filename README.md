@@ -2,10 +2,12 @@
 
    ### I. Organisation du dossier conception
 
-1. dossier : - acteur : liste des acteur et de leur descriptif
+1. les dossiesr :
+
+             - acteur : liste des acteurs et de leur descriptif
              - casutilisation : liste des cas d'utilisation
-             - concept : liste des concepts du logiciel
-             - patron : liste des templates disponible
+             - concept : liste des concepts du logiciel (glossaire)
+             - patron : liste des templates disponible (pour écrire l'analyse du besoin)
              
 2. les noms de fichiers devront être **explicite** par exemple visiteur.md
 
@@ -48,13 +50,14 @@ l'indiquer en utilisant l'indacteur **FIXME**.
 
 2. Si vous êtes confronté à un problèmes que vous ne pouvez pas résoudre tout de
 suite, ou que vous jugez qu'il méritte une plus grande réfléxion, veuillez
-utiliser l'indicateur **TODO** sur une seule **ligne**.
+utiliser l'indicateur **TODO** sur une seule **ligne** de façons a pouvoir utiliser grep.
 
 3. N'hésitez pas à **rajouter** des **sections** dans un template, lorsque celle ci vous
 paraît **pertinante**
 
 4. Ajouter l'auteur et celui qui a validé le fichier à la fin.
 `<!---
-Author : name
-Validator : name
+Author : dr+Elaad
+Validator : dr
+value: ok.
 -->`
