@@ -1,6 +1,6 @@
 ﻿# Donner exercice
 
-Objectif : Permettre à un enseignant de donner un exercice/défis à un étudiant ou a une classe qui suit son cours.
+Objectif : Permettre à un enseignant de donner une feuille d'exercice/défis à un étudiant ou a une classe qui suit son cours.
 
 Résumé général : Un enseignant doit donner des exercices à une ou plusieurs classes qui suivent son cours et/ou à un ou plusieurs étudiants (groupes).
 
