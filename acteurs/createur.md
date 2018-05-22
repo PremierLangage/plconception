@@ -2,6 +2,11 @@
 
 TODO compléter les données et les cas d'utilisation, modif foctionnalités
 
+Le créateur d'exercice produit des exercices, des feuilles, des templates et des cours réutilisables sur la plate forme.
+La distinction du rôle vient de l'action de créer **n'importe qui peut créer des élements PL**.
+Par contre tout élément pl doit subir un **[processus éditorial](../concept/edition.md)** ce processus éditorial validant l'élément et structurant l'intégration de l'exercice dans la base d'exercice PL.
+
+
 ## Fonctionnalités demandées.
 
 le créateur a un niveau et il appartient à des cercles.
@@ -20,12 +25,6 @@ Le niveau est défini par le type d'exercice que le créateur a écrit qui est u
 
 Les niveaux ne nécessite pas de prérequis. C'est à dire qu'il n'est pas nécessaire de terminer le niveau 1 pour accéder au niveau supérieur.
 
-# (les cercles)[concepts/cercles.md]
-Les cercles sont des communautés de créateurs et d'utilisateurs où l'on est accepté sur présentation d'exercices correspondant au besoins du cercle. Les critères du cercle variant d'un cercle à l'autre.
-Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique piloté par DR.
-
-Le créateur d'exercice produit des exercices, des feuilles, des templates et des cours réutilisables sur la plate forme.
-
 Il lui faut un tutoriel de chaque type.
 
 Son besoin est d'éditer rapidement et simplement de nouveaux exercices.
@@ -38,6 +37,16 @@ il veut pourvoir proposer des exercices dans différents contextes (niveau, cerc
 il a besoin de validation, de tests, de framework de tests. Il veux des retours sur ses exercices (combien de ses exercices sont utilisés et lesquels).
 
 il faut un mécanisme (organisation) pour faire passer du code de l'exercice vers le template et du template vers la librairie promotion.
+
+
+# [Les Cercles](cercles.md)
+
+
+Les cercles sont des **communautés** de créateurs et d'utilisateurs où l'on est accepté comme membre par les administrateurs et propriétaires du cercle.
+Les critères du cercle variant d'un cercle à l'autre.
+Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique piloté par DR.
+
+
 
 ### Données primaires
 
