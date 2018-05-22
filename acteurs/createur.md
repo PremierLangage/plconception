@@ -5,8 +5,12 @@ TODO compléter les données et les cas d'utilisation, modif foctionnalités
 ## Fonctionnalités demandées.
 
 le créateur a un niveau et il appartient à des cercles.
-Le niveau est défini par le type d'exercice que le créateur a écrit qui est utilisé dans un context de classe.
+<!-- dr j'aime Pas les niveaux, si c'est une demande de quelqu'un alors on garde sinon poubelle 
+par contre je pense qu'il faut effectivement des badges correspondants a ces niveaux
+-->
 A chaque niveau est associé un badge:
+Le niveau est défini par le type d'exercice que le créateur a écrit qui est utilisé dans un context de classe.
+
 * Niveau1: exercice one shoot
 * Niveau2: exercice aléatoire
 * Niveau4: feuille d'exercice
@@ -16,6 +20,7 @@ A chaque niveau est associé un badge:
 
 Les niveaux ne nécessite pas de prérequis. C'est à dire qu'il n'est pas nécessaire de terminer le niveau 1 pour accéder au niveau supérieur.
 
+# (les cercles)[concepts/cercles.md]
 Les cercles sont des communautés de créateurs et d'utilisateurs où l'on est accepté sur présentation d'exercices correspondant au besoins du cercle. Les critères du cercle variant d'un cercle à l'autre.
 Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique piloté par DR.
 
