@@ -62,7 +62,7 @@ Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plu
 
 [éditer une feuille](../casutilisation/createur/editerfeuille.md)
 
-[éditer un graille](../casutilisation/createur/editergrain.md)
+[éditer un grain](../casutilisation/createur/editergrain.md)
 
 <!--- Author : Hugo Validator : name -->
 
