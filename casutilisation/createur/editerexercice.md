@@ -8,7 +8,7 @@ Résumé général : S'effectue lorsqu'un enseignant veut modifier un exercice.
 
 # Données :
 
-Acteur Principal : Enseignant
+Acteur Principal : Créateur
 
 Acteur secondaire : Admin
 
