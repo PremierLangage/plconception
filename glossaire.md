@@ -33,16 +33,12 @@ Vous trouverez ici une description en une phrase des mots du projet, pour les mo
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;notion, objectif pédagogique, représenté sous forme d'un [tag](concept/tag.md) 
  sur la plateforme.
  
-**grader**\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Module du logiciel qui permet la correction d'exercices de programmation.
-=======
 **[grader](concept/grader.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Module du logiciel qui permet la correction d'exercices de programmation
 
 **[sandbox](concept/sandbox.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;module de premier langage qui permet d'éxécuter du code fournit de façon sécurisée
  sans qu'il compromette le serveur.
- 
  
 **[MOOC](https://fr.wikipedia.org/wiki/Massive_Open_Online_Course)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De l'anglais **M**assive **O**pen **O**nline **C**ourse TODO
