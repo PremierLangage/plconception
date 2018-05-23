@@ -1,4 +1,4 @@
-# Compétition
+# Défis
 
 TODO penser à ajouter des compétitions
 
