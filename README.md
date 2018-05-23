@@ -14,7 +14,7 @@ Cette version 2 à pour objectifs:
  1) les notions d'activité, de stratégie programmable, de notions(tag), karma, reputation, cours, 
  1) la possibilité de définir un tableau de bords avec les indicateurs de son choix (didactitien)
  1) la mesure du temps (chaque utilisateur à un compteur de temps passé sur la plateforme).
-
+ 1) l'accès à WIMS à travers PL sous forme d'exercices utilisables dans les feuilles PL.
 
 
 ## Pour ceux souhaitans participer à la conception 
