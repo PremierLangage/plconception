@@ -1,4 +1,4 @@
-# Editer un exercice
+# Editer un exercice public
 
 
 Objectif :  Permet à un enseignant d'éditer un exercice présent dans une une de ses disciplines.
