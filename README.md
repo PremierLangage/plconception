@@ -15,7 +15,7 @@ Cette version 2 à pour objectifs:
  1) la possibilité de définir un tableau de bords avec les indicateurs de son choix (didactitien)
  1) la mesure du temps (chaque utilisateur à un compteur de temps passé sur la plateforme).
  1) l'accès à WIMS à travers PL sous forme d'exercices utilisables dans les feuilles PL.
-
+ 1) ajouter un système de Q&A [askbot] (https://askbot.com/)
 
 ## Pour ceux souhaitans participer à la conception 
 Lire le fichier [regles.md](regles.md) .
