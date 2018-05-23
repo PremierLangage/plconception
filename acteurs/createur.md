@@ -1,42 +1,39 @@
 # Créateur
 
-TODO compléter les données et les cas d'utilisation, modif foctionnalités
+TODO compléter les données et les cas d'utilisation, faire la doc, déterminer la réputation qu'il gagne.
 
-Le créateur d'exercice produit des exercices, des feuilles, des templates et des cours réutilisables sur la plate forme.
+Le créateur produit des exercices, des feuilles, des templates ... réutilisables sur la plate forme.
 La distinction du rôle vient de l'action de créer **n'importe qui peut créer des élements PL**.
 Par contre tout élément pl doit subir un **[processus éditorial](../concept/edition.md)** ce processus éditorial validant l'élément et structurant l'intégration de l'exercice dans la base d'exercice PL.
 
 
 ## Fonctionnalités demandées.
 
-le créateur a un niveau et il appartient à des cercles.
-<!-- dr j'aime Pas les niveaux, si c'est une demande de quelqu'un alors on garde sinon poubelle 
-par contre je pense qu'il faut effectivement des badges correspondants a ces niveaux
--->
-A chaque niveau est associé un badge:
-Le niveau est défini par le type d'exercice que le créateur a écrit qui est utilisé dans un context de classe.
+Le créateur peut éditer et créer :
+* [Un exercice](../concept/exercice.md)
+* [Une feuille](../concept/feuille.md)
+* [Un grain](../concept/grain.md)
+* [Une ressource](../concept/ressource.md)
 
-* Niveau1: exercice one shoot
-* Niveau2: exercice aléatoire
-* Niveau4: feuille d'exercice
-* Niveau5: template d'exercice aléatoire
-* Niveau7: Cours réutilisé (pas d'auto promotion ;)
-* Niveau9: template d'un langage (un grader complet).
-
-Pour un étudiant les niveaux ne nécessite pas de prérequis. C'est à dire qu'il n'est pas nécessaire de terminer le niveau 1 pour accéder au niveau supérieur.
-
-Il lui faut un tutoriel de chaque type.
+Il lui faut un tutoriel pour chaque type de création.
 
 Son besoin est d'éditer rapidement et simplement de nouveaux exercices.
 
-les éléments de qualité sont la réutilisabilité, la puissance (la capacité a faire des choses haut niveau), il a besoin d'un langage de programmation, de librairies.
+Pour chaque type de création (exercice ou feuille ou ...), l'enseignant peut gagner un [badge](../concept/badge.md). Il peut obtenir un badge à partir d'un certain palier.
+Lorsqu'il a créé 10 exercices, il remporte un badge.
+Il en gagne un 2ème lorsqu'il en aura créé 50, puis un 3ème lorsqu'il en aura créé 100.
+Il en est de même pour les feuilles, les grains et les ressources ...
 
-il veut de la reconnaissance.
-il veut pourvoir proposer des exercices dans différents contextes (niveau, cercles etc).
+Chaque création rapporte de la réputation au créateur.
+Il gagne :
+* x points pour la création d'un exercice.
+* x points pour la création d'une feuille.
+* x points pour la création d'un grain.
+* x points pour la création d'une ressource.
 
-il a besoin de validation, de tests, de framework de tests. Il veux des retours sur ses exercices (combien de ses exercices sont utilisés et lesquels).
+Il a besoin de validation, de tests, de framework de tests. Il veux des retours sur ses exercices (combien de ses exercices sont utilisés et lesquels).
 
-il faut un mécanisme (organisation) pour faire passer du code de l'exercice vers le template et du template vers la librairie promotion.
+Il faut un mécanisme (organisation) pour faire passer du code de l'exercice vers le template et du template vers la librairie promotion.
 
 
 # [Les Cercles](cercles.md)
@@ -45,8 +42,6 @@ il faut un mécanisme (organisation) pour faire passer du code de l'exercice ver
 Les cercles sont des **communautés** de créateurs et d'utilisateurs où l'on est accepté comme membre par les administrateurs et propriétaires du cercle.
 Les critères du cercle variant d'un cercle à l'autre.
 Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique piloté par DR.
-
-
 
 ### Données primaires
 
