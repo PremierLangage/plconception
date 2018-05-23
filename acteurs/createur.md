@@ -3,7 +3,7 @@
 TODO compléter les données et les cas d'utilisation, faire la doc, déterminer la réputation qu'il gagne.
 
 Le créateur produit des exercices, des feuilles, des templates ... réutilisables sur la plate forme.
-La distinction du rôle vient de l'action de créer **n'importe qui peut créer des élements PL**.
+La distinction du rôle vient de l'action "**n'importe qui peut créer des élements PL**".
 Par contre tout élément pl doit subir un **[processus éditorial](../concept/edition.md)** ce processus éditorial validant l'élément et structurant l'intégration de l'exercice dans la base d'exercice PL.
 
 
@@ -49,7 +49,20 @@ Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plu
 
 ### Données générées
 
+* [tag](../concept/tag.md)
+* [feuille](../concept/feuille.md)
+* [grain](../concept/grain.md)
+* [ressource](../concept/ressource.md)
+
 ## Cas d'utilisation associées
+
+[créer un exercice](../casutilisation/createur/createexercice.md)
+
+[éditer un exercice](../casutilisation/createur/editerexercice.md)
+
+[éditer une feuille](../casutilisation/createur/editerfeuille.md)
+
+[éditer un graille](../casutilisation/createur/editergrain.md)
 
 <!--- Author : Hugo Validator : name -->
 
