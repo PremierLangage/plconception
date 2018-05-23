@@ -28,6 +28,10 @@ Avoir un compte enseignant dans la base de donnée.
 
 ## Post Conditions
 
+### Données sortie :
+
+	Cours
+
 En cas de succès : L'enseignant a créé son cours, il est donc désormais visible.
 
 En cas d'échec : Le cours n'est pas créé.
