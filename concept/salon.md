@@ -12,7 +12,7 @@ Une fois la deadline passer, les étudiants ont donc tous un salon attribué, et
 
 L'appli peut permettre à l'enseignant d'empêcher la constitution d'un même groupe (obliger les groupes à être différents à chaque projet ou encore pour tous les projets).
 
-On peut associer une activité ou un atelier à un [salon](atelier.md).
+On peut associer une activité ou un atelier à un [salon](atelier.md). 
 
 <!--- 
 Author : Hugo
