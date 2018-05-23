@@ -6,14 +6,14 @@ Ce sous projet de permier langage à pour objectif de faire la conception de la 
 Cette version 2 à pour objectifs:
 
 
-  -> fournir une version plus sécurisé avec des tests plus approfondis dans plus de contextes.
-  -> fournir un application django de gestion de classe avec des tableaux de bord pour le professeur
-  -> une administration des classes, groupes et utilsateurs plus étandue tout en conservant l'accès LTI
-  -> une connection LTI plus étendue avec remonté des notes dans le LMS appellant (en particulier moodle).
-  -> un editeur avec une préview
-  -> les notions d'activité, de stratégie programmable, de notions(tag), karma, reputation, cours, 
-  -> la possibilité de définir un tableau de bords avec les indicateurs de son choix (didactitien)
-  -> la mesure du temps (chaque utilisateur à un compteur de temps passé sur la plateforme).
+ 1° fournir une version plus sécurisé avec des tests plus approfondis dans plus de contextes.
+ 1° fournir un application django de gestion de classe avec des tableaux de bord pour le professeur
+ 1° une administration des classes, groupes et utilsateurs plus étandue tout en conservant l'accès LTI
+ 1° une connection LTI plus étendue avec remonté des notes dans le LMS appellant (en particulier moodle).
+ 1° un editeur avec une préview
+ 1° les notions d'activité, de stratégie programmable, de notions(tag), karma, reputation, cours, 
+ 1° la possibilité de définir un tableau de bords avec les indicateurs de son choix (didactitien)
+ 1° la mesure du temps (chaque utilisateur à un compteur de temps passé sur la plateforme).
 
 
 
