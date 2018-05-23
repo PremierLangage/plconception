@@ -68,6 +68,13 @@ na.  Action causing branching:
 
 Include Use Cases    [Inscription](/inscription.md) [Excercice](/acessfeuilleexercice.md)
 
+## Qualités de la feuille d'exercice utilisé dans la démo 
+
+La feuille d'exercice doit parcourrir des exemples tirés de plusieurs disciplines :
+ programmation, math, anglais, grammaireCM1, c2i
+avec des exemple des type d'exercices différents 
+Quelle stratégie ?
+
 
 <!--- 
 Author : Jordan
