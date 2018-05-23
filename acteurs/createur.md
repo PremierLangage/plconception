@@ -2,22 +2,28 @@
 
 TODO compléter les données et les cas d'utilisation, modif foctionnalités
 
+Le créateur d'exercice produit des exercices, des feuilles, des templates et des cours réutilisables sur la plate forme.
+La distinction du rôle vient de l'action de créer **n'importe qui peut créer des élements PL**.
+Par contre tout élément pl doit subir un **[processus éditorial](../concept/edition.md)** ce processus éditorial validant l'élément et structurant l'intégration de l'exercice dans la base d'exercice PL.
+
+
 ## Fonctionnalités demandées.
 
-le créateur à un niveau et il appartient à des cercles.
-Le niveau est défini par le type d'exercice que le créateur à écrit qui est utilisé dans un context de classe.
-A chaque niveau est associé un badge
-Niveau1= exercice one shoot
-Niveau2= exercice aléatoire
-Niveau4= feuille d'exercice
-Niveau5= template d'exercice aléatoire
-Niveau7= Cours réutilisé (pas d'auto promotion ;)
-Niveau9= template d'un langage (un grader complet).
+le créateur a un niveau et il appartient à des cercles.
+<!-- dr j'aime Pas les niveaux, si c'est une demande de quelqu'un alors on garde sinon poubelle 
+par contre je pense qu'il faut effectivement des badges correspondants a ces niveaux
+-->
+A chaque niveau est associé un badge:
+Le niveau est défini par le type d'exercice que le créateur a écrit qui est utilisé dans un context de classe.
 
-Les cercles sont des communautés de créateurs et d'utilisateur ou l'on est accepté sur présentation d'exercices correspondant au besoin du cercle. Les critères du cercle variant d'un cercle à l'autre.
-Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique piloté par DR.
+* Niveau1: exercice one shoot
+* Niveau2: exercice aléatoire
+* Niveau4: feuille d'exercice
+* Niveau5: template d'exercice aléatoire
+* Niveau7: Cours réutilisé (pas d'auto promotion ;)
+* Niveau9: template d'un langage (un grader complet).
 
-Le créateur d'exercice produit des exercices, des feuilles, des templates et des cours réutilisables sur la plate forme.
+Les niveaux ne nécessite pas de prérequis. C'est à dire qu'il n'est pas nécessaire de terminer le niveau 1 pour accéder au niveau supérieur.
 
 Il lui faut un tutoriel de chaque type.
 
@@ -28,9 +34,19 @@ les éléments de qualité sont la réutilisabilité, la puissance (la capacité
 il veut de la reconnaissance.
 il veut pourvoir proposer des exercices dans différents contextes (niveau, cercles etc).
 
-il a besoin de validation, de tests, de framework de tests. Il veux des retours sur ces exercices (combien de ses exercices sont utllisé et lesquelles).
+il a besoin de validation, de tests, de framework de tests. Il veux des retours sur ses exercices (combien de ses exercices sont utilisés et lesquels).
 
 il faut un mécanisme (organisation) pour faire passer du code de l'exercice vers le template et du template vers la librairie promotion.
+
+
+# [Les Cercles](cercles.md)
+
+
+Les cercles sont des **communautés** de créateurs et d'utilisateurs où l'on est accepté comme membre par les administrateurs et propriétaires du cercle.
+Les critères du cercle variant d'un cercle à l'autre.
+Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique piloté par DR.
+
+
 
 ### Données primaires
 

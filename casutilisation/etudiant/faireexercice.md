@@ -1,4 +1,4 @@
-﻿
+
 # Faire exercice
 Objectif : Permettre à l'étudiant de faire un exercice
 
@@ -12,10 +12,9 @@ Acteur Principal : Etudiant
 Concurrence : Non
 
 
-
 ## Pré-conditions
 
-L'étudiant doit être connecté(login.md), TODO être inscrit à un cours, TODO une feuille doit avoir été ajouter et avoir accès à une feuille (accesfeuilleexercice.md).
+L'étudiant doit être connecté (login.md), TODO être inscrit à un cours, TODO une feuille doit avoir été ajouté et avoir [accès à une feuille](accesfeuilleexercice.md).
 
 
 ## Post Conditions
@@ -33,7 +32,7 @@ TODO
 En cas d'échec : L'étudiant s'est trompé dans sa réponse, un message s'affiche pour lui dire qu'il s'est 
 trompé et on passe à l'exercice suivant de la même notion s'il y en a un (on délègue cela à la stratégie).
 Si l'étudiant quitte la page avant d'avoir validé, son travail est sauvegardé et il le retrouvera lorsqu'il 
-reprendra son exercice.
+reprendra son exercice. Dans le cas où c'est un exercice à temps limité, si l'étudiant quitte la page, le temps continu quand même de s'écouler.
 
 Une fois l'exercice terminé, l'étudiant peut donner son avis sur l'exercice qu'il vient de faire(de façon 
 anonyme) ou passer directement à l'exercice suivant.
@@ -44,10 +43,10 @@ anonyme) ou passer directement à l'exercice suivant.
 Lorsqu'un étudiant fait un exercice, il a un énoncé auquel il doit répondre, soit dans une zone de texte, 
 soit sous forme de QCM. Une fois qu'il a répondu, l'étudiant doit cliquer sur le bouton valider. 
 Ensuite pour passer à l'exercice suivant, l'étudiant peut soit donner son avis sur l'exercice qu'il vient de 
-faire  en cliquant sur un bouton (trop facile, trop dure, etc. ou en écrivant une remarque dans une zone de 
+faire en cochant une ou plusieurs options (trop facile, trop dure, etc. ou en écrivant une remarque dans une zone de
 texte) ou sur un bouton passer à l'exercice suivant s'il ne veut pas donner son avis.
 Si l'étudiant quitte la page avant de valider, il retrouvera le travail qu'il avait effectué avant de 
-quitter lorsqu'il reprendra son exercice.
+quitter lorsqu'il reprendra son exercice. Dans le cas où c'est un exercice à temps limité, si l'étudiant quitte la page, le temps continu quand même de s'écouler.
 
 
 
@@ -90,5 +89,5 @@ Include Use Cases	[Login](login.md)
 
 <!--- 
 Author : Raphael
-Validator :  
+Validator :  Hugo
 -->

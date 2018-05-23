@@ -79,9 +79,9 @@ na.  Action causing branching:
 
 # RELATED INFORMATION
 
-Concurrency    Quand plusieurs enseignant suive en même temps un même étudiant, un seul enseignant à la fois peut donner des indications sur un même exercice.
+Concurrency    Quand plusieurs enseignants suivent en même temps un même étudiant, un seul enseignant à la fois peut donner des indications sur un même exercice.
 
-Include Use Cases    [Editeur](/editeur.md) [Tableau de bord](/tableaudebors.md)
+Include Use Cases    [Editeur](/editeur.md) [Tableau de bord](/tableaudebord.md)
  
 <!---
 Author : Jordan

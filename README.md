@@ -1,54 +1,27 @@
-# Règles de bonnes pratiques
+# plconception
+La partie conception de Premierlangage.
 
-   ### I. Organisation du dossier conception
+Ce sous projet de permier langage à pour objectif de faire la conception de la version 2 du logiciel. 
 
-1. dossier : - acteur : liste des acteur et de leur descriptif
-             - casutilisation : liste des cas d'utilisation
-             - concept : liste des concepts du logiciel
-             - patron : liste des templates disponible
-             
-2. les noms de fichiers devront être **explicite** par exemple visiteur.md
-
-3. les fichiers à la racine concernent le **FQM** et la **Qualité**
+Cette version 2 à pour objectifs:
 
 
-   ### II. Conventions
+ 1) fournir une version plus sécurisé avec des tests plus approfondis dans plus de contextes.
+ 1) fournir un application django de gestion de classe avec des tableaux de bord pour le professeur
+ 1) une administration des classes, groupes et utilsateurs plus étandue tout en conservant l'accès LTI
+ 1) une connection LTI plus étendue avec remonté des notes dans le LMS appellant (en particulier moodle).
+ 1) un editeur avec une préview
+ 1) les notions d'activité, de stratégie programmable, de notions(tag), karma, reputation, cours, 
+ 1) la possibilité de définir un tableau de bords avec les indicateurs de son choix (didactitien)
+ 1) la mesure du temps (chaque utilisateur à un compteur de temps passé sur la plateforme).
+ 1) l'accès à WIMS à travers PL sous forme d'exercices utilisables dans les feuilles PL.
+ 1) ajouter un système de Q&A [askbot] (https://askbot.com/)
 
-1. Je n'utiliserai que des **minuscules pures** pour le nom des fichiers et dossiers
+## Pour ceux souhaitans participer à la conception 
+Lire le fichier [regles.md](regles.md) .
 
-2. Les fichiers concernant la conception, doivent être écrit en **markdown**
+## Pour ceux souhitans participer au développement 
+Voire le repository git premierlangage.
 
-3. les **liens** devront utiliser le format  : 
-`[link name](relative_path/file.md)`
-
-
-   ### III. Github
-1. La gestions des tâches sera dans la partie "Projects/pl-conception" du repo plgitlogin/premierlangage
-2. Essayer de choisir une tâche à la fois dans **premierlangage/pl-conception** dans
-la partie "To do" et la choisir avant de commencer à modifier le ou les fichiers
-en question en la déplaçant dans la partie "In progress"
-
-3. Les **modifications** devront être **poussées régulièrement**, pour éviter les
-conflits d'ajout/supression entre les fichiers.
-
-4. Si vous avez terminé votre travail sur une partie, veuillez mettre la tâche
-de premierlangage/pl-conception dans la partie "Done"
-
-
-   ### IV. Modification des fichiers
-
-1. Si éventuellement, vous rencontrez des problèmes de conceptions, veuillez
-l'indiquer en utilisant l'indacteur **FIXME**.
-
-2. Si vous êtes confronté à un problèmes que vous ne pouvez pas résoudre tout de
-suite, ou que vous jugez qu'il méritte une plus grande réfléxion, veuillez
-utiliser l'indicateur **TODO** sur une seule **ligne**.
-
-3. N'hésitez pas à **rajouter** des **sections** dans un template, lorsque celle ci vous
-paraît **pertinante**
-
-4. Ajouter l'auteur et celui qui a validé le fichier à la fin.
-`<!---
-Author : name
-Validator : name
--->`
+Bien à vous.
+l'équipe Permierlangage.
