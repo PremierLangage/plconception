@@ -36,7 +36,7 @@ Il a besoin de validation, de tests, de framework de tests. Il veux des retours 
 Il faut un mécanisme (organisation) pour faire passer du code de l'exercice vers le template et du template vers la librairie promotion.
 
 
-# [Les Cercles](cercles.md)
+# [Les Cercles](../concept/cercle.md)
 
 
 Les cercles sont des **communautés** de créateurs et d'utilisateurs où l'on est accepté comme membre par les administrateurs et propriétaires du cercle.
