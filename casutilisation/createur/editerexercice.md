@@ -1,4 +1,4 @@
-# Editer un exercice
+# Editer un exercice public
 
 
 Objectif :  Permet à un enseignant d'éditer un exercice présent dans une une de ses disciplines.
@@ -8,7 +8,7 @@ Résumé général : S'effectue lorsqu'un enseignant veut modifier un exercice.
 
 # Données :
 
-Acteur Principal : Enseignant
+Acteur Principal : Créateur
 
 Acteur secondaire : Admin
 
