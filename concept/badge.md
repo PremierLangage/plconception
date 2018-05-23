@@ -16,9 +16,11 @@ Les badges ont des déclancheurs variés. Par exemple :
 11) avoir écrit une stratégie
 12) avoir écrit sur un forum.
 
+TODO au niveau architecctural ou place t'on les éléments de sauvegarde de données qui permet de détecter l'optention d'un badge ?
+
 la proposition visuelle suivante est beaucoup trop chere en termes de consomation électrique : https://threejs.org/examples/webgl_materials_reflectivity.html
 
-FIXME Question c'est quoi le crud d'un badge.
+TODO Question c'est quoi le crud d'un badge. Quel est l'acteur qui créer les badges ?
 
 
 A Valider.
