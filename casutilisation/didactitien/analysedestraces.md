@@ -20,7 +20,7 @@ Acteur Principal : Didactitien
 Avoir des exercices présents dans la base de données et un certain nombres d'exercice réalisés par des 
 étudiants pour pouvoir analyser les résultats.
 <Pre>
-Le use case login.
+Le use case [Login](../utilisateur/login.md)
 Le use case choisir son rôle.
 Les use case permettant la réalisation d'exercices ;)
 </pre>
@@ -55,6 +55,11 @@ S	[Analyse des informations demandées par le didactiten, affichage des données
 2	[Accès à la base de données, analyse les données demandé par le didactitien suivant les paramètres qu'il a choisit]
 3	[Plusieurs statistiques disponibles issus de l'analyse de ces données]
 </PRE>
+
+
+# RELATED INFORMATION
+
+Include Use Cases    [Login](../utilisateur/login.md)
 
 
 <!--- 
