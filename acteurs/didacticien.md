@@ -20,6 +20,8 @@ Statistiques (taux de réussite des exercices, le temps passé pour faire chaque
 
 [Accéder à une feuille d'exercice](../casutilisation/didacticien/analysedestraces.md)
 
+[Gestion des indicateurs (CRUD)](../casutilisation/didacticien/crud-indicateur.md)
+
 =======
 FIXME Peut-on remplacer "trouver les exercices" par "trouver les moyens, par exemple les exercices ou les stratégies," un peu moins réducteur (il peut aussi fabriquer des exercices :-)
 

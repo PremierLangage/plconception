@@ -32,7 +32,21 @@ Cours, feuille d'examen
 
 ## Cas d'utilisation associées
 
-[Editer une activité](../casutilisation/enseignant/editeractivite.md)
+[Corriger une feuille](../casutilisation/enseignant/corrigerfeuilles.md)
+
+[Créer un cours](../casutilisation/enseignant/creercours.md)
+
+[Donner un exercice](../casutilisation/enseignant/donnerexercices.md)
+
+[Modifier son tableau de bord](../casutilisation/enseignant/modifiertableaudebord.md)
+
+[Demander la création de groupe](../casutilisation/enseignant/ouverturegroupe.md)
+
+[Suivre une classe](../casutilisation/enseignant/suivreclasse.md)
+
+[Suivre un élève](../casutilisation/enseignant/suivreeleve.md)
+
+[Valider un tag, un exercice ou une ressource](../casutilisation/enseignant/validation.md)
 
 <!--- Author : Hugo Validator : name -->
 

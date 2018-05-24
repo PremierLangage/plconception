@@ -11,3 +11,15 @@ L'idéal est un cours qui est un tutoriel de l'écriture d'exercices pl.
 
 Comme cela toutes les notions peuvent être appliqués et essayées.
 
+### Données primaires
+
+### Données secondaires
+
+### Données générées
+
+## Cas d'utilisation associées
+
+[Demo du site](../casutilisation/visiteur/demo.md)
+
+[S'inscrire au site](../casutilisation/visiteur/inscription.md)
+

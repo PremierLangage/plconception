@@ -51,6 +51,8 @@ Feedback (pour les exercices, les cours), note, badge, temps passé à faire un 
 
 [Donner un défi](../casutilisation/etudiant/donnerexercice.md)
 
+[Rejoindre un groupe créer](../casutilisation/etudiant/rejoindrecreergroupe.md)
+
 <!--- Author : Hugo Validator : name -->
 
 
