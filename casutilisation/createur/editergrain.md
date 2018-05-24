@@ -1,7 +1,7 @@
 # Editer un grain
 
 
-Objectif :  Permet à un enseignant d'éditer un grain présent dans une de ses disciplines.
+Objectif : Permet à un enseignant d'éditer un grain présent dans une de ses disciplines.
 
 Résumé général : S'effectue lorsqu'un enseignant veut modifier un grain.
 
@@ -55,7 +55,7 @@ Le créateur a choisi d'éditer un grain, il recherche le grain qu'il veut édit
 
 Step    Action
 
-S    Le créateur modifie le grain et le valide, lae grain est sauvegarder dans la base de données.
+S    Le créateur modifie le grain et le valide, le grain est sauvegarder dans la base de données.
 
 1    Ce cas d'utilisation commence quand le créateur recherche le grain qu'il veut modifié et clique sur le bouton "éditer" ou quand on entre l'url d'édition du grain dans un navigateur.
 
@@ -87,7 +87,7 @@ Include Use Cases    [Editeur](/editeur.md)
  
 
 <!--- 
-Author : Jordan
-Validator : Raphael
+Author : Raphael
+Validator :
 -->
 
