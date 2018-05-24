@@ -45,7 +45,11 @@ Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plu
 
 ### Données primaires
 
+login, mot de passe
+
 ### Données secondaires
+
+Organisation (UPEM, UPMC ...)
 
 ### Données générées
 
