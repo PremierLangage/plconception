@@ -3,6 +3,7 @@
 Acteur primaire
 
 TODO compléter les données
+
 Les etudiants sont dans trois grandes catégories:
 
 * les passionnés qui veulent être excellents dans la matière : plus, plus vite, plus loin, des exercices: exitants, difficiles, originaux
