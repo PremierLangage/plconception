@@ -13,7 +13,7 @@ Acteurs secondaires : Admin
 
 Concurrence : Non
 
-Déclencheur : Se déclenche lorsqu'un enseignant clique sur un de ses cours, il a alors la possibilité de voir les "tache" qu'il a donné aux étudiants d'une classe qui suit ce cours.
+Déclencheur : Se déclenche lorsqu'un enseignant clique sur un de ses cours, il a alors la possibilité de voir les "taches" qu'il a donné aux étudiants d'une classe qui suit ce cours.
 
 
 ## Pré-conditions
