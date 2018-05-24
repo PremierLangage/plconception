@@ -10,7 +10,7 @@ page d'accueil : Par défaut un utilisateur est connecté à la dernière page s
 
 ## Cas d'utilisation associé
 
-[tableau de bord de l'utilisateur](../casutilisation/utilisateur/tableaudebord.md)
+[Afficher le profil](../casutilisation/utilisateur/affichemodifprofil.md)
 
 <!--- 
 Author : Hugo 
