@@ -1,4 +1,4 @@
-# Suivre un élève
+# Suivre une classe
 
 
 Objectif :  Permet à un enseignant de suivre une classe qui suit son cours.

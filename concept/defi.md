@@ -15,7 +15,11 @@ Il y a plusieurs défis :
 
 * Les défis de temps d'éxecution (le programme qui résoud le problème le plus rapidement possible)
 
-TODO
+TODO rajouter des défis possibles.
 
 Pour cela, il doit choisir une feuille d'exercice, puis il peut ajouter un où plusieurs étudiant de sa classe à une liste. Puis il doit valider le défi. Le défi est ensuite envoyé à chaque utilisateurs de la liste, qui est ainsi notifier avec une [notification](notification.md).
+
+## Cas d'utilisation associé
+
+[donner un défi](../casutilisation/etudiant/donnerexercice.md)
 
