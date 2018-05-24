@@ -1,4 +1,3 @@
-
 # Visiteur
 
 le visiteur est un acteur du projet qui accède à une instance mais pour laquelle il n'a pas d'identifiants.
