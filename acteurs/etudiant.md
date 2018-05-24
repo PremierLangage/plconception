@@ -1,5 +1,7 @@
 # Etudiant
 
+Acteur primaire
+
 TODO compléter les données
 Les etudiants sont dans trois grandes catégories:
 

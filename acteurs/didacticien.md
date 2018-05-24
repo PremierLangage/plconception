@@ -8,7 +8,9 @@ L'utilisateur didactitien est celui qui à partir des données (moyenne d'un exe
 
 ### Données primaires
 
+login, mot de passe
 
+L'ensemble des données (temps pour réussir un exercice, nombre d'essai, % de réussite d'un exercice ...)
 
 ### Données secondaires
 
