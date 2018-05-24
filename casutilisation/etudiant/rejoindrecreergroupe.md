@@ -24,7 +24,7 @@ Déclencheur : Se déclenche lorsqu'un étudiant veut creer ou rejoindre un grou
 
 	Avoir un compte étudiant dans la base de données
 
-	L'étudiant doit avoir au moins une matière où un enseignant leurs demande de faire un groupe
+	L'étudiant doit avoir au moins une matière où un enseignant leurs demande de [faire un groupe](../enseignant/ouverturegroupe.md)
 
 
 ## Post Conditions :
@@ -73,7 +73,11 @@ na.  Action causing branching:
 
 1 : L'étudiant peut rejoindre un groupe déjà existant, il peut faire une recherche du groupe qu'il veut rejoindre et faire une demande que le créateur du groupe peut accepté ou refusé.
 
- 
+
+RELATED INFORMATION
+
+Include Use Cases	[Ouverture groupe](../enseignant/ouverturegroupe.md)
+
 
 <!--- 
 Author : Raphael
