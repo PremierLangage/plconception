@@ -19,22 +19,20 @@ L'étudiant doit être connecté (login.md), TODO être inscrit à un cours, TOD
 
 ## Post Conditions
 
-TODO
 L'étudiant a accès à un exercice avec un sujet, il peut y répondre sous différentes formes suivant la nature 
 de l'exercice, sous la forme d'une boite de texte ou d'un QCM. 
 
-TODO
+
 En cas de succès : L'étudiant a eu la bonne réponse à l'exercice, un message s'affiche pour lui dire qu'il a 
 réussi l'exercice et on passe à un autre exercice s'il y en a un. Soit un exercice de la même notion s'il en 
 a réussi qu'un seul(ou plusieurs) sinon un exercice d'une autre notion, on délègue cela à la stratégie.
 
-TODO
 En cas d'échec : L'étudiant s'est trompé dans sa réponse, un message s'affiche pour lui dire qu'il s'est 
 trompé et on passe à l'exercice suivant de la même notion s'il y en a un (on délègue cela à la stratégie).
 Si l'étudiant quitte la page avant d'avoir validé, son travail est sauvegardé et il le retrouvera lorsqu'il 
 reprendra son exercice. Dans le cas où c'est un exercice à temps limité, si l'étudiant quitte la page, le temps continu quand même de s'écouler.
 
-Une fois l'exercice terminé, l'étudiant peut donner son avis sur l'exercice qu'il vient de faire(de façon 
+TODO Une fois l'exercice terminé, l'étudiant peut donner son avis sur l'exercice qu'il vient de faire(de façon 
 anonyme) ou passer directement à l'exercice suivant.
 
 

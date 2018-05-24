@@ -90,7 +90,7 @@ Include Use Cases    [Editeur](/editeur.md)
  
 
 <!--- 
-Author : Jordan
-Validator : Raphael
+Author : Raphael
+Validator :
 -->
 
