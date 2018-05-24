@@ -57,7 +57,7 @@ S	[L'enseignant choisi la classe,le nombre d'élève par groupe et la date limit
 
 4 	[Ensuite l'enseignant choisie une date limite pour la consitution des groupes. (Les étudiants sans groupe à la date limite se verront attribués un groupe aléatoirement, si tous les groupes créé sont pleins, on en crée un nouveau.)]
 
-4   Ce cas d'utilisation se fini lorsque l'enseignant change de page internet.
+5   Ce cas d'utilisation se fini lorsque l'enseignant change de page internet.
 
 
 RELATED INFORMATION
