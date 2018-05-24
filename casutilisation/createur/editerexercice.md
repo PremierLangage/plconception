@@ -12,7 +12,7 @@ Acteur Principal : Créateur
 
 Acteur secondaire : Admin
 
-Concurrence : Non
+Concurrence : Oui
 
 Déclencheur : Se déclenche lorsqu'un créateur veut modifier un exercice.
 
