@@ -20,20 +20,16 @@ L'étudiant doit être connecté(login.md), TODO être inscrit à un cours, TODO
 
 ## Post Conditions
 
-TODO
-Un étudiant peut donner un exercice à un ou plusieurs étudiant. Le ou les étudiants qui ont reçu l'exercice ne sont pas obligés de le faire.
+TODO Un étudiant peut donner un exercice à un ou plusieurs étudiant. Le ou les étudiants qui ont reçu l'exercice ne sont pas obligés de le faire.
 
-TODO
 En cas de succès : L'étudiant donne un exercice à faire à l'étudiant qu'il a choisit.
 
-TODO
 En cas d'échec : L'étudiant n'a pas réussi à donner un exercice à un autre étudiant, on lui affiche un message d'erreur.
 
 
 
 # Navigation / IHM 
 
-TODO
 L'étudiant lance une recherche pour trouver l'étudiant à qui il veut envoyer l'exercice. Une fois trouver il choisit l'exercice qu'il veut envoyer et lui envoie.
 
 

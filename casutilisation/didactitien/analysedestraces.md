@@ -19,20 +19,18 @@ Acteur Principal : Didactitien
 
 Avoir des exercices présents dans la base de données et un certain nombres d'exercice réalisés par des 
 étudiants pour pouvoir analyser les résultats.
-<Pre>
+
 Le use case [Login](../utilisateur/login.md)
 Le use case choisir son rôle.
 Les use case permettant la réalisation d'exercices ;)
-</pre>
+
 
 ## Post Conditions
 
-TODO
-Cherche à trouver des informations intéressantes à propos des exercices dans la base de données : le taux 
+TODO Cherche à trouver des informations intéressantes à propos des exercices dans la base de données : le taux 
 de réussite des exercices, le temps passé dessus, le nombre d'essais avant la réussite de l'exercice.
 
-TODO
-En cas de succès : Donne des statistiques utiles au didactitien par rapport à l'analyse des données sur les 
+En cas de succès : TODO Donne des statistiques utiles au didactitien par rapport à l'analyse des données sur les 
 exercices
 
 En cas d'échec : Affiche une erreur lors de l'analyse des traces
@@ -40,14 +38,12 @@ En cas d'échec : Affiche une erreur lors de l'analyse des traces
 
 # Navigation / IHM 
 
-TODO
 Demande d'analyse des données par le didactitien depuis son tableau de bord.
 Accès à la base de données, recherche des informations en lien avec ce que le didactitien a demandé, analyse ces données.
 
 
 ## Scénarios
 
-TODO
 <PRE> FIXME
 MAIN SUCCESS SCENARIO
 S	[Analyse des informations demandées par le didactiten, affichage des données trouvées]
