@@ -3,7 +3,7 @@
 
 Objectif :  Permettre la connexion d'un utilisateur.
 
-Résumé général: S'effectue lorsqu'un utilisateur ou un visiteur veux se connecter.
+Résumé général : Lorsqu'un utilisateur veux se connecter il clique sur le bouton "Login", il dois alors entrer ses informations de connection (mail/login ou mots de passe). Une fois qu'il a entré les bonnes informations l'utilisateur se retrouve sur son tableau de bord ou sur la dernière page qu'il a ouverte lors de sa précédente connection.
 
 # Données :
 
@@ -29,12 +29,7 @@ L'inscription dois être effectué préalablement.
 
 ## Post Conditions :
 
-### Données sortie :
-	TODO
-
-
 En cas de succès : L'utilisateur a accès à son compte. Une session est créée, l'utilisateur est placé sur sa page d'accueil.
-
 
 En cas d'échec: affiche d'erreur mot de passe, actualisation de la page de connexion.
 

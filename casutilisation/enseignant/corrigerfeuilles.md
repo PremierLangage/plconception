@@ -1,10 +1,8 @@
-# Corriger une feuille
+# Corriger des feuilles
 
-Objectif : Permettre à un enseignant de corriger une feuille d'exercice.
+Objectif : Permettre à un enseignant de corriger toutes les feuilles d'exercice d'une classe.
 
-Résumé général :
-FIXME Résumé idiot:  Un enseignant doit pouvoir corriger une feuille d'exercice, qu'il a donné.
-MIEUX : un enseignant après avoir sélectionner un cours et une activité choisi d'evaluer l'activité (en plus de l'évaluation automatique de pl). Une nouvelle page d'interaction souvre sur le **mode correction** de l'activité. Dans le mode correction l'enseignant peux choisir un élève et voir ces réponses à l'activité. Il peut modifier l'évaluation et ajouter un commentaire sur chaque réponse. Les commentaires et modifications sont pris en compte automatiquement. Le undo est disponible. En fin d'édition l'ensemble des modifications est sauvegardé automatiquement.
+Résumé général : Un enseignant après avoir sélectionner un cours et une activité qu'il choisi d'evaluer (en plus de l'évaluation automatique de pl). Une nouvelle page d'interaction s'ouvre sur le **mode correction** de l'activité. Dans le mode correction l'enseignant peux choisir un élève et voir ces réponses à l'activité. Il peut modifier l'évaluation et ajouter un commentaire sur chaque réponse. Les commentaires et modifications sont pris en compte automatiquement. Le undo est disponible. En fin d'édition l'ensemble des modifications est sauvegardé automatiquement.
 
 FIXME ne doit ont pas voir ce cas du'ilisation comme un accès au mode correction d'une activité (stratégie ?).
 
@@ -24,6 +22,10 @@ Déclencheur : Se déclenche lorsqu'un enseignant clique sur un de ses cours, il
 ### Données d'entrées :
 	Le cours associé
 
+	La classe
+
+	La tache a corriger
+
 Avoir un compte enseignant dans la base de donnée.
 
 Avoir au moins un cours.
@@ -38,30 +40,41 @@ En cas d'échec : L'enseignant ne voit rien.
 
 # Navigation / IHM 
 
-L'enseignant voit une liste des "taches" qu'il a demandé et la classe associé.
-
+L'enseignant voit une liste des "taches" qu'il a demandé et la classe associé, il peut alors entrer en mode correction et commencer a corriger les feuilles d'exercices.
 
 
 ## Scénarios
 
 MAIN SUCCESS SCENARIO
 
-S	[L'enseignant vois la liste des taches qu'il a donné a chacune des classes qui suivent son cours.]
+S	[L'enseignant vois la liste des taches qu'il a donné pour son cours.]
 
-1	[L'enseignant peut ensuite cliquer sur l'une des taches et voit la liste des étudiants et la feuille d'exercice qu'ils ont rendu]
+1	[L'enseignant peut ensuite cliquer sur l'une des taches et voit la liste des étudiants et la feuille d'exercice qu'ils ont rendu, il clique sur le bouton "Mode correction", qui lui permet de corriger les feuilles de toutes une liste d'étudiant.]
 
-2	[il peut cliquer sur l'une des feuilles et la voir en detail]
+2	[Ce mode est spéciale, il permet a l'enseignant de corriger les feuilles exercices par exercice, c'est a dire qu'il vois toutes les reponses a l'exercice 1 avant de passer à l'exercice 2, l'enseignant peut aussi épingler 3 réponses qui lui plaises, les réponses épingler sont visible lors de la correction de chaque étudiant. Ce qui permet a l'enseignant de se rappeler des bonnes réponses et/ou des mauvaises.] 
 
-3	[Une fois que l'enseignant a cliqué, il voit ce qu'a fais l'étudiant ainsi que l'énoncer et il peut associer a la feuille une note]
+3	[Une fois que l'enseignant commenté et mis une note a l'exercice 1 de l'étudiant X, on  passe à l'exercice 1 de l'étudiant X+1, l'enseignant choisi par quel exercice il désir commencer la correction, en cliquant sur la liste des exercice disponible sur la gauche de la page.]
 
-4	[Cette note seras [notifié](/centredenotification.md) à l'étudiant.]
+4	Chaque [note et commentaire](/editeur.md) est sauvegardé l'enseignant sais qu'il a déjà corriger tel exercice de tel étudiant, il peut modifier la note et le commentaire qu'il a déjà ecrit]
 
-5   Ce cas d'utilisation se fini lorsque l'enseignant change de page internet.
+5	[Une fois que l'enseignant penses avoir fini la correction il la valide ce qui [notifiera](/centredenotification.md) les étudiants.]
 
+6   Ce cas d'utilisation se fini lorsque l'enseignant change de page internet les correctuions déja effectué sont sauvegardé grâce à la [sauvegarde continu](sauvegardecontinu.md) ou lorsque l'enseignant valide ou abandonne sa correction.
+
+
+EXTENSION 
+
+Step    Branching Condition
+
+1	 Si il n'y a qu'une seule feuille a corriger. Etape 2
+
+na.  Action causing branching:
+
+1 : Dans ce que la l'enseignant vois les exercices les un apres les autres.
 
 RELATED INFORMATION
 
-Include Use Cases	[Centre de notification](/centredenotification.md)
+Include Use Cases	[Centre de notification](/centredenotification.md) [Editeur](/editeur.md) [Sauvegarde continu](sauvegardecontinu.md) 
 
 
 
