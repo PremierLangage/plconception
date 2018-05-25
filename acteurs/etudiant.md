@@ -4,7 +4,9 @@ Acteur primaire
 
 TODO compléter les données
 
-Les etudiants sont dans trois grandes catégories:
+L'étudiant est un utilisateur qui peut suivre un cours (étudier, réviser ...), faire des exercices. Il peut suivre sa progression.
+
+Ils sont dans trois grandes catégories:
 
 * les passionnés qui veulent être excellents dans la matière : plus, plus vite, plus loin, des exercices: exitants, difficiles, originaux
       
