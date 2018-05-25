@@ -8,7 +8,9 @@ L'utilisateur didactitien est celui qui à partir des données (moyenne d'un exe
 
 ### Données primaires
 
+login, mot de passe
 
+L'ensemble des données (temps pour réussir un exercice, nombre d'essai, % de réussite d'un exercice ...)
 
 ### Données secondaires
 
@@ -19,6 +21,8 @@ Statistiques (taux de réussite des exercices, le temps passé pour faire chaque
 ## Cas d'utilisation associées
 
 [Accéder à une feuille d'exercice](../casutilisation/didacticien/analysedestraces.md)
+
+[Gestion des indicateurs (CRUD)](../casutilisation/didacticien/crud-indicateur.md)
 
 =======
 FIXME Peut-on remplacer "trouver les exercices" par "trouver les moyens, par exemple les exercices ou les stratégies," un peu moins réducteur (il peut aussi fabriquer des exercices :-)

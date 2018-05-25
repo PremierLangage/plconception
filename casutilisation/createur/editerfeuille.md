@@ -12,7 +12,7 @@ Acteur Principal : Créateur
 
 Acteur secondaire : Admin
 
-Concurrence : Non
+Concurrence : Oui
 
 Déclencheur : Se déclenche lorsqu'un créateur veut modifier une feuille.
 
@@ -22,18 +22,18 @@ Déclencheur : Se déclenche lorsqu'un créateur veut modifier une feuille.
 
 ### Données d'entrées :
 
-	Avoir le rôle de créateur dans la base de données.
-
-	TODO Pouvoir faire une recherche de toutes les feuilles existantes dans une de ses disciplines.
-
-	La feuille avant les modifications
+	* Avoir le rôle de créateur dans la base de données.
+	* TODO Pouvoir faire une recherche de toutes les feuilles existantes dans une de ses disciplines.
+	* La feuille avant les modifications
 
 
 ## Post Conditions :
 
 ### Données sortie :
 
-	feuille modifiée
+	* feuille modifiée
+	* dernier créateur à avoir édité l'exercice
+	
 
 Editer une feuille revient à modifier l'ordre des exercices dans une feuille, changer les exercices présent dans la feuille ou supprimer des exercices de la feuille.
 
@@ -90,7 +90,7 @@ Include Use Cases    [Editeur](/editeur.md)
  
 
 <!--- 
-Author : Jordan
-Validator : Raphael
+Author : Raphael
+Validator :
 -->
 

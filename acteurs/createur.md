@@ -38,6 +38,7 @@ Il faut un mécanisme (organisation) pour faire passer du code de l'exercice ver
 
 # [Les Cercles](../concept/cercle.md)
 
+Acteur secondaire
 
 Les cercles sont des **communautés** de créateurs et d'utilisateurs où l'on est accepté comme membre par les administrateurs et propriétaires du cercle.
 Les critères du cercle variant d'un cercle à l'autre.
@@ -45,7 +46,11 @@ Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plu
 
 ### Données primaires
 
+login, mot de passe
+
 ### Données secondaires
+
+Organisation (UPEM, UPMC ...)
 
 ### Données générées
 

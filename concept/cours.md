@@ -12,6 +12,16 @@ Chaque cours est accessible à n'importe quel étudiant à condition qu'il soit 
 
 Chaque cours contient une ou plusieurs [feuilles d'exercice](feuille.md).
 
+## Cas d'utilisation associé
+
+[Créer un cours](../casutilisation/enseignant/creercours.md)
+
+[Etudier un cours](../casutilisation/etudiant/etudier.md)
+
+[Réviser un cours](../casutilisation/etudiant/reviser.md)
+
+
+
 <!---
 Author : Hugo
 Validator : Jordan

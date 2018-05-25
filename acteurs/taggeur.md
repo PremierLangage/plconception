@@ -1,5 +1,7 @@
 # Taggeur
 
+Acteur secondaire
+
 TODO donner plus de précision sur les taggeurs confirmés et non confirmés. Compléter les données et les cas d'utilisation
 
 ## Fonctionnalités demandées.

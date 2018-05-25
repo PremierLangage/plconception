@@ -1,13 +1,16 @@
 # Etudiant
 
+Acteur primaire
+
 TODO compléter les données
+
 Les etudiants sont dans trois grandes catégories:
-- les passionnés qui veulent être excellents dans la matière :
-      plus, plus vite, plus loing,
-      des exercices: exitants, difficiles, originaux 
+
+* les passionnés qui veulent être excellents dans la matière : plus, plus vite, plus loin, des exercices: exitants, difficiles, originaux
       
-- les diplomeux : objectif le diplome avec apriori l'investissement minimal dans la matière, ce qui suffit, cherche à sécuriser le fait qu'ils obtiennent le diplome, on besoin d'un indicateur de performance et de niveau.
-- les autres : que dire des autres ?? pourquoi sont ils la ??? 
+* les diplomeux : objectif le diplome avec apriori l'investissement minimal dans la matière, ce qui suffit, cherche à sécuriser le fait qu'ils obtiennent le diplome, on besoin d'un indicateur de performance et de niveau.
+
+* les autres : que dire des autres ?? pourquoi sont ils la ???
 
 ## Fonctionnalités demandées.
 
@@ -46,6 +49,10 @@ Feedback (pour les exercices, les cours), note, badge, temps passé à faire un 
 [Faire un exercice](../casutilisation/etudiant/faireexercice.md)
 
 [Réviser](../casutilisation/etudiant/reviser.md)
+
+[Donner un défi](../casutilisation/etudiant/donnerexercice.md)
+
+[Rejoindre un groupe créer](../casutilisation/etudiant/rejoindrecreergroupe.md)
 
 <!--- Author : Hugo Validator : name -->
 

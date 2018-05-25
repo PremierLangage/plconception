@@ -22,6 +22,12 @@ L'enseignant doit aussi voir dans son dashboard un onglet "validation" qui conti
 
 Tous les utilisateurs peuvent également réorgansier leur dashboard (épingler un badge, intervertir 2 catégories ...)
 
+## Cas d'utilisation associé
+
+[modifier son tableau de bord](../casutilisation/enseignant/modifiertableaudebord.md)
+
+[tableau de bord de l'utilisateur](../casutilisation/utilisateur/tableaudebord.md)
+
 <!--- 
 Author : Hugo 
 Validator : Raphael 

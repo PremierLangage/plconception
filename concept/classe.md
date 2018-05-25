@@ -10,6 +10,10 @@ Un ou plusieurs [cours](/cours.md) peuvent être affecté à une classe par un a
 
 Une classe a un niveau: CM2, 6ème, Terminal, L2, M1
 
+## Cas d'utilisation associé
+
+[Suivre une classe](../casutilisation/enseignant/suivreclasse.md)
+
 <!---
 Author : Hugo
 Validator : Jordan

@@ -12,6 +12,24 @@ Un exercice doit être placer dans une [feuille d'exercice](feuille.md) par un e
 
 Les exercices à valider doivent apparaitre dans le [centre de notification](centredenotification.md) des enseignants ayant l'autorisation de les valider.
 
+## Cas d'utilisation associé
+
+[créer une exercice](../casutilisation/createur/createexercice.md)
+
+[éditer un exercice](../casutilisation/createur/editerexercice.md)
+
+[donner un exercice à un ou plusieurs étudiants](../casutilisation/enseignant/donnerexercices.md)
+
+[donner un défi](../casutilisation/etudiant/donnerexercice.md)
+
+[Valider un exercice](../casutilisation/enseignant/validation.md)
+
+[faire un exercice](../casutilisation/etudiant/faireexercice.md)
+
+[étudier](../casutilisation/etudiant/etudier.md)
+
+[réviser](../casutilisation/etudiant/reviser.md)
+
 <!---
 Author : Hugo
 Validator : Jordan

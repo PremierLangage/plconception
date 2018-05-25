@@ -1,5 +1,6 @@
-
 # Visiteur
+
+Acteur secondaire
 
 le visiteur est un acteur du projet qui accède à une instance mais pour laquelle il n'a pas d'identifiants.
 
@@ -11,4 +12,16 @@ il faut donc qu'il puisse accèder a un exemple de cours/feuille/exos.
 L'idéal est un cours qui est un tutoriel de l'écriture d'exercices pl.
 
 Comme cela toutes les notions peuvent être appliqués et essayées.
+
+### Données primaires
+
+### Données secondaires
+
+### Données générées
+
+## Cas d'utilisation associées
+
+[Demo du site](../casutilisation/visiteur/demo.md)
+
+[S'inscrire au site](../casutilisation/visiteur/inscription.md)
 

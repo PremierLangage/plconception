@@ -13,6 +13,14 @@ Exemple : Une même feuille d'exercice peut servir pour le langage C, python ...
 
 Chaque feuille d'exercice modifiée doit être rechargée afin d'être mises à jour.
 
+## Cas d'utilisation associé
+
+[éditer une feuille](../casutilisation/createur/editerfeuille.md)
+
+[corriger une feuille](../casutilisation/enseignant/corrigerfeuilles.md)
+
+[accéder à une feuille d'exercice](../casutilisation/etudiant/accesfeuilleexercice.md)
+
 <!---
 Author : Hugo
 Validator : Jordan
