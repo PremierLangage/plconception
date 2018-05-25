@@ -39,7 +39,6 @@ En cas d'échec : L'enseignant ne voit rien.
 L'enseignant voit une liste des "taches" qu'il a demandé et la classe associé.
 
 
-
 ## Scénarios
 
 MAIN SUCCESS SCENARIO

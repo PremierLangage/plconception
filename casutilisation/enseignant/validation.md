@@ -13,7 +13,7 @@ Acteurs secondaires : Admin
 
 Concurrence : Oui
 
-Déclencheur : Se déclenche lorsqu'un enseignant clique sur le bouton "Validation" TODO changer le nom du bouton peut etre Tâches.
+Déclencheur : Se déclenche lorsqu'un enseignant clique sur le bouton "Validation".
 
 ## Pré-conditions :
 
@@ -24,6 +24,7 @@ Déclencheur : Se déclenche lorsqu'un enseignant clique sur le bouton "Validati
 	Tags, exercices, ressources de la discipline en attente de validation
 
 Avoir un compte enseignant dans la base de donnée.
+
 Avoir un bon Karma dans au moins une discipline.
 
 ## Post Conditions :

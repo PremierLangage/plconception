@@ -38,7 +38,7 @@ Avoir des étudiants qui suivent ce cours.
 
 En cas de succès : L'enseignant vois le [tableau de bord](/tableaudebors.md) de l'élève (les exercices qu'il a effectué, ce qu'il a fait, raté ou commencé), ainsi que son niveau dans les autres cours de manières très générale.
 
-En cas d'échec : L'élève ne suis pas son cours, ou il n'a rien fait. TODO (signalé a l'élève qu'il faut travailler).
+En cas d'échec : L'élève ne suis pas son cours, ou il n'a rien fait, dans ce cas la on signale à l'élève qu'il faut travailler.
 
 # Navigation / IHM  :
 

@@ -50,13 +50,11 @@ S	[L'enseignant a un choix de trie à sa disposition, ainsi qu'un choix d'indica
 
 1	[L'enseignant dois cliquer sur le bouton "trier", afin de trier ses cours.]
 
-2	[Un choix se présente alors à lui, "trier par ordre alphabétique",par ordre d'utilisation etc.., ce choix seras conservé.]
+2	[Un choix se présente alors à lui, "trier par ordre alphabétique",par ordre d'utilisation etc.., ce choix seras conservé dans le profil de l'enseignant.]
 
-3	[Ensuite l'enseignant peut choisir certain indicateur, qu'il veux placer dans son tableau de bord. Ces choix seront conservé.]
+3	[Ensuite l'enseignant peut choisir certain indicateur, qu'il veux placer dans son tableau de bord. Ces choix seront conservé dans le profil de l'enseignant.]
 
-4   Ce cas d'utilisation se fini lorsque l'enseignant change de page internet.
-FIXME il faut indiqué ici qu'il ya des données à sauvegarder quand il quitte la page ...
-FIXME ou son stocké ces donnée ??
+4   Ce cas d'utilisation se fini lorsque l'enseignant change de page internet, à chaque fois que l'enseignant iras sur son tableau de bord, il le retrouveras agencé comme il l'as prédefini précedemment.
 
 
 RELATED INFORMATION
