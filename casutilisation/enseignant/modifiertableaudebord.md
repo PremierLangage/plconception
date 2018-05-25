@@ -2,8 +2,7 @@
 
 Objectif : Permettre à un enseignant d'afficher les indicateurs qu'il aura choisi directement dans son tableau de bord et/ou de modifier l'odre d'affichage des cours.
 
-Résumé général : Un enseignant peut afficher les résumés d'information qu'il veux dans son [tableau de bord](/tableaudebord.md) et il peux vouloir modifier l'ordre d'affichage des cours.
-
+Résumé général : Lorsque l'enseignant est sur son tableau de bord il peux vouloir voir des informations précises en priorité, il peut alors trier la liste des cours qu'il a par date d'utilisation, date de création etc ou encore les trier lui même en les deplacants. Il pourras aussi afficher des indicateurs sur son tableau de bord, dans ce cas la il aura un choix d'indicateur celon les classes, les cours, etc.., qu'il pourras épingler sur son tableau de bord.
 
 # Données
 

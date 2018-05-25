@@ -1,9 +1,8 @@
 # Suivre un élève
 
-
 Objectif :  Permet à un enseignant de suivre un élève de son cours.
 
-Résumé général: S'effectue lorsqu'un enseignant clique sur un élève qui suis son cours.
+Résumé général: L'enseignant choisi un élève, le tableau de bord de l'élève apparait, il peut modifier le tableau de bord, dans les différents indicateurs il peut choisir d'afficher précissément les informations de l'élève. Ce qui lui permet d'avoir des détails sur un élève en particulier.
 
 # Données :
 
@@ -85,5 +84,5 @@ Include Use Cases    [Editeur](/editeur.md) [Tableau de bord](/tableaudebord.md)
  
 <!---
 Author : Jordan
-Validator : name
+Validator : 
 -->

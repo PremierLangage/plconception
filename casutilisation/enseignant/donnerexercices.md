@@ -2,11 +2,8 @@
 
 Objectif : Permettre à un enseignant de donner une feuille d'exercice/défis à un étudiant ou a une classe qui suit son cours.
 
-Résumé général : Un enseignant doit donner des exercices à une ou plusieurs classes qui suivent son cours et/ou à un ou plusieurs étudiants (groupes).
+Résumé général : Lorsque l'enseignant clique sur une classe ou un élève, il y a un bouton "Donner feuilles", ce qui lui permet de donner une feuille d'exercice, il a ensuite le choix entre créer une nouvelle feuille ou d'en chercher une qui existe déjà, une fois la ou les feuilles trouvées l'enseignant valide et cette feuille se retrouveras dans les notifications de chaque élève sélectionné.
 
-Un enseignant peut donner une feuilles d'exercice à une classe que si cette classe suit l'un des cours de l'enseignant.
-
-général
 # Données
 
 Acteur Principal : Enseignant

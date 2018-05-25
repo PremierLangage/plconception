@@ -2,7 +2,7 @@
 
 Objectif : Permettre à un enseignant de notifier au étudiant qu'ils doivent effectuer des groupes.
 
-Résumé général : L'application propose à l'enseignant le nombre d'étudiants possible par groupe l'enseignant valide et ensuite c'est aux étudiants de constituer leurs groupes.
+Résumé général : Lorsque l'enseignant clique sur son cours, si il y a au moins une classe associé, il a un bouton "Groupe" qui lui permet de notifier a une classe qu'ils doivent se mettre en groupe de X élèves. Pour se faire une page s'ouvre ou l'enseignant choisie la classe qu'il veux, l'application affiche les différents nombres d'élèves possible par groupe, l'enseignant choisi, défini une date limite à la constitution des groupes et valide. Les étudiants seront alors [notifiés dans les groupes](/groupes.md).
 
 # Données
 

@@ -2,7 +2,7 @@
 
 Objectif : Permettre à un enseignant de créer un cours.
 
-Résumé général : Un enseignant doit pouvoir créer son propre cours.
+Résumé général : L'enseignant clique donc sur le bouton pour crée un cours, il peut donc entrer toute les informations nécéssaire à la création d'un cours (graphe de grain, énoncé du cours, niveau d'étude etc...), une fois validé ce cours seras disposnible à l'apprentissage.
 
 
 # Données
@@ -44,7 +44,7 @@ A partir de son [tableau de bord](/tableaudebord.md), l'enseignant peut cliquer 
 
 MAIN SUCCESS SCENARIO
 
-S	[L'enseignant clique donc sur le bouton pour crée un cours, il peut donc entrer toute les informations nécéssaire a la création d'un cours (graphe de grain, énoncé du cours etc...)]
+S	[L'enseignant clique donc sur le bouton pour crée un cours, il peut donc entrer toute les informations nécéssaire à la création d'un cours (graphe de grain, énoncé du cours etc...)]
 
 1	[L'enseignant a la possibilité d'écrire l'énoncer du cours dans l'[éditeur](/editeur.md), ensuite l'enseignant valide.]
 

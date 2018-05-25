@@ -2,7 +2,7 @@
 
 Objectif : Permettre à un enseignant de modifer un graphe de notion, d'objectif et de l'associer à un cours.
 
-Résumé général : L'application propose à l'enseignant de modifer ou de créer son propre [graphe orienté](/graphe.md).
+Résumé général : L'enseignant choisi le cours qu'il veux, et si il a les droits, il a un bouton "Graphe" qui lui permet de modifier le graphe associé au cours qu'il a choisi. L'application lui propose de modifer ou de créer son propre [graphe orienté](/graphe.md), de [grain](/grain.md) il valide et le graphe seras sauvegardé dans la base de donnée et associé au cours.
 
 # Données
 
