@@ -2,9 +2,7 @@
 
 Objectif : Permettre à un enseignant de corriger une feuille d'exercice.
 
-Résumé général :
-FIXME Résumé idiot:  Un enseignant doit pouvoir corriger une feuille d'exercice, qu'il a donné.
-MIEUX : un enseignant après avoir sélectionner un cours et une activité choisi d'evaluer l'activité (en plus de l'évaluation automatique de pl). Une nouvelle page d'interaction souvre sur le **mode correction** de l'activité. Dans le mode correction l'enseignant peux choisir un élève et voir ces réponses à l'activité. Il peut modifier l'évaluation et ajouter un commentaire sur chaque réponse. Les commentaires et modifications sont pris en compte automatiquement. Le undo est disponible. En fin d'édition l'ensemble des modifications est sauvegardé automatiquement.
+Résumé général : Un enseignant après avoir sélectionner un cours et une activité choisi d'evaluer l'activité (en plus de l'évaluation automatique de pl). Une nouvelle page d'interaction s'ouvre sur le **mode correction** de l'activité. Dans le mode correction l'enseignant peux choisir un élève et voir ces réponses à l'activité. Il peut modifier l'évaluation et ajouter un commentaire sur chaque réponse. Les commentaires et modifications sont pris en compte automatiquement. Le undo est disponible. En fin d'édition l'ensemble des modifications est sauvegardé automatiquement.
 
 FIXME ne doit ont pas voir ce cas du'ilisation comme un accès au mode correction d'une activité (stratégie ?).
 
