@@ -1,11 +1,9 @@
 # Suivre une classe
 
 
-Objectif :  Permet à un enseignant de suivre une classe qui suit son cours.
+Objectif :  Permet à un enseignant de suivre une classe qui suit son cours. 
 
-Résumé général: S'effectue lorsqu'un enseignant veux suivre une classe. FIXME <- c'est pas un résumé 
-
-Résumé : L'enseignant choisi une classe, le tableau de bord de la classe apparait, il peut modifier le tableau de bord, dans les différents indicateurs il peut choisir d'accèder a un élève. une fois qu'il à lu suffisement d'informations il suivi la classe.
+Résumé général: L'enseignant choisi une classe, le tableau de bord de la classe apparait, il peut modifier le tableau de bord, dans les différents indicateurs il peut choisir d'accèder a un élève. une fois qu'il à lu suffisement d'informations il suivi la classe.
 
 
 # Données :
@@ -25,7 +23,9 @@ Déclencheur : Se déclenche lorsqu'un enseignant clique sur "Suivre une classe"
 	Classe
 
 Avoir un compte enseignant dans la base de donnée.
+
 Etre relié à un cours.
+
 Avoir au moins une classe qui suit ce cours.
 
 
@@ -54,7 +54,7 @@ Principe de navigation du scénario principal, organisation de l'IHM.
 
 Dès que l'enseignant clique sur son cours il voit quelles classe le suit.
 
-##Scénarios :
+## Scénarios :
 
 # MAIN SUCCESS SCENARIO
 
@@ -69,6 +69,7 @@ S    L'enseignant voit le descriptif de la classe (L1 français, M1 mathématiqu
 3    L'enseignant peut voir absolument tout ce que l'étudiant à effectué dans les exercices, ce qui lui permet de [suivre l'étudiant](/suivreeleve.md).
 
 4    Ce cas d'utilisation se fini lorsque l'enseignant change de page internet et arrète le suivie.
+
 
 EXTENSION 
 

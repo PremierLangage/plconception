@@ -6,7 +6,7 @@ Résumé général : Un enseignant doit donner des exercices à une ou plusieurs
 
 Un enseignant peut donner une feuilles d'exercice à une classe que si cette classe suit l'un des cours de l'enseignant.
 
-
+général
 # Données
 
 Acteur Principal : Enseignant
