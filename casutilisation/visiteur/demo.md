@@ -37,7 +37,7 @@ En cas d'échec : Si le visiteur quitte la démo on reviens sur la page d'acceui
 Principe de navigation du scénario principal, organisation de l'IHM.
 Le visiteur choisi de faire une demo et se lance dans une feuille d'exercice aléatoire de différente discipline.
 
-##Scénarios :
+## Scénarios :
 
 # MAIN SUCCESS SCENARIO
 
