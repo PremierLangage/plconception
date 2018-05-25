@@ -2,7 +2,7 @@
 
 Objectif :  Permet à un enseignant de suivre un élève de son cours.
 
-Résumé général: L'enseignant choisi un élève, le tableau de bord de l'élève apparait, il peut modifier le tableau de bord, dans les différents indicateurs il peut choisir d'afficher précissément les informations de l'élève. Ce qui lui permet d'avoir des détails sur un élève en particulier.
+Résumé général: L'enseignant choisit un élève, le tableau de bord de l'élève apparait, il peut modifier le tableau de bord, dans les différents indicateurs il peut choisir d'afficher précisément les informations de l'élève. Ce qui lui permet d'avoir des détails sur un élève en particulier.
 
 # Données :
 
@@ -18,11 +18,11 @@ Déclencheur : Se déclenche lorsqu'un enseignant clique sur l'un de ses étudia
 
 ### Données d'entrées :
 
-	activité avant la modification
+	Avoir un compte enseignant dans la base de donnée.
+	
+	Etre relié à un cours.
 
-Avoir un compte enseignant dans la base de donnée.
-Etre relié à un cours.
-Avoir des étudiants qui suivent ce cours.
+	Avoir des étudiants qui suivent ce cours.
 
 
 ## Post Conditions :
@@ -35,7 +35,7 @@ Avoir des étudiants qui suivent ce cours.
 	Cours que suit l'étudiant
 
 
-En cas de succès : L'enseignant vois le [tableau de bord](/tableaudebors.md) de l'élève (les exercices qu'il a effectué, ce qu'il a fait, raté ou commencé), ainsi que son niveau dans les autres cours de manières très générale.
+En cas de succès : L'enseignant voit le [tableau de bord](/tableaudebord.md) de l'élève (les exercices qu'il a effectué, ce qu'il a fait, raté ou commencé), ainsi que son niveau dans les autres cours de manières très générale.
 
 En cas d'échec : L'élève ne suis pas son cours, ou il n'a rien fait, dans ce cas la on signale à l'élève qu'il faut travailler.
 
@@ -43,7 +43,7 @@ En cas d'échec : L'élève ne suis pas son cours, ou il n'a rien fait, dans ce 
 
 Principe de navigation du scénario principal, organisation de l'IHM.
 
-Dès que l'enseignant vois le login ou nom prénom de l'étudiant il peut cliquer dessus et voir tout ce qui concerne l'élève.
+Dès que l'enseignant voit le login ou nom prénom de l'étudiant il peut cliquer dessus et voir tout ce qui concerne l'élève.
 
 ##Scénarios :
 
@@ -51,19 +51,19 @@ Dès que l'enseignant vois le login ou nom prénom de l'étudiant il peut clique
 
 Step    Action
 
-S    L'enseignant voit le nom d'un étudiant et peut le suivre.
+S	L'enseignant voit le nom d'un étudiant et peut le suivre.
 
-1    Ce cas d'utilisation commence quand l'enseignant clique sur le nom de l'étudiant qu'il veut suivre ou quand on entre l'url de suivie de l'élève dans un navigateur.
+1	Ce cas d'utilisation commence quand l'enseignant clique sur le nom de l'étudiant qu'il veut suivre ou quand on entre l'url de suivie de l'élève dans un navigateur.
 
-2    On affiche le tableau de bord de l'étudiant.
+2	On affiche le tableau de bord de l'étudiant.
 
-3    L'enseignant peut voir absolument tout ce que l'étudiant à effectué dans les exercices.
+3	L'enseignant peut voir absolument tout ce que l'étudiant à effectué dans les exercices.
 
-4	 L'enseignant peut voir en detail ce que l'étudiant a fait dans ses feuilles d'exercices.
+4	L'enseignant peut voir en detail ce que l'étudiant a fait dans ses feuilles d'exercices.
 
-4	 Il peut lui [donner des indications](/editeur.md) afin de l'aider a réussir un exercice en particulié.
+5	Il peut lui [donner des indications](/editeur.md) afin de l'aider a réussir un exercice en particulier.
 
-5    Ce cas d'utilisation se fini lorsque l'enseignant change de page internet et arrète le suivie.
+6	Ce cas d'utilisation se finit lorsque l'enseignant change de page internet et arrête le suivie.
 
 EXTENSION 
 
@@ -73,7 +73,7 @@ Step    Branching Condition
 
 na.  Action causing branching:
 
-1 : L'enseignant pourras alors voir son niveau global dans les cours que suit l'étudiant.
+1 : L'enseignant pourra alors voir son niveau global dans les cours que suit l'étudiant.
 
 
 # RELATED INFORMATION
@@ -84,5 +84,5 @@ Include Use Cases    [Editeur](/editeur.md) [Tableau de bord](/tableaudebord.md)
  
 <!---
 Author : Jordan
-Validator : 
+Validator : Raphael
 -->
