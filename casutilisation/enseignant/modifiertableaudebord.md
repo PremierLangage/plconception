@@ -55,6 +55,8 @@ S	[L'enseignant a un choix de trie à sa disposition, ainsi qu'un choix d'indica
 3	[Ensuite l'enseignant peut choisir certain indicateur, qu'il veux placer dans son tableau de bord. Ces choix seront conservé.]
 
 4   Ce cas d'utilisation se fini lorsque l'enseignant change de page internet.
+FIXME il faut indiqué ici qu'il ya des données à sauvegarder quand il quitte la page ...
+FIXME ou son stocké ces donnée ??
 
 
 RELATED INFORMATION
