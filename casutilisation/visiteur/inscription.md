@@ -3,7 +3,7 @@
 
 Objectif :  Permettre l'inscription d'un visiteur.
 
-Résumé général : S'effectue lorsqu'un visiteur clique sur le bouton "S'inscrire", il lui suffit donc d'entrer les informations demandé.
+Résumé général : Lorsqu'un utilisateur veux accéder à l'enssemble de l'application, il dois s'inscrire pour cela il dois rentrer des informations valide que l'on stockeras dans la base de donné comme étant son profil. Il clique sur le bouton "Inscription" et il se voit afficher un formulaire avec les informations demandé par la plate-forme (nom, prenom, mot de passe, mail etc...)
 
 # Données :
 

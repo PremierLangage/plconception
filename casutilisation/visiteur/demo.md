@@ -3,7 +3,7 @@
 
 Objectif :  Permettre à un visiteur de faire un test de l'application.
 
-Résumé général: S'effectue lorsqu'un visiteur veut faire un essaie de l'application.
+Résumé général: Lorsqu'un visiteur est sur l'application on lui propose de faire une petite démonstrations ou il pourras effectuer quelques exercices dans le but de lui montrer les différentes fonctionnalité de l'application et qu'il puisses les tester.
 
 # Données :
 
