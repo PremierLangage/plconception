@@ -2,6 +2,9 @@
 
 TODO ajouter d'autres statistique ? TODO compléter les données et les cas d'utilisation
 
+Besoins:
+Si le didactitien n'arrive pas a fabriquer son indicateur il peut faire un export excel des données.
+
 Acteur secondaire
 
 L'utilisateur didactitien est celui qui à partir des données (moyenne d'un exercice, temps pour le faire ...) trouve les exercices les plus efficaces afin de faire comprendre une notion à un étudiant.
@@ -27,7 +30,9 @@ Statistiques (taux de réussite des exercices, le temps passé pour faire chaque
 =======
 FIXME Peut-on remplacer "trouver les exercices" par "trouver les moyens, par exemple les exercices ou les stratégies," un peu moins réducteur (il peut aussi fabriquer des exercices :-)
 
-TODO de quelles données parle ton ici ???
+FIXME de quelles données parle ton ici ???
+
+Si le didactitien n'arrive pas a fabriquer son indicateur il peut faire un export excel des données.
 
 <!--- Author : Hugo Validator : name -->
 
