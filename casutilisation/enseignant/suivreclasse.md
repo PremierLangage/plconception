@@ -54,7 +54,7 @@ Principe de navigation du scénario principal, organisation de l'IHM.
 
 Dès que l'enseignant clique sur son cours il voit quelles classe le suit.
 
-##Scénarios :
+## Scénarios :
 
 # MAIN SUCCESS SCENARIO
 
