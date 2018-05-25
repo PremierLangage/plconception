@@ -3,7 +3,7 @@
 
 Objectif :  Permet à l'utilisateur de voir sa progression, ses difficultés, ses cours, ses exercices, son classement par rapport à toute sa promotion, il s'agit d'un tableau de suivie.
 
-Résumé général: Lorsque l'utilisateur se connecte il a directement accès à son tableau de bord.
+Résumé général: Lorsque l'utilisateur se connecte il a directement accès à son tableau de bord, dans lequel il voit tous les cours et les notifications auxquels il peux accéder. La tableau de bord est le hub de navigation pour chaque utilisateur.
 
 # Données
 

@@ -3,7 +3,7 @@
 
 Objectif :  L'enseignant se doit de valider les tags, les exercices, et les ressources proposé par les utilisateurs non qualifiés (pas de karma dans la discipline).
 
-Résumé général: S'effectue lorsqu'un enseignant dois valider un tag un exercice ou une ressource.
+Résumé général : L'enseignant est un utilisateur d'autorité dans sa discipline, il se doit de valider des tags, des exercices ou des ressources, pour se faire, dans son tableau de bord il a un bouton "Validation". Lorsqu'il clique dessus il obtient une liste des "activitées" en attente il peut directement les valider ou cliquer dessus pour avoir plus d'informations sur l'activitées. Une fois validé l'activité seras disponible au public. 
 
 # Données :
 

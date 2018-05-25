@@ -3,7 +3,7 @@
 
 Objectif :  Permet à un enseignant de suivre une classe qui suit son cours. 
 
-Résumé général: L'enseignant choisi une classe, le tableau de bord de la classe apparait, il peut modifier le tableau de bord, dans les différents indicateurs il peut choisir d'accèder à un élève. Une fois qu'il à lu suffisement d'informations il suit la classe.
+Résumé général: L'enseignant choisi une classe, le tableau de bord de la classe apparait, il peut modifier le tableau de bord, dans les différents indicateurs il peut choisir d'accèder à un élève. Une fois qu'il a lu suffisement d'informations il suit la classe.
 
 # Données :
 

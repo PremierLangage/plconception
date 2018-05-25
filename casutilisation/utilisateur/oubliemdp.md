@@ -3,7 +3,7 @@
 
 Objectif :  Si un utilisateur perd ses informations de connexion, on donne une solution notamment grace à un mail de reinitialisation de mot de passe, cela permet de réduire le nombre de compte inutilisé et de na pas perdre inutilement des utilisateurs.
 
-Résumé général: S'effectue lorsqu'un utilisateur veut se connecter.
+Résumé général : Lorsqu'un utilisateur oublie son mot de passe mais qu'il dispose de son login et de son adresse mail. Il clique sur le bouton "Oublie de mot de passe", il entre son login et l'adresse mail associé au compte, un mail lui seras envoyé, grâce au quel l'utilisateur peut réinitialiser son mot de passe, il seras alors modifé dans la base de données et l'utilisateur pourras se connecter avec son nouveau mot de passe.
 
 # Données :
 

@@ -1,8 +1,8 @@
 # Modification/ Affichage profil-reglage
 
-Objectif :  Permettre à un utilisateur d'afficher et/ou de modifier les informations le concernant dans la base de données, ou de réglé ses paramètres application (mode daltonien etc.. TODO).
+Objectif :  Permettre à un utilisateur d'afficher et/ou de modifier les informations le concernant dans la base de données, ou de réglé ses paramètres application (mode daltonien, mode nuit etc..).
 
-Résumé général: On affiche son profil et les réglages actuels, et on permet la modification
+Résumé général : Dans l'entête tout les utilisateurs on un bouton "Profil", qui leurs permettent d'afficher et de modifier les informations de leur compte utilisateurs, il y a les réglages application mode nuit mode daltonien etc... c'est modification sont effectif dès que l'utilisateur choisie de les activés. Et pour les informations profils (Nom, Prénom, mail etc...) L'utilisateur dois valider pour que les modifications soient pris en compte et sauvegardé dans la base de données. 
 
 # Données
 
