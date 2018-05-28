@@ -1,4 +1,4 @@
-# Nombre d'essai par exercice
+# Nombre d'essai par exercice de la feuille
 
 Permet au créateur de la feuille de voir le nombre d'essai par exercice de la feuille.
 

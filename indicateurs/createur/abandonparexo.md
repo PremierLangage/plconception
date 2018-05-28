@@ -1,4 +1,4 @@
-# Nombre d'abandon par exercice
+# Nombre d'abandon par exercice de la feuille
 
 Permet au créateur de la feuille de voir le nombre d'abandon par exercice de la feuille.
 

@@ -1,4 +1,4 @@
-# Nombre de reussite par exercice
+# Nombre de reussite par exercice de la feuille
 
 Permet au créateur de la feuille de voir le nombre de réussite par exercice de la feuille.
 

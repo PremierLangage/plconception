@@ -1,4 +1,4 @@
-# Nombre d'echec par exercice
+# Nombre d'echec par exercice de la feuille
 
 Permet au créateur de la feuille de voir le nombre d'echec par exercice de la feuille.
 
