@@ -5,7 +5,7 @@ Permet de voir les exercices les plus long parmis des exercices sélectionner.
 ## Données nécéssaire
 
 Soit :
-* t[i] le temps moyen passer par l'étudiant i sur un exercice
+* t[i] le temps moyen passer par l'étudiant i sur un exercice de la feuille
 * n le nombre d'étudiant
 
 On calcule le temps moyen passer par les étudiants sur un même exercice :
