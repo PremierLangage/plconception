@@ -9,7 +9,7 @@ Permet au créateur de voir le nombre de fois que les étudiants reussisent l'ex
 
 ## Représentation
 
-On représente dans un diagramme circulaire, avec différentes couleurs exemple en vert les étudiants ayant plus de 10 reussite sur l'exercice, en rouge les étudiants moins de  1 ou 0 réussite etc... et le nombre d'étudiants.
+On représente dans un diagramme circulaire, avec différentes couleurs par exemple en vert les étudiants ayant plus de 10 reussite sur l'exercice, en rouge les étudiants moins de  1 ou 0 réussite etc... et le nombre d'étudiants.
 
 <!--- 
 Author : Jordan

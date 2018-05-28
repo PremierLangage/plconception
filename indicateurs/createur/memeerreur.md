@@ -10,7 +10,7 @@ Permet au créateur de voir le nombre d'étudiants ayant fait le même erreur.
 
 ## Représentation
 
-On représente dans un diagramme circulaire, avec différentes couleurs exemple en vert le pourcentage d'étudiant ayant fait l'erreur 1, en bleu le pourcentage d'étudiant ayant fait l'erreur 2 etc...
+On représente dans un diagramme circulaire, avec différentes couleurs par sexemple en vert le pourcentage d'étudiant ayant fait l'erreur 1, en bleu le pourcentage d'étudiant ayant fait l'erreur 2 etc...
 
 <!--- 
 Author : Jordan
