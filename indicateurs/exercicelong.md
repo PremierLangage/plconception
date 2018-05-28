@@ -11,7 +11,7 @@ Soit :
 On calcule le temps moyen passer par les étudiants sur un même exercice :
 * somme(t[0] jusqu'à t[n]) / n
 
-Le calcul est fait pour chaque exercice sélectionner. On obtient ainsi le temps moyen passer par les étudiants sur un ensemble d'exercice sélectionner.
+Le calcul est fait pour chaque exercice sélectionner. On obtient ainsi les temps moyens passer par les étudiants sur un ensemble d'exercice sélectionner.
 
 ## Représentation
 
