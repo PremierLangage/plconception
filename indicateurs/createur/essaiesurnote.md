@@ -9,7 +9,7 @@ Permet au créateur de voir la note en fonction du nombre d'essaie sur l'exercic
 
 ## Représentation
 
-On représente dans un histogramme avec pour absice le nombre d'essai et pour ordonnée la note.
+On représente dans un histogramme avec pour abscisse le nombre d'essai et pour ordonnée la note.
 
 <!--- 
 Author : Jordan
