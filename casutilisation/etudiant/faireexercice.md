@@ -16,7 +16,7 @@ Concurrence : Non
 
 ## Pré-conditions
 
-L'étudiant doit être connecté (login.md), TODO être inscrit à un cours, TODO une feuille doit avoir été ajouté et avoir [accès à une feuille](accesfeuilleexercice.md).
+L'étudiant doit être connecté (login.md), être inscrit à un cours, une feuille doit avoir été ajouté et avoir [accès à une feuille](accesfeuilleexercice.md).
 
 
 ## Post Conditions
@@ -31,7 +31,7 @@ trompé et on passe à l'exercice suivant de la même notion s'il y en a un (on 
 Si l'étudiant quitte la page avant d'avoir validé, son travail est sauvegardé et il le retrouvera lorsqu'il 
 reprendra son exercice. Dans le cas où c'est un exercice à temps limité, si l'étudiant quitte la page, le temps continu quand même de s'écouler.
 
-TODO Une fois l'exercice terminé, l'étudiant peut donner son avis sur l'exercice qu'il vient de faire(de façon 
+Une fois l'exercice terminé, l'étudiant peut donner son avis sur l'exercice qu'il vient de faire(de façon 
 anonyme) ou passer directement à l'exercice suivant.
 
 
