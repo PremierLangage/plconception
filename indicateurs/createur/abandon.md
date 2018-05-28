@@ -9,7 +9,7 @@ Permet au créateur de voir si les étudiants abandonnent souvent son exercice.
 
 ## Représentation
 
-On représente dans un diagramme circulaire, avec différentes couleurs exemple en rouge les étudiants ayant plus de 10 abandons sur l'exercice, en vert les étudiants ayant 0 abandon etc...
+On représente dans un diagramme circulaire, avec différentes couleurs exemple en rouge les étudiants ayant plus de 10 abandons sur l'exercice, en vert les étudiants ayant 0 abandon etc... et le nombre d'étudiants.
 
 <!--- 
 Author : Jordan
