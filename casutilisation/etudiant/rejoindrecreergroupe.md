@@ -3,7 +3,7 @@
 
 Objectif : Permet à un étudiant de créer ou rejoindre un groupe.
 
-Résumé général : S'effectue lorsqu'un étudiant veut creer ou rejoindre un groupe dans le cas où un enseignant demande de constituer des groupes.
+Résumé général : Un étudiant peut créer ou rejoindre un groupe dans le cas où un enseignant demande de créer des groupes dans une matière (pour un projet par exemple). Il peut soit créer un nouveau groupe soit rejoindre un groupe déjà existant en parcourant la liste des groupes existants. TODO Si l'étudiant veut rejoindre un groupe il doit faire une demande que le créateur du groupe peut accepté ou refusé.
 
 
 # Données :
@@ -32,8 +32,6 @@ Déclencheur : Se déclenche lorsqu'un étudiant veut creer ou rejoindre un grou
 ### Données sortie :
 
 	groupe crée ou rejoint
-
-Un étudiant peut créer ou rejoindre un groupe dans le cas où un enseignant demande de créer des groupes dans une matière (pour un projet par exemple). Il peut soit créer un nouveau groupe soit rejoindre un groupe déjà existant en parcourant la liste des groupes existants. TODO Si l'étudiant veut rejoindre un groupe il doit faire une demande que le créateur du groupe peut accepté ou refusé.
 
 En cas de succès : L'étudiant a créer/rejoint un groupe
 

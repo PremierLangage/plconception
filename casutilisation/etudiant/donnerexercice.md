@@ -2,7 +2,7 @@
 # Donner exercice
 Objectif : Permettre à un étudiant de donner un exercice à un autre étudiant
 
-Résumé général : TODO On veut donner la possibilité à des étudiants de se donner un exercice à faire dans le cadre d'un défi entre étudiant par exemple
+Résumé général : TODO On veut donner la possibilité à des étudiants de se donner un exercice à faire dans le cadre d'un défi entre étudiant par exemple. Un étudiant peut donner un exercice à un ou plusieurs étudiant. Le ou les étudiants qui ont reçu l'exercice ne sont pas obligés de le faire.
 
 
 # Données
@@ -19,8 +19,6 @@ L'étudiant doit être connecté(login.md), TODO être inscrit à un cours, TODO
 
 
 ## Post Conditions
-
-TODO Un étudiant peut donner un exercice à un ou plusieurs étudiant. Le ou les étudiants qui ont reçu l'exercice ne sont pas obligés de le faire.
 
 En cas de succès : L'étudiant donne un exercice à faire à l'étudiant qu'il a choisit.
 
