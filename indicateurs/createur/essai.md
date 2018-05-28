@@ -4,7 +4,7 @@ Permet au créateur de voir si les étudiants essayent beaucoup son exercice.
 
 ## Données nécéssaire
 
-* Nombre d'éssais par étudiant.
+* Nombre d'essais par étudiant.
 * Pourcentage en fonction du nombre d'étudiant.
 
 ## Représentation

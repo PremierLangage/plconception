@@ -1,6 +1,6 @@
-# Nombre d'essaie par rapport au nombre d'abandon
+# Nombre d'essai par rapport au nombre d'abandon
 
-Permet au créateur si il y a beaucoup d'essaie avant un abandon.
+Permet au créateur si il y a beaucoup d'essai avant un abandon.
 
 ## Données nécéssaire
 
