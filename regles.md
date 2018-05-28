@@ -14,6 +14,8 @@
 3. les fichiers à la racine concernent le **FQM** et la **Qualité**
 
 
+
+
    ### II. Conventions
 
 1. Je n'utiliserai que des **minuscules pures** pour le nom des fichiers et dossiers, et les nom des fichiers devront suivre
