@@ -9,7 +9,7 @@ Permet au créateur de voir le nombre de réussite en fonction du nombre d'essai
 
 ## Représentation
 
-On représente dans une courbe avec pour absice le nombre de réussite et pour ordonnée le nombre d'essai.
+On représente dans une courbe avec pour abscisse le nombre de réussite et pour ordonnée le nombre d'essai.
 
 <!--- 
 Author : Jordan
