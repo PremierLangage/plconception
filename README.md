@@ -7,6 +7,7 @@ Cette version 2 à pour objectifs:
 
 
  1) fournir une version plus sécurisé avec des tests plus approfondis dans plus de contextes.
+  1)) une vrsion avec un coverage de plus de 80%.
  1) fournir un application django de gestion de classe avec des tableaux de bord pour le professeur
  1) une administration des classes, groupes et utilsateurs plus étandue tout en conservant l'accès LTI
  1) une connection LTI plus étendue avec remonté des notes dans le LMS appellant (en particulier moodle).
