@@ -10,7 +10,7 @@ Permet au créateur de voir le temps passé sur son exercice.
 
 ## Représentation
 
-On représente dans un diagramme circulaire avec différente couleur par exemple en vert le % d'étudiants ayant pris entre 0 min et 5 min pour faire l'exercice, en rouge le % d'étudiants ayant pris plus de 20 min pour faire l'exercice etc...
+On représente dans un diagramme circulaire avec différente couleur par exemple en vert le % d'étudiants ayant pris entre 0 min et 5 min pour réussir l'exercice, en rouge le % d'étudiants ayant pris plus de 20 min pour réussir l'exercice etc...
 
 <!--- 
 Author : Jordan
