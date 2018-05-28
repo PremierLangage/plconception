@@ -1,6 +1,6 @@
-# Nombre de réussite sur le nb d'essaie
+# Nombre de réussite sur le nb d'essai
 
-Permet au créateur de voir le nombre de réussite en fonction du nombre d'essaie pour un exercice.
+Permet au créateur de voir le nombre de réussite en fonction du nombre d'essai pour un exercice.
 
 ## Données nécéssaire
 
@@ -9,7 +9,7 @@ Permet au créateur de voir le nombre de réussite en fonction du nombre d'essai
 
 ## Représentation
 
-On représente dans un histogramme avec pour absice le nombre d'essai et pour ordonnée le nombre de réussite.
+On représente dans une courbe avec pour absice le nombre de réussite et pour ordonnée le nombre d'essai.
 
 <!--- 
 Author : Jordan
