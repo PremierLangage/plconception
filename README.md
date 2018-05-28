@@ -20,7 +20,7 @@ Cette version 2 à pour objectifs:
 ## Pour ceux souhaitans participer à la conception 
 Lire le fichier [regles.md](regles.md) .
 
-## Pour ceux souhitans participer au développement 
+## Pour ceux souhaitans participer au développement 
 Voire le repository git premierlangage.
 
 Bien à vous.
