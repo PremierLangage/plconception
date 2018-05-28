@@ -25,7 +25,7 @@ le nommage utilisé dans les liens dans "Projects/Conception" associé à la tâ
 `[link name](relative_path/file.md)`
 
 
-   ### III. Github
+### III. Github
    
 1. La gestions des tâches sera dans la partie "Projects/Conception"
 
@@ -43,7 +43,7 @@ de Projects/Conception dans la partie "Done"
 `Créer une issue avec un titre qui fait référence à la tâche et dans le corps, mettre un lien vers le fichier en question
 et rajouter dans la tâche l'issue : [Issue numero](#numero)`
 
-   ### IV. Modification des fichiers
+### IV. Modification des fichiers
 
 1. Si éventuellement, vous rencontrez des problèmes de conceptions, veuillez
 l'indiquer en utilisant l'indacteur **FIXME**.
