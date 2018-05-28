@@ -3,7 +3,7 @@
 
 Objectif : Permet à un créateur d'éditer un exercice présent dans une de ses disciplines.
 
-Résumé général : S'effectue lorsqu'un créateur veut modifier un exercice.
+Résumé général : S'effectue lorsqu'un créateur veut modifier un exercice. Editer un exercice donne la possibilité de changer son énoncé, sa réponse, le type d'exercice, le tag, son titre, etc.
 
 
 # Données :
@@ -34,8 +34,6 @@ Déclencheur : Se déclenche lorsqu'un créateur veut modifier un exercice.
 ### Données sortie :
 
 	Exercice modifiée
-
-Editer un exercice donne la possibilité de changer son énoncé, sa réponse, le type d'exercice, le tag, son titre, etc.
 
 En cas de succès : On sauvegarde l'exercice modifiée dans la base de données. Ici un succès est déterminé par l'absence d'erreurs de syntaxe dans l'énoncé de l'exercice.
 

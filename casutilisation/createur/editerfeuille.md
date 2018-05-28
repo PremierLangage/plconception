@@ -3,7 +3,7 @@
 
 Objectif : Permet à un créateur d'éditer une feuille d'exercices présent dans une de ses disciplines.
 
-Résumé général : S'effectue lorsqu'un créateur veut modifier une feuille.
+Résumé général : S'effectue lorsqu'un créateur veut modifier une feuille. Editer une feuille revient à modifier l'ordre des exercices dans une feuille, changer les exercices présent dans la feuille ou supprimer des exercices de la feuille.
 
 
 # Données :
@@ -34,8 +34,6 @@ Déclencheur : Se déclenche lorsqu'un créateur veut modifier une feuille.
 	* feuille modifiée
 	* dernier créateur à avoir édité l'exercice
 	
-
-Editer une feuille revient à modifier l'ordre des exercices dans une feuille, changer les exercices présent dans la feuille ou supprimer des exercices de la feuille.
 
 En cas de succès : On sauvegarde la feuille modifiée dans la base de données.
 
