@@ -4,11 +4,18 @@ Permet de voir les exercices les plus long parmis des exercices sélectionner.
 
 ## Données nécéssaire
 
-* Temps moyen passer par les étudiants sur un ensemble d'exercice.
+Soit :
+* t[i] le temps moyen passer par l'étudiant i sur un exercice
+* n le nombre d'étudiant
+
+On calcule le temps moyen passer par les étudiants sur un même exercice :
+* somme(t[0] jusqu'à t[n]) / n
+
+Le calcul est fait pour chaque exercice sélectionner. On obtient ainsi les temps moyens passer par les étudiants sur un ensemble d'exercice sélectionner.
 
 ## Représentation
 
-On représente dans un histogramme une multitude d'exercice associé au temps moyen passé par les étudiants pour réussir l'exercice.
+On représente dans un histogramme une multitude d'exercice associé au temps moyen passé par les étudiants sur chacun des exercices.
 
 
 
