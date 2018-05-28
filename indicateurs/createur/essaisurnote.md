@@ -1,6 +1,6 @@
-# Notes sur nombre d'essaie
+# Notes sur nombre d'essai
 
-Permet au créateur de voir la note en fonction du nombre d'essaie sur l'exercice.
+Permet au créateur de voir la note en fonction du nombre d'essai sur l'exercice.
 
 ## Données nécéssaire
 
