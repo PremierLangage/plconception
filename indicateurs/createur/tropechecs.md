@@ -6,7 +6,7 @@ Trop d'essais (borne a définir variable en fonction du type d'exercice), trop d
 
 ## Données nécessaires :
 
-* Le nombre moyen d'essai effectuer sur l'exercice pour les élèves du sous groupe (gourpe,classe, cours, formation, tous)
+* Le nombre moyen d'essai effectuer sur l'exercice pour les élèves du sous groupe (groupe,classe, cours, formation, tous)
 * le nombre d'abandon de l'exercice pour les élèves du sous groupe (gourpe,classe, cours, formation, tous)
 
 ## Représentation
