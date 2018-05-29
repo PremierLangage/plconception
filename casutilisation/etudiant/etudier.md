@@ -14,7 +14,7 @@ Acteur Principal : Etudiant
 
 ## Pré-conditions
 
-L'étudiant doit être connecté et avoir accès aux cours et aux exercices qu'il n'a jamais vu ou fait, qu'il 
+L'étudiant doit être connecté ([login.md](../utilisateur/login.md)) et avoir accès aux cours et aux exercices qu'il n'a jamais vu ou fait, qu'il 
 veut étudier.
 
 
@@ -46,6 +46,12 @@ S	[l'étudiant peut accéder aux cours et exercices voulus pour étudier]
 3	[Recherche dans la base de données]
 
 4	[L'étudiant accède aux cours et exercices qu'il veut étudier]
+
+
+
+RELATED INFORMATION
+
+Include Use Cases	[Login](../utilisateur/login.md)
 
 
 

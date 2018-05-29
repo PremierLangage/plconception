@@ -15,7 +15,7 @@ Concurrence : Non
 
 ## Pré-conditions
 
-L'étudiant doit être connecté(login.md), TODO être inscrit à un cours, TODO une feuille doit avoir été ajouter et avoir accès à une feuille (accesfeuilleexercice.md). L'exercice que l'étudiant veut donner doit avoir été créer au préalable.
+L'étudiant doit être connecté([login.md](../utilisateur/login.md)), être inscrit à un cours, une feuille doit avoir été ajouter et avoir [accès à une feuille](./accesfeuilleexercice.md). L'exercice que l'étudiant veut donner doit avoir été [créer](../createur/createexercice.md) au préalable.
 
 
 ## Post Conditions
@@ -58,8 +58,9 @@ EXTENSION SCENARIOS
 
 RELATED INFORMATION
 
-Include Use Cases	[Login](login.md)
-	                [Accès feuille/exercice](accesfeuilleexercice.md)
+Include Use Cases	[Login](../utilisateur/login.md)
+	                [Accès feuille/exercice](./accesfeuilleexercice.md)
+	                [créer exercice](../createur/createexercice.md)
 
 
 
