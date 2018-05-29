@@ -22,13 +22,15 @@ Créer/Modifier un exercice.
 
 ### Données primaires
 
+login, mot de passe, adresse email
 
 ### Données secondaires
 
+Nom, prénom, âge, classe
 
 ### Données générées
 
-Cours, feuille d'examen
+Cours, feuille d'examen, exercice
 
 ## Cas d'utilisation associées
 

@@ -1,4 +1,3 @@
-
 # Responsable de formation 
 
 Il s'interesse au programmes c'est à dire la proporsion de chaque cours et leur contenus.

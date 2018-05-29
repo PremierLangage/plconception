@@ -2,8 +2,6 @@
 
 Acteur primaire
 
-TODO compléter les données
-
 L'étudiant est un utilisateur qui peut suivre un cours (étudier, réviser ...), faire des exercices. Il peut suivre sa progression.
 
 Ils sont dans trois grandes catégories:
