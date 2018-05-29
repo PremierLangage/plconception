@@ -59,7 +59,7 @@ S	[L'enseignant voit la liste des taches qu'il a donné pour son cours.]
 
 5	[Une fois que l'enseignant pense avoir fini la correction, il la valide ce qui [notifiera](~/concept/centredenotification.md) les étudiants.]
 
-6   Ce cas d'utilisation se finit lorsque l'enseignant change de page internet, les corrections déjà effectué sont sauvegardé grâce à la [sauvegarde continu](~/concept/zonetampon.md) ou lorsque l'enseignant valide ou abandonne sa correction.
+6   Ce cas d'utilisation se finit lorsque l'enseignant change de page internet, les corrections déjà effectué sont sauvegardé grâce à la [sauvegarde continu](../../concept/zonetampon.md) ou lorsque l'enseignant valide ou abandonne sa correction.
 
 
 EXTENSION 
@@ -74,7 +74,7 @@ na.  Action causing branching:
 
 RELATED INFORMATION
 
-Include Use Cases	[Centre de notification](~/concept/centredenotification.md) [Editeur](~/concept/editeurdechamps.md) [Sauvegarde continu](~/concept/zonetampon.md) 
+Include Use Cases	[Centre de notification](../../concept/centredenotification.md) [Editeur](../../concept/editeurdechamps.md) [Sauvegarde continu](../../concept/zonetampon.md) 
 
 
 
