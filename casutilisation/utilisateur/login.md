@@ -24,7 +24,7 @@ Déclencheur : se déclenche lors de la connexion de l'utilisateur, ou à la fin
 
 	mot de passe
 
-Avoir un compte dans la base de donnée, pour cela il dois [s'inscrire](/inscription.md).
+Avoir un compte dans la base de donnée, pour cela il dois [s'inscrire](../visiteur/inscription.md).
 L'inscription dois être effectué préalablement.
 
 ## Post Conditions :
@@ -65,16 +65,16 @@ Step    Branching Condition
 
 na.  Action causing branching:
 
-1 : On propose à l'utilisateur d'entrer à nouveau ses informations et on affiche la mention [mot de passe oublié](/oublie.md).
+1 : On propose à l'utilisateur d'entrer à nouveau ses informations et on affiche la mention mot de passe oublié.
 
-2 : On propose au visiteur de [s'inscrire](/inscription.md).
+2 : On propose au visiteur de [s'inscrire](../visiteur/inscription.md).
 
 
 # RELATED INFORMATION
 
 Concurrency    Si un utilisateur tente de se connecter avec une autre instance on ferme la première.
 
-Include Use Cases    [Inscription](/inscription.md)
+Include Use Cases    [Inscription](../visiteur/inscription.md)
 
 
 <!--- 
