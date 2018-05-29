@@ -62,7 +62,7 @@ na.  Action causing branching:
 
 # RELATED INFORMATION
 
-Include Use Cases    [Inscription](./inscription.md) [Excercice](../etudiant/accesfeuilleexercice.md)
+Include Use Cases    [Inscription](./inscription.md) [Exercice](../etudiant/accesfeuilleexercice.md)
 
 ## Qualités de la feuille d'exercice utilisé dans la démo 
 
