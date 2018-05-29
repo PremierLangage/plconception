@@ -1,7 +1,7 @@
 
 # Analyse les traces
 Objectif : Permettre au didactitien de faire des statistiques sur les exercices pour les analyser afin de savoir ceux qui 
-sont les plus efficaces, ceux qu'induisent l'étudiant en erreur etc.
+sont les plus efficaces, ceux qui induisent l'étudiant en erreur etc.
 
 Résumé général : Le didactitien choisit un ensemble de données, soit tous les exercices fait par un élève, une classe, un niveau, un type de cours. Soit toutes les réalisations d'un exercice ou d'un type d'exercice/ensemble d'exercice.
 Ensuite il choisit les paramètres/propriété/valeurs qu'il souhaite voir sur cet ensemble de données.
@@ -22,7 +22,7 @@ Avoir des exercices présents dans la base de données et un certain nombres d'e
 
 Le use case [Login](../utilisateur/login.md)
 Le use case choisir son rôle.
-Les use case permettant la réalisation d'exercices ;)
+Les use case permettant la réalisation d'exercices ([créer exercice](../createur/createexercice.md), [faire exercice](../etudiant/faireexercice.md))
 
 
 ## Post Conditions
