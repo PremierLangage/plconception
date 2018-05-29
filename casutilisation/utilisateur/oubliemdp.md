@@ -24,7 +24,7 @@ Déclencheur : se déclenche lorsque l'utilisateur veux se connecter mais qu'il 
 
 	mail
 
-Avoir un compte dans la base de donnée, pour cela il dois [s'inscrire](/inscription.md).
+Avoir un compte dans la base de donnée, pour cela il dois [s'inscrire](../visiteur/inscription.md).
 L'inscription dois être effectué préalablement.
 Connaitre au minimun son login et l'adresse mail associé.
 
@@ -75,12 +75,12 @@ Step    Branching Condition
 
 na.  Action causing branching:
 
-1 : On propose à l'utilisateur d'entrer à nouveau ses informations, si il continue de se tromper on affiche la mention [inscription](/inscription.md).
+1 : On propose à l'utilisateur d'entrer à nouveau ses informations, si il continue de se tromper on affiche la mention [inscription](../visiteur/inscription.md).
 
 
 # RELATED INFORMATION
 
-Include Use Cases    [Inscription](/inscription.md)
+Include Use Cases    [Inscription](../visiteur/inscription.md)
 
 
 <!--- 
