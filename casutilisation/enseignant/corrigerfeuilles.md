@@ -55,7 +55,7 @@ S	[L'enseignant voit la liste des taches qu'il a donné pour son cours.]
 
 3	[Une fois que l'enseignant a commenté et mis une note à l'exercice 1 de l'étudiant X, on  passe à l'exercice 1 de l'étudiant X+1, l'enseignant choisit par quel exercice il désir commencer la correction, en cliquant sur la liste des exercice disponible sur la gauche de la page.]
 
-4	[Chaque [note et commentaire](../concept/editeurdechamps.md) est sauvegardé, l'enseignant sait qu'il a déjà corriger tel exercice de tel étudiant, il peut modifier la note et le commentaire qu'il a déjà ecrit]
+4	[Chaque [note et commentaire](.../concept/editeurdechamps.md) est sauvegardé, l'enseignant sait qu'il a déjà corriger tel exercice de tel étudiant, il peut modifier la note et le commentaire qu'il a déjà ecrit]
 
 5	[Une fois que l'enseignant pense avoir fini la correction, il la valide ce qui [notifiera](~/concept/centredenotification.md) les étudiants.]
 
