@@ -25,7 +25,7 @@ Déclencheur : se déclenche lorsque l'utilisateur se connecte, quand il clique 
 
 	classe
 
-Avoir un compte dans la base de données, pour cela il doit [s'inscrire](/inscription.md).
+Avoir un compte dans la base de données, pour cela il doit [s'inscrire](../visiteur/inscription.md).
 L'inscription doit être effectué préalablement.
 
 ## Post Conditions
@@ -47,7 +47,7 @@ En cas d'échec: ré-actualiser la page internet.
 
 Principe de navigation du scénario principal, organisation de l'IHM.
 
-Une fois que l'utilisateur s'est connecté, il voit directement son tableau de bord ou il voit son suivi, son classement, ses difficultés dans les matières qu'il est tenu de suivre, il a alors la possibilité de faire de [reviser](/reviser.md), d'[étudier](/etudier.md), en faisant des exercices, en regardant les cours, il aura aussi la possibilité d'effectuer des [exercices](/exercice.md) qui lui sont assigné.
+Une fois que l'utilisateur s'est connecté, il voit directement son tableau de bord ou il voit son suivi, son classement, ses difficultés dans les matières qu'il est tenu de suivre, il a alors la possibilité de faire de [reviser](../etudiant/reviser.md), d'[étudier](../etudiant/etudier.md), en faisant des exercices, en regardant les cours, il aura aussi la possibilité d'effectuer des [exercices](../etudiant/faireexercice.md) qui lui sont assigné.
 
 ## Scénarios
 
@@ -77,7 +77,7 @@ S    [L'utilisateur est sur la page d'acceuil après s'être connecté, il a acc
 
 Concurrency    [Le tableau de bord s'actualise en temps réel.]
 
-Include Use Cases    [Exercice](/exercice.md), [Etudier](/etudier.md),[Reviser](/reviser.md)
+Include Use Cases    [Exercice](../etudiant/faireexercice.md), [Etudier](../etudiant/etudier.md),[Reviser](../etudiant/reviser.md)
 
 
 <!--- 
