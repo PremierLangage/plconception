@@ -64,7 +64,7 @@ S	[L'enseignant choisit le cours qu'il veut, et s'il a les droits il a un bouton
 
 RELATED INFORMATION
 
-Include Use Cases	[Editer grain](../../concept/editergrain.md), [Sauvegarde continu](../../concept/zonetampon.md)
+Include Use Cases	[Editer grain](../createur/editergrain.md), [Sauvegarde continu](../../concept/zonetampon.md)
 
 
  
