@@ -45,7 +45,7 @@ Principe de navigation du scénario principal, organisation de l'IHM.
 
 Dès que l'enseignant clique sur "Validation" dans la page d'acceuil.
 
-##Scénarios :
+## Scénarios :
 
 # MAIN SUCCESS SCENARIO
 
@@ -55,7 +55,7 @@ S    L'enseignant voit tout les tags, exercices, ressources en attente de valida
 
 1    Ce cas d'utilisation commence quand l'enseignant clique sur le bouton "Validation", ou entre directement l'URL de validation dans un navigateur.
 
-2    On affiche alors tout ce que l'enseignant est capable de valider, en fonction de son karma dans les différentes disciplines. Chaque validation en attente est dans le centre de [notification](/notification.md).
+2    On affiche alors tout ce que l'enseignant est capable de valider, en fonction de son karma dans les différentes disciplines. Chaque validation en attente est dans le centre de [notification](../../concept/centredenotification.md).
 
 3    Pour chaque tags, exercices, ressources, l'enseignant peut cliquer dessus afin d'obtenir plus de details (voir l'exercice/la ressource en détail).
 
@@ -78,7 +78,7 @@ na.  Action causing branching:
 
 Concurrency    Plusieurs enseignants peuvent valider en même temps, la liste se met a jour. Deux enseignants ne peuvent pas valider la même chose en même temps, l'un des deux ne pourra le faire.
 
-Include Use Cases    [Notification](/notification.md)
+Include Use Cases    [Notification](../../concept/centredenotification.md)
  
 <!---
 Author : Jordan
