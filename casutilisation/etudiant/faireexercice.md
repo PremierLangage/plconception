@@ -79,7 +79,7 @@ EXTENSION SCENARIOS
 
 RELATED INFORMATION
 
-Include Use Cases	[Login](../utilisateur/login.md)
+Include Use Cases	[Login](../utilisateur/login.md), 
 	                [Accès feuille/exercice](./accesfeuilleexercice.md)
 
 

@@ -58,8 +58,8 @@ EXTENSION SCENARIOS
 
 RELATED INFORMATION
 
-Include Use Cases	[Login](../utilisateur/login.md)
-	                [Accès feuille/exercice](./accesfeuilleexercice.md)
+Include Use Cases	[Login](../utilisateur/login.md), 
+	                [Accès feuille/exercice](./accesfeuilleexercice.md), 
 	                [créer exercice](../createur/createexercice.md)
 
 
