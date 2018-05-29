@@ -1,6 +1,6 @@
 # Créer un atelier
 
-Objectif : Permettre à un enseignant de créer un [atelier](../concept/atelier.md).
+Objectif : Permettre à un enseignant de créer un [atelier](../../concept/atelier.md).
 
 Résumé général : Lorsque l'enseignant est sur son tableau de bord il peut cliquer sur un de ses cours, ce qui lui ouvre une page avec des indications sur le cours ainsi qu'un menu qui possède un bouton "Atelier" qui permet de voir les ateliers deja effectués et d'en créer de nouveau.
 Un atelier est exportable, l'enseignant peut reprendre un atelier qu'il a déjà fait pour en créer un nouveau et modifer les dates, le nombre d'élève à corriger etc...
@@ -45,7 +45,7 @@ En cas d'échec : L'atelier n'est pas créer, personne est notifié.
 
 # Navigation / IHM 
 
-A partir de son [tableau de bord](/tableaudebord.md), l'enseignant clique sur un de ses cours, puis clique sur le bouton "Atelier", il doit ensuite choisir une classe, et créer son atelier.
+A partir de son [tableau de bord](../utilisateur/tableaudebord.md), l'enseignant clique sur un de ses cours, puis clique sur le bouton "Atelier", il doit ensuite choisir une classe, et créer son atelier.
 
 ## Scénarios
 
@@ -74,7 +74,7 @@ na.  Action causing branching:
 
 RELATED INFORMATION
 
-Include Use Cases	[Tableau de bord](/tableaudebord.md), [Centre de notification](/centredenotification.md), [Editeur](/editeur.md), [Atelier](../concept/atelier.md)
+Include Use Cases	[Tableau de bord](../utilisateur/tableaudebord.md), [Centre de notification](../../concept/centredenotification.md), [Editeur](../../concept/editeurdechamps.md), [Atelier](../../concept/atelier.md)
 
 
 
