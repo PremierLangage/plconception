@@ -34,7 +34,7 @@ Avoir au moins une classe qui suit ce cours.
 
 	Tableau de bord pour classe
 
-En cas de succès : L'enseignant voit le [tableau de bord](/tableaudebord.md) d'une classe.
+En cas de succès : L'enseignant voit le [tableau de bord](../utilisateur/tableaudebord.md) d'une classe.
 Pour chaque élève de la classe, l'enseignant voit les exercices que l'élève a effectué, ce qu'il a fait, raté ou commencé, ainsi que son niveau dans les autres cours de manières très générale. Tout ceci au moyen de couleur.
 
 Vert veut dire réussi.
@@ -45,7 +45,7 @@ Rouge veut dire raté.
 
 Blanc veut dire pas encore fait.
 
-En cas d'échec : Si la classe ne suit pas le cours de l'enseignant, dans ce cas l'enseignant voit quand même le [tableau de bord](/tableaudebord.md) de la classe mais de façon non détaillé.
+En cas d'échec : Si la classe ne suit pas le cours de l'enseignant, dans ce cas l'enseignant voit quand même le [tableau de bord](../utilisateur/tableaudebord.md) de la classe mais de façon non détaillé.
 
 # Navigation / IHM  :
 
@@ -63,9 +63,9 @@ S    L'enseignant voit le descriptif de la classe (L1 français, M1 mathématiqu
 
 1    Ce cas d'utilisation commence quand l'enseignant clique sur le descriptif de la classe ou quand on entre l'url de suivie d'une certaine classe dans un navigateur.
 
-2    On affiche le [tableau de bord](/tableaudebord.md) de la classe (pour chaque élève de la classe on voit son "niveau" dans les feuilles d'exercice du cours).
+2    On affiche le [tableau de bord](../utilisateur/tableaudebord.md) de la classe (pour chaque élève de la classe on voit son "niveau" dans les feuilles d'exercice du cours).
 
-3    L'enseignant peut voir absolument tout ce que l'étudiant à effectué dans les exercices, ce qui lui permet de [suivre l'étudiant](/suivreeleve.md).
+3    L'enseignant peut voir absolument tout ce que l'étudiant à effectué dans les exercices, ce qui lui permet de [suivre l'étudiant](./suivreeleve.md).
 
 4    Ce cas d'utilisation se finit lorsque l'enseignant change de page internet et arrête le suivie.
 
@@ -85,7 +85,7 @@ na.  Action causing branching:
 
 Concurrency    Plusieurs enseignants peuvent suivre en même temps une classe.
 
-Include Use Cases    [Suivre l'étudiant](/suivreeleve.md) [Tableau de bord](/tableaudebord.md)
+Include Use Cases    [Suivre l'étudiant](./suivreeleve.md) [Tableau de bord](../utilisateur/tableaudebord.md)
  
 <!---
 Author : Jordan
