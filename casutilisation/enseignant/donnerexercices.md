@@ -51,14 +51,14 @@ S	[L'enseignant donne une feuille d'exercice à un étudiant ou à l'une des cla
 
 3	[L'enseignant choisit la feuille d'exercice qu'il veut donner et valide.]
 
-4	[L'étudiant, la classe ou le groupe vont recevoir la feuille d'exercice dans leur [centre de notification](/centredenotification.md)]
+4	[L'étudiant, la classe ou le groupe vont recevoir la feuille d'exercice dans leur [centre de notification](../../concept/centredenotification.md)]
 
 5    Ce cas d'utilisation se finit lorsque l'enseignant change de page internet.
 
 
 RELATED INFORMATION
 
-Include Use Cases	[Accès feuille/exercice](accesfeuilleexercice.md) [Centre de notification](/centredenotification.md) [Groupe](/groupe.md) [classe](/classe/md).
+Include Use Cases	[Accès feuille/exercice](../etudiant/accesfeuilleexercice.md) [Centre de notification](../../concept/centredenotification.md) [Salon](../../concept/salon.md) [classe](../../concept/classe/md).
 
 
 
