@@ -23,7 +23,7 @@ Au moins une feuille d'exercices disponible.
 
 ## Post Conditions :
 
-En cas de succès : Le visiteur fini la [démonstration](/acessfeuilleexercice.md), on lui propose donc de [s'inscrire](/inscription.md) sur l'application.
+En cas de succès : Le visiteur fini la [démonstration](../etudiant/accesfeuilleexercice.md), on lui propose donc de [s'inscrire](./inscription.md) sur l'application.
 
 
 En cas d'échec : Si le visiteur quitte la démo on reviens sur la page d'acceuil des visteurs.
@@ -62,7 +62,7 @@ na.  Action causing branching:
 
 # RELATED INFORMATION
 
-Include Use Cases    [Inscription](/inscription.md) [Excercice](/acessfeuilleexercice.md)
+Include Use Cases    [Inscription](./inscription.md) [Excercice](../etudiant/accesfeuilleexercice.md)
 
 ## Qualités de la feuille d'exercice utilisé dans la démo 
 
