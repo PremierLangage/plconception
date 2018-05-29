@@ -2,7 +2,7 @@
 
 Objectif : Permettre à un enseignant de notifier aux étudiants qu'ils doivent effectuer des groupes.
 
-Résumé général : Lorsque l'enseignant clique sur son cours, si il y a au moins une classe associé, il a un bouton "Groupe" qui lui permet de notifier à une classe qu'ils doivent se mettre en groupe de X élèves. Pour se faire une page s'ouvre où l'enseignant choisie la classe qu'il veut, l'application affiche les différents nombres d'élèves possible par groupe, l'enseignant choisi, défini une date limite à la constitution des groupes et valide. Les étudiants seront alors [notifiés dans les groupes](/groupes.md).
+Résumé général : Lorsque l'enseignant clique sur son cours, si il y a au moins une classe associé, il a un bouton "Groupe" qui lui permet de notifier à une classe qu'ils doivent se mettre en groupe de X élèves. Pour se faire une page s'ouvre où l'enseignant choisie la classe qu'il veut, l'application affiche les différents nombres d'élèves possible par groupe, l'enseignant choisi, défini une date limite à la constitution des groupes et valide. Les étudiants seront alors [notifiés dans les groupes](../../concept/centredenotification.md).
 
 # Données
 
@@ -62,7 +62,7 @@ S	[L'enseignant choisit la classe, le nombre d'élèves par groupe et la date li
 
 RELATED INFORMATION
 
-Include Use Cases	[Centre de notification](/centredenotification.md)
+Include Use Cases	[Centre de notification](../../concept/centredenotification.md)
 
 
 
