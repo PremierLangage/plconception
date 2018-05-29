@@ -45,7 +45,7 @@ Principe de navigation du scénario principal, organisation de l'IHM.
 
 Dès que l'enseignant voit le login ou nom prénom de l'étudiant il peut cliquer dessus et voir tout ce qui concerne l'élève.
 
-##Scénarios :
+## Scénarios :
 
 # MAIN SUCCESS SCENARIO
 
