@@ -33,13 +33,13 @@ Avoir un compte enseignant dans la base de données.
 
 	Ordre des cours
 
-En cas de succès : Les indicateurs choisis s'affichent directement dans le [tableau de bord](/tableaudebord.md), et l'enseignant voit ses cours dans l'ordre dans lequel il les a demandé.
+En cas de succès : Les indicateurs choisis s'affichent directement dans le [tableau de bord](../utilisateur/tableaudebord.md), et l'enseignant voit ses cours dans l'ordre dans lequel il les a demandé.
 
 En cas d'échec : L'indicateur ne s'affiche pas et les cours sont trier par ordre d'utilisation par defaut.
 
 # Navigation / IHM 
 
-A partir de son [tableau de bord](/tableaudebord.md), l'enseignant peut afficher des indicateurs directement sur son tableau de bord.
+A partir de son [tableau de bord](../utilisateur/tableaudebord.md), l'enseignant peut afficher des indicateurs directement sur son tableau de bord.
 
 ## Scénarios
 
@@ -58,7 +58,7 @@ S	[L'enseignant a un choix de trie à sa disposition, ainsi qu'un choix d'indica
 
 RELATED INFORMATION
 
-Include Use Cases	[Tableau de bord](/tableaudebord.md)
+Include Use Cases	[Tableau de bord](../utilisateur/tableaudebord.md)
 
 
 
