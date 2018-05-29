@@ -54,8 +54,6 @@ L'inscription dois être effectué préalablement et donc avoir rempli les infor
 
 	notification oui/non
 
-	TODO
-
 
 En cas de succès : L'utilisateur a accès à la modification de son profil, il peut donc modifié ou juste voir ses informations et réglé ses paramètres application.
 

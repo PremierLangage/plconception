@@ -23,10 +23,6 @@ Au moins une feuille d'exercices disponible.
 
 ## Post Conditions :
 
-### Données sortie :
-	TODO
-
-
 En cas de succès : Le visiteur fini la [démonstration](/acessfeuilleexercice.md), on lui propose donc de [s'inscrire](/inscription.md) sur l'application.
 
 

@@ -37,7 +37,7 @@ L'inscription doit être effectué préalablement.
 
 	classement étudiant
 
-	validation de tag pour les profs avec un bon karma dans la discipline TODO
+	validation de tag et d'exercice pour les profs avec un bon karma dans la discipline
 
 En cas de succès : L'utilisateur voit tous son suivie, les exercices qu'il a réussi, qu'il a raté, qu'il n'a pas fait, il voit son "classement" dans la classe et les cours.
 
