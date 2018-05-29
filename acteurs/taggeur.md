@@ -8,12 +8,6 @@ le rôle tagger donne aussi accès à la construction du graphe savant des grain
 Pour le système avoir un karma >3 ou avoir le rôle tagger permet de modifier les tags d'un exercice dont on est pas propriétaire. 
 Le taggeur a aussi le droit de modifier un grain (identifiant, nom, description) et de modifier le "graphe savant" de la discipline.
 
-TODO Compléter les données et les cas d'utilisation
-
-
-
-
-
 ## Fonctionnalités demandées.
 
 Un taggeur est chargé de tagger un exercice et/ou un cours.
@@ -38,6 +32,8 @@ liste des tags == noms des grains
 ### Données secondaires
 
 ### Données générées
+
+tag, notification
 
 ## Cas d'utilisation associées
 
