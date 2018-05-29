@@ -39,7 +39,7 @@ Principe de navigation du scénario principal, organisation de l'IHM.
 
 L'utilisateur ou le visiteur est sur la page de connexion sois en cliquant sur "Se connecter" dans la page d'acceuil sois en entrant directement l'URL, il entre ses informations et tente de se connecter, si ses informations sont valides il aura alors accès à son compte, dans le cas contraire un message d'erreur apparait.
 
-##Scénarios :
+## Scénarios :
 
 # MAIN SUCCESS SCENARIO
 
@@ -65,7 +65,7 @@ Step    Branching Condition
 
 na.  Action causing branching:
 
-1 : On propose à l'utilisateur d'entrer à nouveau ses informations et on affiche la mention [mot de passe oublié](/oubliemdp.md).
+1 : On propose à l'utilisateur d'entrer à nouveau ses informations et on affiche la mention [mot de passe oublié](./oubliemdp.md).
 
 2 : On propose au visiteur de [s'inscrire](../visiteur/inscription.md).
 
