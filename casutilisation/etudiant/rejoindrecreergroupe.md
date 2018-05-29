@@ -22,16 +22,16 @@ Déclencheur : Se déclenche lorsqu'un étudiant veut creer ou rejoindre un grou
 
 ### Données d'entrées :
 
-	Avoir un compte étudiant dans la base de données
+   Avoir un compte étudiant dans la base de données
 
-	L'étudiant doit avoir au moins une matière où un enseignant leurs demande de [faire un groupe](../enseignant/ouverturegroupe.md)
+   L'étudiant doit avoir au moins une matière où un enseignant leurs demande de [faire un groupe](../enseignant/ouverturegroupe.md)
 
 
 ## Post Conditions :
 
 ### Données sortie :
 
-	groupe crée ou rejoint
+   groupe crée ou rejoint
 
 En cas de succès : L'étudiant a créer/rejoint un groupe
 
