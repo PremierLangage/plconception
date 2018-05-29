@@ -24,7 +24,7 @@ Déclencheur : se déclenche lors d'un clique bouton sur "profil" ou de l'entré
 
     compte utilisateur (login)
 
-Avoir un compte dans la base de donnée, pour cela il dois [s'inscrire](/inscription.md).
+Avoir un compte dans la base de donnée, pour cela il dois [s'inscrire](../visiteur/inscription.md).
 L'inscription dois être effectué préalablement et donc avoir rempli les informations d'inscription.
 
 
@@ -95,13 +95,13 @@ Step	Branching Action
 
 1 : L'utilisateur doit juste cocher les cases qu'il veut et ses paramètres seront instantanément pris en compte.
 
-2 : Si il n'est pas connecté on le redirige vers une page de connexion ou vers une page visiteur, ou il pourra [s'inscrire](/inscription.md).
+2 : Si il n'est pas connecté on le redirige vers une page de connexion ou vers une page visiteur, ou il pourra [s'inscrire](../visiteur/inscription.md).
 	
 
 
 RELATED INFORMATION
 
-Include Use Cases	[Inscription](/inscription.md)
+Include Use Cases	[Inscription](../visiteur/inscription.md)
 
 
 <!--- 
