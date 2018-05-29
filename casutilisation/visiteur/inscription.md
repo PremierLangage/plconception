@@ -74,7 +74,7 @@ S    Le visiteur est sur la page d'inscription, il entre ses données et clique 
 
 5	 Il doit valider son adresse mail. (ajout des données dans la base de donnée)
 
-6	 Il se retrouve sur l'application en tant qu' [utilisateur](/tableaudebord.md). 
+6	 Il se retrouve sur l'application en tant qu' [utilisateur](../utilisateur/tableaudebord.md). 
 
 7	 Désormais il pourra se connecter avec son login ou son adresse mail et son mot de passe.
 
@@ -98,7 +98,7 @@ na.  Action causing branching:
 
 # RELATED INFORMATION
 
-Include Use Cases    [Tableau de bord](/tableaudebord.md) [Login](/login.md) 
+Include Use Cases    [Tableau de bord](../utilisateur/tableaudebord.md) [Login](../utilisateur/login.md) 
 
 
 <!--- 
