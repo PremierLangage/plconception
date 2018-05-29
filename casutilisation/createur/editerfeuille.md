@@ -46,7 +46,7 @@ Principe de navigation du scénario principal, organisation de l'IHM.
 
 Le créateur a choisi d'éditer une feuille d'exercice, il recherche la feuille qu'il veut éditer, une fois trouver il arrive sur une page ou il voit la feuille d'exercice dans son état actuel (les exercices, l'ordre des exercices, etc..), il peut la modifier en changeant l'ordre des exercices, en supprimant un exercice, ou encore en ajoutant un exercice.
 
-Le créateur peut aussi [modifer un exercice](/editerexercice.md).
+Le créateur peut aussi [modifer un exercice](./editerexercice.md).
 
 
 ##Scénarios :
@@ -83,8 +83,8 @@ na.  Action causing branching:
 
 Concurrency    Quand un créateur modifie une feuille, les autres créateurs ne peuvent pas modifier la même feuille.
 
-Include Use Cases    [Editeur](/editeur.md)
-		     [modifer un exercice](/editerexercice.md)
+Include Use Cases    [Editeur](/editeur.md), 
+		     [modifer un exercice](./editerexercice.md)
  
 
 <!--- 
