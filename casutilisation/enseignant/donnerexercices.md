@@ -58,7 +58,7 @@ S	[L'enseignant donne une feuille d'exercice à un étudiant ou à l'une des cla
 
 RELATED INFORMATION
 
-Include Use Cases	[Accès feuille/exercice](../etudiant/accesfeuilleexercice.md) [Centre de notification](../../concept/centredenotification.md) [Salon](../../concept/salon.md) [classe](../../concept/classe/md).
+Include Use Cases	[Accès feuille/exercice](../etudiant/accesfeuilleexercice.md) [Centre de notification](../../concept/centredenotification.md) [Salon](../../concept/salon.md)  [Classe](../../concept/classe.md).
 
 
 
