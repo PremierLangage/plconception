@@ -35,7 +35,7 @@ Déclencheur : Se déclenche lorsqu'un enseignant clique sur l'un de ses étudia
 	Cours que suit l'étudiant
 
 
-En cas de succès : L'enseignant voit le [tableau de bord](/tableaudebord.md) de l'élève (les exercices qu'il a effectué, ce qu'il a fait, raté ou commencé), ainsi que son niveau dans les autres cours de manières très générale.
+En cas de succès : L'enseignant voit le [tableau de bord](../utilisateur/tableaudebord.md) de l'élève (les exercices qu'il a effectué, ce qu'il a fait, raté ou commencé), ainsi que son niveau dans les autres cours de manières très générale.
 
 En cas d'échec : L'élève ne suis pas son cours, ou il n'a rien fait, dans ce cas la on signale à l'élève qu'il faut travailler.
 
@@ -61,7 +61,7 @@ S	L'enseignant voit le nom d'un étudiant et peut le suivre.
 
 4	L'enseignant peut voir en detail ce que l'étudiant a fait dans ses feuilles d'exercices.
 
-5	Il peut lui [donner des indications](/editeur.md) afin de l'aider a réussir un exercice en particulier.
+5	Il peut lui [donner des indications](../../concept/editeurdechamps.md) afin de l'aider a réussir un exercice en particulier.
 
 6	Ce cas d'utilisation se finit lorsque l'enseignant change de page internet et arrête le suivie.
 
@@ -80,7 +80,7 @@ na.  Action causing branching:
 
 Concurrency    Quand plusieurs enseignants suivent en même temps un même étudiant, un seul enseignant à la fois peut donner des indications sur un même exercice.
 
-Include Use Cases    [Editeur](/editeur.md) [Tableau de bord](/tableaudebord.md)
+Include Use Cases    [Editeur](../../concept/editeurdechamps.md) [Tableau de bord](../utilisateur/tableaudebord.md)
  
 <!---
 Author : Jordan
