@@ -29,7 +29,7 @@ Il gagne :
 * x points pour la création d'un grain.
 * x points pour la création d'une ressource.
 
-Il a besoin de validation, de tests, de framework de tests. Il veux des retours sur ses exercices (combien de ses exercices sont utilisés et lesquels).
+Il a besoin de validation, de tests, de framework de tests. Il veut des retours sur ses exercices (combien de ses exercices sont utilisés et lesquels).
 
 Il faut un mécanisme (organisation) pour faire passer du code de l'exercice vers le template et du template vers la librairie promotion.
 
@@ -40,7 +40,7 @@ Acteur secondaire
 
 Les cercles sont des **communautés** de créateurs et d'utilisateurs où l'on est accepté comme membre par les administrateurs et propriétaires du cercle.
 Les critères du cercle variant d'un cercle à l'autre.
-Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est a ce jour le cercle mythique piloté par DR.
+Le cercle le plus grand est le cercle créateur piloté par DR. Le cercle le plus exigeant est à ce jour le cercle mythique piloté par DR.
 
 ### Données primaires
 
@@ -67,5 +67,9 @@ Organisation (UPEM, UPMC ...)
 
 [éditer un grain](../casutilisation/createur/editergrain.md)
 
-<!--- Author : Hugo Validator : name -->
+
+<!--- 
+Author : Hugo 
+Validator : Raphael 
+-->
 
