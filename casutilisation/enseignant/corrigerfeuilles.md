@@ -55,11 +55,11 @@ S	[L'enseignant voit la liste des taches qu'il a donné pour son cours.]
 
 3	[Une fois que l'enseignant a commenté et mis une note à l'exercice 1 de l'étudiant X, on  passe à l'exercice 1 de l'étudiant X+1, l'enseignant choisit par quel exercice il désir commencer la correction, en cliquant sur la liste des exercice disponible sur la gauche de la page.]
 
-4	[Chaque [note et commentaire](/editeur.md) est sauvegardé, l'enseignant sait qu'il a déjà corriger tel exercice de tel étudiant, il peut modifier la note et le commentaire qu'il a déjà ecrit]
+4	[Chaque [note et commentaire](~/concept/editeurdechamps.md) est sauvegardé, l'enseignant sait qu'il a déjà corriger tel exercice de tel étudiant, il peut modifier la note et le commentaire qu'il a déjà ecrit]
 
-5	[Une fois que l'enseignant pense avoir fini la correction, il la valide ce qui [notifiera](/centredenotification.md) les étudiants.]
+5	[Une fois que l'enseignant pense avoir fini la correction, il la valide ce qui [notifiera](~/concept/centredenotification.md) les étudiants.]
 
-6   Ce cas d'utilisation se finit lorsque l'enseignant change de page internet, les corrections déjà effectué sont sauvegardé grâce à la [sauvegarde continu](sauvegardecontinu.md) ou lorsque l'enseignant valide ou abandonne sa correction.
+6   Ce cas d'utilisation se finit lorsque l'enseignant change de page internet, les corrections déjà effectué sont sauvegardé grâce à la [sauvegarde continu](~/concept/zonetampon.md) ou lorsque l'enseignant valide ou abandonne sa correction.
 
 
 EXTENSION 
@@ -74,7 +74,7 @@ na.  Action causing branching:
 
 RELATED INFORMATION
 
-Include Use Cases	[Centre de notification](/centredenotification.md) [Editeur](/editeur.md) [Sauvegarde continu](sauvegardecontinu.md) 
+Include Use Cases	[Centre de notification](~/concept/centredenotification.md) [Editeur](~/concept/editeurdechamps.md) [Sauvegarde continu](~/concept/zonetampon.md) 
 
 
 
