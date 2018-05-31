@@ -5,6 +5,7 @@ Objectif : Permet à un créateur de créer un exercice.
 
 Résumé général : La création d'exercice a deux phases:
 - chercher un exercice qui réponde au besoin du cours : enseignant 
+- demander la création d'un exercice avec tout les bon TAGS
 - phase de conception et d'édition du source de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.
 - phase de validation qui consiste à proposer l'exercice pour qu'il soit public.
 FIXME Lorsque le créateur sauvegarde un exercice, si son karma est suffisant l'exercice est directement validé. Sinon un enseignant avec un karma suffisant devra valider l'exercice.
