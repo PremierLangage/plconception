@@ -1,5 +1,5 @@
 
-# Activité
+# Activité FIXME a changer en Module 
 
 L'activité est l'unité de partage entre les LMS (moodle and co) et PL.
 
