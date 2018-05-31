@@ -14,8 +14,8 @@ Les enseignants utilisent la plateforme pour faire leurs enseignements, ils ont 
 * Créer un cours.
 * Inscrire des élèves(Etudiant) . (Possibilité de connecter des élèves par LTI a partir d'un LMS).
 * Ajouter une feuille d'exercices (pltp) à un cours.
-* Ajouter un exercice à une feuille d'exercice.
-FIXME DR * Créer/Modifier une feuille d'exercice.
+* Ajouter un exercice à une feuille d'exercice.  
+FIXME DR * Créer/Modifier une feuille d'exercice.  
 FIXME DR * Créer/Modifier un exercice.
 
 ### Données primaires
