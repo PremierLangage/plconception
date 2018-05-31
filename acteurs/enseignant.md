@@ -11,7 +11,7 @@ Utilisateur primaire
 Les enseignants utilisent la plateforme pour faire leurs enseignements, ils ont besoin de :
 
 * suivre un groupe d'élèves.
-* Créer un cours.
+* Créer un Classe.
 * Inscrire des élèves(Etudiant) . (Possibilité de connecter des élèves par LTI a partir d'un LMS).
 * Ajouter une feuille d'exercices (pltp) à un cours.
 * Ajouter un exercice à une feuille d'exercice.  
