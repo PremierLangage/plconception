@@ -4,6 +4,7 @@
 Objectif : Permet à un créateur de créer un exercice.
 
 Résumé général : La création d'exercice a deux phases:
+- chercher un exercice qui réponde au besoin du cours:enseignant 
 - phase de conception et d'édition du source de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.
 - phase de validation qui consiste à proposer l'exercice pour qu'il soit public.
 Dans la page d'edition on trouve en plus de l'éditeur et de la prévisualisation, deux boutons, preview qui permet de tester l'exercice et sauvegarde qui permet de sauvegarder le fichier. La preview permet de vérifier le bon fonctionnement de l'exercice. 
