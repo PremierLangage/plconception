@@ -28,6 +28,9 @@ Tous les utilisateurs peuvent également réorgansier leur dashboard (épingler 
 
 [tableau de bord de l'utilisateur](../casutilisation/utilisateur/tableaudebord.md)
 
+
+https://elearningindustry.com/learner-dashboards-how-effectively-can-it-increase-lms-utility
+
 <!--- 
 Author : Hugo 
 Validator : Raphael 

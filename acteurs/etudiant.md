@@ -8,7 +8,7 @@ Ils sont dans trois grandes catégories:
 
 * les passionnés qui veulent être excellents dans la matière : plus, plus vite, plus loin, des exercices: exitants, difficiles, originaux
       
-* les diplomeux : objectif le diplome avec apriori l'investissement minimal dans la matière, ce qui suffit, cherche à sécuriser le fait qu'ils obtiennent le diplome, on besoin d'un indicateur de performance et de niveau.
+* les diplomeux : objectif le diplôme avec a priori l'investissement minimal dans la matière, ce qui suffit, cherche à sécuriser le fait qu'ils obtiennent le diplôme, on besoin d'un indicateur de performance et de niveau.
 
 * les autres : que dire des autres ?? pourquoi sont ils la ???
 
@@ -16,15 +16,15 @@ Ils sont dans trois grandes catégories:
 
 Accessibilité 24/7 + mobiles
 
-Accès après les examens : if faut après l'examen que les exercices de la plateforme soient toujours accessible, pas une fermeture brutale le jour de l'examen ( de préférence très longtemps).
+Accès après les examens : il faut après l'examen que les exercices de la plateforme soient toujours accessible, pas une fermeture brutale le jour de l'examen (de préférence très longtemps).
 Nombre d'essais important. C'est facile avec pl.
-Feedbacks immédiats (résultat de ses exercices, ce qu'il a pensé d'un exercice, ce qu'il a pensé d'un cours). IL faudrais que la fin d'un exercice soit toujours une évaluation de l'exercice (choix parmis une liste + possibilité de texte libre), par default sur <entree> un message genre no-comments.
+Feedbacks immédiats (résultat de ses exercices, ce qu'il a pensé d'un exercice, ce qu'il a pensé d'un cours). Il faudrait que la fin d'un exercice soit toujours une évaluation de l'exercice (choix parmi une liste + possibilité de texte libre), par defaut sur <entree> un message genre no-comments.
   
-Variété des exercices.(Eviter de répété le même "type" d'exercice)
+Variété des exercices. (Eviter de répéter le même "type" d'exercice)
 
 Badges (preuves d'avancement et de travail).
 
-Positionnement (ou j'en suis dans la classe le groupe).
+Positionnement (ou j'en suis dans la classe, le groupe).
 
 Temps (combien de temps j'ai passé sur la plateforme).
 
@@ -54,6 +54,10 @@ Feedback (pour les exercices, les cours), note, badge, temps passé à faire un 
 
 [Rejoindre un groupe créer](../casutilisation/etudiant/rejoindrecreergroupe.md)
 
-<!--- Author : Hugo Validator : name -->
+
+<!--- 
+Author : Hugo 
+Validator : Raphael 
+-->
 
 

@@ -14,10 +14,13 @@ Une activité exporte des tableaux de bord : studentactivitydashboard, teacherac
 
 une activité à une navigation 
 
-Activité= S+ F+ sd* td* I N
-i=introduction
-S= Strategie 
-F= pltp
-sd=studentdashabord
-td=teacher dashboard
-N=navigation
+Activité= S+ F+ sd* td* I N  
+i=introduction  
+S= Strategie   
+F= pltp  
+sd=studentdashabord  
+td=teacher dashboard  
+N=navigation  
+
+
+Références : modules WIMS

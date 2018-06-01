@@ -2,16 +2,16 @@
 
 Acteur secondaire
 
-le visiteur est un acteur du projet qui accède à une instance mais pour laquelle il n'a pas d'identifiants.
+le visiteur est un acteur du projet qui accède à une instance mais pour laquelle il n'a pas d'identifiant.
 
 Le visiteur n'a aucune compétence en informatique (c'est juste un surfeur).
 
-le besoin du visiteur est de comprendre l'intéret de la plateforme,
-il faut donc qu'il puisse accèder a un exemple de cours/feuille/exos.
+Le besoin du visiteur est de comprendre l'intérêt de la plateforme,
+il faut donc qu'il puisse accéder à un exemple de cours/feuilles/exos.
 
-L'idéal est un cours qui est un tutoriel de l'écriture d'exercices pl.
+L'idéal est un tutoriel pour apprendre à écrire un exercice pl.
 
-Comme cela toutes les notions peuvent être appliqués et essayées.
+Comme cela toutes les notions peuvent être appliquées et essayées.
 
 ### Données primaires
 
@@ -25,3 +25,8 @@ Comme cela toutes les notions peuvent être appliqués et essayées.
 
 [S'inscrire au site](../casutilisation/visiteur/inscription.md)
 
+
+<!--- 
+Author : Hugo 
+Validator : Raphael 
+-->

@@ -5,7 +5,7 @@ Permet au créateur du cours de voir si il est efficace pour la réussites des e
 ## Données nécéssaire
 
 * Temps sur le cours
-* Taux de reussite des exerciecs du cours
+* Taux de reussite des exercices du cours
 
 ## Représentation
 

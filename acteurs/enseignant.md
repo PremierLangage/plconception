@@ -8,17 +8,15 @@ Utilisateur primaire
 
 ## Fonctionnalités demandées.
 
-Les enseignants utilisent la plateforme pour faire leurs enseignements, ils ont besoin de suivre un groupe d'élève.
+Les enseignants utilisent la plateforme pour faire leurs enseignements, ils ont besoin de :
 
-Modifier cette section
-Fonctionnalités demandées
-Créer un cours.
-Inscrire des élèves(Etudiant) . (Possibilité de connecter des élèves par LTI a partir d'un LMS).
-
-Ajouter une feuille d'exercices (pltp) à un cours.
-Ajouter un exercice à une feuille d'exercice.
-Créer/Modifier une feuille d'exercice.
-Créer/Modifier un exercice.
+* suivre un groupe d'élèves.
+* Créer un Classe.
+* Inscrire des élèves(Etudiant) . (Possibilité de connecter des élèves par LTI a partir d'un LMS).
+* Ajouter une feuille d'exercices (pltp) à un cours.
+* Ajouter un exercice à une feuille d'exercice.  
+FIXME DR * Créer/Modifier une feuille d'exercice.  
+FIXME DR * Créer/Modifier un exercice.
 
 ### Données primaires
 
@@ -30,7 +28,7 @@ Nom, prénom, âge, classe
 
 ### Données générées
 
-Cours, feuille d'examen, exercice
+Cours, feuille d'exercice, exercice
 
 ## Cas d'utilisation associées
 
@@ -50,5 +48,9 @@ Cours, feuille d'examen, exercice
 
 [Valider un tag, un exercice ou une ressource](../casutilisation/enseignant/validation.md)
 
-<!--- Author : Hugo Validator : name -->
+
+<!--- 
+Author : Hugo 
+Validator : Raphael
+-->
 

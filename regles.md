@@ -8,6 +8,7 @@
              - casutilisation : liste des cas d'utilisation
              - concept : liste des concepts du logiciel (glossaire)
              - patron : liste des templates disponible (pour écrire l'analyse du besoin)
+             - indicateur & droits : concepts très particuliers nécessitant un répertoire spécifique 
              
 2. les noms de fichiers devront être **explicite** par exemple visiteur.md
 
@@ -19,7 +20,7 @@
 1. Je n'utiliserai que des **minuscules pures** pour le nom des fichiers et dossiers, et les nom des fichiers devront suivre
 le nommage utilisé dans les liens dans "Projects/Conception" associé à la tâche.
 
-3. Les fichiers concernant la conception, doivent être écrit en **markdown**
+3. Les fichiers concernant la conception, doivent être écrit en **markdown**, remarque pour passer à la ligne deux espaces en fin de lignes permettent de passer à la ligne.
 
 4. les **liens** devront utiliser le format  : 
 `[link name](relative_path/file.md)`

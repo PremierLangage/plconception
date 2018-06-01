@@ -4,8 +4,6 @@ Objectif : Permettre à un enseignant de corriger toutes les feuilles d'exercice
 
 Résumé général : Un enseignant après avoir sélectionner un cours et une activité qu'il a choisit d'evaluer (en plus de l'évaluation automatique de pl). Une nouvelle page d'interaction s'ouvre sur le **mode correction** de l'activité. Dans le mode correction l'enseignant peux choisir un élève et voir ses réponses à l'activité. Il peut modifier l'évaluation et ajouter un commentaire sur chaque réponse. Les commentaires et modifications sont pris en compte automatiquement. Le undo est disponible. En fin d'édition l'ensemble des modifications est sauvegardé automatiquement.
 
-FIXME ne doit on pas voir ce cas d'utilisation comme un accès au mode correction d'une activité (stratégie ?).
-
 # Données
 
 Acteur Principal : Enseignant
