@@ -1,12 +1,15 @@
 # Création d'un exercice
 
 
-Objectif : Permet à un créateur de créer un exercice.
+Objectif : Permet à un créateur trouver (ou créer) l'exercice dont il a besoin.
 
-Résumé général : La création d'exercice a deux phases:
-- chercher un exercice qui réponde au besoin du cours : enseignant 
-- demander la création d'un exercice avec tout les bon TAGS
-- phase de conception et d'édition du source de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.
+Résumé général : 
+- chercher un exercice qui réponde au besoin de l'acteur  
+	cette recherche est multicritère niveaux, discipline, grains, thématique, difficulté et plain text
+	Si l'exercice est trouvé fin du cas d'utilisation
+Sinon 
+Soit on fait une demande la création d'un exercice avec tout les bon TAGS, si la demande existe déjà elle gagne un point de priorité (likée) (on sera prévenu quand un exercice de la catégorie sera crée). 
+Soit on essaye d'écrire l'exercice  phase de conception et d'édition du source de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.
 - phase de validation qui consiste à proposer l'exercice pour qu'il soit public.
 FIXME Lorsque le créateur sauvegarde un exercice, si son karma est suffisant l'exercice est directement validé. Sinon un enseignant avec un karma suffisant devra valider l'exercice.
 Dans la page d'edition on trouve en plus de l'éditeur et de la prévisualisation, deux boutons, preview qui permet de tester l'exercice et sauvegarde qui permet de sauvegarder le fichier. La preview permet de vérifier le bon fonctionnement de l'exercice. 
