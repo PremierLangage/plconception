@@ -27,11 +27,10 @@ Les use case permettant la réalisation d'exercices ([créer exercice](../create
 
 ## Post Conditions
 
-TODO Cherche à trouver des informations intéressantes à propos des exercices dans la base de données : le taux 
-de réussite des exercices, le temps passé dessus, le nombre d'essais avant la réussite de l'exercice.
+Cherche à trouver des informations intéressantes à propos des exercices dans la base de données : le taux 
+de réussite des exercices, le temps passé dessus, le nombre d'essais avant la réussite de l'exercice,etc...
 
-En cas de succès : TODO Donne des statistiques utiles au didactitien par rapport à l'analyse des données sur les 
-exercices
+En cas de succès : Il peut faire l'analyse des données obtenues à partir des exercices.
 
 En cas d'échec : Affiche une erreur lors de l'analyse des traces
 
@@ -44,13 +43,11 @@ Accès à la base de données, recherche des informations en lien avec ce que le
 
 ## Scénarios
 
-<PRE> FIXME
 MAIN SUCCESS SCENARIO
 S	[Analyse des informations demandées par le didactiten, affichage des données trouvées]
 1	[Commence lorsque le didactitien souhaite accéder à ses statistiques]
 2	[Accès à la base de données, analyse les données demandé par le didactitien suivant les paramètres qu'il a choisit]
 3	[Plusieurs statistiques disponibles issus de l'analyse de ces données]
-</PRE>
 
 
 # RELATED INFORMATION
