@@ -1,7 +1,5 @@
 # Grain
 
-TODO être plus précis
-
 Un grain est une notion ou un objectif pédagogique.
 
 Une autre approche des grains est celle utilisée dans les cours : https://docs.moodle.org/3x/fr/Objectifs les objectifs pédagogiques.
