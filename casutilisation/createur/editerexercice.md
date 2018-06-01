@@ -24,7 +24,7 @@ Déclencheur : Se déclenche lorsqu'un créateur veut modifier un exercice.
 
 	Avoir le rôle de créateur dans la base de données.
 
-	TODO Pouvoir faire une recherche de tous les exercices existants dans une de ses disciplines.
+	Liste de tout les exercices existants dans une de ses disciplines.
 
 	Exercice avant la modification
 
