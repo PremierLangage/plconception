@@ -1,4 +1,4 @@
-# Création d'un exercice
+# Recherche et Création d'un exercice
 
 
 Objectif : Permet à un créateur trouver (ou créer) l'exercice dont il a besoin.
