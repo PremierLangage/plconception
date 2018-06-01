@@ -1,11 +1,7 @@
 #  Atelier
 
-TODO faciliter la compréhension de l'atelier.
-
-FIXME problème pour la note du correcteur parce qu'il peut pas avoir exactement la même note que l'application, à approfondir
-
 Un atelier permet aux étudiants de se corriger entre eux. (Grâce à une grille d'évaluation)
-C'est à dire que chaque étudiant doit corriger les exercices plusieurs étudiants (choisis aléatoirement). La correction se fait de manière anonyme.
+C'est à dire que chaque étudiant doit corriger les exercices de plusieurs étudiants (choisis aléatoirement). La correction se fait de manière anonyme.
 
 L'enseignant peut choisir si l'atelier se fait en groupe ou non. Si l'atelier se fait en groupe, chaque groupe corrige donc d'autres groupes (aléatoire aussi).
 
@@ -13,7 +9,7 @@ Un utilisateur ou un groupe doit être corriger par plusieurs utilisateurs/group
 La note finale de l'utilisateur/groupe sera la moyenne des notes données par les différents utilisateurs/groupes.
 La moyenne permet d'avoir une note "cohérente" (pas basé sur une seule correction).
 
-Pour éviter que les utilisateurs/groupes donnent des notes aléatoires, il faut que la note que donne chaque élève soit comparé à la note donner par l'application (pl). Ce qui génèrera une note pour l'étudiants/groupes qui a corrigé.
+Pour éviter que les utilisateurs/groupes donnent des notes aléatoires, il faut que la note que donne chaque élève soit comparé à la note donner par l'application (pl). Ce qui génèrera une note pour la qualité de la correction des étudiants/groupes.
 
 
 La note maximale du correcteur est la note maximale qu'il peut donner en corrigeant.
