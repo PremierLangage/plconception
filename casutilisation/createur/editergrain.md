@@ -24,7 +24,7 @@ Déclencheur : Se déclenche lorsqu'un enseignant veut modifier un grain.
 
 	Avoir le rôle de créateur dans la base de données.
 
-	TODO Pouvoir faire une recherche de tous les grains existant dans une de ses disciplines.
+	Liste de tous les grains existant dans une de ses disciplines.
 
 	Le grain avant les modifications
 
