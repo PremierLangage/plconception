@@ -23,7 +23,7 @@ Déclencheur : Se déclenche lorsqu'un créateur veut modifier une feuille.
 ### Données d'entrées :
 
 	* Avoir le rôle de créateur dans la base de données.
-	* TODO Pouvoir faire une recherche de toutes les feuilles existantes dans une de ses disciplines.
+	* Liste de toutes les feuilles existantes dans une de ses disciplines.
 	* La feuille avant les modifications
 
 
