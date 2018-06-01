@@ -1,16 +1,16 @@
-# Création d'un exercice
+# Recherche et Création d'un exercice
 
 
 Objectif : Permet à un créateur trouver (ou créer) l'exercice dont il a besoin.
 
 Résumé général : 
-- chercher un exercice qui réponde au besoin de l'acteur  
-	cette recherche est multicritère niveaux, discipline, grains, thématique, difficulté et plain text
-	Si l'exercice est trouvé fin du cas d'utilisation
-Sinon 
-Soit on fait une demande de création d'un exercice avec tout les bon TAGS, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée). 
-Soit on essaye d'écrire l'exercice  phase de conception et d'édition des sources de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.
-- phase de validation qui consiste à proposer l'exercice pour qu'il soit public.
+- chercher un exercice qui réponde au besoin de l'acteur   
+	cette recherche est multicritère niveaux, discipline, grains, thématique, difficulté et plain text  
+	Si l'exercice est trouvé fin du cas d'utilisation  
+Sinon   
+Soit on fait une demande de création d'un exercice avec tout les bon TAGS, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée).   
+Soit on essaye d'écrire l'exercice  phase de conception et d'édition des sources de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.  
+- phase de validation qui consiste à proposer l'exercice pour qu'il soit public.  
 
 Lorsque le créateur sauvegarde un exercice, si son karma est suffisant l'exercice est directement validé. Sinon un enseignant avec un karma suffisant devra valider l'exercice.
 
