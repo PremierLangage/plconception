@@ -1,7 +1,7 @@
 # Recherche et Création d'un exercice
 
 
-Objectif : Permet à un créateur trouver (ou créer) l'exercice dont il a besoin.
+Objectif : Permet à un créateur de trouver (ou créer) l'exercice dont il a besoin.
 
 Résumé général : 
 - chercher un exercice qui réponde au besoin de l'acteur   
