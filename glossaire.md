@@ -21,9 +21,6 @@ Vous trouverez ici une description en une phrase des mots du projet, pour les mo
 
 **[classe](concept/classe.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un espace qui regroupe des cours, des activités (avec feuilles d'exercice),  ansi que des étudiants qui peuvent consulter le contenu de la classe en question. 
- 
-**[tag](concept/tag.md)**\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **[sheet](concept/feuille.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feuille qui regroupe plusieurs exercices, les notions visées sont définies par des 
