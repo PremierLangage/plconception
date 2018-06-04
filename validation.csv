@@ -1,1 +1,90 @@
-Name,Lien Issue,Concept,Author,Last modification,Last validation,Validator Name,Lock/Open
+Name,Type,Lien Issue,Concept associated,Author,Last modification,Last validation,Validator Name,Lock/Open
+activity,concept
+activitydashboard,concept
+all,concept
+atelier,concept
+avisexercice,concept
+badge,concept
+balise,concept
+centredenotification,concept
+cercle,concept
+chatbot,concept
+classe,concept
+classeouverte,concept
+cours,concept
+defi,concept
+devoirmaison,concept
+discipline,concept
+editeurdechamps,concept
+edition,concept
+exercice,concept
+feedback,concept
+feuille,concept
+glossaire,concept
+grader,concept
+grain,concept
+graph,concept
+indicateur,concept
+karma,concept
+metadonnees,concept
+niveaucreateur,concept
+noeud,concept
+notification,concept
+panier,concept
+pl-syntaxe,concept
+plbank,concept
+previewer,concept
+profil,concept
+reputation,concept
+salon,concept
+saloninteractif,concept
+seed,concept
+strategie,concept
+tableaudebord,concept
+tag,concept
+tricheur,concept
+types,concept
+validation.csv,concept
+verificationsyntaxique,concept
+zonetampon,concept
+adminDjango,acteur
+adminLMS,acteur
+adminSysteme,acteur
+adminWims,acteur
+analyste,acteur
+createur,acteur
+enseignant,acteur
+enseignantnonediteur,acteur
+etudiant,acteur
+responsable,acteur
+taggeur,acteur
+visiteur,acteur
+administrationlms,use case,
+analysedestraces,use case,
+crud-indicateur,use case,
+createexercice,use case,
+editerexercice,use case,
+editerfeuille,use case,
+editergrain,use case,
+corrigerfeuilles,use case,
+creeratelier,use case,
+creercours,use case,
+donnerexercices,use case,
+editergraphe,use case,
+modifiertableaudebord,use case,
+ouverturegroupe,use case,
+suivreclasse,use case,
+suivreeleve,use case,
+validation,use case,
+accesfeuilleexercice,use case,
+donnerexercice,use case,
+etudier,use case,
+faireexercice,use case,
+rejoindrecreergroupe,use case,
+reviser,use case,
+affichemodifprofil,use case,
+login,use case,
+oubli,use case,p,use case,
+tableaudebord,use case,
+demo,use case,
+inscription,use case,
