@@ -12,7 +12,7 @@ ou pas fait, pour lui proposer une suite d'exercices adapté.
 et le nombre d'exercice réalisé pendant ce temps imparti
 
 La stratégie peut être crée par un [Enseignant](../acteurs/enseignant.md), il peut lui même définir une stratégie
-en lui définissant un nom, et un enchaînement d'exercices, en fonction des données des des étudiants.
+en lui définissant un nom, et un enchaînement d'exercices, en fonction des données des étudiants.
 L'intérêt n'est pas de créer une stratégie individuelle pour chaque élève d'une [classe](classe.md) mais de créer des
 stratégies qui puissent s'adapter en fonction des données récoltés qui puisse être adapté automatiquement pour chaque
 étudiants (succès, échecs, nombre d'essais etc)
