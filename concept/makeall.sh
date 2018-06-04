@@ -1,10 +1,11 @@
 
-cat >all.md </dev/null
-for i in *.md >>all.md
+
+rm all.md
+for i in *.md 
 do
-echo "<<<     "+ $i+"         >>>"
 cat $i
-echo
-done
+done>>all.tutu
+
+mv all.tutu all.md
 
 
