@@ -1,12 +1,12 @@
 
 # Le processus editorial 
 
-Quand un élément est créer sur pl il est considéré comme public, comme une page wikipédia,
+FIXME (Si le créateur a suffisament de karma pour le valider directement ?) Quand un élément est créer sur pl il est considéré comme public, comme une page wikipédia,
 si il est nouveau il est visible mais a le statut **nouveau** (new).
 si la discipline n'est pas indiquée il a le statut **perdu** (lost).
 si il est non taggé il a le statut **besoin de tag**(needtagging).
 
-si il est validé par un utilisateur de la discipline avec sufissement de [karma](karma.md) il devient **validé**.
+si il est validé par un utilisateur de la discipline avec suffisament de [karma](karma.md) il devient **validé**.
 Il est **INTERDIT** de valider un exercice non taggé.
 
 une fois que l'exercice a une discipline, un ou plusieurs tag, et qu'il est validé il apparait dans les recherches,

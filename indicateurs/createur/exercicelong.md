@@ -1,6 +1,7 @@
 # Exercices trop long
 
-Permet de voir les exercices les plus long parmis des exercices sélectionner.
+Permet de voir les exercices les plus long parmis des exercices sélectionnés.
+FIXME Quelle sélection ?
 
 ## Données nécéssaire
 
@@ -9,13 +10,19 @@ Soit :
 * n le nombre d'étudiant
 
 On calcule le temps moyen passer par les étudiants sur un même exercice :
-* somme(t[0] jusqu'à t[n]) / n
+* somme(t[0...n]) / n
 
-Le calcul est fait pour chaque exercice sélectionner. On obtient ainsi les temps moyens passer par les étudiants sur un ensemble d'exercice sélectionner.
+
+Le calcul est fait pour chaque exercice sélectionné. On obtient ainsi les temps moyens passer par les étudiants sur un ensemble d'exercice sélectionner.
 
 ## Représentation
 
 On représente dans un histogramme une multitude d'exercice associé au temps moyen passé par les étudiants sur chacun des exercices.
+
+
+# Cas d'utilisation 
+
+FIXME 
 
 
 

@@ -1,4 +1,4 @@
-# Karma
+FIXME: Discuter de l'idée # Karma
 
 Le karma est un nombre de points sur 20 qui représente le niveau d'un enseignant dans une discipline (Exemple : Prog C, python, java ...).
 Chaque enseignant a donc un karma pour chaque discipline. Le maximum de point possible est de 20 et le minimum est 0.
