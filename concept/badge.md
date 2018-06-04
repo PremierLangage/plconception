@@ -1,6 +1,8 @@
 # Badge
 
-Récompense attribuée à un acteur, attestée par un logo visuel, et ouvrant des droits étendus.
+## Un badge est une récompense attribuée à un acteur, attestée par un logo visuel, et ouvrant eventuellement des droits.
+
+## Quelques exemples 
 
 Les badges ont des déclancheurs variés. Par exemple :
 1) passé plus de 10 heures sur la plateforme.
@@ -18,9 +20,8 @@ Les badges ont des déclancheurs variés. Par exemple :
 ...
 
 
-On stocke dans la base de données toutes les données permettant de détecter l'obtention d'un badge comme par exemple le nombre d'exercice crée, le temps passé sur les exercices etc...
-
-la proposition visuelle suivante est beaucoup trop chere en termes de consomation électrique : https://threejs.org/examples/webgl_materials_reflectivity.html
+On stocke dans la base de données toutes les données permettant de détecter l'obtention d'un badge  
+comme par exemple le nombre d'exercice crée, le temps passé sur les exercices etc...
 
 L'admin LMS crée les badges.
 
