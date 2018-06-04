@@ -3,9 +3,9 @@
 Acteur secondaire
 
 L'administrateur LMS est l'acteur qui gère tous les étudiants, les enseignements, les classes:
- - Inscriptio, CRUD (student,teacher,classes)
+ - Inscription, CRUD (student,teacher,classes)
 
-Il peut supprimer ou ajouter un étudiant à une classe, administrer un cours (suppression, création, suppréssion d'un exercice...), ou encore associer une classe à un cours.
+Il peut supprimer ou ajouter un étudiant à une classe, administrer un cours (suppression, création, suppression d'un exercice...), ou encore associer une classe à un cours.
 
 C'est lui qui attribut le karma à un enseignant.
 
