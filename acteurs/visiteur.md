@@ -4,7 +4,7 @@ Acteur secondaire
 
 le visiteur est un acteur du projet qui accède à une instance mais pour laquelle il n'a pas d'identifiant.
 
-Le visiteur n'a aucune compétence en informatique (c'est juste un surfeur).
+Le visiteur n'a pas forcément de compétences en informatique (c'est juste un surfeur).
 
 Le besoin du visiteur est de comprendre l'intérêt de la plateforme,
 il faut donc qu'il puisse accéder à un exemple de cours/feuilles/exos.
