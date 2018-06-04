@@ -1,7 +1,6 @@
 # Exercices trop long
 
-Permet de voir les exercices les plus long parmis des exercices sélectionnés.
-FIXME Quelle sélection ?
+Permet de voir les exercices les plus long parmis des exercices sélectionnés par l'analyste. L'analyste peut sélectionnés plusieurs exercices parmis tous les exercices existants.
 
 ## Données nécéssaire
 
@@ -17,12 +16,7 @@ Le calcul est fait pour chaque exercice sélectionné. On obtient ainsi les temp
 
 ## Représentation
 
-On représente dans un histogramme une multitude d'exercice associé au temps moyen passé par les étudiants sur chacun des exercices.
-
-
-# Cas d'utilisation 
-
-FIXME 
+On représente dans un histogramme une multitude d'exercice (ceux qui ont été choisis par l'analyste) associé au temps moyen passé par les étudiants sur chacun des exercices.
 
 
 
