@@ -20,7 +20,7 @@ A partir de l'onglet étudiant de son dashboard, un enseignant peut cliquer sur 
 
 L'enseignant doit aussi voir dans son dashboard un onglet "validation" qui contient les validations qu'il doit faire, pour les exercices, les tags et les ressources. Il peut trier s'il le souhaite ses validations à faire. (Ex. S'il veut voir que les tags à valider, que les exercies ou que les ressources)
 
-Tous les utilisateurs peuvent également réorgansier leur dashboard (épingler un badge, intervertir 2 catégories ...)
+Tous les utilisateurs peuvent également réorganiser leur dashboard (épingler un badge, intervertir 2 catégories ...)
 
 ## Cas d'utilisation associé
 
