@@ -1,6 +1,6 @@
 # Exercices trop long
 
-Permet de voir les exercices les plus long parmis des exercices sélectionnés par l'analyste. L'analyste peut sélectionnés plusieurs exercices parmis tous les exercices existants.
+Permet à un enseignant de voir les exercices les plus long parmis des exercices sélectionnés par l'analyste. L'analyste peut sélectionnés plusieurs exercices parmis tous les exercices existants.
 
 ## Données nécéssaire
 
