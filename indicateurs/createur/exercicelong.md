@@ -1,4 +1,3 @@
-FIXME quel acteur
 # Exercices trop long
 
 Permet de voir les exercices les plus long parmis des exercices sélectionnés.
