@@ -50,8 +50,8 @@ pointer to scenario and or activity diagrams for the main success scenario
 
 
 EXTENSION SCENARIOS
-Step	Branching Action
-n..m	[description in words of the extension scenario]
+Step	 Branching Action  
+n..m	 description in words of the extension scenario
 <[pointer to scenario diagrams for the extension scenario]>
 	[An extension scenario indicates the step or range of steps in the main success scenario where possible branching occurs, and the resulting actions which vary from the main success scenario.  Identify the step number of main scenario where branching action occurs (n), and list the condition followed by the actions.]
 [na.  Condition causing branching:] 
@@ -61,17 +61,17 @@ n..m	[description in words of the extension scenario]
 
 
 VARIATION PLACEHOLDERS
-Step	Branching Condition  
-n	A variation placeholder indicates a place where branching can occur, but identification of actions is deferred.  At a later time, the variation placeholder may be expanded upon and moved to EXTENSION SCENARIOS, or if this is a summary level use case, may be explained in user level use cases.
+Step	 Branching Condition  
+n	 A variation placeholder indicates a place where branching can occur, but identification of actions is deferred.  At a later time, the variation placeholder may be expanded upon and moved to EXTENSION SCENARIOS, or if this is a summary level use case, may be explained in user level use cases.
 
 
 RELATED INFORMATION
 
 <Concurrency>	<[whether this use case may run concurrently with other instances of itself, any restrictions on use cases that may not run concurrently]>
 <Superordinate Use Cases>	<[name and number of use cases that include this one]>  
-OPEN ISSUES	list of issues awaiting decision  
-Future Considerations	list of all requirements or possible requirements that have been deferred to future increments  
-Due Date	date or release needed  
-Additional information	...as needed  
+OPEN ISSUES	 list of issues awaiting decision  
+Future Considerations	 list of all requirements or possible requirements that have been deferred to future increments  
+Due Date	 date or release needed  
+Additional information	 ...as needed  
 
 
