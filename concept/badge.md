@@ -1,6 +1,6 @@
 # Badge
 
-## Un badge est une récompense attribuée à un acteur, attestée par un logo visuel, et ouvrant eventuellement des droits.
+ Un badge est une récompense attribuée à un acteur, attestée par un logo visuel, et ouvrant eventuellement des droits.
 
 ## Quelques exemples 
 
