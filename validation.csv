@@ -1,7 +1,8 @@
 Name,Type,Lien Issue,Concept associated,Author,Last modification,Last validation,Validator Name,Lock/Open
 activity,concept,,,,,,,
 activitydashboard,concept,,,,,,,
-all,concept,,,,,,,activity,concept,,,,,,,
+all,concept,,,,,,,
+activity,concept,,,,,,,
 atelier,concept,,,,,,,
 avisexercice,concept,,,,,,,
 badge,concept,,,,,,,
