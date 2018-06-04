@@ -19,12 +19,17 @@ Déclencheur : se déclenche lors de la connexion de l'utilisateur, ou à la fin
 
 ## Pré-conditions :
 
+Que l'utilisateur soit inscrit sur la plateforme. (que le serveur soit lancé et opérationel)
+
+Un utilisateur est inscrti si il s'est inscrit  [s'inscrire](../visiteur/inscription.md).
+Ou qu'il accède par LTI ce qui le créer automatiquement, mais dans ce cas il doit utiliser le LMS pour se connecter. 
+
 ### Données d'entrées :
 	login
 
 	mot de passe
 
-Avoir un compte dans la base de donnée, pour cela il dois [s'inscrire](../visiteur/inscription.md).
+
 L'inscription dois être effectué préalablement.
 
 ## Post Conditions :
