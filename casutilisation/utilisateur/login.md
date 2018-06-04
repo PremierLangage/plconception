@@ -79,7 +79,7 @@ na.  Action causing branching:
 
 Concurrency    Si un utilisateur tente de se connecter avec une autre instance on ferme la première.
 
-Include Use Cases    [Inscription](../visiteur/inscription.md)
+Include Use Cases    [s'inscrire](../visiteur/inscription.md)
 
 
 <!--- 
