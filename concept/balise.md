@@ -3,7 +3,7 @@
 
 Champs d'un exercice une feuille ou un cours.
 
-Les exercices pl sont des dictionnaires, chaque couple clef valeur est appelée une balise. 
+Les exercices pl sont des dictionnaires, chaque couple clef valeur est appelé une balise. 
 
 Par exemple :
 <pre>
@@ -12,7 +12,7 @@ Par exemple :
   ==
 </pre>
 
-Est une balise texte contenant "\ncoucou c'est l'énoncé\n"
+Est une balise texte contenant "coucou c'est l'énoncé\n"
 
 <pre>
 Berk="kiki"
