@@ -72,6 +72,7 @@ S	[L'enseignant clique donc sur le bouton pour créer un cours, il peut donc ent
 
 EXTENSION
 
+
 Step    Branching Condition
 
 1	 Si l'enseignant veut modifier une activité déjà existante. Etape 3
