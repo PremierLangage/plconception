@@ -79,6 +79,8 @@ Step    Branching Condition
 
 1	 Lorsque le créateur part avant d'avoir validé ses modifications. Etape 4
 
+2	 Lorsque le créateur veut chercher un exercice. Etape 1
+
 na.  Action causing branching:
 
 1 : L'éditeur grâce à la [sauvegarde continue](/editeur.md), a gardé en mémoire l'exercice que le créateur a commencé à écrire et les affiches.
