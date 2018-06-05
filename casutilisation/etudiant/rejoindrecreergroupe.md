@@ -3,7 +3,7 @@
 
 Objectif : Permet à un étudiant de créer ou rejoindre un groupe.
 
-Résumé général : Un étudiant peut créer ou rejoindre un groupe dans le cas où un enseignant demande de créer des groupes dans une matière (pour un projet par exemple). Il peut soit créer un nouveau groupe soit rejoindre un groupe déjà existant en parcourant la liste des groupes existants. TODO Si l'étudiant veut rejoindre un groupe il doit faire une demande que le créateur du groupe peut accepté ou refusé.
+Résumé général : Un étudiant peut créer ou rejoindre un groupe dans le cas où un enseignant demande de créer des groupes dans une matière (pour un projet par exemple). Il peut soit créer un nouveau groupe soit rejoindre un groupe déjà existant en parcourant la liste des groupes existants. Si l'étudiant veut rejoindre un groupe il doit faire une demande que le créateur du groupe peut accepté ou refusé.
 
 
 # Données :

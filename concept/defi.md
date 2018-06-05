@@ -1,7 +1,5 @@
 # Défis
 
-TODO penser à ajouter des compétitions
-
 La compétition permet à un étudiant de lancer un défi à un ou plusieurs autres étudiants de leur classe.
 Le créateur du défi doit décider de la deadline du défi.
 
@@ -15,7 +13,7 @@ Il y a plusieurs défis :
 
 * Les défis de temps d'éxecution (le programme qui résoud le problème le plus rapidement possible)
 
-TODO rajouter des défis possibles.
+Etc ...
 
 Pour cela, il doit choisir une feuille d'exercice, puis il peut ajouter un où plusieurs étudiant de sa classe à une liste. Puis il doit valider le défi. Le défi est ensuite envoyé à chaque utilisateurs de la liste, qui est ainsi notifier avec une [notification](notification.md).
 

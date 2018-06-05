@@ -3,14 +3,16 @@
 
 Champs d'un exercice une feuille ou un cours.
 
-Les exercices pl sont des dictionnaires, chaque couple clef valeur est appellée une balise. Par exemple :
+Les exercices pl sont des dictionnaires, chaque couple clef valeur est appelée une balise. 
+
+Par exemple :
 <pre>
   text==
   coucou c'est l'énoncé
   ==
 </pre>
 
-Est une balise text contenant "\ncoucou c'est l'énoncé\n"
+Est une balise texte contenant "\ncoucou c'est l'énoncé\n"
 
 <pre>
 Berk="kiki"
@@ -24,5 +26,5 @@ Il existe de nombreux types de balises (title, from,extends etc..).
 
 <!---
 Author : DR
-Validator : TODO
+Validator : Jordan
 -->

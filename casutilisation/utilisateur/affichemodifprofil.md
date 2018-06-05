@@ -78,7 +78,7 @@ S	[L'utilisateur voit ses informations et les modifies]
 
 2	[Il voit dans un premier temps ses informations, puis ses réglages applications.]
 
-3	[Si il veut il peut modifer l'affichage qu'il devra ensuite confirmé pour que la modification soit effective dans la base de données.]
+3	[Si il veut il peut modifer ses informations et ses réglages applications, il devra ensuite confirmé pour que la modification soit effective dans la base de données.]
 
 4	[Ce cas d'utilisation se termine quand l'utilisateur change de page internet.]
 

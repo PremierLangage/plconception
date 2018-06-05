@@ -3,7 +3,7 @@
 
 Objectif : Permet à un enseignant d'éditer un grain présent dans une de ses disciplines.
 
-Résumé général : S'effectue lorsqu'un enseignant veut modifier un grain. Editer un grain revient à modifier le contenu associé au grain, les exercices, les feuilles ou les cours. Le créateur peut également modifié le nom du grain, sa description et sa discipline associé. Il peut aussi supprimer un grain.
+Résumé général : S'effectue lorsqu'un enseignant veut modifier un grain. Editer un grain revient à modifier le contenu associé au grain, les exercices, les feuilles ou les cours. Le créateur peut également modifier le nom du grain, sa description et sa discipline associé. Il peut aussi supprimer un grain.
 
 
 # Données :
@@ -24,7 +24,7 @@ Déclencheur : Se déclenche lorsqu'un enseignant veut modifier un grain.
 
 	Avoir le rôle de créateur dans la base de données.
 
-	TODO Pouvoir faire une recherche de tous les grains existant dans une de ses disciplines.
+	Liste de tous les grains existant dans une de ses disciplines.
 
 	Le grain avant les modifications
 
@@ -87,6 +87,6 @@ Include Use Cases    [Editeur](/editeur.md)
 
 <!--- 
 Author : Raphael
-Validator :
+Validator : Hugo
 -->
 

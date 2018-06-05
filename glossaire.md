@@ -14,16 +14,13 @@ Vous trouverez ici une description en une phrase des mots du projet, pour les mo
  peuvent consulter le contenu de la classe en question. 
  
 **[tag](concept/tag.md)**\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TODO
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Une étiquette attribué à chaque exercices et cours pour voir à quel grain ils appartiennent.
 
 **[dashboard tableaudebord](concept/tableaudebord.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tableau de bord qui permet de visualiser les informations jugées importantes et de monitorer les classes
 
 **[classe](concept/classe.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un espace qui regroupe des cours, des activités (avec feuilles d'exercice),  ansi que des étudiants qui peuvent consulter le contenu de la classe en question. 
- 
-**[tag](concept/tag.md)**\
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 **[sheet](concept/feuille.md)**\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feuille qui regroupe plusieurs exercices, les notions visées sont définies par des 

@@ -1,6 +1,5 @@
 # Editer un exercice public
 
-
 Objectif : Permet à un créateur d'éditer un exercice présent dans une de ses disciplines.
 
 Résumé général : S'effectue lorsqu'un créateur veut modifier un exercice. Editer un exercice donne la possibilité de changer son énoncé, sa réponse, le type d'exercice, le tag, son titre, etc.
@@ -24,7 +23,7 @@ Déclencheur : Se déclenche lorsqu'un créateur veut modifier un exercice.
 
 	Avoir le rôle de créateur dans la base de données.
 
-	TODO Pouvoir faire une recherche de tous les exercices existants dans une de ses disciplines.
+	Liste de tout les exercices existants dans une de ses disciplines.
 
 	Exercice avant la modification
 
@@ -46,7 +45,7 @@ Principe de navigation du scénario principal, organisation de l'IHM.
 
 Le créateur a choisi d'éditer un exercice, il recherche l'exercice qu'il veut éditer, une fois trouver il arrive sur une page ou il voit l'exercice dans son état actuel et il peut le modifier grace à l'[éditeur](/editeur.md).
 
-##Scénarios :
+## Scénarios :
 
 # MAIN SUCCESS SCENARIO
 
@@ -86,6 +85,6 @@ Include Use Cases    [Editeur](/editeur.md)
 
 <!--- 
 Author : Jordan
-Validator : Raphael
+Validator : Raphael, Hugo
 -->
 

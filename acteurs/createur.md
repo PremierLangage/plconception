@@ -18,7 +18,7 @@ Il lui faut un tutoriel pour chaque type de création.
 Son besoin est d'éditer rapidement et simplement de nouveaux exercices.
 
 Pour chaque type de création (exercice ou feuille ou ...), l'enseignant peut gagner un [badge](../concept/badge.md). Il peut obtenir un badge à partir d'un certain palier.
-Lorsqu'il a créé 10 exercices, il remporte un badge.
+Par exemple, lorsqu'il a créé 10 exercices, il remporte un badge.
 Il en gagne un 2ème lorsqu'il en aura créé 50, puis un 3ème lorsqu'il en aura créé 100.
 Il en est de même pour les feuilles, les grains et les ressources ...
 
