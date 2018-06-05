@@ -1,7 +1,9 @@
 
-Seul l'administrateur a la possibilité de donné, modifié ou supprimé des droits sur un type d'utilisateur.
-FIXME que veux dire "des droits sur un type d'utilisateur" c'est la possibilité de modifier les droits standards d'un type d'utilisateur.
-FIXME le droit de donner un droit est un droit ???
+Seul l'administrateur a la possibilité de donné, modifié ou supprimé des droits sur un type d'utilisateur.  
+FIXME que veux dire "des droits sur un type d'utilisateur" c'est la possibilité de modifier les droits standards d'un type d'utilisateur.  
+FIXME le droit de donner un droit est un droit ???  
+
+FIXME comment sotn définis les droits sur les ressources, des bits, des entiers un fichier ??? une table ??? quelle solution de stockage des droits ???
 
 
 # Utilisateur
