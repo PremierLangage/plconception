@@ -45,7 +45,7 @@ Principe de navigation du scénario principal, organisation de l'IHM.
 
 Le créateur a choisi d'éditer un exercice, il recherche l'exercice qu'il veut éditer, une fois trouver il arrive sur une page ou il voit l'exercice dans son état actuel et il peut le modifier grace à l'[éditeur](/editeur.md).
 
-##Scénarios :
+## Scénarios :
 
 # MAIN SUCCESS SCENARIO
 
