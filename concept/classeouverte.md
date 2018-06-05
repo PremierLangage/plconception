@@ -1,5 +1,6 @@
 
 # Classe ouverte 
 
-Une classe ouverte qui est accessible a tous.
+Une classe ouverte est accessible a tous.
+
 
