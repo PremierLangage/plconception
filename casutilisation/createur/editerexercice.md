@@ -1,6 +1,5 @@
 # Editer un exercice public
 
-
 Objectif : Permet à un créateur d'éditer un exercice présent dans une de ses disciplines.
 
 Résumé général : S'effectue lorsqu'un créateur veut modifier un exercice. Editer un exercice donne la possibilité de changer son énoncé, sa réponse, le type d'exercice, le tag, son titre, etc.
@@ -86,6 +85,6 @@ Include Use Cases    [Editeur](/editeur.md)
 
 <!--- 
 Author : Jordan
-Validator : Raphael
+Validator : Raphael, Hugo
 -->
 
