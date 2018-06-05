@@ -14,7 +14,7 @@ Il doit contenir des [tags](tag.md) afin de pouvoir être associer à des [exerc
 
 Chaque cours est accessible à n'importe quel étudiant à condition qu'il soit inscrit dans cette discipline.
 
-Chaque cours contient une ou plusieurs [feuilles d'exercice](feuille.md).
+Chaque cours contient une ou plusieurs [activités](activity.md).
 
 ## Cas d'utilisation associé
 
