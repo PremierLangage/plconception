@@ -83,6 +83,8 @@ na.  Action causing branching:
 
 1 : L'éditeur grâce à la [sauvegarde continue](/editeur.md), a gardé en mémoire l'exercice que le créateur a commencé à écrire et les affiches.
 
+2 : Le créateur trouve l'exercice qu'il cherche
+
 
 
 # RELATED INFORMATION
