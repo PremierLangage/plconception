@@ -1,17 +1,17 @@
 
 # Analyse les traces
-Objectif : Permettre au didactitien de faire des statistiques sur les exercices pour les analyser afin de savoir ceux qui 
+Objectif : Permettre à l'analyste de faire des statistiques sur les exercices pour les analyser afin de savoir ceux qui 
 sont les plus efficaces, ceux qui induisent l'étudiant en erreur etc.
 
-Résumé général : Le didactitien choisit un ensemble de données, soit tous les exercices fait par un élève, une classe, un niveau, un type de cours. Soit toutes les réalisations d'un exercice ou d'un type d'exercice/ensemble d'exercice.
+Résumé général : L'analyste choisit un ensemble de données, soit tous les exercices fait par un élève, une classe, un niveau, un type de cours. Soit toutes les réalisations d'un exercice ou d'un type d'exercice/ensemble d'exercice.
 Ensuite il choisit les paramètres/propriété/valeurs qu'il souhaite voir sur cet ensemble de données.
 Ensuite il choisit le format d'affichage.
-Le système affiche les données dans le mode d'affichage choisi et le didactitien peut enfin 
+Le système affiche les données dans le mode d'affichage choisi et l'analyste peut enfin 
 analyser les données. 
 
 # Données
 
-Acteur Principal : Didactitien
+Acteur Principal : Analyste
 
 
 
@@ -37,16 +37,16 @@ En cas d'échec : Affiche une erreur lors de l'analyse des traces
 
 # Navigation / IHM 
 
-Demande d'analyse des données par le didactitien depuis son tableau de bord.
-Accès à la base de données, recherche des informations en lien avec ce que le didactitien a demandé, analyse ces données.
+Demande d'analyse des données par l'analyste depuis son tableau de bord.
+Accès à la base de données, recherche des informations en lien avec ce que l'analyste a demandé, analyse ces données.
 
 
 ## Scénarios
 
 MAIN SUCCESS SCENARIO
-S	[Analyse des informations demandées par le didactiten, affichage des données trouvées]
-1	[Commence lorsque le didactitien souhaite accéder à ses statistiques]
-2	[Accès à la base de données, analyse les données demandé par le didactitien suivant les paramètres qu'il a choisit]
+S	[Analyse des informations demandées par l'analyste, affichage des données trouvées]
+1	[Commence lorsque l'analyste souhaite accéder à ses statistiques]
+2	[Accès à la base de données, analyse les données demandé par l'analyste suivant les paramètres qu'il a choisit]
 3	[Plusieurs statistiques disponibles issus de l'analyse de ces données]
 
 
