@@ -43,7 +43,7 @@ Déclencheur : Se déclenche lorsqu'un créateur veut créer un exercice.
 
 	Exercice crée
 
-En cas de succès : On sauvegarde l'exercice crée dans la base de données. Ici un succès est déterminé par l'absence d'erreurs de syntaxe dans l'énoncé de l'exercice. Le fichier en cours d'édition sera sauvegardé toutes les X=10 secondes et si il y a une modification ou si il y a un signal de l'éditeur. Dans le cas où le fichier n'a pas de répertoire de stockage (il est uniquement dans la zone tampon) il faut demander dans quel répertoire le sauvegarder en proposant un navigateur de répertoires et en demandant le nom du fichier. Le créateur peut donner à l'exercice un ou plusieurs tag(pas obligatoire), s'il ne le fait pas l'exercice sera moins bien répertorié lors d'une recherche d'exercice.
+En cas de succès : On sauvegarde l'exercice crée dans la base de données. Ici un succès est déterminé par l'absence d'erreurs de syntaxe dans l'énoncé de l'exercice. Le fichier en cours d'édition sera sauvegardé toutes les X=10 secondes s'il y a eu une modification ou s'il y a un signal de l'éditeur. Dans le cas où le fichier n'a pas de répertoire de stockage (il est uniquement dans la zone tampon) il faut demander dans quel répertoire le sauvegarder en proposant un navigateur de répertoires et en demandant le nom du fichier. Le créateur peut donner à l'exercice un ou plusieurs tag(pas obligatoire), s'il ne le fait pas l'exercice sera moins bien répertorié lors d'une recherche d'exercice.
 
 En cas d'échec : Grâce à la [sauvegarde continue](/editeur.md) l'enseignant ne perd pas les modifications qu'il a effectué en "local". La base de données reste inchangée. 
 
