@@ -65,6 +65,7 @@ createexercice,use case,https://github.com/plgitlogin/plconception/issues/8,,,,0
 editerexercice,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
 editerfeuille,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
 editergrain,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
+ajoutermodifieractivitecours,use case,None,,,,,,
 corrigerfeuilles,use case,https://github.com/plgitlogin/plconception/issues/32,,,,,,
 creeratelier,use case,https://github.com/plgitlogin/plconception/issues/32,,,,5/06/2018,Elise,O
 creercours,use case,https://github.com/plgitlogin/plconception/issues/32,,,,,,
