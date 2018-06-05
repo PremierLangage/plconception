@@ -4,6 +4,7 @@ FIXME que veux dire "des droits sur un type d'utilisateur" c'est la possibilité
 FIXME le droit de donner un droit est un droit ???  
 
 FIXME comment sotn définis les droits sur les ressources, des bits, des entiers un fichier ??? une table ??? quelle solution de stockage des droits ???
+FIXME que veux dire "visibilité totale" et "anonyme" ???
 
 
 # Utilisateur
