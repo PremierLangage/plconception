@@ -1,5 +1,5 @@
 Name,Type,Lien Issue,Concept associated,Author,Last modification,Last validation,Validator Name,Lock/Open
-activity,concept,
+activity,concept
 activitydashboard,concept
 all,concept
 atelier,concept
@@ -62,10 +62,10 @@ visiteur,acteur
 administrationlms,use case,
 analysedestraces,use case,
 crud-indicateur,use case,
-createexercice,use case,[Créateur](#8)
-editerexercice,use case,[Créateur](#8)
-editerfeuille,use case,[Créateur](#8)
-editergrain,use case,[Créateur](#8)
+createexercice,use case,
+editerexercice,use case,
+editerfeuille,use case,
+editergrain,use case,
 corrigerfeuilles,use case,
 creeratelier,use case,
 creercours,use case,
