@@ -3,7 +3,7 @@
 
 Objectif : Permet à un créateur d'éditer une feuille d'exercices présent dans une de ses disciplines.
 
-Résumé général : S'effectue lorsqu'un créateur veut modifier une feuille. Editer une feuille revient à modifier l'ordre des exercices dans une feuille, changer les exercices présent dans la feuille ou supprimer des exercices de la feuille.
+Résumé général : S'effectue lorsqu'un créateur veut modifier une feuille. Editer une feuille revient à modifier l'ordre des exercices dans une feuille, ajouter ou supprimer des exercices de la feuille.
 
 
 # Données :
@@ -46,7 +46,7 @@ Principe de navigation du scénario principal, organisation de l'IHM.
 
 Le créateur a choisi d'éditer une feuille d'exercice, il recherche la feuille qu'il veut éditer, une fois trouver il arrive sur une page ou il voit la feuille d'exercice dans son état actuel (les exercices, l'ordre des exercices, etc..), il peut la modifier en changeant l'ordre des exercices, en supprimant un exercice, ou encore en ajoutant un exercice.
 
-Le créateur peut aussi [modifer un exercice](./editerexercice.md).
+Le créateur peut aussi [éditer un exercice](./editerexercice.md).
 
 
 ##Scénarios :
@@ -55,9 +55,9 @@ Le créateur peut aussi [modifer un exercice](./editerexercice.md).
 
 Step    Action
 
-S    Le créateur modifie la feuille et le valide, la feuille est sauvegarder dans la base de données.
+S    Le créateur modifie la feuille et valide, la feuille est sauvegardé dans la base de données.
 
-1    Ce cas d'utilisation commence quand le créateur recherche la feuille qu'il veut modifié et clique sur le bouton "éditer" ou quand on entre l'url d'édition de la feuille dans un navigateur.
+1    Ce cas d'utilisation commence quand le créateur recherche la feuille qu'il veut modifier et clique sur le bouton "éditer" ou quand on entre l'url d'édition de la feuille dans un navigateur.
 
 2    On voit dans un éditeur la feuille dans son état actuel sans modification.
 
@@ -89,6 +89,6 @@ Include Use Cases    [Editeur](/editeur.md),
 
 <!--- 
 Author : Raphael
-Validator :
+Validator : Hugo
 -->
 
