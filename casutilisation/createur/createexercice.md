@@ -7,7 +7,7 @@ Résumé général :
 - chercher un exercice qui réponde au besoin de l'acteur   
 	cette recherche est multicritère niveaux, discipline, grains, thématique, difficulté et plain text  
 	Si l'exercice est trouvé fin du cas d'utilisation  
-Sinon   
+Sinon
 Soit on fait une demande de création d'un exercice avec tout les bon TAGS, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée).   
 Soit on essaye d'écrire l'exercice  phase de conception et d'édition des sources de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.  
 - phase de validation qui consiste à proposer l'exercice pour qu'il soit public.  
@@ -79,9 +79,13 @@ Step    Branching Condition
 
 1	 Lorsque le créateur part avant d'avoir validé ses modifications. Etape 4
 
+2    Lorsque le créateur veut rechercher un exercice. Etape 1
+
 na.  Action causing branching:
 
 1 : L'éditeur grâce à la [sauvegarde continue](/editeur.md), a gardé en mémoire l'exercice que le créateur a commencé à écrire et les affiches.
+
+2 : Le créateur trouve l'exercice qu'il cherche.
 
 
 
