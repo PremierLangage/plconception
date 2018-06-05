@@ -5,7 +5,7 @@ Objectif : Permet à un créateur de trouver (ou créer) l'exercice dont il a be
 
 Résumé général : 
 - chercher un exercice qui répond au besoin d'un enseignant. 
-	cette recherche est multicritère, elle peut se faire par niveaux, discipline, grains, thématique, difficulté et plain text  
+	Cette recherche est multicritère, elle peut se faire par niveaux, discipline, grains, thématique, difficulté et plain text  
 	Si l'exercice est trouvé fin du cas d'utilisation  
 Sinon   
 Soit on fait une demande de création d'un exercice avec tout les bon TAGS, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée).   
