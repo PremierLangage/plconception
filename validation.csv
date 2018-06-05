@@ -60,6 +60,7 @@ visiteur,acteur,https://github.com/plgitlogin/plconception/issues/21,,,,04/06/18
 administrationlms,use case,https://github.com/plgitlogin/plconception/issues/9,,,,05/06/18,Hugo,
 analysedestraces,use case,https://github.com/plgitlogin/plconception/issues/53,,,,05/06/18,Hugo,
 crud-indicateur,use case,https://github.com/plgitlogin/plconception/issues/53,,,,,,
+creeractivite,use case,None,,,,,,
 createexercice,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
 editerexercice,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
 editerfeuille,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
