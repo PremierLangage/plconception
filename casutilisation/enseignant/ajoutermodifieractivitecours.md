@@ -7,7 +7,7 @@ Résumé général : L'enseignant clique sur l'un de ses cours,
                  s'il en a les droits, il peut alors cliquer sur le bouton "activité", c'est alors qu'une page contenant une liste de toutes les activités déjà créée s'ouvre.
                  L'enseignant voit les activités déjà créés, il peut cliquer sur celle qu'il veux et ainsi commence l'[édition](../../concept/editeurdechamps.md) de l'activité sélectionnée.
                  Si l'enseignant veut ajouter une nouvelle activité, il clique sur le bouton "Nouvelle activité", ensuite l'enseignant doit rechercher son activité si celle-ci existe. L'on peut cherche une activité grâce à son type (DM,Feuille,Défi etc..), sa discipline, son niveau et/ou son nom.
-                 Cependant si l'activité que l'enseignant recherche n'existe pas, il peut en [crée](../createur/creeractiviter.md) une nouvelle.
+                 Cependant si l'activité que l'enseignant recherche n'existe pas, il peut en [crée](../createur/creeractivite.md) une nouvelle.
 
 # Données
 
@@ -82,13 +82,13 @@ na.  Action causing branching:
 
 1 : L'enseignant peut cliquer sur l'activité qu'il veux et ainsi commence l'[édition](../../concept/editeurdechamps.md) de l'activité sélectionnée.
 
-2 : Si l'activité que l'enseignant recherche n'existe pas, il est redirigé vers [crée une activité](../createur/creeractiviter.md) qui sera ensuite associé au cours.
+2 : Si l'activité que l'enseignant recherche n'existe pas, il est redirigé vers [crée une activité](../createur/creeractivite.md) qui sera ensuite associé au cours.
 
 
 
 RELATED INFORMATION
 
-Include Use Cases	[Zone tampon](../../concept/zonetampon.md), [Editeur](../../concept/editeurdechamps.md), [Tableau de bord](../utilisateur/tableaudebord.md), [Crée une activité](../createur/creeractiviter.md)
+Include Use Cases	[Zone tampon](../../concept/zonetampon.md), [Editeur](../../concept/editeurdechamps.md), [Tableau de bord](../utilisateur/tableaudebord.md), [Crée une activité](../createur/creeractivite.md)
 
 
 
