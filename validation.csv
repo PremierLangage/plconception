@@ -81,9 +81,9 @@ etudier,use case,https://github.com/plgitlogin/plconception/issues/33,,,,,,
 faireexercice,use case,https://github.com/plgitlogin/plconception/issues/33,,,,,,
 rejoindrecreergroupe,use case,https://github.com/plgitlogin/plconception/issues/33,,,,,,
 reviser,use case,https://github.com/plgitlogin/plconception/issues/33,,,,,,
-affichemodifprofil,use case,,,,,,,
-login,use case,,,,,4/06/2018,Elise,O
-oubliemdp,use case,,,,,4/06/2018,Elise,O
-tableaudebord,use case,,,,,,,
+affichemodifprofil,use case,https://github.com/plgitlogin/plconception/issues/46,,,,,,
+login,use case,https://github.com/plgitlogin/plconception/issues/46,,,,4/06/2018,Elise,O
+oubliemdp,use case,https://github.com/plgitlogin/plconception/issues/46,,,,4/06/2018,Elise,O
+tableaudebord,use case,https://github.com/plgitlogin/plconception/issues/46,,,,,,
 demo,use case,,,,,,,
 inscription,use case,,,,,,,
