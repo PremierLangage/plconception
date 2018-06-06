@@ -16,7 +16,7 @@ Concurrence : Non
 
 ## Pré-conditions
 
-L'étudiant doit être connecté ([login.md](../utilisateur/login.md)), être inscrit à un cours, une feuille doit avoir été ajouté et avoir [accès à une feuille](./accesfeuilleexercice.md).
+L'étudiant doit être connecté ([login.md](../utilisateur/login.md)), être inscrit à un cours, une feuille doit avoir été ajouté dans le cours, un ou plusieurs exercices doivent avoir été ajouter à la feuille. Il doit aussi avoir [accès à une feuille](./accesfeuilleexercice.md).
 
 
 ## Post Conditions
@@ -27,7 +27,7 @@ réussi l'exercice et on passe à un autre exercice s'il y en a un. Soit un exer
 a réussi qu'un seul(ou plusieurs) sinon un exercice d'une autre notion, on délègue cela à la stratégie.
 
 En cas d'échec : L'étudiant s'est trompé dans sa réponse, un message s'affiche pour lui dire qu'il s'est 
-trompé et on passe à l'exercice suivant de la même notion s'il y en a un (on délègue cela à la stratégie).
+trompé et on passe à l'exercice suivant (ou pas, ça dépend de la stratégie) de la même notion s'il y en a un (on délègue cela à la stratégie).
 Si l'étudiant quitte la page avant d'avoir validé, son travail est sauvegardé et il le retrouvera lorsqu'il 
 reprendra son exercice. Dans le cas où c'est un exercice à temps limité, si l'étudiant quitte la page, le temps continu quand même de s'écouler.
 
