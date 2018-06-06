@@ -12,13 +12,13 @@ Les badges : dernier badge acquis, nombre de badge, badge le plus important (cho
 
 Indicateur de notifications: messages reçus/non lus
 
-liste de taches : toutes les choses que doit faire l'utilisateur pour sa classe/cours (étudiant, enseignant), ses actions d'édition (tagger, createur, etc ).
+Liste de tâches : toutes les choses que doit faire l'utilisateur pour sa classe/cours (étudiant, enseignant), ses actions d'édition (tagger, createur, etc ).
 
-Pour un enseignant, en plus des badges ... il peut voir un onglet avec ses étudiants. Son onglet "Etudiant" diffère selon son nombre d'étudiant.
+Pour un enseignant, en plus des badges ... il peut voir un onglet avec ses étudiants. Son onglet "Etudiant" diffère selon son nombre d'étudiants.
 Exemple : S'il a trop d'étudiant, on peut les trier ou filtrer par promo, td ..., alors qu'on peut tous les afficher s'il n'a pas beaucoup d'étudiant.
 A partir de l'onglet étudiant de son dashboard, un enseignant peut cliquer sur n'importe lequel de ses élèves et voir ses statistiques, résultats ...
 
-L'enseignant doit aussi voir dans son dashboard un onglet "validation" qui contient les validations qu'il doit faire, pour les exercices, les tags et les ressources. Il peut trier s'il le souhaite ses validations à faire. (Ex. S'il veut voir que les tags à valider, que les exercies ou que les ressources)
+L'enseignant doit aussi voir dans son dashboard un onglet "validation" qui contient les validations qu'il doit faire, pour les exercices, les tags et les ressources. Il peut trier s'il le souhaite ses validations à faire. (Ex. S'il veut voir que les tags à valider, que les exercices ou que les ressources)
 
 Tous les utilisateurs peuvent également réorganiser leur dashboard (épingler un badge, intervertir 2 catégories ...)
 
@@ -33,5 +33,5 @@ https://elearningindustry.com/learner-dashboards-how-effectively-can-it-increase
 
 <!--- 
 Author : Hugo 
-Validator : Raphael 
+Validator : Jordan
 -->
