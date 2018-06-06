@@ -1,7 +1,7 @@
 Name,Type,Lien Issue,Concept associated,Author,Last modification,Last validation,Validator Name,Lock/Open
 activity,concept,None,,,,,,
 activitydashboard,concept,None,,,,,,
-atelier,concept,None,,,,,,
+atelier,concept,None,,,,06/06/2018,Jordan,O
 avisexercice,concept,https://github.com/plgitlogin/plconception/issues/39,,,,,,
 badge,concept,https://github.com/plgitlogin/plconception/issues/35,,,,,,
 balise,concept,None,,,,,,
