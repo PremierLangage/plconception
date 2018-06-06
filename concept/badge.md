@@ -25,6 +25,7 @@ comme par exemple le nombre d'exercice crée, le temps passé sur les exercices 
 
 L'admin LMS crée les badges.
 
+
 <!---
 Author : Hugo
 Validator : Jordan
