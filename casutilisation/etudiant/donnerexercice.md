@@ -66,5 +66,5 @@ Include Use Cases	[Login](../utilisateur/login.md),
 
 <!--- 
 Author : Raphael
-Validator :  
+Validator : Hugo
 -->
