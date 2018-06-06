@@ -2,8 +2,10 @@
 
 L'avis d'un exercice c'est ce que l'utilisateur a pensé de ce dernier (trop dur, trop facile, ...) après l'avoir terminé.
 
-Les avis peuvent être proposer à la fin de chaque exercices (réussite ou échec) car ils ont peu d'intérêt si l'étudiant n'a pas fait l'exercice.
-Ils peuvent aussi être proposer lorsque l'étudiant a terminé la feuille d'exercice (Ou une partie des exercices), il peut donc donner son avis que sur les exercices qu'il a tenté.
+Les avis sont proposés à chaque exercice. Cependant si l'utilisateur n'a pas fait l'exercice son avis ne seras pas pris en compte.
+Les avis doivent être cohérents avec ce qu'a l'utilisateur sinon ils ne seront pas pris en compte par l'application.
+
+Par exemple si un utilisateur dit qu'un exercice est trop facile mais qu'il ne l'a pas réussi ou qu'il a abandonné l'avis en incohérent.
 
 Ils sont représentés par des cases à cocher en plus d'une zone de texte "commentaire" qui permet aux étudiants d'écrire leur pensée sur l'exercice ou bien de justifier leur(s) choix.
 L'étudiant peut cocher plusieurs options (choix) s'il le veut. Les cases à cocher sont des options qui peuvent être créer, modifier, supprimer par un administrateur (CRUD).
@@ -19,8 +21,6 @@ Il faut faire attention car il y a 2 cas d'échec différents :
 Soit il a échoué sans avoir essayer (ex. abandon au bout de 10s).
 
 Soit il a échoué en ayant essayer.
-
-S'il n'a pas essayé, il ne lui propose pas de donner son avis, il peut donc directement passer au prochain exercice.
 
 Exemple d'options si l'étudiant a échoué :
 
