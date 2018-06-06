@@ -10,6 +10,7 @@ Le cercle savant d'une discipline est propriétaire du graphe savant de la disci
 Le cercle par défaut de tous les créateurs est le cercle créateur. On y est inscrit par défaut.
 (on peut se faire virer ....).
 
+
 Les cercles ont un forum associé.
 Les cercles ont un framavox (ou l'équivalent) associé: ce qui permet de prendre des décisions, de faire des sondages etc.
 
