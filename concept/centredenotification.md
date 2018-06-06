@@ -6,6 +6,7 @@ Il est accessible à n'importe quel moment dans le menu, il se trouve dans l'en-
 
 L'utilisateur peut désactiver les notifications qu'il veut dans le [profil](profil.md), ce qui annule toutes alertes.
 
+
 <!---
 Author : Hugo
 Validator : Jordan
