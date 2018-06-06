@@ -1,8 +1,8 @@
 ﻿
 # Donner exercice
-Objectif : Permettre à un étudiant de donner un exercice à un autre étudiant
+Objectif : Permettre à un étudiant de donner un exercice à un ou plusieurs autres étudiants
 
-Résumé général : On veut donner la possibilité à des étudiants de se donner un exercice à faire dans le cadre d'un défi entre étudiant par exemple. Un étudiant peut donner un exercice à un ou plusieurs étudiant. Le ou les étudiants qui ont reçu l'exercice ne sont pas obligés de le faire.
+Résumé général : On veut donner la possibilité à des étudiants de se donner un exercice à faire dans le cadre d'un défi entres étudiants par exemple. Un étudiant peut donner un exercice à un ou plusieurs étudiant. Le ou les étudiants qui ont reçu l'exercice ne sont pas obligés de le faire.
 
 
 # Données
@@ -36,19 +36,19 @@ L'étudiant lance une recherche pour trouver l'étudiant à qui il veut envoyer 
 
 MAIN SUCCESS SCENARIO
 
-S	[L'étudiant peut donner un exercice à un autre étudiant]
+S	[L'étudiant peut donner un exercice à un ou plusieurs autres étudiants]
 
-1	[L'étudiant recherche l'étudiant à qui il veut envoyer l'exercice]
+1	[L'étudiant recherche les étudiants à qui il veut envoyer l'exercice]
 
 2	[L'étudiant choisit l'exercice qu'il veut donner]
 
-3	[L'étudiant donne l'exercice à l'étudiant qu'il vient de rechercher]
+3	[L'étudiant donne l'exercice aux étudiants qu'il vient de rechercher]
 
 
 
 EXTENSION SCENARIOS
 
-1	[L'étudiant ne trouve pas l'étudiant qu'il recherche] Etape 1
+1	[L'étudiant ne trouve pas les étudiants qu'il recherche] Etape 1
 
 [na. Condition causing branching:]
 
