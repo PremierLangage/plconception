@@ -6,7 +6,7 @@ Objectif : Permettre à l'étudiant d'assimiler des nouvelles notions. Pour cela
 Résumé général : L'etudiant se connect par LTI en passant par le LMS sur lequel il est inscrit. 
 L'etudiant est envoyé sur l'activité sur laquelle il était actif la première fois.  
     Si il ne s'était jamais connecté il est placé sur son tableau de bord général ou il vois les cours auquels il est inscrit.
-L'etudiant interagit avec l'activité. Quand il a assez étudier il s'arrète. 
+L'etudiant interagit avec l'activité. Quand il a assez étudié il s'arrête. 
 
 
 # Données
