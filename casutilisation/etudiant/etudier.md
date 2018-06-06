@@ -29,8 +29,7 @@ la dernière activité est enregistrée dans le profile de l'élève pour son re
 
 # Navigation / IHM 
 
-FIXME L'étudiant peut étudier en ayant accès aux cours et aux exercices à partir de son tableau de bord, recherche 
-des cours et exercices voulus dans la base de données s'ils sont présents.
+L'étudiant peut étudier en cliquant sur le cours qu'il veut étudier sur son tableau de bord, il a ainsi accès à toutes les activités de ce cours. Il peut rechercher des cours et exercices voulus dans la base de données s'ils sont présents.
 
 
 
@@ -55,6 +54,6 @@ Include Use Cases	[Login](../utilisateur/login.md)
 
 <!--- 
 Author : Raphael
-Validator :  Hugo
+Validator : Hugo
 -->
 
