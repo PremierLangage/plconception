@@ -12,6 +12,7 @@ L'étudiant peut cocher plusieurs options (choix) s'il le veut. Les cases à coc
 
 Un avis est facultatif, il n'est pas obligé de cocher des options et/ou remplir la zone de texte "commmentaire".
 
+
 Chaque avis est anonyme.
 
 En cas d'échec, il faut essayer de savoir pourquoi l'utilisateur n'a pas réussi à faire l'exercice.
