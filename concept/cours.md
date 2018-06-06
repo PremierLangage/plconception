@@ -6,7 +6,7 @@ Il doit être créer par les enseignants et peuvent être éditer par ces dernie
 
 Chaque cours doit être gérer par un ou plusieurs enseignants.
 
-IL faut au moins un enseignant responsable et editeur.  
+Il faut au moins un enseignant responsable et editeur.
 Le responable peux modifier le cours, ajouter des profs et des élèves.  
 L'editeur peut ajouter des activités, modifier les activités.
 
