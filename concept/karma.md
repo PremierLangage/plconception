@@ -1,14 +1,14 @@
 # Karma
 
-Le karma estun entier qui représente le droit d'un enseignant dans une discipline (Exemple : Prog C, python, java ...).
+Le karma est un entier qui représente le droit d'un enseignant dans une discipline (Exemple : Prog C, python, java ...).
 Chaque enseignant a donc un karma pour chaque discipline. Por le moment c'est 1 ou 0 (oui ou non).
 Exemple : Pour la programmation un enseignant a un karma en informatique. Mais pas en mathematiques.
 
 Le karma est privé, il n'est pas visible.
-Le karma est attrbuer un Administrateur.
+Le karma est attribué par un Administrateur.
 Le karma peut être déterminer par les diplômes de l'utilisateur.
 
-Les droits conféré par le karma sont :
+Les droits conférés par le karma sont :
 - la posibilité de valider un grain de la discipline.
 - tagger un exercice.
 - manipler (changer les noeux du graph) le graph savant.
