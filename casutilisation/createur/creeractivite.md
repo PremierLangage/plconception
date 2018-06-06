@@ -71,7 +71,7 @@ na.  Action causing branching :
 # Related information
 
 <!---
-Author : Raphael
-Validator : Hugo
+Author : Hugo
+Validator : 
 -->
 
