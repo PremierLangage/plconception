@@ -57,14 +57,14 @@ etudiant,acteur,https://github.com/plgitlogin/plconception/issues/23,,,,04/06/18
 responsable,acteur,None,,,,,,
 taggeur,acteur,https://github.com/plgitlogin/plconception/issues/26,,,,,,
 visiteur,acteur,https://github.com/plgitlogin/plconception/issues/21,,,,04/06/18,Raphael,
-administrationlms,use case,https://github.com/plgitlogin/plconception/issues/9,,,,05/06/18,Hugo,
-analysedestraces,use case,https://github.com/plgitlogin/plconception/issues/53,,,,05/06/18,Hugo,
+administrationlms,use case,https://github.com/plgitlogin/plconception/issues/9,,,,05/06/18,Hugo,O
+analysedestraces,use case,https://github.com/plgitlogin/plconception/issues/53,,,,05/06/18,Hugo,O
 crud-indicateur,use case,https://github.com/plgitlogin/plconception/issues/53,,,,,,
 creeractivite,use case,None,,Hugo,,,,0
 createexercice,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
-editerexercice,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
-editerfeuille,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
-editergrain,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,
+editerexercice,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,O
+editerfeuille,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,O
+editergrain,use case,https://github.com/plgitlogin/plconception/issues/8,,,,05/06/18,Hugo,O
 ajoutermodifieractivitecours,use case,None,,Jordan,,,,
 corrigerfeuilles,use case,https://github.com/plgitlogin/plconception/issues/32,,Jordan,,,,
 creeratelier,use case,https://github.com/plgitlogin/plconception/issues/32,,Jordan,,5/06/2018,Elise,O
@@ -77,7 +77,7 @@ suivreclasse,use case,https://github.com/plgitlogin/plconception/issues/32,,Jord
 suivreeleve,use case,https://github.com/plgitlogin/plconception/issues/32,,Jordan,,5/06/2018,Elise,O
 validation,use case,https://github.com/plgitlogin/plconception/issues/32,,Jordan,,5/06/2018,Elise,O
 accesfeuilleexercice,use case,https://github.com/plgitlogin/plconception/issues/33,,,,,,
-donnerexercice,use case,https://github.com/plgitlogin/plconception/issues/33,,,,,,
+donnerexercice,use case,https://github.com/plgitlogin/plconception/issues/33,,,,6/06/2018,Hugo,O
 etudier,use case,https://github.com/plgitlogin/plconception/issues/33,,,,,,
 faireexercice,use case,https://github.com/plgitlogin/plconception/issues/33,,,,,,
 rejoindrecreergroupe,use case,https://github.com/plgitlogin/plconception/issues/33,,,,,,
