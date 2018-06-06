@@ -1,6 +1,7 @@
 
-Seul un administrateur Django a la possibilité de donné, modifié ou supprimé des droits sur tout les utilisateurs autres que des utilisateurs django. Par défaut l'administrateur Django a tout les droits.
-La visibilité totale désigne le fait de voir toutes les informations qu'un utilisateur a le droit de voir avec le nom de l'utilisateur à qui ces informations appartiennent. En visibilité anonyme, le nom de l'utilisateur à qui les informations appartiennent n'est pas visible.
+Seul un administrateur Django a la possibilité de donné, modifié ou supprimé des droits sur tous les utilisateurs autres que des utilisateurs django. Par défaut l'administrateur Django a tous les droits.
+
+La visibilité totale désigne le fait de voir toutes les informations de tous les utilisateurs avec leurs noms. En visibilité anonyme, le nom de l'utilisateur à qui les informations appartiennent n'est pas visible.
 
 FIXME que veux dire "des droits sur un type d'utilisateur" c'est la possibilité de modifier les droits standards d'un type d'utilisateur.  
 FIXME le droit de donner un droit est un droit ???  
