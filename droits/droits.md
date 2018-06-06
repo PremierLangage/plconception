@@ -1,13 +1,11 @@
 
-Seul un administrateur Django a la possibilité de donné, modifié ou supprimé des droits de tous les utilisateurs autres que des administrateurs django. Par défaut l'administrateur Django a tous les droits.
+Seul un administrateur Django a la possibilité de donné, modifié ou supprimé des droits(CRUD) de tous les utilisateurs autres que des administrateurs django. Par défaut l'administrateur Django a tous les droits.
 
 La visibilité totale désigne le fait de voir toutes les informations de tous les utilisateurs avec leurs noms. En visibilité anonyme, le nom de l'utilisateur à qui les informations appartiennent n'est pas visible. Autrement dit, on ne sait pas à qui appartient les données qu'on regarde en visibilité anonyme.
 
-FIXME que veux dire "des droits sur un type d'utilisateur" c'est la possibilité de modifier les droits standards d'un type d'utilisateur.  
-FIXME le droit de donner un droit est un droit ???  
+Les droits des utilisateurs seront stockés dans une table de la base de données où le login sera la clé étrangère et les autres champs correspondent à tout les droits possibles. La valeur de ces champs sera à 1 quand le droit lui est attribué et à 0 quand ce n'est pas le cas.
 
 FIXME comment sotn définis les droits sur les ressources, des bits, des entiers un fichier ??? une table ??? quelle solution de stockage des droits ???
-FIXME que veux dire "visibilité totale" et "anonyme" ???
 
 
 # Utilisateur
