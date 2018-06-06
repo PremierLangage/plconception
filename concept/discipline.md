@@ -1,5 +1,4 @@
-
-# discipline
+# Discipline
 
 Toutes les informations : cours, exercices, grains, ressources, sont organisé par disciplines. 
 
