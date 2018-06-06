@@ -1,5 +1,7 @@
 
-Seul un administrateur Django a la possibilité de donné, modifié ou supprimé des droits sur tout les utilisateurs autres que des utilisateurs django. Par défaut l'administrateur Django a tout les droits.  
+Seul un administrateur Django a la possibilité de donné, modifié ou supprimé des droits sur tout les utilisateurs autres que des utilisateurs django. Par défaut l'administrateur Django a tout les droits.
+La visibilité totale désigne le fait de voir toutes les informations qu'un utilisateur a le droit de voir avec le nom de l'utilisateur à qui ces informations appartiennent. En visibilité anonyme, le nom de l'utilisateur à qui les informations appartiennent n'est pas visible.
+
 FIXME que veux dire "des droits sur un type d'utilisateur" c'est la possibilité de modifier les droits standards d'un type d'utilisateur.  
 FIXME le droit de donner un droit est un droit ???  
 
@@ -36,10 +38,10 @@ En anonyme, un groupe n'a aucun droits.
 
 
 
-# Professeur
+# Enseignant
 
-Un professeur a besoin d'avoir accès aux informations concernant les étudiants de ses groupes ainsi qu'à ses cours.
-Un professeur a accès en lecture seul à :
+Un enseignant a besoin d'avoir accès aux informations concernant les étudiants de ses groupes ainsi qu'à ses cours.
+Un enseignant a accès en lecture seul à :
 Il a accès en lecture/écriture aux :
 - feuilles, exercices et cours (s'ils sont créateurs)
 Il a accès en lecture seule :
@@ -51,15 +53,15 @@ En anonyme il aura accès aux autres groupes.
 
 
 
-# Didactitien
+# Didacticien
 
-Le didactitien a besoin d'avoir accès à toutes les données concernant le taux de réussite d'un exercice, le temps passé, etc. 
-Un didactitien a accès en lecture seule :
+Le didacticien a besoin d'avoir accès à toutes les données concernant le taux de réussite d'un exercice, le temps passé, etc. 
+Un didacticien a accès en lecture seule :
 - à toutes les données de la classe auquel il est associé
 Il a accès en lecture/écriture :
 - aux indicateurs
 
-En visibilité anonyme, le didactitien va donc avoir accès à toutes les données. 
+En visibilité anonyme, le didacticien va donc avoir accès à toutes les données. 
 En visibilité totale il n'aura accès à rien.
 
 
