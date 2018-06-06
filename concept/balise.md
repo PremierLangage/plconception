@@ -1,4 +1,3 @@
-
 # Balises
 
 Champs d'un exercice une feuille ou un cours.
@@ -22,7 +21,6 @@ est une balise Berk contenant '"kiki"'
 Une balise ne peut être None.  
 
 Il existe de nombreux types de balises (title, from,extends etc..).
-
 
 <!---
 Author : DR
