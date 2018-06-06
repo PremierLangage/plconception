@@ -1,9 +1,9 @@
 #  Atelier
 
 Un atelier permet aux étudiants de se corriger entre eux. (Grâce à une grille d'évaluation)
-C'est à dire que chaque étudiant doit corriger les exercices de plusieurs étudiants (choisis aléatoirement). La correction se fait de manière anonyme.
+C'est à dire que chaque étudiant doit corriger les exercices de plusieurs étudiants. La correction se fait de manière anonyme.
 
-L'enseignant peut choisir si l'atelier se fait en groupe ou non. Si l'atelier se fait en groupe, chaque groupe corrige donc d'autres groupes (aléatoire aussi).
+L'enseignant peut choisir si l'atelier se fait en groupe ou non. Si l'atelier se fait en groupe, chaque groupe corrige donc d'autres groupes.
 
 Un utilisateur ou un groupe doit être corriger par plusieurs utilisateurs/groupe.
 La note finale de l'utilisateur/groupe sera la moyenne des notes données par les différents utilisateurs/groupes.
