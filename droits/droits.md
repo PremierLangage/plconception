@@ -17,6 +17,7 @@ L'utilisateur a accès en lecture seul à :
 - ses exercices
 - ses feuilles
 - ses réponses
+
 Il a accès en lecture/écriture à :
 - son profil
 
