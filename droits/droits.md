@@ -1,5 +1,5 @@
 
-Seul l'administrateur a la possibilité de donné, modifié ou supprimé des droits sur un type d'utilisateur.  
+Seul un administrateur Django a la possibilité de donné, modifié ou supprimé des droits sur tout les utilisateurs autres que des utilisateurs django. Par défaut l'administrateur Django a tout les droits.  
 FIXME que veux dire "des droits sur un type d'utilisateur" c'est la possibilité de modifier les droits standards d'un type d'utilisateur.  
 FIXME le droit de donner un droit est un droit ???  
 
