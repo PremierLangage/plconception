@@ -26,8 +26,7 @@ tout les autres
 
 ### Données primaires
 
-Karma du taggeur, FIXME champs des utilisateurs défini par disciplines.
-liste des tags == noms des grains 
+Karma du taggeur dans la discipline dans laquelle il veut tagger, liste des tags (noms des grains)
 
 ### Données secondaires
 
