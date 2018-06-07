@@ -8,7 +8,7 @@ Résumé général :
 	Cette recherche est multicritère, elle peut se faire par niveaux, discipline, grains, thématique, difficulté et plain text (texte brut)
 	Si l'exercice est trouvé fin du cas d'utilisation  
 Sinon   
-Soit on fait une demande de création d'un exercice avec tout les bon TAGS, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée).   
+Soit on fait une demande de création d'un exercice avec tous les bon TAGS et une description de l'exercice voulu, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée). Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur de la demande afin de lui demander plus de détails ou de précision sur l'exercice 
 Soit on essaye d'écrire l'exercice  phase de conception et d'édition des sources de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.  
 - phase de validation qui consiste à proposer l'exercice pour qu'il soit public.  
 
