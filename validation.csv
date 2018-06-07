@@ -45,6 +45,7 @@ types,concept,None,,,,06/06/2018,Jordan,O
 validation.csv,concept,None,,,,,,
 verificationsyntaxique,concept,None,,,,06/06/2018,Jordan,O
 zonetampon,concept,https://github.com/plgitlogin/plconception/issues/55,,,,06/06/2018,Jordan,O
+classificationdisciplinaire,concept,,,,,,,
 adminDjango,acteur,https://github.com/plgitlogin/plconception/issues/29,,,,,,
 adminLMS,acteur,https://github.com/plgitlogin/plconception/issues/28,,,,04/06/18,Raphael,
 adminSysteme,acteur,https://github.com/plgitlogin/plconception/issues/30,,,,04/06/18,Raphael,
