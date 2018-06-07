@@ -1,18 +1,25 @@
 # Karma
 
 Le karma est un entier qui représente le droit d'un enseignant dans une discipline (Exemple : Prog C, python, java ...).
-Chaque enseignant a donc un karma pour chaque discipline. Por le moment c'est 1 ou 0 (oui ou non).
-Exemple : Pour la programmation un enseignant a un karma en informatique. Mais pas en mathematiques.
+Chaque enseignant a donc un karma pour chaque discipline. Pour le moment, il existe 3 niveau de karma (0, 1 ou 2).
+
+Exemple : Pour la programmation un enseignant a un karma en informatique, mais pas en mathématiques.
 
 Le karma est privé, il n'est pas visible.
 Le karma est attribué par un Administrateur.
 Le karma peut être déterminer par les diplômes de l'utilisateur.
 
-Les droits conférés par le karma sont :
+Le niveau 0 ne confère aucun droit à l'utilisateur.
+
+Les droits conférés par le karma au niveau 1 sont :
 - la posibilité de valider un grain de la discipline.
 - tagger un exercice.
 - manipler (changer les noeux du graph) le graph savant.
 - valider les ressources de la discipline 
+
+Si un utilisateur atteint le niveau 2, en plus des droit du niveau 1, il peut:
+* supprimer des exercices (validé ou non).
+* supprimer des tags (validé ou non).
 
 # Implementation 
 
