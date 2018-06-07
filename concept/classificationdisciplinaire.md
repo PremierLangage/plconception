@@ -47,6 +47,7 @@ Dans notre exemple si on cherche Python on aura comme resultat :
                 -etc..
 
 Dans ce cas la on connait aussi le chemin qui mène de la racine jusqu'au mot recherché par l'utilisateur, ici Informatique -> Programmation -> Python .
+
 <!---
 Author : Jordan
 Validator :
