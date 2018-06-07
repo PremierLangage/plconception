@@ -31,6 +31,7 @@ Author : Hugo
 Validator : Jordan
 -->
 
+<!--
 AJETER :
 
 Un inspecteur académique peut décider de donner du karma (entre 0 et 20 points) à un enseignant à n'importe quel moment. L'administrateur se chargera de modifier le karma.
@@ -54,7 +55,7 @@ Un inspecteur d'académie décide d'augmenter/diminuer le karma d'un enseignant 
 
 Un enseignant obtient une agrégation de mathématique, son karma va donc augmenter.
 
-<!---
+-->
 
 
 
