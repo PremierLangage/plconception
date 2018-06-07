@@ -4,7 +4,7 @@
 
 Arbre de notion disciplinaire.
 
-La racine est une discipline, les noeuds sont des cours et les feuilles sont des notions.
+La racine est une discipline, les noeuds sont des notions.
 
 Une discipline comprend plusieurs cours et les cours plusieurs notions.
 
