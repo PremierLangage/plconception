@@ -44,7 +44,7 @@ En cas d'échec : Grâce à la [sauvegarde continue](/editeur.md) le créateur n
 
 Principe de navigation du scénario principal, organisation de l'IHM.
 
-Le créateur a choisi d'éditer une feuille d'exercice, il recherche la feuille qu'il veut éditer, une fois trouver il arrive sur une page ou il voit la feuille d'exercice dans son état actuel (les exercices, l'ordre des exercices, etc..), il peut la modifier en changeant l'ordre des exercices, en supprimant un exercice, ou encore en ajoutant un exercice.
+Le créateur a choisi d'éditer une feuille d'exercice, il recherche la feuille qu'il veut éditer, une fois trouver il arrive sur une page ou il voit la feuille d'exercice dans son état actuel (les exercices, l'ordre des exercices, etc..), il peut la modifier en changeant l'ordre des exercices, en supprimant un exercice, ou encore en ajoutant un exercice. Pour cela il a accès à un panier d'exercices dans lequel il choisit les exercices qu'il veut ajouter à la feuille puis choisit l'ordre des exercices. Il peut ajouter une introduction à la feuille s'il le souhaite. Une fois qu'il a terminé, il doit cliquer sur le bouton valider.
 
 Le créateur peut aussi [éditer un exercice](./editerexercice.md).
 
