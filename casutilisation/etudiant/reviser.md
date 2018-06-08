@@ -12,7 +12,7 @@ Acteur Principal : Etudiant
 
 ## Pré-conditions
 
-L'étudiant doit être connecté ([login.md](../utilisateur/login.md)) et avoir accès aux cours et aux exercices qu'il veut réviser
+L'étudiant doit être connecté ([Authentification](../utilisateur/authentification.md)) et avoir accès aux cours et aux exercices qu'il veut réviser
 
 
 ## Post Conditions
@@ -47,7 +47,7 @@ S	[l'étudiant peut accéder aux cours et exercices voulus pour réviser]
 
 RELATED INFORMATION
 
-Include Use Cases	[Login](../utilisateur/login.md)
+Include Use Cases	[Authentification](../utilisateur/authentification.md)
 
 
 
