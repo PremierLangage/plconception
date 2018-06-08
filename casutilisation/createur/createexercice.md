@@ -4,12 +4,13 @@
 Objectif : Permet à un créateur de trouver (ou créer) l'exercice dont il a besoin.
 
 Résumé général : 
-- chercher un exercice qui répond au besoin d'un enseignant. 
+- chercher un exercice qui répond à son besoin. 
 	Cette recherche est multicritère, elle peut se faire par niveaux, discipline, grains, thématique, difficulté et plain text (texte brut)
+	Si la recherche n'a pas donné le résultat escompté, le créateur fait une recherche sur les exercices en cours de création, c'est à dire les exercices qui font l'objet d'une demande de création. S'il trouve l'exercice qu'il veut, il peut "upvote" cet exercice.
 	Si l'exercice est trouvé fin du cas d'utilisation  
 Sinon   
-Soit on fait une demande de création d'un exercice avec tous les bon TAGS et une description de l'exercice voulu, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée). Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur de la demande afin de lui demander plus de détails ou de précision sur l'exercice  
-Soit on essaye d'écrire l'exercice  phase de conception et d'édition des sources de l'exercice qui utilise l'éditeur en ligne et la prévisualisation. Lors de la création de l'exercice, le créateur doit choisir un type d'exercice afin d'y associer un dockerfile. S'il ne connait pas le type de son exercice ou si le type n'existe pas, il peut importer un dockerfile directement. Il doit donc obligatoirment choisir soit un type, soit un dockerfile.
+On fait une demande de création d'un exercice avec une description de l'exercice voulu. Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur (la demande se fait sous forme d'un forum style stackoverflow) de la demande afin de lui demander plus de détails ou de précision sur l'exercice qu'il souahite créer ou tout simplement en discuter. 
+Après avoir fait le demande de création, le créateur peut écrire son exercice lui même ou attendre qu'un autre créateur le lui écrit. Lors de la création de l'exercice, le créateur doit choisir un type d'exercice afin d'y associer un dockerfile. S'il ne connait pas le type de son exercice ou si le type n'existe pas, il peut importer un dockerfile directement. Il doit donc obligatoirment choisir soit un type, soit un dockerfile.
 - phase de validation qui consiste à proposer l'exercice pour qu'il soit public.  
 
 Lorsque le créateur sauvegarde un exercice, si son karma est suffisant l'exercice est directement validé. Sinon un enseignant avec un karma suffisant devra valider l'exercice.
