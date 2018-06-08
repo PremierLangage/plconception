@@ -47,14 +47,14 @@ En cas d'échec : Le créateur choisi a refusé d'être propriétaire, dans ce c
 
 # Navigation / IHM
 
-Le créateur clique sur son nom dans la catégorie auteur en mode [édition](../createur/editergrain.md) d'un exercice, une liste de créateurs possibles s'affiche, il en choisit un et valide.
+Le créateur clique sur son nom dans la catégorie auteur en mode [édition](../../concept/editeurdechamps.md) d'un exercice, une liste de créateurs possibles s'affiche, il en choisit un et valide.
 Celui ci sera notifié, il pourra accepter ou refuser de devenir propriétaire.
 
 ## Scénarios
 
 MAIN SUCCESS SCENARIO
 
-S	[Le créateur clique sur son nom dans la catégorie auteur de l'[édition](../createur/editergrain.md) d'exercice, et une liste de créateurs s'ouvre.]
+S	[Le créateur clique sur son nom dans la catégorie auteur de l'[édition](../../concept/editeurdechamps.md) d'exercice, et une liste de créateurs s'ouvre.]
 
 1	[Le créateur choisit à qui il veuxt déléguer son rôle.]
 
@@ -78,7 +78,7 @@ na.  Action causing branching:
 
 RELATED INFORMATION
 
-Include Use Cases	[Editer grain](../createur/editergrain.md)
+Include Use Cases	[édition](../../concept/editeurdechamps.md)
 
 
 
