@@ -56,17 +56,20 @@ Step : Action
 
 * S : Le créateur crée l'activité en complétant tous les champs nécéssaire et le valide. L'activité est ainsi sauvegardé dans la base de données.
 * 1 : Le cas d'utilisation commence quand le créateur crée une activité sur Moodle et qu'il est redirigé vers PL.
-* 2 : Le cas d'utilisation se termine lorsque le créateur a validé son activité.
+* 2 : Il remplit le formulaire
+* 3 : Le cas d'utilisation se termine lorsque le créateur a validé son activité.
 
 Step : Branching Condition
 
-* 1 : Lorsque le créateur part avant d'avoir validé ses modifications. Etape 2
+* 1 : Lorsque le créateur part avant d'avoir validé ses modifications. Etape 3
 * 2 : Lorsque le créateur veut chercher un exercice. Etape 1
+* 3 : Lorsque le créateur valide sans avoir remplit tous les champs. Etape 3
 
 na.  Action causing branching :
 
 * 1 : L'éditeur grâce à la [sauvegarde continue](/editeur.md), a gardé en mémoire l'activité que le créateur a commencé à écrire.
-* 2 : Le créateur trouve l'activité qu'il cherche
+* 2 : Le créateur trouve l'activité qu'il cherche.
+* 3 : Le créateur retourne donc à l'étape 2.
 
 # Related information
 
