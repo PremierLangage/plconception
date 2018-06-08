@@ -63,13 +63,13 @@ La preview permet de vérifier le bon fonctionnement de l'exercice.
 
 Step    Action
 
-S    Le créateur créer l'exercice et le sauvegarde, l'exercice est en attente de validation(si son karma est insuffisant).
+S    Le créateur fait une demande de création, l'exercice est créé par lui même ou un autre créateur et est sauvegardé, l'exercice est en attente de validation ou directmeent validé (selon le karma du créateur qui a créer l'exercice)
 
-1    Ce cas d'utilisation commence quand le créateur veut créé un exercice et clique sur le menu créer exercice ou quand on entre l'url d'édition de l'exercice dans un navigateur.
+1    Ce cas d'utilisation commence quand le créateur fait la demande de création d'un exercice qu'il souhaite avoir et clique sur le bouton "ask" ou quand on entre l'url d'édition de l'exercice dans un navigateur.
 
-2    Le créateur peut prévisualiser l'exercice qu'il est en train de créer.
+2    Soit le créateur fait une demande de création, soit il fait une demande puis crée lui même l'exercice.
 
-3    Le créateur peut ajouter un ou plusieurs tags à l'exercice(pas obligatoire).
+3    Le créateur peut prévisualiser l'exercice qu'il est en train de créer s'il crée lui même son exercice.
 
 4    Ce cas d'utilisation se finit lorsque le créateur a sauvegardé son exercice.
 
