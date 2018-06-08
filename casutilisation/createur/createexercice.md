@@ -6,7 +6,7 @@ Objectif : Permet à un créateur de trouver (ou créer) l'exercice dont il a be
 Résumé général : 
 - chercher un exercice qui répond à son besoin. 
 	Cette recherche est multicritère, elle peut se faire par niveaux, discipline, grains, thématique, difficulté et plain text (texte brut)
-	Si la recherche n'a pas donné le résultat escompté, le créateur fait une recherche sur les exercices en cours de création, c'est à dire les exercices qui font l'objet d'une demande de création. S'il trouve l'exercice qu'il veut, il peut "upvote" cet exercice.
+	Si la recherche n'a pas donné le résultat escompté, le créateur fait une recherche sur les exercices en cours de création, c'est à dire les exercices qui font l'objet d'une demande de création. S'il trouve l'exercice qu'il veut dans les exercices en cours de création, il peut "upvote" le topic de cet exercice.
 	Si l'exercice est trouvé fin du cas d'utilisation  
 Sinon   
 On fait une [demande de création](../../concept/demande.md) d'un exercice avec une description de l'exercice voulu. Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur (la demande se fait sous forme d'un forum style stackoverflow) de la demande afin de lui demander plus de détails ou de précision sur l'exercice qu'il souahite créer ou tout simplement en discuter. 
@@ -57,19 +57,19 @@ La phase de conception commence quand on clique dans l'interface sur le menu cr�
 Le système ouvre la page edition avec un fichier untitled.pl 
 La preview permet de vérifier le bon fonctionnement de l'exercice. 
 
-##Scénarios :
+# Scénarios :
 
-# MAIN SUCCESS SCENARIO
+## MAIN SUCCESS SCENARIO
 
 Step    Action
 
-S    Le créateur créer l'exercice et le sauvegarde, l'exercice est en attente de validation(si son karma est insuffisant).
+S    Le créateur fait une demande de création, l'exercice est créé par lui même ou un autre créateur et est sauvegardé, l'exercice est en attente de validation ou directmeent validé (selon le karma du créateur qui a créer l'exercice)
 
-1    Ce cas d'utilisation commence quand le créateur veut créé un exercice et clique sur le menu créer exercice ou quand on entre l'url d'édition de l'exercice dans un navigateur.
+1    Ce cas d'utilisation commence quand le créateur fait la demande de création d'un exercice qu'il souhaite avoir et clique sur le bouton "ask" ou quand on entre l'url d'édition de l'exercice dans un navigateur.
 
-2    Le créateur peut prévisualiser l'exercice qu'il est en train de créer.
+2    Soit le créateur fait une demande de création, soit il fait une demande puis crée lui même l'exercice.
 
-3    Le créateur peut ajouter un ou plusieurs tags à l'exercice(pas obligatoire).
+3    Le créateur peut prévisualiser l'exercice qu'il est en train de créer s'il crée lui même son exercice.
 
 4    Ce cas d'utilisation se finit lorsque le créateur a sauvegardé son exercice.
 
