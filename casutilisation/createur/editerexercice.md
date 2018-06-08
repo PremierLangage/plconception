@@ -2,7 +2,7 @@
 
 Objectif : Permet à un créateur d'éditer un exercice présent dans une de ses disciplines.
 
-Résumé général : S'effectue lorsqu'un créateur veut modifier un exercice. Editer un exercice donne la possibilité de changer son énoncé, sa réponse, le type d'exercice, le tag, son titre, etc.
+Résumé général : S'effectue lorsqu'un créateur veut modifier un exercice. Editer un exercice donne la possibilité de changer son énoncé, sa réponse, le type d'exercice, le tag, son titre, etc. Un exercice ne peut pas être supprimé.
 
 
 # Données :
@@ -57,7 +57,7 @@ S    Le créateur modifie l'exercice et le valide, l'exercice est sauvegardé da
 
 2    On voit dans un éditeur l'exercice dans son état actuel sans modification.
 
-3    Le créateur peut modifier tout ce qu'il veut dans l'exercice, même le supprimer. (balises, type d'exercice, tag etc...)
+3    Le créateur peut modifier tout ce qu'il veut dans l'exercice. (balises, type d'exercice, tag etc...)
 
 4    Il valide ce qu'il a modifié dans l'exercice. (sauvegarde dans la base de données)
 
