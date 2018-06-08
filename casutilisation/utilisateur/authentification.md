@@ -4,6 +4,7 @@
 Objectif :  Permettre la connexion d'un utilisateur.
 
 Résumé général : Lorsqu'un utilisateur veux se connecter il clique sur le bouton "Login", il dois alors entrer ses informations de connection (mail/login ou mots de passe). Une fois qu'il a entré les bonnes informations l'utilisateur se retrouve sur son tableau de bord ou sur la dernière page qu'il a ouverte lors de sa précédente connection.
+                 Si l'utilisateur est déjà connecté via une autre plate-forme, il sera automatiquement redirigé vers sa page d'accueil et ce cas d'utilisation ne sera pas utile.
 
 # Données :
 
