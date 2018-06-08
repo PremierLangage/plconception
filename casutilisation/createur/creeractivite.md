@@ -67,7 +67,7 @@ Step : Branching Condition
 
 na.  Action causing branching :
 
-* 1 : L'éditeur grâce à la [sauvegarde continue](/editeur.md), a gardé en mémoire l'activité que le créateur a commencé à écrire.
+* 1 : L'éditeur grâce à la [sauvegarde continue](../../concept/zonetampon.md), a gardé en mémoire l'activité que le créateur a commencé à écrire.
 * 2 : Le créateur trouve l'activité qu'il cherche.
 * 3 : Le créateur retourne donc à l'étape 2.
 

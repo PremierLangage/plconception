@@ -36,14 +36,14 @@ Déclencheur : Se déclenche lorsqu'un créateur veut modifier un exercice.
 
 En cas de succès : On sauvegarde l'exercice modifiée dans la base de données. Ici un succès est déterminé par l'absence d'erreurs de syntaxe dans l'énoncé de l'exercice.
 
-En cas d'échec : Grâce à la [sauvegarde continue](/editeur.md) l'enseignant ne perd pas les modifications qu'il a effectué en "local". La base de données reste inchangée.
+En cas d'échec : Grâce à la [sauvegarde continue](../../concept/zonetampon.md) l'enseignant ne perd pas les modifications qu'il a effectué en "local". La base de données reste inchangée.
 
 
 # Navigation / IHM  :
 
 Principe de navigation du scénario principal, organisation de l'IHM.
 
-Le créateur a choisi d'éditer un exercice, il recherche l'exercice qu'il veut éditer, une fois trouver il arrive sur une page ou il voit l'exercice dans son état actuel et il peut le modifier grace à l'[éditeur](/editeur.md).
+Le créateur a choisi d'éditer un exercice, il recherche l'exercice qu'il veut éditer, une fois trouver il arrive sur une page ou il voit l'exercice dans son état actuel et il peut le modifier grace à l'[éditeur](../../concept/editeurdechamps.md).
 
 ## Scénarios :
 
@@ -72,7 +72,7 @@ Step    Branching Condition
 
 na.  Action causing branching:
 
-1 : L'éditeur grâce à la [sauvegarde continue](/editeur.md), a gardé en mémoire les informations que le créateur a commencé à modifier et les affiches, cependant si l'utilisateur veut annuler ses modifications, il lui suffit de cliqué sur le bouton "Annuler les modifications", ce qui a pour conséquence de supprimé la modification dans la base de données.
+1 : L'éditeur grâce à la [sauvegarde continue](../../concept/zonetampon.md), a gardé en mémoire les informations que le créateur a commencé à modifier et les affiches, cependant si l'utilisateur veut annuler ses modifications, il lui suffit de cliqué sur le bouton "Annuler les modifications", ce qui a pour conséquence de supprimé la modification dans la base de données.
 
 
 
@@ -80,7 +80,7 @@ na.  Action causing branching:
 
 Concurrency    Quand un créateur modifie un exercice, les autres créateurs ne peuvent pas modifier le même exercice.
 
-Include Use Cases    [Editeur](/editeur.md)
+Include Use Cases    [Editeur](/editeur.md), [sauvegarde continue](../../concept/zonetampon.md)
  
 
 <!--- 
