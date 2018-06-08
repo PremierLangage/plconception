@@ -9,7 +9,7 @@ Résumé général :
 	Si la recherche n'a pas donné le résultat escompté, le créateur fait une recherche sur les exercices en cours de création, c'est à dire les exercices qui font l'objet d'une demande de création. S'il trouve l'exercice qu'il veut, il peut "upvote" cet exercice.
 	Si l'exercice est trouvé fin du cas d'utilisation  
 Sinon   
-On fait une demande de création d'un exercice avec une description de l'exercice voulu. Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur (la demande se fait sous forme d'un forum style stackoverflow) de la demande afin de lui demander plus de détails ou de précision sur l'exercice qu'il souahite créer ou tout simplement en discuter. 
+On fait une [demande de création](../../concept/demande.md) d'un exercice avec une description de l'exercice voulu. Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur (la demande se fait sous forme d'un forum style stackoverflow) de la demande afin de lui demander plus de détails ou de précision sur l'exercice qu'il souahite créer ou tout simplement en discuter. 
 Après avoir fait le demande de création, le créateur peut écrire son exercice lui même ou attendre qu'un autre créateur le lui écrit. Lors de la création de l'exercice, le créateur doit choisir un type d'exercice afin d'y associer un dockerfile. S'il ne connait pas le type de son exercice ou si le type n'existe pas, il peut importer un dockerfile directement. Il doit donc obligatoirment choisir soit un type, soit un dockerfile.
 - phase de validation qui consiste à proposer l'exercice pour qu'il soit public.  
 
