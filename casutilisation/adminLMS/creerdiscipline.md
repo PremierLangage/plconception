@@ -2,7 +2,7 @@
 
 Objectif : Permettre à un administrateur LMS de créer une discipline.
 
-Résumé général : Lorsque l'administrateur LMS clique sur le bouton création de son tableau de bord, il pourra créer une discipline en lui donnant un nom ou modifier le nom d'une discipline. Une discipline ne peut pas avoir le même nom qu'un cours ou une autre discipline déjà existante. Des cours et des notions pourront ensuite être associé à cette discpline.
+Résumé général : Lorsque l'administrateur LMS clique sur le bouton création de son tableau de bord, il pourra créer une discipline en lui donnant un nom, une description et un utilisateur référent avec un email. Il peut modifier le nom d'une discipline déjà existante. Une discipline ne peut pas avoir le même nom qu'un cours ou une autre discipline déjà existante. Des cours et des notions pourront ensuite être associé à cette discpline.
 
 # Données
 
@@ -40,7 +40,7 @@ S	[L'administrateur LMS créé une nouvelle discipline ou modifie le nom d'une d
 
 1	[Il clique sur le bouton Création sur son tableau de bord.]
 
-2	[Il doit entrer un nom valide pour la discipline qu'il veut créer, c'est-à-dire un nom qui n'est pas déjà utilisé par une autre discipline ou un cours.]
+2	[Il doit entrer un nom valide (c'est-à-dire un nom qui n'est pas déjà utilisé par une autre discipline ou un cours), une description et un utilisateur référent avec un email pour la discipline qu'il veut créer.]
 
 3   [Ce cas d'utilisation se finit lorsque l'administrateur LMS a créer une discpline ou modifié le nom d'une discipline existante.]
 
