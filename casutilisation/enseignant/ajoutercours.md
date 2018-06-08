@@ -72,7 +72,7 @@ na.  Action causing branching:
 
 RELATED INFORMATION
 
-Include Use Cases	[Sauvegarde continu](../../concept/zonetampon.md), [Tableau de bord](../utilisateur/tableaudebord.md), [Login](../utilisateur/login.md), [Discipline](./creerdiscipline.md)
+Include Use Cases	[Sauvegarde continu](../../concept/zonetampon.md), [Tableau de bord](../utilisateur/tableaudebord.md), [Login](../utilisateur/authentification.md), [Discipline](./creerdiscipline.md)
 
 
 
