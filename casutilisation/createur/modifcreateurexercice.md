@@ -56,13 +56,13 @@ MAIN SUCCESS SCENARIO
 
 S	[Le créateur clique sur son nom dans la catégorie auteur de l'[édition](../../concept/editeurdechamps.md) d'exercice, et une liste de créateurs s'ouvre.]
 
-1	[Le créateur choisit à qui il veuxt déléguer son rôle.]
+1	[Le créateur choisit à qui il veut déléguer son rôle.]
 
 2	[Le créateur choisi recevra une notification, lui proposant d'accepter ou de refuser d'être le propriétaire de l'exercice. Il peut voir l'exercice en détail, même si il n'est pas fini s'il le souhaite.]
 
 3	[S'il accepte il devient le seul créateur de l'exercice.]
 
-4   Ce cas d'utilisation se finit lorsque le créateur accepte ou refuse d'être le propriétaire.
+4   [Ce cas d'utilisation se finit lorsque le créateur accepte ou refuse d'être le propriétaire.]
 
 
 EXTENSION
