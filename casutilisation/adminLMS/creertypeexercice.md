@@ -6,7 +6,7 @@ Résumé général :
 
 Un type d'exercice permet de réprésenter la catégorie d'un exercice.
 Il est possible de créer un type seulement s'il n'existe pas.
-Chaque type d'exercice est associé à un dockerfile.
+Chaque type d'exercice est obligatoirement associé à un dockerfile.
 Pour créer un nouveau type, il doit se rendre dans son tableau de bord, il rentre dans le menu "type" et il clique sur le bouton ajouter un type.
 Il doit ensuite saisir un nom qui n'est pas déjà pris et y associer un dockerfile.
 Il lui reste ensuite qu'à cliquer sur valider.
@@ -53,7 +53,7 @@ na.  Action causing branching :
 
 * 1 : Le cas d'utilisation est annulé.
 * 2 : Le créateur trouve le type qu'il cherche et le cas d'utilisation se termine.
-* 3 : Il valide avec un non existant ou sans dockerfile.
+* 3 : Il retourne à l'étape 2 ou 3.
 
 # Related information
 
