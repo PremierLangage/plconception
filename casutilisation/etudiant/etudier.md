@@ -48,7 +48,7 @@ ce qui est enregistré en base.
 
 RELATED INFORMATION
 
-Include Use Cases	[Login](../utilisateur/login.md)
+Include Use Cases	[Authentification](../utilisateur/authentification.md)
 
 
 

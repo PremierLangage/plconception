@@ -16,7 +16,7 @@ Concurrence : Non
 
 ## Pré-conditions
 
-L'étudiant doit être connecté ([login.md](../utilisateur/login.md)), être inscrit à un cours, une feuille doit avoir été ajouté dans le cours, un ou plusieurs exercices doivent avoir été ajouter à la feuille. Il doit aussi avoir [accès à une feuille](./accesfeuilleexercice.md).
+L'étudiant doit être connecté ([authentification](../utilisateur/authentification.md)), être inscrit à un cours, une feuille doit avoir été ajouté dans le cours, un ou plusieurs exercices doivent avoir été ajouter à la feuille. Il doit aussi avoir [accès à une feuille](./accesfeuilleexercice.md).
 
 
 ## Post Conditions
@@ -79,7 +79,7 @@ EXTENSION SCENARIOS
 
 RELATED INFORMATION
 
-Include Use Cases	[Login](../utilisateur/login.md), 
+Include Use Cases	[Authentification](../utilisateur/authentification.md),
 	                [Accès feuille/exercice](./accesfeuilleexercice.md)
 
 
