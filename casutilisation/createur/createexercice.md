@@ -8,8 +8,8 @@ Résumé général :
 	Cette recherche est multicritère, elle peut se faire par niveaux, discipline, grains, thématique, difficulté et plain text (texte brut)
 	Si l'exercice est trouvé fin du cas d'utilisation  
 Sinon   
-Soit on fait une demande de création d'un exercice avec tous les bon TAGS et une description de l'exercice voulu, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée). Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur de la demande afin de lui demander plus de détails ou de précision sur l'exercice 
-Soit on essaye d'écrire l'exercice  phase de conception et d'édition des sources de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.  
+Soit on fait une demande de création d'un exercice avec tous les bon TAGS et une description de l'exercice voulu, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée). Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur de la demande afin de lui demander plus de détails ou de précision sur l'exercice  
+Soit on essaye d'écrire l'exercice  phase de conception et d'édition des sources de l'exercice qui utilise l'éditeur en ligne et la prévisualisation. Lors de la création de l'exercice, le créateur doit choisir un type d'exercice afin d'y associer un dockerfile. S'il ne connait pas le type de son exercice ou si le type n'existe pas, il peut importer un dockerfile directement. Il doit donc obligatoirment choisir soit un type, soit un dockerfile.
 - phase de validation qui consiste à proposer l'exercice pour qu'il soit public.  
 
 Lorsque le créateur sauvegarde un exercice, si son karma est suffisant l'exercice est directement validé. Sinon un enseignant avec un karma suffisant devra valider l'exercice.
