@@ -6,7 +6,7 @@ Objectif : Permet à un créateur de trouver (ou créer) l'exercice dont il a be
 Résumé général : 
 - chercher un exercice qui répond à son besoin. 
 	Cette recherche est multicritère, elle peut se faire par niveaux, discipline, grains, thématique, difficulté et plain text (texte brut)
-	Si la recherche n'a pas donné le résultat escompté, le créateur fait une recherche sur les exercices en cours de création, c'est à dire les exercices qui font l'objet d'une demande de création. S'il trouve l'exercice qu'il veut, il peut "upvote" cet exercice.
+	Si la recherche n'a pas donné le résultat escompté, le créateur fait une recherche sur les exercices en cours de création, c'est à dire les exercices qui font l'objet d'une demande de création. S'il trouve l'exercice qu'il veut dans les exercices en cours de création, il peut "upvote" le topic de cet exercice.
 	Si l'exercice est trouvé fin du cas d'utilisation  
 Sinon   
 On fait une [demande de création](../../concept/demande.md) d'un exercice avec une description de l'exercice voulu. Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur (la demande se fait sous forme d'un forum style stackoverflow) de la demande afin de lui demander plus de détails ou de précision sur l'exercice qu'il souahite créer ou tout simplement en discuter. 
