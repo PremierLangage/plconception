@@ -57,9 +57,9 @@ La phase de conception commence quand on clique dans l'interface sur le menu cr�
 Le système ouvre la page edition avec un fichier untitled.pl 
 La preview permet de vérifier le bon fonctionnement de l'exercice. 
 
-## Scénarios :
+# Scénarios :
 
-# MAIN SUCCESS SCENARIO
+## MAIN SUCCESS SCENARIO
 
 Step    Action
 
