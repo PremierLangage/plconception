@@ -2,7 +2,7 @@
 
 Objectif : Permettre à un créateur d'exercice de déléguer son rôle à un autre créateur.
 
-Résumé général : Lors de l'[édition](../createur/editergrain.md) de son exercice le créateur voit qu'il en est l'auteur, s'il clique sur le bouton permettant de déléguer son rôle de créateur,
+Résumé général : Lors de l'[édition](../../concept/editeurdechamps.md) de son exercice le créateur voit qu'il en est l'auteur, s'il clique sur le bouton permettant de déléguer son rôle de créateur,
 une liste de tout les créateurs possibles s'ouvre avec une barre de recherche, permettant au créateur de chercher précisément le créateur qu'il veut.
 
 Une fois le créateur choisi, l'application lui envoie une notification lui disant qu'on lui demande d'être le propriétaire de l'exercice.
@@ -19,7 +19,7 @@ Acteurs secondaires : Admin
 
 Concurrence : Non
 
-Déclencheur : Se déclenche lorsque le créateur d'un exercice clique sur son nom dans la catégorie auteur de l'exercice en mode [édition](../createur/editergrain.md).
+Déclencheur : Se déclenche lorsque le créateur d'un exercice clique sur son nom dans la catégorie auteur de l'exercice en mode [édition](../../concept/editeurdechamps.md).
 
 
 ## Pré-conditions
