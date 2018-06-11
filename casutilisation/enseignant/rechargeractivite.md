@@ -43,7 +43,7 @@ En cas d'échec : L'activité reste dans son état actuel c'est à dire avant to
 
 # Navigation / IHM
 
-L'enseignant sur mettre à jour, il voit les exercices de l'activité avec la version actuelle et la dernière version, puis il peut soit cliquer sur un bouton pour voir les détails des modifications soit cocher l'exercice. Puis il clique sur Recharger pour charger les exercices cocher.
+L'enseignant clique sur mettre à jour, il voit les exercices de l'activité avec la version actuelle et la dernière version, puis il peut soit cliquer sur un bouton pour voir les détails des modifications soit cocher l'exercice. Puis il clique sur Recharger pour charger les exercices cocher.
 
 ## Scénarios
 
