@@ -1,3 +1,3 @@
 # Administrateur Wims
 
-FIXME
+Saisir et définir le login et mot de passe dans pl.
