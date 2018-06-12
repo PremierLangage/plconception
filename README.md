@@ -18,10 +18,10 @@ Cette version 2 à pour objectifs:
  1) ajouter un système de Q&A [askbot] (https://askbot.com/)
  1) Chatbot pour l'activité (tout ceux connectés à l'activité peuvent partager un chat/IRC).
 
-## Pour ceux souhaitans participer à la conception 
+## Pour ceux souhaitant participer à la conception 
 Lire le fichier [regles.md](regles.md) .
 
-## Pour ceux souhaitans participer au développement 
+## Pour ceux souhaitant participer au développement 
 Voire le repository git premierlangage.
 
 Bien à vous.
