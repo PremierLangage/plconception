@@ -61,6 +61,10 @@ Permet de remplir les cases d'un tableau, en mettant des objets dedans : boîtes
 déroulant ou encore boîte de saisie.
 Exemple : remplir un tableau de valeur
 
+## Ressources
+
+Possibilité d'ajouter une ressource de type image, audio et vidéo à tous les modèles précédant.
+
 
 
 
