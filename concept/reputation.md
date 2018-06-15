@@ -4,9 +4,9 @@ La réputation est un nombre indiquant l'activité d'un enseignant ou d'un étud
 
 La réputation n'a pas de limite et peut monter à l'infini. Cela permet de valoriser les enseignants et les étudiants faisant un bon boulot. Il est distribué par l'application.
 
-Il augmente lorsque l'enseignant ou l'étudiant propose des exercices et des tags qui ont été validé, lorsque qu'il réalise des défis etc...
+Il augmente lorsque l'enseignant ou l'étudiant propose des exercices et des tags qui ont été validé, lorsqu'il réalise des défis etc...
 
 <!--- 
 Author : Hugo 
-Validator : Raphael 
+Validator : Jordan
 -->

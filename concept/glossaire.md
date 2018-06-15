@@ -1,7 +1,12 @@
-
-# le Glossaire PL
+# Le glossaire PL
 
 Est un glossaire partagée (modifiable avec les droits adminstrateur).
 Qui contient les mots utilisés dans le logiciel.
 
 Le glossaire fait partie de la doc.
+
+
+<!---
+Author :
+Validator : Jordan
+-->

@@ -15,7 +15,7 @@ Concurrence : Non
 
 ## Pré-conditions
 
-L'étudiant doit être connecté([login.md](../utilisateur/login.md)) et avoir accès à son tableau de bord.
+L'étudiant doit être connecté([Authentification](../utilisateur/authentification.md)) et avoir accès à son tableau de bord.
 
 
 ## Post Conditions
@@ -51,7 +51,7 @@ S	[l'étudiant peut accéder aux feuilles/exercices qu'il veut faire]
 
 RELATED INFORMATION
 
-Include Use Cases	[Login](../utilisateur/login.md)
+Include Use Cases	[Authentification](../utilisateur/authentification.md)
 
 
 <!--- 

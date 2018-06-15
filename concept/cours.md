@@ -6,11 +6,15 @@ Il doit être créer par les enseignants et peuvent être éditer par ces dernie
 
 Chaque cours doit être gérer par un ou plusieurs enseignants.
 
+Il faut au moins un enseignant responsable et editeur.
+Le responable peux modifier le cours, ajouter des profs et des élèves.  
+L'editeur peut ajouter des activités, modifier les activités.
+
 Il doit contenir des [tags](tag.md) afin de pouvoir être associer à des [exercices](exercice.md).
 
 Chaque cours est accessible à n'importe quel étudiant à condition qu'il soit inscrit dans cette discipline.
 
-Chaque cours contient une ou plusieurs [feuilles d'exercice](feuille.md).
+Chaque cours contient une ou plusieurs [activités](activity.md).
 
 ## Cas d'utilisation associé
 

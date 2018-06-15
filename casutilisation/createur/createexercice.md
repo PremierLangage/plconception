@@ -4,12 +4,13 @@
 Objectif : Permet à un créateur de trouver (ou créer) l'exercice dont il a besoin.
 
 Résumé général : 
-- chercher un exercice qui répond au besoin d'un enseignant. 
-	Cette recherche est multicritère, elle peut se faire par niveaux, discipline, grains, thématique, difficulté et plain text  
+- chercher un exercice qui répond à son besoin. 
+	Cette recherche est multicritère, elle peut se faire par niveaux, discipline, grains, thématique, difficulté et plain text (texte brut)
+	Si la recherche n'a pas donné le résultat escompté, le créateur fait une recherche sur les exercices en cours de création, c'est à dire les exercices qui font l'objet d'une demande de création. S'il trouve l'exercice qu'il veut dans les exercices en cours de création, il peut "upvote" le topic de cet exercice.
 	Si l'exercice est trouvé fin du cas d'utilisation  
 Sinon   
-Soit on fait une demande de création d'un exercice avec tout les bon TAGS, si la demande existe déjà elle gagne un point de priorité (like) (on sera prévenu quand un exercice de la catégorie sera crée).   
-Soit on essaye d'écrire l'exercice  phase de conception et d'édition des sources de l'exercice qui utilise l'éditeur en ligne et la prévisualisation.  
+On fait une [demande de création](../../concept/demande.md) d'un exercice avec une description de l'exercice voulu. Après la création de la demande, d'autres utilisateurs doivent pouvoir discuter avec l'auteur (la demande se fait sous forme d'un forum style stackoverflow) de la demande afin de lui demander plus de détails ou de précision sur l'exercice qu'il souahite créer ou tout simplement en discuter. 
+Après avoir fait le demande de création, le créateur peut écrire son exercice lui même ou attendre qu'un autre créateur le lui écrit. Lors de la création de l'exercice, le créateur doit choisir un type d'exercice afin d'y associer un dockerfile. S'il ne connait pas le type de son exercice ou si le type n'existe pas, il peut importer un dockerfile directement. Il doit donc obligatoirment choisir soit un type, soit un dockerfile.
 - phase de validation qui consiste à proposer l'exercice pour qu'il soit public.  
 
 Lorsque le créateur sauvegarde un exercice, si son karma est suffisant l'exercice est directement validé. Sinon un enseignant avec un karma suffisant devra valider l'exercice.
@@ -43,9 +44,9 @@ Déclencheur : Se déclenche lorsqu'un créateur veut créer un exercice.
 
 	Exercice crée
 
-En cas de succès : On sauvegarde l'exercice crée dans la base de données. Ici un succès est déterminé par l'absence d'erreurs de syntaxe dans l'énoncé de l'exercice. Le fichier en cours d'édition sera sauvegardé toutes les X=10 secondes et si il y a une modification ou si il y a un signal de l'éditeur. Dans le cas où le fichier n'a pas de répertoire de stockage (il est uniquement dans la zone tampon) il faut demander dans quel répertoire le sauvegarder en proposant un navigateur de répertoires et en demandant le nom du fichier. Le créateur peut donner à l'exercice un ou plusieurs tag(pas obligatoire), s'il ne le fait pas l'exercice sera moins bien répertorié lors d'une recherche d'exercice.
+En cas de succès : On sauvegarde l'exercice crée dans la base de données. Ici un succès est déterminé par l'absence d'erreurs de syntaxe dans l'énoncé de l'exercice. Le fichier en cours d'édition sera sauvegardé toutes les X=10 secondes s'il y a eu une modification ou s'il y a un signal de l'éditeur. Dans le cas où le fichier n'a pas de répertoire de stockage (il est uniquement dans la zone tampon) il faut demander dans quel répertoire le sauvegarder en proposant un navigateur de répertoires et en demandant le nom du fichier. Le créateur peut donner à l'exercice un ou plusieurs tag(pas obligatoire), s'il ne le fait pas l'exercice sera moins bien répertorié lors d'une recherche d'exercice.
 
-En cas d'échec : Grâce à la [sauvegarde continue](/editeur.md) l'enseignant ne perd pas les modifications qu'il a effectué en "local". La base de données reste inchangée. 
+En cas d'échec : Grâce à la [sauvegarde continue](../../concept/zonetampon.md) le créateur ne perd pas les modifications qu'il a effectué en "local". La base de données reste inchangée. 
 
 
 # Navigation / IHM  :
@@ -56,19 +57,19 @@ La phase de conception commence quand on clique dans l'interface sur le menu cr�
 Le système ouvre la page edition avec un fichier untitled.pl 
 La preview permet de vérifier le bon fonctionnement de l'exercice. 
 
-##Scénarios :
+# Scénarios :
 
-# MAIN SUCCESS SCENARIO
+## MAIN SUCCESS SCENARIO
 
 Step    Action
 
-S    Le créateur créer l'exercice et le sauvegarde, l'exercice est en attente de validation(si son karma est insuffisant).
+S    Le créateur fait une demande de création, l'exercice est créé par lui même ou un autre créateur et est sauvegardé, l'exercice est en attente de validation ou directmeent validé (selon le karma du créateur qui a créer l'exercice)
 
-1    Ce cas d'utilisation commence quand le créateur veut créé un exercice et clique sur le menu créer exercice ou quand on entre l'url d'édition de l'exercice dans un navigateur.
+1    Ce cas d'utilisation commence quand le créateur fait la demande de création d'un exercice qu'il souhaite avoir et clique sur le bouton "ask" ou quand on entre l'url d'édition de l'exercice dans un navigateur.
 
-2    Le créateur peut prévisualiser l'exercice qu'il est en train de créer.
+2    Soit le créateur fait une demande de création, soit il fait une demande puis crée lui même l'exercice.
 
-3    Le créateur peut ajouter un ou plusieurs tags à l'exercice(pas obligatoire).
+3    Le créateur peut prévisualiser l'exercice qu'il est en train de créer s'il crée lui même son exercice.
 
 4    Ce cas d'utilisation se finit lorsque le créateur a sauvegardé son exercice.
 
@@ -83,7 +84,7 @@ Step    Branching Condition
 
 na.  Action causing branching:
 
-1 : L'éditeur grâce à la [sauvegarde continue](/editeur.md), a gardé en mémoire l'exercice que le créateur a commencé à écrire et les affiches.
+1 : L'éditeur grâce à la [sauvegarde continue](../../concept/zonetampon.md), a gardé en mémoire l'exercice que le créateur a commencé à écrire et les affiche.
 
 2 : Le créateur trouve l'exercice qu'il cherche
 
@@ -91,7 +92,7 @@ na.  Action causing branching:
 
 # RELATED INFORMATION
 
-Include Use Cases    [Editeur](/editeur.md)
+Include Use Cases    [Sauvegarde continu](../../concept/zonetampon.md)
  
 
 <!--- 

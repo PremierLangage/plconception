@@ -98,7 +98,7 @@ na.  Action causing branching:
 
 # RELATED INFORMATION
 
-Include Use Cases    [Tableau de bord](../utilisateur/tableaudebord.md) [Login](../utilisateur/login.md) 
+Include Use Cases    [Tableau de bord](../utilisateur/tableaudebord.md) [Authentification](../utilisateur/authentification.md)
 
 
 <!--- 

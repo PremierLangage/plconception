@@ -1,5 +1,4 @@
-
-# Le processus editorial 
+# Le processus editorial
 
 FIXME (Si le créateur a suffisament de karma pour le valider directement ?) Quand un élément est créer sur pl il est considéré comme public, comme une page wikipédia,
 si il est nouveau il est visible mais a le statut **nouveau** (new).

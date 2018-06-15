@@ -1,7 +1,12 @@
+# Chat bot
 
-# chat bot
-
-Robot de discution 
-l'idée est  que les élèves connectés a une activité peuvent partager un tchat. 
-Que le professeur peut aussi y participer (c'est mieux ainsi il a accès au même que les élèves).
+Robot de discussion.
+L'idée est  que les élèves connectés à une activité peuvent partager un tchat.
+L'enseignant peut aussi y participer, ainsi il a accès à ce que font les étudiants.
 En plus il peut envoyer des messages privés et envoyer des documents aux élèves.
+
+
+<!---
+Author :
+Validator : Jordan
+-->

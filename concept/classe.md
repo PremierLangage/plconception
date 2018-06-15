@@ -12,6 +12,8 @@ Une classe a un niveau: CM2, 6ème, Terminal, L2, M1
 
 [Suivre une classe](../casutilisation/enseignant/suivreclasse.md)  
 [adminsitration LMS](../casutilisation/adminLMS/administrationlms.md)
+
+
 <!---
 Author : Hugo
 Validator : Jordan

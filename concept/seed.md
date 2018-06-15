@@ -1,8 +1,7 @@
+# La seed
 
-# la seed 
 
-
-la seed est produite par l'activité, si elle n'est pas définie dans l'activité alors elle prend pour valeur 1,2, etc.
+La seed est produite par l'activité, si elle n'est pas définie dans l'activité alors elle prend pour valeur 1,2, etc.
 La seed est n avec n étant le nombre de fois que l'élève à commencé l'exercice.
 Première fois seed=1
 

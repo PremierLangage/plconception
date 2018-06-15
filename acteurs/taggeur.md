@@ -2,10 +2,10 @@
 
 Acteur secondaire
 
-Un tagger est une personne ayant un karma suffisant dans la discipline, ou pouvant prendre le rôle tagger dans la discipline.
+Un taggeur est une personne ayant un karma suffisant dans la discipline, ou pouvant prendre le rôle tagger dans la discipline.
 le rôle tagger donne aussi accès à la construction du graphe savant des grains/tag de la discipline. 
 
-Pour le système avoir un karma > 13 ou avoir le rôle tagger permet de modifier les tags d'un exercice dont on est pas propriétaire. 
+Pour le système avoir un bon karma ou avoir le rôle tagger permet de modifier les tags d'un exercice dont on est pas propriétaire. 
 Le taggeur a aussi le droit de modifier un grain (identifiant, nom, description) et de modifier le "graphe savant" de la discipline.
 
 ## Fonctionnalités demandées.
@@ -26,8 +26,7 @@ tout les autres
 
 ### Données primaires
 
-Karma du taggeur, FIXME champs des utilisateurs défini par disciplines.
-liste des tags == noms des grains 
+Karma du taggeur dans la discipline dans laquelle il veut tagger, liste des tags (noms des grains)
 
 ### Données secondaires
 
@@ -36,7 +35,6 @@ liste des tags == noms des grains
 tag, notification
 
 ## Cas d'utilisation associées
- FIXME
 
 <!--- 
 Author : Hugo 

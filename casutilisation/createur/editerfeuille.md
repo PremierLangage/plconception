@@ -37,14 +37,14 @@ Déclencheur : Se déclenche lorsqu'un créateur veut modifier une feuille.
 
 En cas de succès : On sauvegarde la feuille modifiée dans la base de données.
 
-En cas d'échec : Grâce à la [sauvegarde continue](/editeur.md) le créateur ne perd pas les modifications qu'il a effectué en "local". La base de données reste inchangée.
+En cas d'échec : Grâce à la [sauvegarde continue](../../concept/zonetampon.md) le créateur ne perd pas les modifications qu'il a effectué en "local". La base de données reste inchangée.
 
 
 # Navigation / IHM  :
 
 Principe de navigation du scénario principal, organisation de l'IHM.
 
-Le créateur a choisi d'éditer une feuille d'exercice, il recherche la feuille qu'il veut éditer, une fois trouver il arrive sur une page ou il voit la feuille d'exercice dans son état actuel (les exercices, l'ordre des exercices, etc..), il peut la modifier en changeant l'ordre des exercices, en supprimant un exercice, ou encore en ajoutant un exercice.
+Le créateur a choisi d'éditer une feuille d'exercice, il recherche la feuille qu'il veut éditer, une fois trouver il arrive sur une page ou il voit la feuille d'exercice dans son état actuel (les exercices, l'ordre des exercices, etc..), il peut la modifier en changeant l'ordre des exercices, en supprimant un exercice, ou encore en ajoutant un exercice. Pour cela il a accès à un panier d'exercices dans lequel il choisit les exercices qu'il veut ajouter à la feuille puis choisit l'ordre des exercices. Il peut ajouter une introduction à la feuille s'il le souhaite. Une fois qu'il a terminé, il doit cliquer sur le bouton valider.
 
 Le créateur peut aussi [éditer un exercice](./editerexercice.md).
 
@@ -76,14 +76,14 @@ Step    Branching Condition
 
 na.  Action causing branching:
 
-1 : L'éditeur grâce à la [sauvegarde continue](/editeur.md), a gardé en mémoire les informations que le créateur a commencé à modifier et les affiches, cependant si l'utilisateur veut annuler ses modifications, il lui suffit de cliqué sur le bouton "Annuler les modifications", ce qui a pour conséquence de supprimé la modification dans la base de données.
+1 : L'éditeur grâce à la [sauvegarde continue](../../concept/zonetampon.md), a gardé en mémoire les informations que le créateur a commencé à modifier et les affiches, cependant si l'utilisateur veut annuler ses modifications, il lui suffit de cliqué sur le bouton "Annuler les modifications", ce qui a pour conséquence de supprimé la modification dans la base de données.
 
 
 # RELATED INFORMATION
 
 Concurrency    Quand un créateur modifie une feuille, les autres créateurs ne peuvent pas modifier la même feuille.
 
-Include Use Cases    [Editeur](/editeur.md), 
+Include Use Cases    [Sauvegarde continue](../../concept/zonetampon.md), 
 		     [modifer un exercice](./editerexercice.md)
  
 

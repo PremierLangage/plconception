@@ -1,7 +1,7 @@
-
-#  Types 
+#  Types
 
 Les types d'exercices :
+
 - question à choix multiple 
 - question ouverte (chaine ou integer)
 - question de programmation 
@@ -14,3 +14,8 @@ Les types d'exercices :
         association (drga drop , links)
 - coloriage
 - saisi de matrice /  fractions / etc 
+
+<!---
+Author :
+Validator : Jordan
+-->

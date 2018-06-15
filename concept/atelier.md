@@ -1,9 +1,9 @@
 #  Atelier
 
 Un atelier permet aux étudiants de se corriger entre eux. (Grâce à une grille d'évaluation)
-C'est à dire que chaque étudiant doit corriger les exercices de plusieurs étudiants (choisis aléatoirement). La correction se fait de manière anonyme.
+C'est à dire que chaque étudiant doit corriger les exercices de plusieurs étudiants. La correction se fait de manière anonyme.
 
-L'enseignant peut choisir si l'atelier se fait en groupe ou non. Si l'atelier se fait en groupe, chaque groupe corrige donc d'autres groupes (aléatoire aussi).
+L'enseignant peut choisir si l'atelier se fait en groupe ou non. Si l'atelier se fait en groupe, chaque groupe corrige donc d'autres groupes.
 
 Un utilisateur ou un groupe doit être corriger par plusieurs utilisateurs/groupe.
 La note finale de l'utilisateur/groupe sera la moyenne des notes données par les différents utilisateurs/groupes.
@@ -18,6 +18,7 @@ Après qu'un étudiant ait corrigé et noté un autre étudiant, on réduit à l
 Exemple :
 
 Un étudiant Toto doit noter un étudiant Titi sur 20. La note maximale qu'il peut donner est donc 20/20. L'application (pl) donne une note de 18/20 à Titi et Toto donne la note de 10/20 à Titi. Après avoir noté Titi, Toto obtient une note pour la qualité de sa correction. La note maximale que Toto peut attribuer est de 20 et la différence est de 8, Toto obtient donc un 12/20 pour sa correction.
+
 
 <!---
 Author : Hugo

@@ -7,3 +7,8 @@ Une autre approche des grains est celle utilisée dans les cours : https://docs.
 ## Cas d'utilisation associé
 
 [Editer un grain](../casutilisation/createur/editergrain.md)
+
+<!---
+Author :
+Validator : Jordan
+-->

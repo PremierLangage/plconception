@@ -28,7 +28,7 @@ Déclencheur : Se déclenche lorsqu'un analyste veut créer un indicateur.
 
 ## Pré-conditions
 
-Le use case [Login](../utilisateur/login.md)
+Le use case [Authentification](../utilisateur/authentification.md)
 Le use case choisir son rôle.
 Le use case [d'analyse des données](./analysedestraces.md)
 
@@ -56,7 +56,7 @@ S	[Création d'un indicateur selon les paramètres choisit par l'analyste à par
 
 # RELATED INFORMATION
 
-Include Use Cases    [Login](../utilisateur/login.md)
+Include Use Cases    [Authentification](../utilisateur/authentification.md)
                      [Analyse des données](./analysedestraces.md)
 
 

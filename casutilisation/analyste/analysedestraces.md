@@ -28,7 +28,7 @@ Déclencheur : Se déclenche lorsqu'un analyste veut analyser des données.
 Avoir des exercices présents dans la base de données et un certain nombres d'exercice réalisés par des 
 étudiants pour pouvoir analyser les résultats.
 
-Le use case [Login](../utilisateur/login.md)
+Le use case [Authentification](../utilisateur/authentification.md)
 Le use case choisir son rôle.
 Les use case permettant la réalisation d'exercices ([créer exercice](../createur/createexercice.md), [faire exercice](../etudiant/faireexercice.md))
 
@@ -58,7 +58,7 @@ S	[Analyse des informations demandées par l'analyste, affichage des données tr
 
 # RELATED INFORMATION
 
-Include Use Cases    [Login](../utilisateur/login.md)
+Include Use Cases    [Authentification](../utilisateur/authentification.md)
 
 
 <!--- 
