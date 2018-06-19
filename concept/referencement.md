@@ -1,0 +1,3 @@
+Vous vous débrouiller avec le patron pour la forme de ce dépot...
+
+Délibérer d'une balise (du style de la balise latex $% texte latéxifié %$) pour former l'expression à devenir un lien cliquable à la wikipedia.
