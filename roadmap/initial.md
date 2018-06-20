@@ -10,7 +10,10 @@
 
 ## Editeur :smile: :+1: :joy:
 
-* preview
+* preview du WIMS
+* preview du PL
+* preview du PLTP (mode ajout de exos, panier (cart), bare_exo )
+
 
 ## Play exo (côté élève)
 * debug
