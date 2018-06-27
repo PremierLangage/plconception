@@ -1,7 +1,8 @@
 # Roadmap minimale 
 (du 19 juin 2018)
+[Liste modèles d'exercices](../exerciceModeles.md)
 
-## Systeme de fichier
+## Système de fichier
 * home (fichier + repos git)
 * partage gité 
 * * notification
@@ -75,4 +76,3 @@ Désactiver l'aide
 
 ## Test
 * lancer un exercice 
-
