@@ -4,6 +4,7 @@
 
 ## Système de fichier
 * home (fichier + repos git)
+    [home sweet home](../concept/home.md)
 * partage gité 
 * * notification
 * * pull request
