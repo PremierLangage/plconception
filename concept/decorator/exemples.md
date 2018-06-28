@@ -8,6 +8,7 @@ Les parametreurs permettent de changer une des balise de l'exercice. Ils ne chan
 
 Par exemple:
 
+```
   deco.before.seed==
   seed=12
   ==
@@ -22,18 +23,20 @@ Par exemple:
   LE nouvel énoncé de cet exercice
   """
   ==
+```
 
 ## Famille des feedback 
 
 Les décorateurs de la famille des feedback agissent sur le résultat de l'exercice.
-
+```
   deco.after.setfeedback==
   if not grade['success']:
     grade['feedback']="""et bien non bannane c'est pas ça""" # pas très gentil comme feedback 
   ==
 
-  deco.after.substitute==
+  deco.after.coolification==
   grade['feedback']= "Cool".join(grade['feedback'].split("Bonne réponse"))
   ==
+```
 
 
