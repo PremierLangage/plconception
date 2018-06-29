@@ -39,4 +39,22 @@ Les décorateurs de la famille des feedback agissent sur le résultat de l'exerc
   ==
 ```
 
+## Modificateurs de success
+
+Les modificateurs de success ont pour objectif de modifier le resultat de l'exercice et de relancer celui ci en cas de besoin.
+
+La valeur 'retry' de grade indique à la plateforme qu'il faut relancer l'exercice avec la même seed.
+
+```
+  deco.after.retry==
+  grade['retry']=True # attention cet exemple créer une boucle infinie 
+  == 
+  
+  
+  deco.after.retry==
+  seed=random.randomint(1,100)
+  grade['retry']=True  # attention cet exemple créer une boucle infinie 
+  ==
+  
+
 
