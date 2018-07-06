@@ -3,11 +3,11 @@
 [Liste modèles d'exercices](../exerciceModeles.md)
 
 ## Système de fichier
-* home (fichier + repos git)
+* home (fichier + ~~repos git~~)
     [home sweet home](../concept/home.md)
 * partage gité 
-* * notification
-* * pull request
+* * ~~notification~~
+* * ~~pull request~~
 * URL exo-chargé
 
 ## Editeur :smile: :+1: :joy:
