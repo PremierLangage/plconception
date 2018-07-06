@@ -66,6 +66,21 @@ Exemple : remplir un tableau de valeur
 Possibilité d'ajouter une ressource de type image, audio et vidéo à tous les modèles précédant.
 
 
+#  Devoirs (c'est plustot une activité)
+
+Rendus de projet / mémoires / devoir maison (DM).
+
+L'elève doit fournir un (ou plusieurs) fichier(s) comme réponse à l'exercice. 
+
+Eventuellement il est possible d'associer une évaluation automatique à un rendu. 
+Eventuellement il est possible d'associer un test de validation du format de fichier à un rendu, le test est réalisé au moment du rendu et si il n'est pas conforme l'élève est prévenu.
+
+Le logiciel permet de noter les rendus, Elève par Elève ou Groupe par Groupe si le devoir est un devoir de groupe.
+
+
+
+
+
 
 
 
