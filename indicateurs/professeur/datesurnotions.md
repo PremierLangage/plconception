@@ -4,7 +4,7 @@ Permet à l'enseignant de voir l'avancement des élèves sur le cours .
 
 ## Données nécéssaire
 
-* Nombre moyen de notions vu/validé dans le cours.
+* Nombre moyen de notions vu/validé dans le cours. FIXME que veut dire valider? 
 * Date
 
 ## Représentation
