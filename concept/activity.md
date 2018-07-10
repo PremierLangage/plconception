@@ -14,13 +14,14 @@ Une activité exporte des tableaux de bord : studentactivitydashboard, teacherac
 une activité a une navigation 
 Une activité a un barème (outil permettant le calcul d'une note).
 
-Activité= S+ F*+ sd* td* I N  
+Activité= S+ F*+ sd* td* I N B  
 i=introduction  
 S= Strategie   
-F= pltp
+F= pltp  
 sd=student dashboard  
 td=teacher dashboard  
-N=navigation  
+N=navigation
+B=Barem (comment est calculé la nte qui remonte à moodle)
 
 
 Références : modules WIMS
