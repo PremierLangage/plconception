@@ -20,7 +20,7 @@ S= Strategie
 F= pltp  
 sd=student dashboard  
 td=teacher dashboard  
-N=navigation
+N=navigation  
 B=Barem (comment est calculé la nte qui remonte à moodle)
 
 
