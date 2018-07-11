@@ -25,7 +25,7 @@ String qui représente le nom d’un fichier .py représentant une stratégie. L
 
 pltp==
 
-@ path/monpltp.pltp
+@ path/monpltp.pltp  
 @ path/monpltp2.pltp
 
 ==  
