@@ -40,8 +40,8 @@ restriction.end=26/12/1996-00:05 # type=date() | date de fin du devoir maison
 
 ## Création de groupe
 
-Les étudiants doivent créer ou rejoindre leurs groupes si l'enseignant a choisis de déléguer la création des groupes à ses étudiants.
-Pour cela, ils se rendent dans leur tableau de bord, il clique ensuite dans un menu "groupe".
+Les étudiants doivent créer ou rejoindre leurs groupes si l'enseignant a choisis de déléguer la création des groupes à ses étudiants.  
+Pour cela, ils se rendent dans leur tableau de bord, il clique ensuite dans un menu "groupe".  
 Dans ce menu, les étudiants voient toutes les disciplines où ils ont besoin de créer un groupe. Ils cliquent donc sur la discipline voulu. Une fois dans la discipline, les étudiants voient tous les groupes déjà créer et peuvent en créer ou rejoindre. Pour créer un groupe, un étudiant clique sur le bouton "créer un groupe" et doit saisir le nom et le mot de passe de son groupe. Pour rejoindre un groupe, il clique sur "rejoindre" à coté du groupe qu'il veut rejoindre, et saisit le mot de passe correspondant. Un étudiant qui rejoint un groupe ne peut plus le quitter. Cependant, l'enseignant responsable peut toujours supprimer ou ajouter un étudiant à un groupe.
 
 ## Faire un devoir
@@ -50,7 +50,7 @@ Pour faire un devoir, un étudiant se rend dans son tableau de bord, il clique s
 
 ## Rendre un devoir
 
-Pour rendre un devoir, un étudiant doit se rendre sur la discipline voulu, il clique sur le devoir maison correspondant à son besoin, et il a un bouton upload où il peut rendre son devoir sous forme d'archive.
+Pour rendre un devoir, un étudiant doit se rendre sur la discipline voulu, il clique sur le devoir maison correspondant à son besoin, et il a un bouton upload où il peut rendre son devoir sous forme d'archive.  
 Selon le rendu souhaité par l'enseignant, le rendu doit être fait soit par un seul membre du groupe, soit par tous les étudiants du groupe. Si un étudiant rend plusieurs version d'un devoir, les devoirs précédents sont conservés.
 
 ## Récuperer et noter les devoirs
