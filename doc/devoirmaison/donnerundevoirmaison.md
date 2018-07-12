@@ -16,7 +16,7 @@ Lorsque la date limite de création des groupes est dépassé, un système d'"au
 
 ## Exemple de devoir maison
 
-title=Devoir maison n°1
+title=Devoir maison n°1  
 introduction==
 
 Devoir sur les chaînes de caractère
@@ -46,7 +46,7 @@ Dans ce menu, les étudiants voient toutes les disciplines où ils ont besoin de
 
 ## Faire un devoir
 
-Pour faire un devoir, un étudiant se rend dans son tableau de bord, il clique sur la discipline souhaité, et clique sur le devoir. Il a donc accès aux exercices ou activités du devoir.
+Pour faire un devoir, un étudiant se rend dans son tableau de bord, il clique sur la discipline souhaité, et clique sur le devoir. Il a donc accès aux exercices ou activités du devoir sélectionné.
 
 ## Rendre un devoir
 
