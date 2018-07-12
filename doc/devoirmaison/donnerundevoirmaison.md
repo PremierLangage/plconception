@@ -51,7 +51,7 @@ Pour faire un devoir, un étudiant se rend dans son tableau de bord, il clique s
 ## Rendre un devoir
 
 Pour rendre un devoir, un étudiant doit se rendre sur la discipline voulu, il clique sur le devoir maison correspondant à son besoin, et il a un bouton upload où il peut rendre son devoir sous forme d'archive.
-Selon le rendu souhaité par l'enseignant, le rendu doit être fait soit par un seul membre du groupe, soit par tous les étudiants du groupe. Si un étudiant rend plusieurs version d'un devoir, les devoirs précédents sont conservés.
+Selon le rendu souhaité par l'enseignant, le rendu doit être fait soit par un seul membre du groupe, soit par tous les étudiants du groupe. Si un étudiant rend plusieurs version d'un devoir, les devoirs précédents sont conservés.  
 
 ## Récuperer et noter les devoirs
 
