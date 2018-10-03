@@ -9,22 +9,22 @@ Le professeur déclanche a volonté l'affichage du camembert de résultat sur le
 
 PRÉ-REQUIS pour le cas elearning   
 -> que le prof ai un cours.  
--> que les élèves présent soit inscrit a ce cours.  
--> le professeur a préparer les questions et les réponses possibles sous forme d'exercices QCM-PL. 
+-> que les élèves présents soit inscrits à ce cours.  
+-> le professeur a préparé les questions et les réponses possibles sous forme d'exercices QCM-PL. 
 
 Déroulement :  
 - le professeur lance l'activité qui devient accessible aux étudiants.  
-- le professeur demande a tous de se connecter a la session elearning correspondante,  
+- le professeur demande à tous de se connecter à la session elearning correspondante,  
 - les étudiants se connectent à l'activité.   
-- le professeur vois le nombre de personnes connectés sur son tableau de bord. Une fois qu'il est satisfait du nombre de connectés.  
+- le professeur voit le nombre de personnes connectés sur son tableau de bord. Une fois qu'il est satisfait du nombre de connectés. {???} 
 
 
 Le professeur répète l'operation suivante tant qu'il y a des questions:  
-  - le professeur lance une question question, il vois sur son tableau de bord combien de réponses et lesquelles,
+  - le professeur lance une question question, il voit sur son tableau de bord combien de réponses et lesquelles,
 il termine la question, ce qui lui permet d'afficher le résultat sur le video projecteur. Il discute avec les étudiants de la validité des réponses.
 
-- le slide avec l'histogramme du nombre de réponses correct s'affiche   
-- chaque étudiant vois le son résultat sur son téléphone.  
+- le slide avec l'histogramme du nombre de réponses correctes s'affiche   
+- chaque étudiant voit résultat sur son téléphone.  
 - le meilleur étudiant peut être identifié (choix du prof).  
 
 
