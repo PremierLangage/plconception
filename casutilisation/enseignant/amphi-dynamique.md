@@ -5,6 +5,7 @@ résumé:
 le prof propose des questions avec un micro-lien ou bien avec un lien elearning pendant un amphi les élèves peuvent répondre  sur leur smart phone ou leur pc à la question.
 Le professeur déclanche a volonté l'affichage du camembert de résultat sur le video projecteur (page web).
 
+# CAS: ELearning 
 
 PRÉ-REQUIS pour le cas elearning   
 -> que le prof ai un cours.  
@@ -29,5 +30,28 @@ il termine la question, ce qui lui permet d'afficher le résultat sur le video p
 
 POST-REQUIS pour le cas elearning.  
 ->  les réponses de l'élève sont enregistrée dans BD-Answers.
+
+# Cas indépendant
+
+Résumé:
+le professseur prépare une session et obtient un microlien vers la session.
+le professeur annonce le micro lien.
+Les élèves se connectent à la session (le prof vois le nombre de connectés).
+Le professeur propose des questions oralement ou sur des slides avec 4 réponses possibles 
+et les élèves font un choix (A,B,C,D). Le professeur vois le nombre de réponses faites. 
+Le professeur valide la question (il n'est plus possible de valider une réponse pour les élèves).
+Le professeur a une image montrant les proportions de chaque réponses A,B,C,D (Sous forme de Tarte par exemple), qu'il peut afficher.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
