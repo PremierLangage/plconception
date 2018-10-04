@@ -1,4 +1,4 @@
-# Charger activité
+# Publier/Charger/editer activité
 
 Objectif : Permettre à une enseignant de prendre le code actuelle d'un ou plusieurs exercice et de le/les mettre dans une activité.
 
