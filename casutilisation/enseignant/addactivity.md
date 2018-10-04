@@ -1,38 +1,37 @@
-# Ajouter une activité à un cours
+# Gérer les activités d'un cours
 
 
-Objectif : Permettre à un enseignant d'ajouter des activités à un cours.
-
-Résumé général : L'enseignant clique sur l'un de ses cours,
-                 s'il en a les droits, il peut alors cliquer sur le bouton "activité", c'est alors qu'une page contenant une liste de toutes les activités déjà créée s'ouvre.
-                 L'enseignant voit les activités déjà créés, il peut cliquer sur celle qu'il veux et ainsi commence l'[édition](../../concept/editeurdechamps.md) de l'activité sélectionnée.
-                 Si l'enseignant veut ajouter une nouvelle activité, il clique sur le bouton "Nouvelle activité", ensuite l'enseignant doit rechercher son activité si celle-ci existe. L'on peut cherche une activité grâce à son type (DM,Feuille,Défi etc..), sa discipline, son niveau et/ou son nom.
-                 Cependant si l'activité que l'enseignant recherche n'existe pas, il peut en [crée](../createur/creeractivite.md) une nouvelle.
-
-# Données
-
-Acteur Principal : Enseignant
-
-Acteurs secondaires : Admin
-
-Concurrence : Non
-
-Déclencheur : Se déclenche lorsqu'un enseignant clique sur le bouton "Activité" dans son cours s'il en a les droits.
+Objectif : Permettre à un enseignant d'ajouter une activité à un cours. Modifier les paramêtres d'accessibilité de l'activité.
 
 
-## Pré-conditions
 
-### Données d'entrées :
+Résumé général : Deux posibilités 
+A) Par Gitload et LTI
+B) Dans le tableau de Bord du cours sans LTI
 
-	Cours
+# Version A: Avec LTI
+## Pré-requis:
+	- l'utilisateur est connecté en tant que professeur éditeur.
+	- le connecteur LTI doit être défini dans le LMS et PL doit être configuré pour ce LMS cf.[ConnectionLMS](connectionlms.md)
+## Résumé
+L'enseignant parcourt les fichiers choisis un fichier activité (exemple: pltp) et le charge avec le bouton load (déclencheur).
+Le système : vérifie que l'actvité  est valide en termes syntaxiques.
+	- créer une structure d'activité 
+	- affiche le lien vers cette activité
+l'enseignant copie le lien dans le connecteur LTI de son LMS:
+A la première connection l'activité sera créée dans le cours correspondant sur PL.
 
-	Droits
-
-	Enseignant
-
-Avoir un compte enseignant dans la base de données.
-
-Avoir les droits nécessaires sur le cours.
+# Version B: Sans LTI
+Attention dans cette version le table de bord des cours doit être fonctionnel. Dans cette configuration le LMS n'est pas nécessaire.
+## Pré-requis 
+- le professeur a un compte PL de professeur
+- le cours existe et le professeur à le droit d'édition dessus
+- le tableau de bord du cours est ouvert et affiche le bouton "ajouter une activité" 
+## Résumé 
+- commence quand le professeur click sur "ajouter activité"
+- le système affiche la page "ajout d'une activité" dans le cours actif (parametre de la page)
+- la page ajout une activité contient une selecteur d'activités déjà chargée (niveau, dicipline etc)
+	- un bouton publier une activité (page d'explication comment parcourrir le système de fichier ou des liens vers la documentation d'écriture d'une activité), la publication se fait par un bouton publier proposer sur des fichiers acrtivité du système de fichier (cf.  filebrowser)
 
 
 ## Post Conditions
@@ -45,7 +44,7 @@ Avoir les droits nécessaires sur le cours.
 
 En cas de succès : L'enseignant associe une activité à son cours, cette activité est rendu visible pour les étudiants, ou les modifications sont sauvegardées.
 
-En cas d'échec : S'il y a un échec dans l'édition d'une activité, les modifications sont sauvegardés mais visible uniquement par l'enseignant grâce à la [zone tampon](../../concept/zonetampon.md)
+Le cas d'echec possible est le cas ou la publication ne se passe pas bien. Voir le cas d'utilisation publier une activité.
 
 # Navigation / IHM
 
