@@ -1,8 +1,11 @@
 # Publier/Charger/editer activité
 
-Objectif : Permettre à une enseignant de prendre le code actuelle d'un ou plusieurs exercice et de le/les mettre dans une activité.
+Objectif : Permettre à une enseignant d'éditer une activité. 
 
-Résumé général : L'enseignant sélectionne une activité à modifier. Il clique sur le bouton "+", pour ajouter un exercice à une activité. Il doit rechercher un ou plusieurs exercices, ou voir les exercices de son panier. Puis il sélectionne un ou plusieurs exercice. Il clique sur "Charger" pour finir.
+Résumé général :
+ - Une activité publiée n'est pas modifiable seulement "rechargeable".
+
+L'enseignant sélectionne une activité à modifier. Il clique sur le bouton "+", pour ajouter un exercice à une activité. Il doit rechercher un ou plusieurs exercices, ou voir les exercices de son panier. Puis il sélectionne un ou plusieurs exercice. Il clique sur "Charger" pour finir.
 
 # Données
 
