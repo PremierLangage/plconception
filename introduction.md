@@ -1,43 +1,27 @@
 
-Contents
+# Présentation 
 
-1. Introduction & Objective1
-2. La stratégie générale 1
-3. Le projet WIMS-Evolution 2
+Document de travail de présentation des différents projets en cours.
 
-Audit technique de la plateforme WIMS2
-
-Audit des usages 3
-
-LTI3
-
-Search & compose 3
-
-1. Le projet WIMS-EDITION 4
-2. Le projet PL 4
-3. Atouts 4
-
-Présentation 
-
-1. Introduction & Objective
+## Introduction & Objective
 
 L’objectif de ce document est de définir la stratégique  générale d’organisation des différents projets en cours : WIMS-édition, WIMS-évolution, PL, NCU-OuiSI.
 
 Pour chacun de ces projets de définir une feuille de route et ainsi que les éléments de calendrier que nous possédons a ce jour.
 
-1. La stratégie générale 
+## La stratégie générale 
 
 La stratégie générale se place dans notre volonté d’obtenir à terme une plateforme d’enseignement moderne avec un grande communauté d’usage permettant d’améliorer l’enseignement des mathématiques et de toutes les disciplines où l’on a besoin d’acquérir des connaissances, des savoirs faire, et des techniques calculatoires.
 
 La plateforme doit pouvoir permettre aux enseignants de proposer des supports de cours dynamiques et individualisés d’une façon simple et évolutive. Permettre au étudiants d’apprendre d’une façon simple (accessible), efficace (rapide), solide (pérenne). Permettre aux chercheurs/ didactitiens de pouvoir profiter du flux de données produit. 
 
-1. Le projet WIMS-Evolution 
+## Le projet WIMS-Evolution 
 
 Le projet Wims Evolution  est un projet sur initiative dont les objectifs sont de deux formes, d’une part des audits pour nous donner des informations sur l’état du logiciel et de la communauté qui permettrons a celle-ci de prendre des décisions.
 
 D’autre part la construction de deux modules autour de WIMS, LTI et le Search and compose.
 
-Audit technique de la plateforme WIMS
+### Audit technique de la plateforme WIMS
 
 L’audit technique de la plateforme a pour objectifs 
 
@@ -47,7 +31,7 @@ Deuxième élément attendu une évaluation du cout de réécriture, du coût d�
 
 Troisième élément  recenser les équipes de développement capable de participer à) l’évolution du logiciel. 
 
-Architecture logiciel :
+#### Architecture logiciel :
 
 -  Organisation en composant 
     -  Processus 
@@ -68,7 +52,7 @@ Architecture logiciel :
 
 -  API exportées 
 
-Audit des usages 
+### Audit des usages 
 
 Pour l’audit des usages nous allons faire un sondage sur l’ensemble de la communauté WIMS. Nous allons en particulier cibler des responsables de formations et des responsable d’enseignements.
 
@@ -83,25 +67,25 @@ Nous attendons des réponses à différentes questions avec l’audit des usages
 
 Nous allons faire ce sondage en deux parties: construction du questionnaire avec des interlocuteurs privilégiés, puis une fois le questionnaire approfondi un sondage plus large sur l’ensemble des utilisateurs de WIMS.
 
-LTI
+### LTI
 
 Learning Tools Interoperability, est un protocol permettant la communication entre logiciels d’enseignement. WIMS n’est pas LTI et donc nous allons développer un greffon permettant cette communication.
 
-Search & compose 
+### Search & compose 
 
 La création de feuille d’exercices sous WIMS est un exercice difficile et ingrat qui pénalise l’usage général du logiciel.  Le module Search & compose à pour objectif de simplifier cette activité. 
 
-1. Le projet WIMS-EDITION 
+## Le projet WIMS-EDITION 
 
 Le projet WIMS édition s’attaque au deux sens de termes « édition » d’une part l’édition scientifique avec les mécanismes de validation par les pairs de contrôle de qualité et de partage des productions.
 
 Et d’autre part l’aspect plus prosaïque de l’édition informatique de ressources pédagogique  utilisable sur une platform comme WIMS.
 
-1. Le projet PL 
+## Le projet PL 
 
 Le projet PL 
 
-1. Atouts 
+### Atouts 
 
 Les atouts de la plateforme sont les caractéristiques suivantes:
 
