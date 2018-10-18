@@ -1,5 +1,7 @@
 #Paramétrage 
 
+[Le parametrage sous WIMS](Paramétrage d'une feuille dans WIMS.odt)
+
 Dans un premier temps voici les types de paramétrages disponibles dans WIMS
 
 Nous souhaitons pouvoir utiliser toutes les potentialités des exercices auto-corrigés de WIMS. 
