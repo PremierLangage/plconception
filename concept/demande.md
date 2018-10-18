@@ -1,12 +1,18 @@
 # Demande (ask)
 
-La demande (Ask) permet à un créateur de demander la création d'un exercice. Pour cela il doit donner une description précise de l'exercice qu'il souhaite avoir. La création se fait sous la forme d'un topic dans un forum de discussion. (stakeoverflow like)
+La demande (Ask) permet à un créateur de demander la création d'un exercice. Pour cela il doit donner une description précise de l'exercice qu'il souhaite avoir:
+- discipline 
+- niveau 
+- sujet 
+- cours 
+- chapitre
+(bien entendu si il souhaite ajouter un exo a son cours/ dans le contexte d'un cours qqcvd tous ces champs sont préremplis).
 
-Cela permet aux créateurs de discuter avec l'auteur pour demander plus de détail de l'exercice, lui faire des suggestion ...
+La création se fait sous la forme d'une requête (stakeoverflow like) dans le logiciel ASK. 
 
-Les créateurs peuvent "upvote" les topics, notamment s'ils souhaitent effectuer la même demande de création. Il est également possible d'upvote un et un seul message pour chacun des topics.
+L'utitilisation de ASK structure les discutions sur l'exercice. 
+sous question, ups/downs, liens, propositions, etc et KARMA !!
 
-<!---
-Author : Hugo
-Validator :
--->
+
+
+
