@@ -19,10 +19,11 @@ Cette version 2 à pour objectifs:
  1) Chatbot pour l'activité (tout ceux connectés à l'activité peuvent partager un chat/IRC).
 
 ## Pour ceux souhaitant participer à la conception 
-Lire le fichier [regles.md](regles.md) .
+Lire le fichier [regles.md](RULES/regles.md) .
 
 ## Pour ceux souhaitant participer au développement 
 Voire le repository git premierlangage.
+https://github.com/plgitlogin/premierlangage/
 
 Bien à vous.
 l'équipe Permierlangage.
