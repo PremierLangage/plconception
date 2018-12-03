@@ -69,14 +69,7 @@
 	l’évaluation de son efficacité pédagogique. 
 	Sérendipité
 
-
-# Quels sont les objectifs de ce sondage ?
-
-
-
-
-
-Les valeurs essentielles d’un réseau éducatif efficace 
+    Les valeurs essentielles d’un réseau éducatif efficace 
 	1.	Rechercher des acquis d’apprentissage ambitieux liés à une pédagogie efficace;  
 	2.	Développer des relations fortes de confiance et de responsabilité;
 	3.	Améliorer constamment la pratique et les systèmes à travers des cycles d’enquêtes collaboratives;
@@ -85,3 +78,43 @@ Les valeurs essentielles d’un réseau éducatif efficace
 	6.	se connecter vers l’extérieur pour apprendre des autres;
 	7.	Créer de nouveaux partenariats entre étudiants, enseignants, familles, communautés ; 
 	8.	Sécuriser les ressources nécessaires à la poursuite du travail.
+
+
+# Quels sont les objectifs de ce sondage ?
+
+
+	Vous informer de l'existance de ce projet.
+	Vous proposer de participer.
+
+    Collecter une expression du besoin:
+        de quelles activités pédagogiques vous avez envie,
+        quelles activités pédagogiques souhaiter vous que l'on développe en premier,
+        Quelles disciplines vous semble prioritaires
+    Quel sont les éléments didactiques les plus important pour vous.
+        Ex: la compréhension, la mémorisation etc taxonomie de bloom,
+    Quel est le rôle principal d'un outils de EAO pour vous ?
+    Quel est l’intérêt d'une communauté?
+    Si on vous propose de participer a une telle communauté souhaiter vous l' anonymat ou plus tôt d'être reconnu ?
+    Penser vous qu'il est nécessaire de partager le travail, pourquoi question ouverte ??
+   
+    Si vous deviez proposer une activité a quel niveau voudriez vous intervenir :
+    - spécification
+    - paramétrage
+    - adaptation
+    - programmation
+    - conception
+    - tests
+
+  
+    Avez vous des exercices qui vous manque ?
+    Avez vous des idées d'exercice qui actuellement ne sont pas disponibles sur les plateforme que vous utiliser ?
+   
+    Si vous utiliser WIMS :
+        blablabla
+       
+    Si vous utiliser Moodle
+   
+    
+	 
+
+
