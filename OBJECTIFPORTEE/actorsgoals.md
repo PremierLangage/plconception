@@ -81,6 +81,10 @@ construire une typologie d'erreur / construire un feedback correspondant
 Identifier/ tagger des ressources en liens avec (grain/aav/op/ops)
 Donner des droits de créateur&analyste a un autre utilisateur dans la limite de ces propres droits
 
+## Responsable de Formation:
+
+harmoniser/organiser/planifier les objectifs de formations entre les cours/classes
+
 ## Utilisateurs :
 
 devenir observateur d'une ressource
