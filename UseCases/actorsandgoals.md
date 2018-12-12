@@ -136,8 +136,6 @@ Classement ??
 Proposer des patrons d'activités/exercice/ressources/stratégies/objectif
 Proposer des méthodes d'écriture /évaluation autre ???
 
-
-
 ## institutions :
 
 Qu'attende les institutions d'une tel plateforme ???
