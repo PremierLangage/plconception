@@ -5,20 +5,20 @@
 
 apprendre :
 
-découverte
-renforcement/approfondissement
-révision / entrainement / ancrage mémoriel
-participer (connaitre les évènement, les dates, les activités, les lieux, les forums, etc...)Chat/ listes/ info/ documents / etc cf. moodle
+découverte . 
+renforcement/approfondissement . 
+révision / entrainement / ancrage mémoriel . 
+participer (connaitre les évènement, les dates, les activités, les lieux, les forums, etc...)Chat/ listes/ info/ documents / etc cf. moodle . 
 
-a une classe / a un groupe / a groupe un projet
-connaitre /lire /comprendre son positionnement
-Être Évalué
+a une classe / a un groupe / a groupe un projet . 
+connaitre /lire /comprendre son positionnement . 
+Être Évalué . 
 
-auto-evaluation (automatique)
-passer un examen / participer à une évaluation
-créer un porte folio
-Fournir un élément d'évaluation (copie, réponse, document, archive, upload)
-auto-apprentissage :
+auto-evaluation (automatique) . 
+passer un examen / participer à une évaluation . 
+créer un porte folio . 
+Fournir un élément d'évaluation (copie, réponse, document, archive, upload) . 
+auto-apprentissage :  
 
 définir ces objectifs d'apprentissage
 sérendipity
