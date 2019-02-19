@@ -1,2 +1,0 @@
-
-# Les acteurs du projet 
