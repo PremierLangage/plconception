@@ -1,6 +1,6 @@
-# Créer une discipline
+# Créer Editer une discipline
 
-1. Acteur Principal : Administrateur LMS
+1. Acteur Principal : [Administrateur LMS](../../acteurs/adminLMS.md)
 
 
 1. Objectif : Permettre à un administrateur LMS de créer une discipline.
@@ -37,12 +37,22 @@ L'administrateur LMS clique sur le bouton Création sur son tableau de bord, il 
 
 Dans le menu administrateur choisir le menu item créer une discipline.
 
-Un champs de saisie est présenter qui fait de la compléssion automatique avec la liste existante des disciplines.
+Un formulaire de saisie est présenté :
+- Nom de discipline
+- nomcour de la disicpline (identifiant unique uniquement en minuscules) 
+- description de la discipline (1500 char max), 
+- dictateur bienveillant (nom, email, vérifier),
+- 
+Pour le nom de la discipline le champs de saisi fait de la compléssion automatique avec la liste existante des disciplines.
 Si il a des caractères non alphanetiques ils sont refusés. 
+Pour le nom cours si il existe déjà une discipline avec ce  nom la c'est une édition. 
+Une fois que la displine est créée dans la liste des displines, un répertoire correspondant est créer dans l'arbre *Yggdrasil* (avec une version réduite du nom de la discipline: pas d'espaces uniquement des lettres appartenant à [a-z] .
 
-Une fois que la displine est créée dans la liste des displines, un répertoire correspondant est créer dans l'arbre (avec une version réduite du nom de la discipline: pas d'espaces uniquement des lettres appartenant à [a-z] .
+La discipline à un nom (clef unique==répertroire dans Yggdrasil), une description, un utilisateur référent (dictateur bienveillant) avec un email et des membres (utilisateurs identifiés).
 
 
+## Liens
+[Yggdrasil](../../concept/yggdrasil.md)
 
 
 
