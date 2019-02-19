@@ -1,7 +1,7 @@
 # plconception
 La partie conception du projet de plateforme d'enseignement "Premierlangage".
 
-Ce sous projet de permier langage à pour objectif de faire la conception de la version 2018-2019 du logiciel. 
+Ce sous projet de permier langage à pour objectif de faire la conception de la version <strong>2018-2019</strong> du logiciel. 
 
 ##  Objectifs de la version 
 ### Atteints:  
