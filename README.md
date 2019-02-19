@@ -3,7 +3,7 @@ La partie conception du projet de plateforme d'enseignement "Premierlangage".
 
 Ce sous projet de permier langage à pour objectif de faire la conception de la version 2018-2019 du logiciel. 
 
-Cette version à pour objectifs:  
+##  Objectifs de la version 
 ### Atteints:  
 1) fournir une version plus sécurisé avec des tests plus approfondis dans plus de contextes, une version avec un coverage de plus de 80%.
 1) un editeur avec une préview
