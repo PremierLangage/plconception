@@ -38,7 +38,7 @@ Réaliser ce suivi de façon automatique. Une plateforme d'exercice en ligne.
 
 # Les conditions de la réussite
 
-Pour que la platforme d'enseignement en ligne soit une réussité il faut réunir les ingrdéiants suivants.
+Pour que la platforme d'enseignement en ligne soit une réussité il faut réunir les ingrédiants suivants.
 
 - Disponibilité continue sur internet (il faut que l'université propose des postes d'accès libre à internet en quantité suffisante).
 - Disponibilité sur mobile (les étudiants ont plus souvant un téléphone moderne qu'un ordinateur).
@@ -49,8 +49,6 @@ Pour que la platforme d'enseignement en ligne soit une réussité il faut réuni
 - La qualité (complétude et autonomie)
 - Son Evolutivité (Autoévaluation, amélioration continue).
 - Validation
-- la sérendipité
-
 
 
 # Valeurs
