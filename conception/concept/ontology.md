@@ -1,5 +1,5 @@
 
-# Ontologie/Objectifs d’apprentissage visés/ Concepts/ Variables didactiques
+# Ontologie
 
 Les ontologie de Premierlangage sont de deux formes, les "ontologie du domaine", qui sont définies sur les grains (du domaine).
 Les "ontologies pratiques" qui sont des ontologies spécifiques à une activité, un cours ou une classe.
@@ -21,17 +21,26 @@ Elles permettent de
 
 # Construction d'une ontologie 
 
+Toutes les ontologies sont construite sur le même principe.
+Des **objets externes** sont associés de façon univoques à des **noeuds** de l'ontologie. 
+Les Noeuds de l'ontologie sont associés par des **relations** typées (le type par défault étant le prérequis).
 
+L'affichage des ontologie ce fait avec un module utilisant graphviz (cf. [Vieux Projet pl](http://pl.univ-mlv.fr) )
 
+# Types logiques 
 ## Ontologie du domaine
-L'ontologie du domaine est fonctionnelle et orientée objet. Elle est utilisée pour représenter un domaine (les composants informatiques, l'immobilier, le droit, la génétique, la vie de l'ornithorynque) sous forme de base de connaissances. Par exemple, faire l'ontologie d'un site web est intéressant pour comprendre sa structure. Elle peut être réalisée en amont de la création du site ou bien sur des sites de grande envergure en activité. Elle présente les concepts-clés, les attributs, les instances relatifs au domaine.
+L'ontologie du domaine est un graphe de Noeuds (chaque Noeud est lié de façon univoque avec un grains défini dans la discipline).
 
-Pour réaliser ce type d'ontologie, il existe des éditeurs de structure de base de connaissances. Le plus connu et le plus utilisé est Protégé. Open-source et gratuit, il est implémenté à partir d'une plate-forme Java J2EE. Développé par l'Université de Stanford, il intègre les standards du Web sémantique et notamment OWL (pour Web Ontology Language). Il offre de nombreux composants optionnels: raisonneurs, interfaces graphiques. Ses ontologies peuvent être exportées dans les formats :RDF(S), OWL, et XML Schema.
+Les relations entre les Noeuds sont pour le moment (20/02/2019) limités a une relation de prérequis. 
+Un grain A est le prérequis du grain B si il faut avoir compris A pour apprendre B.
+
+Elle est utilisée pour représenter les relations dans les connaissances de base d'un domaine/une discipline/un cours particulier.
 
 ## Ontologie Pratiques
-Les ontologies informatiques sont des outils qui permettent de représenter précisément un corpus de connaissances sous une forme utilisable par une machine. Elles représentent un ensemble structuré de concepts. Les concepts sont organisés dans un graphe dont les relations peuvent être des relations sémantiques et/ou des relations de composition et d'héritage (au sens objet).
 
-Par exemple, le langage UML (Unified Modeling Language) est un formalisme graphique qui est utilisé pour faire des ontologies informatiques. 
+Les ontologies pratiques de PL sont utilisées soit pour une representation des connaissance comme les ontologie de domaine. Soit dans une approche plus pratique (d'ou le nom), ou l'ontologie est un outil de gestion de la progresssion de l'élève.
+
+L'ontologie est utilisée pour mesurer l'avancement (avec les Noeuds maitrisés), piloter la progresssion en proposant des exercices à la limites des connaissances de l'élève, exprimer le niveau atteint par l'élève (affichage de la liste des Noeuds limites).
 
 
 
