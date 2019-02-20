@@ -15,26 +15,27 @@ Pour l'éventuelle transformation en MOOC, il faut pouvoir ajouter des feedback 
 
 Les exerciseurs de programmation peuvent complétés par un ensemble de types d’exercices [qui existent déjà mais doivent être adaptés] [besoin 8] gift, AMC, SCORM, etc
 
-Le partage des ressources est une tache complexe il faut proposer une editorialisation qui permettent de faire rencontrer des dévelopeurs d'exercices aléatoires et constructifs (complexes à écrire), les enseignants (qui connaisse le besoin direct de leurs élèves: ne savent pas faire une règle de 3), les didactitiens (l'ordre d'apprentissage, le niveau de feedback, la forme des exercices, le travail sur la métacognition), 
+Le partage des ressources [besoin 9] est une tache complexe il faut proposer une editorialisation qui permettent de faire rencontrer des dévelopeurs d'exercices aléatoires et constructifs (complexes à écrire), les enseignants (qui connaisse le besoin direct de leurs élèves: ne savent pas faire une règle de 3), les didactitiens (l'ordre d'apprentissage, le niveau de feedback, la forme des exercices, le travail sur la métacognition), les chercheurs (nouvelles formes de suivi, d'activités, indicateurs, etc).
+
+Les indicateurs [besoin 10] forment une classe de besoin à part entière, il nous faut des indicateurs très variés et très différents en fonction des utilisateurs.
 
 
 
 Les exigences suivantes sont plus ponctuelles et à intégrer au endroits appropriés.
 
-* Un outil de validation de forme pour les projets de programmation.
+* [activity] Un outil de validation de forme pour les projets de programmation.
 
 * L'interface de « programmation » des cours et des exercices doit être simple.
 
-* Il faut différentes formes d'exercices (ceci est il vraiment important) ?
+* Il faut différentes formes d'exercices (la plateforme ne doit pas être barbante)
 
-* Fussy output (ce que les débutants ont du mal a voire: les blancs les passages à la ligne les
-
-textes inutiles (la valeur est : val)). Si l’appréciation est fussy elle détecte ces écarts à la
-
-norme et les signales.
+* [exoprog] Fussy output (ce que les débutants ont du mal a voire: les blancs les passages à la ligne les textes inutiles (la valeur est : val)). Si l’appréciation est fussy elle détecte ces écarts à la norme et les signales.
 
 * outil de détection de plagiat [ceci est il important dans les exercices??] pour les projets.
 
-    l'étiquetage des exercice sur l'ontologie permet a un apprenant de revenir sur une notion/concept d'une part en demandant un exercice supplémentaire ou en accédant a un module de cours correspondant.
+* [tag] l'étiquetage des exercice sur l'ontologie permet a un apprenant de revenir sur une notion/concept d'une part en demandant un exercice supplémentaire ou en accédant a un module de cours correspondant.
 
-Il faut que les sujets de TP prennent en compte notre souhait d'avoir des variations de comportement en fonction des élèves.
+* Il faut que les sujets de TP prennent en compte notre souhait d'avoir des variations de comportement en fonction des élèves.
+
+
+**historique** D Revuz 
