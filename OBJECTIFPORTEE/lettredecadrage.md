@@ -2,33 +2,115 @@
 % Dominique Revuz
 % \today 
 
-# Le contexte économique et politique. 
 
-L'enseignement supérieur souffre d'un manque de moyen de puis plusieurs années.
+# Qui ? Quoi ? Où ? Quand ? Comment ? Combien ? Pourquoi ?
 
-Ce manque de moyen a conduit a des situations de sous effectifs dont notre université soufre particulièrement.
-Ces problème de moyens se sont accrus avec l'augmentation des cohortes des années 2000 qui entre aujourd'hui dans les universités. 
+## Qui ?
+
+Une équipe au sein de l'université de Marne la vallée.  
+Objectif de l'équipe fournir un exerciseur compatible LTI et différents outils d'enseignement en ligne.
+Soutenue par la présidence, le CRI et le CN.
+
+### Une équipe en construction 
+Aucunes des personnes indiquées n'est a 100 % sur le projet ayant toutes un emploi qui n'est pas directement lié au projet. 
+
+- MOA 
+  - Dominique Revuz : enseignant en informatique MOA 
+  - Magdalena Kobylansky : enseignant en Mathématiques (UPEM)
+  - Mourad Ben Hadj &  Xavier Lachapelle: responsables service informatique
+- Développeurs Plateforme
+  - A Coumes (apprenti) (UPEM)
+  - C Calle  (apprenti)(UPEM)
+  - M Cisse  (apprenti)(UPEM)
+  - Nicolas Salegéro (ingenieur)(CRI UPEM)
+- Développement des ressources : 
+  - Nicolas Borie : enseignant en informatique (UPEM)
+  - David Doyen : enseignant en Mathématiques (UPEM)
+  - Nicolas M. Thiéry  : enseignant en informatique  (PSUD)
+  - Etienne Sandier  : enseignant en Mathématiques (UPEC)
+- Administration Système :
+  - Nicolas Cuvelier (ingenieur)(CRI UPEM)
+
+###  Les manques 
+Les personnes suivantes sont présenties pour participer au projet 
+- Coordinateur projet:
+  - Francis Bock
+- Coordinateur Migration pédagogique:
+  - Sébastien 
+- Coordinateur Communication 
+  - (personne de la D.school)
+- Administration du projet:
+  - (personne au CN)
+- Développeur principal:
+  - q coumes à ce rôle mais un élément sénior serait le bienvenu 
+- Testeur:
+  - X
+
+## Pourquoi ?
+Pourquoi ce projet, trop d'élèves pas assez de professeurs, des élèves hétérogènes 
+
+### Le contexte économique et politique. 
+
+L'enseignement supérieur souffre d'un manque de moyen depuis plusieurs années. C'est particulièrement vrai pour notre université (dans le fin fond du classement en termes de moyens) malgré cela nous avons un taux de réussite en L1 dans le haut du classement. Ce manque de moyen a conduit a des situations de sous effectifs dont notre université soufre particulièrement. Ces problème de moyens se sont accrus avec l'augmentation des cohortes des années 2000 qui entre aujourd'hui dans les universités. 
+
 La structure de l'enseignement supérieur avec l'université qui a la responsabilité de proposer une formation à tout les sortants du baccalauréat. 
 
-L'ensemble de ces éléments créer une situation qui nous a pousser a trouver des solutions informatiques au problème d'enseignement. 
+L'ensemble de ces éléments créer une situation qui nous a pousser a trouver des solutions informatiques aux problèmes de nos enseignants. 
 
-# Un besoin criant d'aide
+### Un besoin criant d'aide
 
 - Des étudiants nombreux.
 - Des niveaux hétérogènes.
 - Des cultures variées.
-- Des enseignants concernés et débordés.
+- Des enseignants concernés mais débordés (risques psycosociaux, burnout, dépression, turnover, mécontentement, démission) .
 
-# Des étudiants capables
+### Des étudiants capables
 
-L'expérience des presque 30 ans de l'université de Marne la Vallée,
-nous apporte confirmation que l'on peut obtenir des diplômés de qualité avec les jeunes de l'Est parisien.
-
-
-Mais pour cela il faut pouvoir investir dans un suivi personnalisé des étudiants ce que nos ressources en personnel ne permettent plus.
+L'expérience des presque 30 ans de l'université de Marne la Vallée, nous apporte confirmation que l'on peut obtenir des diplômés de qualité avec les jeunes de l'Est parisien. Seule règle a prendre en compte (mais inaplicables) les etudiants ont des retard qu'ils doivent rattraper pour cela il faut plus de temps et d'accompagnement mais ...  
 
 
-# Le suivi personnalisé
+Mais pour cela il faut pouvoir investir dans un suivi personnalisé des étudiants ce que nos ressources en personnel ne permettent plus. Les statistiques de réussite sont directement proportionelles au taux d'encadrement 
+
+
+## Quoi ?
+
+Le projet consiste a proposer une plateforme web interactive permettant aux enseignant de proposer des ressources padagogiques a leur etudiants et permettant a une communauté d'enseigants de construire de façon ouverte et partagé des ressources. 
+
+Pourquoi une plateforme, il en existent déjà de nombreuses moodle, canvas, talentLMS, Claroline, etc ...
+D'un avis général de nos collègues les LMS sont fort utiles mais ils ne réponde pas entièrement a nos attentes c'est puorquoi nous proposons d'utiliser le protocol LTI Learning Tools Interoperability. [LTI Wikipedia](https://en.wikipedia.org/wiki/Learning_Tools_Interoperability), et créer ce qui est appeler un LTI Tool Provider, c'est à dire un fournisseur d'outil LTI qui nous apportera des réponses au besoins spécifiques que nous avons identifié et qui ne sont pas fournis par les LTI actuels.
+
+[historique](historique.md) 
+
+
+## Ou  ?
+
+Nous proposons à l'UPEM un service national de gestion de ressource utilisable pour l'edition de ressources et des serveur local a chaque institution pour la gestion des actifs.
+
+Ainsi chaque unviersité ou académie sera maitre du déploiement des environement d'utilisation. Et la monté en charge se fera graduellement et de façon horizontale.
+
+## Quand   ?
+
+Le projet est commencé depuis 1 ans. Nous pensons fournir chaque semestre une nouvelle version du logiciel apportant des fonctionnalités supplémentaires et fournir des corrections de Bug. Les deux version annuelles sont prévues en Juin et Janvier. 
+
+
+## Comment   ?
+
+Un serveur django sur des serveur de l'université. Des serveur django dans les autres établissements. 
+
+
+      C	Comment ?	De quelle façon, dans quelles conditions, par quel procédé…	Procédure, technique, action, moyens matériel…
+      C	Combien ?	Dans quelle mesure, valeurs en cause, à quelle dose…	Quantités, budget…
+      P	Pourquoi ?	Cause, facteur déclenchant	Justification par les causes qui ont amené à… (la « raison » d'être, la croyance)
+      P	Pour (faire) quoi ?	Motif, finalité, objectif	Justification par le souhait, l'ambition, la prévision…
+
+
+
+
+
+
+
+# 	Pourquoi ?
+##  Le suivi personnalisé
 
 Les étudiants qui arrivent en L1 (première année) sont perdu, en général ils quittent le girond familial, sont confronté dans des groupes de grande taille ou ils ne connaissent personnes. Du fait de la grande proportion d'échec en premier année les enseignants ne peuvent légitimement pas investirent dans tous les élèves. 
 Ce qui  pénalise les plus précaires et tous ceux (et celles) qui ont besoin d'une aide ponctuelle pour mettre le pied à l'étrier .
@@ -62,56 +144,3 @@ Est mise en place ainsi que  des règles de savoir-vivre : vous êtes tenus de r
 - Cinquième pilier : PL suit des règles de savoir-vivre même lorsqu’il y a désaccord. Ne vous livrez pas à des agressions contre des personnes, ni à des généralisations insultantes. Gardez votre sang-froid lorsque l’atmosphère chauffe. Évitez les guerres d’édition. [...] Agissez de bonne foi et partez du principe que vos interlocuteurs font de même, sauf preuve flagrante du contraire. Efforcez-vous d'être ouvert, accueillant et amical. 
 - Sixième pilier : PL a des règles et des lignes directrices, elles ont pour objectifs de rapprocher les enseignants d’une même matière sans entraver leur liberté d’enseigner à leur convenance, de structurer le partage pour converger vers des ressources idéales mais elles ne sont pas gravées dans le marbre ; leur contenu et leur interprétation peuvent être amenées à évoluer. Leurs principes et leur esprit importe davantage que leur application à la lettre, et il arrive que l'amélioration de PL nécessite quelques exceptions. Soyez audacieux sans être imprudent lorsque vous mettez à jour des ressources, et n'ayez pas peur de commettre des erreurs. Toutes les versions précédentes des ressources sont conservées et accessibles par le biais de l’historique, il est donc impossible d’endommager ou perdre irrémédiablement de l’information sur PL, part  contre tout les éléments logiciels sont fragiles et a ce titre doivent être traités avec des procédures adaptées (voire les règles logicielles).
 
-# Lettre de cadrage 
-
-### Besoins fonctionnels 
-### Besoins techniques 
-### Besoins didactiques 
-
-
-# Besoins  
-
-Une plateforme internet d'accès facile (sur pc et téléphone), ouverte 24/7, contenant des support de cours dynamiques.
-Pour 
-
-
-
-
-# Besoins fonctionnels 
-
-Trois grands besoins fonctionnels:
-
-### Un langage et un IDE 
-
-le langage d'exercice pl et l'IDE: editeur moderne  
-
-### Des activités 
-
-Feuilles d'exercices, Examen, Revisions, Autonomie, Bachotage, Ludification, un environnement ouvert.
-
-### Un environement d'Editorial 
-
-Des processus de production pour une éditorialisation orientée partage réutilisation qualification basée sur un système d'AAV et de communication.
-
-
-# Un langage et un IDE 
-
-
-
-
-
-
-
-
-
-# Besoins techniques 
-
-Un serveur national une approche SAAS pour fournir les ressources/
-Des serveurs d'assets   
-
-
-
-
-# WIMS
-
-WIMS 20 ans de bons et loyaux services. 
