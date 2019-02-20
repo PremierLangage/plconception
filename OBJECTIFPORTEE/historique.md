@@ -17,8 +17,8 @@ Pour l'éventuelle transformation en MOOC, il faut pouvoir ajouter des feedback 
 Les exerciseurs de programmation peuvent complétés par un ensemble de types d’exercices [qui existent déjà mais doivent être adaptés] [besoin 8] :
 
     exercice a trou «  complétez les trous du programme suivant  pour qu'il affiche l'age ...»
-
-    exercice de réorganisation de code, Ré-arranger les lignes de code suivantes pour que le programme affiche l'age du capitaine
+    exercice de réorganisation de code, Ré-arranger les lignes de code suivantes pour que
+    le programme affiche l'age du capitaine
 
 Les exigences suivantes sont plus ponctuelles et à intégrer au endroits appropriés.
 
