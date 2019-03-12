@@ -10,17 +10,17 @@
 
 ## PARTAGE
 
-Actuellement tout les utiisateurs de l'editeur (c-a-d des ensegiganntas) partage un répertoire home.
+Actuellement tout les utiisateurs de l'editeur (c-a-d des ensegiganntas) partagent un répertoire home.
 avec le risque que l'on efface ou modifie le travail de quelqu'un d'autre.
-IL est possible d'utiliser un git dabs ce répertoire partagé pour se proteger en conservant à distance une copie de suavegard sur (par exemple) github .
+Il est possible d'utiliser un git dans ce répertoire partagé pour se proteger en conservant à distance une copie de sauvegarde sur (par exemple) github .
 C'est le cas du dossier conceptexo qui est un repository officiel du projet.
 
 
 
 ## Le module ClasseManagement 
 
-Le module classmanagement permet d'afficher (prof/elève) la liste des cours créés par le module LTI.
-Il y a un affichage de l'avancement des activités du cours, sous forme d'un tableau avec des couleurs indiquant le statut de l'exercice (commencé, abandonné, échoué,  sucess)
+Le module classmanagement permet d'afficher (prof/elève) la liste des cours crés par le module LTI.
+Il y a un affichage de l'avancement des activités du cours, sous forme d'un tableau avec des couleurs indiquant le statut de l'exercice (commencé, abandonné, échoué, réussi)
 
 ## EDITEUR
 
@@ -29,8 +29,9 @@ Editeur est dans un bon état d'avancement, multi fichiers, CRTL-S, avec un prev
 
 ## PlayExo (exerciseur)
 
-PlayExo est l'exerciseur proprementy dit, c'est la partie la plus testé du logiciel. 
-Il y a un langage de programmation avec un compilateur qui fait de la vérification syntaxique (il est possible d'augmenter les controles pour un type d'exo spécifique ).
+PlayExo est l'exerciseur proprementy dit, c'est la partie la plus testée du logiciel, et sans doute la plus origniale et aboutie. 
+C'est le module qui permet d'éxécuter les exercices définis dans le langage PL (cf. doc)
+Le langage de programmation est muni d'un compilateur qui fait de la vérification syntaxique (il est possible d'augmenter les contrôles pour un type d'exo spécifique).
 
 
 ## Sandbox (sécurisation d'exécution)
