@@ -1,5 +1,8 @@
-# Roadmap minimale 
-(du 19 juin 2018)
+% Roadmap minimale 
+% (du 19 juin 2018)
+% DR
+
+
 [Liste modèles d'exercices](../exerciceModeles.md)
 
 ## Système de fichier

@@ -38,9 +38,9 @@ Les personnes suivantes sont présenties pour participer au projet
 - Coordinateur Migration pédagogique:
   - Sébastien 
 - Coordinateur Communication 
-  - (personne de la D.school)
+  - (une personne de la D.school)
 - Administration du projet:
-  - (personne au CN)
+  - (un personne au CN)
 - Développeur principal:
   - q coumes à ce rôle mais un élément sénior serait le bienvenu 
 - Testeur:
@@ -95,7 +95,7 @@ Le projet est commencé depuis 1 ans. Nous pensons fournir chaque semestre une n
 
 ## Comment   ?
 
-Un serveur django sur des serveur de l'université. Des serveur django dans les autres établissements. 
+Un serveur django sur des serveurs de l'université. Des serveurs django dans les autres établissements. 
 
 
       C	Comment ?	De quelle façon, dans quelles conditions, par quel procédé…	Procédure, technique, action, moyens matériel…

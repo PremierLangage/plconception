@@ -1,5 +1,14 @@
+% historique.md projet Premier Langage
+% Dominique Revuz
+% \today
+---
+papersize: A4
+margin-left: 0.5in
+margin-right: 0.5in
+margin-top: 0.5in
+margin-bottom: 0.5in
+...
 
- 
 
 Le projet a démarré sur la constatation d'un certain nombre de manques sur les plate-formes d'enseignement qui nous sont proposées.
 
@@ -41,6 +50,7 @@ Les exigences suivantes sont plus ponctuelles et à intégrer au endroits approp
 * Il faut que les sujets de TP prennent en compte notre souhait d'avoir des variations de comportement en fonction des élèves.
 
 
+
 ### besoins/solutions
 
 besoin 1 : exerciseur de programmation, beson initial du projet, nécessite une sécurisation de l'évaluation du travail des étudiant.
@@ -70,13 +80,15 @@ besoin 8: Compatibilité avec différents format d'exercices en particulier WIMS
 Solution: de nouveau la solution passe par un langage de programmation des exerices, 
 
 besoin 9: Partage multi-auteur de l'edition des ressources.
-Solution: Pas de solution nous avons lancer un projet parrallèle pour nous donner une solution c'est le projet WIMS-Edition.
+Solution: Pas de solution imédiate il nous faut trouver un compromis en la simpicité et le partage, 
+nous avons lancer un projet parrallèle pour nous donner une solution c'est le projet [WIMS-Edition](wimdsed.besoin.md). 
 
 
 besoin 10 : Les indicateurs  forment une classe de besoin à part entière, il nous faut des indicateurs très variés et très différents en fonction des utilisateurs.
 Solution: Un système de plugins, de widgets et de procedure qui permettent de construire directement sur la plateforme l'indicateur que l'on souhaite, la librairie graphique qui le permet n'est pas encore choisie.
 
  
+
 
 
 **historique** D Revuz 
