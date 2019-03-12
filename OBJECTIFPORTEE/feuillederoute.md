@@ -47,12 +47,12 @@ Il manque un retour de notes.
 
 ## Q&A 
 
-Un module de Q&A est installé fait partie des applications django du projet.
-il manque la possibilité de faire référence a des exercices et la possibillité de faire référence a des questions dans les exercices.
+Un module de Q&A est installé fait partie des applications django du projet. Cela permet de faire du stack-averflow. En particulier des donner des points de participation.
+Il manque la possibilité de faire référence a des exercices et la possibillité de faire référence a des questions dans les exercices.
 
 
 ## Documentation 
-De grosses lacunes dans la documentation. La séparation des projet vas permettre de mettre la documentation sur la programmation des exercices dans les projets disciplinaires.
+De grosses lacunes dans la documentation. La séparation des projets va permettre de mettre la documentation sur la programmation des exercices dans les projets disciplinaires.
 
 
 ## ACTIVITE  
@@ -69,7 +69,7 @@ test fonctionnels permettant de valider en pré-prod la qualité d'une realease.
 
 ## Déploiement 
 
-Le déploiement n 'a pas été une réussite les dernière fois de nombreux oublis dans le procedure, et un manque d'industrialisation dans la création d'un document de déploiement.
+Le déploiement n'a pas été une réussite les dernière fois de nombreux oublis dans le procedure, et un manque d'industrialisation dans la création d'un document de déploiement.
 Il faut que les prochains déploiements ce fasse avec une prise de note et de décission plus clair. 
 
 
@@ -140,7 +140,7 @@ IL faut que l'on affiche les diff et que l'on porpose la possibilité de changer
 
 # T2
 
-## Serveurs ASSETS serveur RESOURCES 
+## Serveurs ASSETS serveur RESSOURCES 
 
 Pour supporter la monté en charge il faut organiser deux types de serveurs.
 Le serveur de ressources qui est partagée par tout le monde. 
