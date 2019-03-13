@@ -52,12 +52,26 @@ que toutes les mini-modifications de cet auteurs ont toutefois déclanchés des 
 
 ### Rechercher et ouvrir des ressources
 
-On peut ouvrir une ressource en parcourrant l'arborescence du dépot logique
+On peut ouvrir une ressource en parcourrant l'arborescence du dépot logique ?
 
 * QUEL EST L'UNITÉ POUR LA RESSOURCE ?
 * PEUT-ON DIRE TOUT FICHIER DU DÉPÔT CONCEPTEXO EST UNE RESSOURCE ?
 * UN GRADER EN DEUX FICHIERS CONSTITUE UNE OU DEUX RESSOURCES ?
 * QUELQU'UN QUI OUVRE UN FICHIER DE CONCEPTEXO OUVRE QUOI ALORS ?
+* PEUT-ON LAISSER LES FICHIERS EN ACCÈS LIBRE ? SINON, ON ÉDITE QUOI ?
+
+Si un fichier = une ressources :
+* permet de laisser les gens se pronemer dans l'arborescence du git sous-jacent ?
+* modifier la version courante d'un fichier --> faire une amélioration sur une version finale ?
+
+Si un fichier != une ressources :
+* il faudra interdire l'accès aux fichiers pour modifications ?
+* on ne peut modifier que les choses indexé pédagogiquement sinon c'est le chaos ?
+* comment gérer les ressources multi fichiers ?
+* une ressources doit-t-elle être un nuage de fichiers ?
+* si une ressource est un nuage de fichiers, comme gérer les versions entre ressources
+  inter-dépendentes ?
+
 
 ### Ouvrir une vieille version
 
@@ -124,9 +138,9 @@ Pour éviter d'entrer en contact avec le gestionnaire de version interne et tech
 sont linéarisé avec la fonction de downgrade.
 
     V0 : Bob premiere version
-    V1 : Bob première version + ajout1
+    V1 : Bob V0 + ajout1
     V2 : Alice donwgrade V0 + ajout2
-    V3 : Bob + ajout1
+    V3 : Bob V2 + ajout1
 
 Bob et Alice travaillent ensemble sur une même ressource. Bob a l'idée d'y rajouter un *ajout1*, Alice 
 souhaite aussi implementé *ajout2* sur le même exo en même temps.
