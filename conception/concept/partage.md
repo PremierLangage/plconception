@@ -1,7 +1,7 @@
 
 
 # Partage 
-Ce document cherche a definir le cachier des charges du partage des ressources sur la platforme.
+Ce document cherche a definir le cahier des charges du partage des ressources sur la platforme.
 
 
 
