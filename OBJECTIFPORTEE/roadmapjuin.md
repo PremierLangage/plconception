@@ -24,7 +24,7 @@
 * debug
 * répétition
 
-### Statégie 
+### Stratégie 
 
 Parcours d'exercices comprend des feuilles, les feuilles comprennent des exercices. 
 
