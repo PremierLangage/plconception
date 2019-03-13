@@ -4,6 +4,13 @@
 
 # Feuille de Route
 
+Trois parties :
+
+ T0 ce qui existe aujourd'hui  
+ T1 Objectif de la prochaine version (1.0)  
+ T2 Objectif de la version (2.0)   
+ 
+
 
 # T0
 
