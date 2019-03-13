@@ -50,23 +50,105 @@ sont sauvegardée à chaque fois mais n'entre pas dans le versionnage pédagogiq
 que toutes les mini-modifications de cet auteurs ont toutefois déclanchés des commit git en interne.
 
 
-### Rechercher et ouverture des ressources
+### Rechercher et ouvrir des ressources
 
-Ourvrir une ressource 
+On peut ouvrir une ressource en parcourrant l'arborescence du dépot logique
+
+* QUEL EST L'UNITÉ POUR LA RESSOURCE ?
+* PEUT-ON DIRE TOUT FICHIER DU DÉPÔT CONCEPTEXO EST UNE RESSOURCE ?
+* UN GRADER EN DEUX FICHIERS CONSTITUE UNE OU DEUX RESSOURCES ?
+* QUELQU'UN QUI OUVRE UN FICHIER DE CONCEPTEXO OUVRE QUOI ALORS ?
 
 ### Ouvrir une vieille version
 
-Lors de l'ouverture d'une ressource, il est possible de 
+Lors de l'ouverture d'une ressource, il est possible d'accèder aux anciennes version publiée. On peut
+alors consulter les noms des auteurs successifs ainsi que les dates de sorties des versions. On peut
+aussi cliquer sur une ancienne version pour la visualitser. Lors de la visualisation d'une vieille 
+version, deux nouvelles options s'ouvre à l'utilisateur :
 
+* Possibilité de faire une downgrade : c'est à dire un boutton qui propose de rendre la vieille version
+  comme nouvelle version courrante
+  
+* Édition de la vieille version : sur le compte personnel de l'utilisateur courrant, cela ouvre la 
+  vieille version en mode édition. L'utiliateur peut alors faire des modifications et les sauvegarder
+  petit à petit. Il aura la possibilité de publier sa version locale. Cela aura pour effet de donwgrader
+  vers la version d'où il est reparti et aussi d'empiler les modifications locales qu'il a opéré.
 
 ### Modification de la version courrante
+
+Losqu'un utilisateur à ouvert une version finale (ASK - elastic search ou parcours dans l'arborescence) 
+ou lorsqu'il a décidé manuellement d'ouvrir manuellement une ancienne version. Un utilisateur peut apporter
+des modifications (que l'on appelera modifications locales tant qu'elles ne sont pas publiée). Ces 
+modifications seront sauvegardé uniquement pour lui. Chaque utilisateur peut donc possiblement avoir 
+une version courrante de travail de chaque ressource présente dans la base.
+
+Seulement deux actions sont possibles à partir d'une version courrante modifiée d'une ressource :
+
+* La publication : l'enseignant utilisateur a fini et considère son trvail comme final.
+
+* L'abandon : l'enseignant ne veut pas publier... Les cas standards de cet utilisation correspondent à :
+    - Une nouvelle version à été publiée depuis le travail de l'auteur et l'auteur ne veut pas écraser 
+      la nouvelle version finale dont il n'a pas connaissance.
+    - L'auteur renonce à finaliser son travail (manque de temps, pas envie de partager, etc...).
 
 
 ### Publication d'une nouvelle version
 
+Une version courrante est un état d'une ressource pédagogique ouverte dans l'éditeur, ça peut être :
+* La version finale (non publiable car déjà fait...)
+* La version finale + modifications locales
+* Une version ancienne
+* Une version ancienne + modifications locales
+Les trois derniers sont des versions courrantes publiables. Publier ces versions aura pour conséquence 
+de ramplacer la version finale de la ressource consernée. Chacune de ces publications portent un nom 
+particulier :
+* La version finale + modifications locales --> Publication d'amélioration
+* Une version ancienne --> Donwgrade de la ressource
+* Une version ancienne + modifications locales --> Amélioration rebasée
+
 
 ### Conflits de fusion
 
+Les conflits ne seront pas possible car il seront INTERDIT !
+
+* Wikipedia et Github qui encapsule un gestionnaire de versions bas-niveau interdisent les fusions.
+* Wikipedia : Impossibilité de sauvegarder les modifs s'il y a une modification faite entre temps.
+* Github en session graphique : Défait le premier commit lors du second commit s'il se chevauchent
+
+De manière générale, quand on encapsule totalement un système de gestion de version 
+(git, mercurial, svn, etc...) et que l'on souhaite complètement caché sa présence à l'utilisateur,
+on interdit les MERGES et autre FUSIONS. Chaque ressource est associé à un chapelet de patchs et
+de versions mais PAS UN GRAPHE AVEC DES DIAMANTS ! 
+
+Pour éviter d'entrer en contact avec le gestionnaire de version interne et technique, les diamants
+sont linéarisé avec la fonction de downgrade.
+
+    V0 : Bob premiere version
+    V1 : Bob première version + ajout1
+    V2 : Alice donwgrade V0 + ajout2
+    V3 : Bob + ajout1
+
+Bob et Alice travaillent ensemble sur une même ressource. Bob a l'idée d'y rajouter un *ajout1*, Alice 
+souhaite aussi implementé *ajout2* sur le même exo en même temps.
+
+En V0, Bob a fait son premier jet. Bob et Alice travaille maintenant en même temps chacun de leur coté
+sur la même ressource. Ils font chacun des petit commit git sous-jacent sans le savoir. Ces petites 
+modification locales n'entre pas dans le versionnage pédagogique. Bob finit en premier et sort la V1.
+Alice finit en second, elle est averti par le message suivant : UNE NOUVELLE VERSION DE VOTRE RESOURCE
+A ÉTÉ PUBLIÉE PAR BOB, SOUHAITEZ-VOUS QUAND MÊME PUBLIÉ VOTRE VERSION BASËE SUR UNE ANCIENNE VERSION 
+MAINTENANT ? Alice à confirmé sa publication car elle ne voulait pas géré le conflit de son coté en
+sauvegardant sur son disque dur personnel sa version, puis en prenant la nouvelle version de Bob et
+en réintégrant depuis la nouvelle version de Bob les nouvelles modifications locales qu'elle avait
+produite. De ce fait, Alice à downgradé la version finale. Elle envoie ensuite un mail à Bob qui a
+plus l'habitude de PL et qui lui dit : Ne t'en fais pas, je fais prendre ta version et remettre ce que
+j'avais rajouté. Je sais comment le récupérer rapidement et puis je l'ai déjà fait...
+
+
+Ainsi les conflits n'existe pas dans le versionnage pédagogique : TOUTE NOUVELLE PUBLICATION REMPLACE
+LES PRÉCÉDENTES ET DEVIENT VERSION FINALE. L'arbitrage est donc communautaire, ressource par ressource.
+C'est ce qui est proposé par Wikpedia, github mode graphique, ... Techniquement, cela apparait comme
+la manière la plus saine d'encapsuler les systèmes de gestions de version pour en cacher la complexité
+aux utilisateurs tout en leur permettant de jouir de leur puissance.
 
 
 ## Techniquement à l'intérieur
