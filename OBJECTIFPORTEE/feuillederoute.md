@@ -153,3 +153,5 @@ Rappatriment sur le serveur d'assets des fichiers et des donnéees une fois qu'u
 ## TRACES 
 
 - compatibilité xAPI 
+- possibilités anonymisation automatique
+
