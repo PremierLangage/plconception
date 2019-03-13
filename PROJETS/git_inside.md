@@ -26,14 +26,14 @@ ainsi incrémental dans le sens que la manière normale de travailler est de pre
 version, de l'améliorer et de publier une nouvelle version.
 
 * À la première création d'une ressource, la première publication est automatiquement la version 
-  finale.
-* Il est possible via la donwgrade, de pacer comme nouvelle version finale, une vieille version.
-* L'accès aux vieilles versions est autorisées mais ce n'est pas le point d'entrée naturel.
+  finale. Chaque modifications entrainera un changement de version finale.
+* Il est possible via le "donwgrade", de placer comme nouvelle version finale, une ancienne version.
+* L'accès aux anciennes versions est autorisées mais ce n'est pas le point d'entrée naturel.Sauf **Etiquetage**.
 
 Une version d'une ressources pédagogiques n'est pas une version aux sens techniques des utilitaires
 informatiques de gestion de version (git, mercurial, subversion, ...). Ici, on enttends par version
 un état d'une ressource pédagogique tel qu'à un certain instant, un enseignant éditeur a considéré 
-cette ressource comme finale.
+cette ressource comme VALIDE et à donné un label de validité à une version.
 
 Les versions des ressources pédagogiques PL sont donc des versions au sens pédagogiques.
 
@@ -54,11 +54,12 @@ que toutes les mini-modifications de cet auteurs ont toutefois déclanchés des 
 
 On peut ouvrir une ressource en parcourrant l'arborescence du dépot logique ?
 
-* QUEL EST L'UNITÉ POUR LA RESSOURCE ?
+* QUEL EST L'UNITÉ POUR LA RESSOURCE ? 
 * PEUT-ON DIRE TOUT FICHIER DU DÉPÔT CONCEPTEXO EST UNE RESSOURCE ?
 * UN GRADER EN DEUX FICHIERS CONSTITUE UNE OU DEUX RESSOURCES ?
 * QUELQU'UN QUI OUVRE UN FICHIER DE CONCEPTEXO OUVRE QUOI ALORS ?
 * PEUT-ON LAISSER LES FICHIERS EN ACCÈS LIBRE ? SINON, ON ÉDITE QUOI ?
+
 
 Si un fichier = une ressources :
 * permet de laisser les gens se pronemer dans l'arborescence du git sous-jacent ?
@@ -114,7 +115,7 @@ Une version courrante est un état d'une ressource pédagogique ouverte dans l'�
 * Une version ancienne
 * Une version ancienne + modifications locales
 Les trois derniers sont des versions courrantes publiables. Publier ces versions aura pour conséquence 
-de ramplacer la version finale de la ressource consernée. Chacune de ces publications portent un nom 
+de remplacer la version finale de la ressource consernée. Chacune de ces publications portent un nom 
 particulier :
 * La version finale + modifications locales --> Publication d'amélioration
 * Une version ancienne --> Donwgrade de la ressource
