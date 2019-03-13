@@ -18,7 +18,7 @@
 
 ## Decription des fonctionalités utilisateurs
 
-### Versionage des ressources pédagogiques
+### Versionnage des ressources pédagogiques
 
 Chaque ressource pédagogiques (exercice PL, grader, bilbiothèque fonctionnelle...) aura une 
 unique version finale (comme un article wikipedia). Le developpement de chaque ressource sera 
@@ -30,9 +30,43 @@ version, de l'améliorer et de publier une nouvelle version.
 * Il est possible via la donwgrade, de pacer comme nouvelle version finale, une vieille version.
 * L'accès aux vieilles versions est autorisées mais ce n'est pas le point d'entrée naturel.
 
+Une version d'une ressources pédagogiques n'est pas une version aux sens techniques des utilitaires
+informatiques de gestion de version (git, mercurial, subversion, ...). Ici, on enttends par version
+un état d'une ressource pédagogique tel qu'à un certain instant, un enseignant éditeur a considéré 
+cette ressource comme finale.
+
+Les versions des ressources pédagogiques PL sont donc des versions au sens pédagogiques.
+
+    V0 : premier jet d'un enseignant qui publie son exo car il a fini de travailler dessus
+    V1 : correction et formualtion d'une question par un autre enseignant
+    V2 : l'auteur original change le builder et rajoute de l'aléatoire
+    V3 : Un troisième auteur rend l'exercice multi-langue
+    V4 : Correction orthographique allemande d'un enseignant Allemand
+    ...
+
+On peut imaginer que le saut de V1 à la V2 n'a pas été fait en seule séance de travail car l'auteur
+à du débuguer son nouveau builder durant une semaine. Les tentatives de travail de cet enseignant
+sont sauvegardée à chaque fois mais n'entre pas dans le versionnage pédagogique. On verra plus tard
+que toutes les mini-modifications de cet auteurs ont toutefois déclanchés des commit git en interne.
+
+
 ### Rechercher et ouverture des ressources
 
-Ourvrir une ressource
+Ourvrir une ressource 
+
+### Ouvrir une vieille version
+
+Lors de l'ouverture d'une ressource, il est possible de 
+
+
+### Modification de la version courrante
+
+
+### Publication d'une nouvelle version
+
+
+### Conflits de fusion
+
 
 
 ## Techniquement à l'intérieur
