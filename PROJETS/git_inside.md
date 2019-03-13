@@ -165,11 +165,11 @@ la manière la plus saine d'encapsuler les systèmes de gestions de version pour
 aux utilisateurs tout en leur permettant de jouir de leur puissance.
 
 
-![Création de ressource](https://github.com/PremierLangage/plconception/edit/master/PROJETS/create_version.png)
+![Création de ressource](create_version.png)
 
-![Amélioration de ressource](https://github.com/PremierLangage/plconception/edit/master/PROJETS/amelioration_version.png)
+![Amélioration de ressource](amelioration_version.png)
 
-![Downgrade de ressource](https://github.com/PremierLangage/plconception/edit/master/PROJETS/downgrade_version.png)
+![Downgrade de ressource](downgrade_version.png)
 
 
 
