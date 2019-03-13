@@ -17,10 +17,16 @@ C'est le cas du dossier conceptexo qui est un repository officiel du projet.
 
 
 
-## Le module ClasseManagement 
+## Gestion de classes (ClasseManagement)
 
-Le module classmanagement permet d'afficher (prof/elève) la liste des cours crés par le module LTI.
-Il y a un affichage de l'avancement des activités du cours, sous forme d'un tableau avec des couleurs indiquant le statut de l'exercice (commencé, abandonné, échoué, réussi)
+* Écran de listage de toutes les ressources PL accessible à
+  l'utilisateur identifié par L.T.I.
+* Utilisateur Prof : visualisation synthétique par code couleur de
+  l'état d'avancement des participant sur la ressource résumée
+  (tableau à double entrées indexé par les utilisateurs L.T.I. de la
+  ressources et dont les colonnes indexent les ressources de type
+  exercices/activités).
+
 
 ## EDITEUR
 
