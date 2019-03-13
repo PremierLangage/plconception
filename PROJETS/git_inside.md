@@ -38,7 +38,7 @@ cette ressource comme finale.
 Les versions des ressources pédagogiques PL sont donc des versions au sens pédagogiques.
 
     V0 : premier jet d'un enseignant qui publie son exo car il a fini de travailler dessus
-    V1 : correction et formualtion d'une question par un autre enseignant
+    V1 : correction et reformualtion d'une question de l'énoncé par un autre enseignant
     V2 : l'auteur original change le builder et rajoute de l'aléatoire
     V3 : Un troisième auteur rend l'exercice multi-langue
     V4 : Correction orthographique allemande d'un enseignant Allemand
