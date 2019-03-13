@@ -24,7 +24,17 @@ Il y a un affichage de l'avancement des activités du cours, sous forme d'un tab
 
 ## EDITEUR
 
-Editeur est dans un bon état d'avancement, multi fichiers, CRTL-S, avec un preview, coloration syntaxique, arborescence, etc.
+* Navigateur dans l'arborescence des ressources réductible répertoire
+  par répertoire
+* Onglets d'édition comme les navigateurs modernes (ouvrir un nouveau
+  fichier rajoute un onglet sans toucher les autres onglets)
+* Multiples raccourcis d'édition:
+    - Liens automatiques d'ouverture des ressources citées/utilisées
+      dans d'autres ressources
+    - Coloration syntaxique des ressources PL
+    - Raccourci clavier (Ctrl+S pour la sauvegarde)
+* Onglet de preview pour simuler la mise en oeuvre d'une ressource en
+  cours d'édition (onglet qui reste local à l'éditeur)
 
 
 ## PlayExo (exerciseur)
@@ -153,5 +163,3 @@ Rappatriment sur le serveur d'assets des fichiers et des donnéees une fois qu'u
 ## TRACES 
 
 - compatibilité xAPI 
-- possibilités anonymisation automatique
-
