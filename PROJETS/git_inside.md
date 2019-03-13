@@ -121,6 +121,19 @@ particulier :
 * Une version ancienne + modifications locales --> Amélioration rebasée
 
 
+### Suppression d'une version
+
+Sur le long terme, on va vouloir oublier des versions (rien que pour la polution visuelle...). L'exemple
+classique est la correction orthographique. On veut très rapidement supprimer les versions publiées avec
+faute d'orthographes déjà corrigées dans une version ultérieure (ça encombre la liste, ça peut faire trop
+de version, ça empêche toute downgrade vers une version mauvaise/dangeureuse...).
+
+* COMMENT ÊTRE SUR QU'AUCUNE AUTRE RESSOURCE RÉ-UTILISE CETTE VERSION À SUPPRIMER ?
+
+En interne, on sait que c'est plus un oubli de version qu'une suppression de version mais c'est souhaitable
+comme fonctionnalité...
+
+
 ### Conflits de fusion
 
 Les conflits ne seront pas possible car il seront INTERDIT !
