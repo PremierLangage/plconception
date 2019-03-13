@@ -133,6 +133,17 @@ de version, ça empêche toute downgrade vers une version mauvaise/dangeureuse..
 En interne, on sait que c'est plus un oubli de version qu'une suppression de version mais c'est souhaitable
 comme fonctionnalité...
 
+ATTENTION : L'existance d'une telle fonctionnalité implique la chose suivante :
+Les idées (tout fichier = une ressource pédagogique) ET (Il n'y a qu'un seul git sous-jacent) 
+sont incompatibles. Si c'est le cas, qu'est ce qu'oublier une version publiée dans un seul 
+dépôt git sans éfaccer un fichier ? Bon courage, vous avez 4 heures...
+
+Deux solutions :
+* Soit il y a un GIT fichiers bruts des ressources pédagogiques + un git de meta donné pour les informations
+  de publication pédagogiques.
+* Soit chaque ressources pédagogiques emporte avec son nuages de fichiers brutes un autre fichiers de méta-data
+  avec les informations nécessaire pour le versionnage haut-niveau pédagogique.
+
 
 ### Conflits de fusion
 
