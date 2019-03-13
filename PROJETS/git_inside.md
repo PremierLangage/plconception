@@ -16,6 +16,7 @@
 * Monter en qualité via la mise en place de version de référence pour chaque ressource 
   (à la Wikipédia).
 
+
 ## Decription des fonctionalités utilisateurs
 
 ### Versionnage des ressources pédagogiques
@@ -200,6 +201,66 @@ aux utilisateurs tout en leur permettant de jouir de leur puissance.
 
 ## Techniquement à l'intérieur
 
+Dans cette section, plus technique, on répond dans les grandes lignes, comment passer à l'action 
+de manière raisonnable.
+
+### Stratégie de conception
+
+D'un point de vue design ou pattern, on est sur un 
+[wrapper](https://fr.wikipedia.org/wiki/Adaptateur_(patron_de_conception)) (adaptateur en français...). 
+On part d'une API très compliqué (celle de git) avec un grand nombre de fonctionnalités (branches, merge,
+commit, etc...). On souhaite wrapper git pour obtenir un versionning à la wikipedia (plus de conflits
+de fusion et tête unique pour chaque ressource). On abondone aussi les branches dans la nouvelle API.
+
+On espère ainsi simplifier au maximum l'édition mais toujours supporter la collaboration. Pour
+cela, on tire un trait sur les fonctionnalité complexes de git pour proposer une nouvelle API 
+plus réduite mais simplifié. L'utilisateur ne doit ni voir ni ressentir la lourdeur et la 
+complexité de git, système de gestion de version distribué.
+
+Le point de différence avec git, c'est le temps moyen entre deux versions... Wikipedia possède des 
+articles délibérés collégiallement et unique par notion. Pour passer d'une version à une autre, il
+faut très peu de temps. Les contributeurs ouvre l'édition et valide rapidement leur propositions de 
+modifications (15 minutes max souvent). La complexité supplémentaire de PL, c'est la sauvegarde 
+potentielle, pour chaque utilisateur d'une version courrante (basée sur une version publiée + des 
+modifications locales personnelles). Ces modifications locales doivent être versionnées en interne 
+car on ne veut pas les perdres. Toutefois elles doivent rester accessible uniquement pour l'auteur 
+qui n'a pas finit son travail et ne veut pas encore publier à tous son travail.
+
+
+### La ressource atomique au sens bas niveau
+
+Pour wikipedia : visuellement une ressource est une page internet (pouvant contenir des médias : photo,
+film, images, animation, ...) identifié par un nom (le titre de la notion) et une URL corrélé.
+En interne de Wikipédia : probalement un fichier ayant pour nom la portion finale de l'URL. Cet atome
+est éditable dans wikipédia par tous. Les médias sont juste uploadables. On peut voir certaines
+images référencées dans plusieurs articles différents, ce qui montre que les médias statiques sont 
+géré de manière différentes que les articles.
+
+Pour PL, une ressource atomique sera :
+* une liste de fichiers non vide (bla.pl, foo.py, bar.txt)
+* un fichier caché de méta-données NON DU FICHIER À DETERMINER (OU À GÉNÉRER...)
+
+    NOM_DE_LA_RESSOURCE
+    4ac869d05d26df4eeb8d1720ca2b05a12a756659 INITIAL VERSION - nborie
+    bla.pl, foo.py, foo2.py
+    e9c19b35e776ca4f877f9402739be09b8b70e04d VERSION AVEC TESTS - dr
+    bla.pl, foo.py, foo2.py
+    05831b45f515918239968c14d0ca385280c74707 BUILDER CORRIGÉ - nborie
+    bla.pl, foo.py
+    f7ff33d2a1e2ff79e9fdbeb2729abb9e356f7cc6 NIVEAUX DE DIFFICULTE - nborie
+    bla.pl, foo.py, bar.txt
+    sha2 du commit associé à la dernière publication NOM DE VERSION - id_utilisateur_auteur
+    liste des fichiers concernés par la publication séparé par des virgules
+    
+Un utilisateur ne dois pas pouvoir accéder (ni lecture, ni écriture) au fichiers de meta-données.
+Ce fichier est juste utilisé en interne pour la programmation des actions utilisateurs de l'API
+simplifiée.
+
+* EST CE QUE CETTE PROPOSITION EST VALABLE OU DÉCONNANTE ?
+* CETTE MODÉLISATION EN INTERNE SUPPORTE LE FORK AU BAS NIVEAU POUR LES SAUVEGARDES PÉRENNE SI CRASH ?
+* COMMENT ENCODER L'AUTEUR SANS AVOIR DES COLLISIONS AU NIVEAU NATIONNAL (moodle UPEM et moodle Paris-SUD, quel garantie de non collision sur les clés primaires ) ?
+
+
 ### Le repository git à l'intérieur
 
 Toute action de sauvegarde devra créer un commit dans un git sous-jacent unique.
@@ -217,6 +278,24 @@ d'utilisateurs sur leurs versions courrantes de différentes ressources. Ce sont
 qui n'existe pas dans le partage haut niveau du versionnage pédagogiques. Ces commit git interne devrait
 normalement être les plus nombreux...
 
+La branche master sera associé à aucun utilisateur ! La branche master contiendra à tout instant 
+l'ensemble des versions finales de toutes les ressources disponibles. Publier à la communauté une version
+de ressources pédagogique, c'est faire un commit sur master.
 
+Chaque enseignant éditeur se vera attribuer une branche (avec pour nom son Identifiant utilisateur 
+primaire par exemple). Les branches des enseignants contributeurs ont vocation à stocker les modifications
+locales faites par ces enseignants avant publication. Si la branche de l'enseignant n'est pas fusionnable 
+triviallement (création de plusieurs têtes...) alors elle devient invalide ?
+  
+* COMMENT VERSIONNER LES MODIFICATIONS LOCALES SANS PUBLICATIONS ?
+* COMMENT FAIRE SI L'ENSEIGNANT ÉDITEUR ÉDITE PLUSIEURS RESSOURCES SANS FINIR SON TRAVAIL ET DONC SANS PUBLIER ?
+* COMMENT GERER L'AJOUT ET LA SUPPRESSION DE FICHIERS DANS UNE RESSOURCES ?
+* COMMENT INCLURE ET UTILISER DANS UNE RESSOURCE PL UNE AUTRE VERSION SPÉCIFIÉE D'UNE AUTRE RESSOURCE PL ?
+  (exemple utiliser le grader(V3) dans un exercice PL(V12) inclu lui-même dans une activité(V2) ? )
 
-
+* EST-CE QUE TOUT CELA EST RAISONNABLE ? EST-CE QUE TOUT CELA N'EST PAS LE CHEMIN DE LA MACHINE A GAZ ? 
+  DE LA GROSSE BOULE DE BOUE ? ET POURQUOI ?
+* CETTE FONCTIONNALITÉ (Git Inside) SEMBLE TRẼS FORTEMENT S'ÉLOIGNER DES MICROSERVICES ET DE LA DISSOCIATION
+  DE MODULES DE MANIÈRE GÉNÉRALE ? ON VA VERS DU MONOLTYQIUE AVEC CE WRAPPEUR ? EST-CE QUE ÇA VAUT VRAIMENT LE
+  COUP ? POURQUOI ?
+* COMMENT GERER LES PANNES (DISQUES DURS MORT CAR COPERNIC INNONDÉ...) ? ON FAIT QUOI ? COMMENT ?
