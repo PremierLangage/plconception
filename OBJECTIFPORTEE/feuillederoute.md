@@ -9,22 +9,27 @@ Trois parties :
  T0 ce qui existe aujourd'hui  
  T1 Objectif de la prochaine version (1.0)  
  T2 Objectif de la version (2.0)   
- 
 
 
-# T0
+# T0 
+
+Dernière modification : 13 mars 2019
 
 
-## PARTAGE
+## Partage des ressources pédagogiques entre enseignants éditeurs (Module GitLoad)
 
-Actuellement tout les utiisateurs de l'editeur (c-a-d des ensegiganntas) partagent un répertoire home.
-avec le risque que l'on efface ou modifie le travail de quelqu'un d'autre.
-Il est possible d'utiliser un git dans ce répertoire partagé pour se proteger en conservant à distance une copie de sauvegarde sur (par exemple) github .
-C'est le cas du dossier conceptexo qui est un repository officiel du projet.
+* Possibilité de brancher autant de dépôts git que possible
+  (techniquement ça fonctionne mais pas forcement souhaitable au long terme...)
+* Conceptexo : dépôt git officiel du projet pour les ressources
+  pédagogiques produites par des enseignants éditeurs (pas des
+  développeurs).
+* Librairie plus technique de fonctionnalités génériques
+  multi-matières (QCM, textes à trou, ...) produite par les
+  core-développeurs de PL ou des enseignants éditeurs chevronnés qui
+  ont produit des modules fonctionnels génériques.
 
 
-
-## Gestion de classes (ClasseManagement)
+## Gestion de classes (Module ClasseManagement)
 
 * Écran de listage de toutes les ressources PL accessible à
   l'utilisateur identifié par L.T.I.
@@ -35,10 +40,10 @@ C'est le cas du dossier conceptexo qui est un repository officiel du projet.
   exercices/activités).
 
 
-## EDITEUR
+## Éditeur des ressources pédagogiques
 
-* Navigateur dans l'arborescence des ressources réductible répertoire
-  par répertoire
+* Navigation dans l'arborescence (dépôt par dépôt) des ressources pédagogiques
+* Arborescence réductible répertoire par répertoire (gain de place, commodité d'affichage)
 * Onglets d'édition comme les navigateurs modernes (ouvrir un nouveau
   fichier rajoute un onglet sans toucher les autres onglets)
 * Multiples raccourcis d'édition:
@@ -50,11 +55,20 @@ C'est le cas du dossier conceptexo qui est un repository officiel du projet.
   cours d'édition (onglet qui reste local à l'éditeur)
 
 
-## PlayExo (exerciseur)
+## Éxerciseur (Module PlayExo)
 
-PlayExo est l'exerciseur proprementy dit, c'est la partie la plus testée du logiciel, et sans doute la plus origniale et aboutie. 
-C'est le module qui permet d'éxécuter les exercices définis dans le langage PL (cf. doc)
-Le langage de programmation est muni d'un compilateur qui fait de la vérification syntaxique (il est possible d'augmenter les contrôles pour un type d'exo spécifique).
+* Mise en oeuvre des ressources de type exercices
+* Parsing des ressources et contrôle de leur validité (notament syntaxique, enrichissable)
+* Utilise des builders (préparation logique et pédagogique des ressources avant jeu)
+    - before : monkey insertion de code Python pour la génération de l'énoncé
+    - générateur d'objets aléatoires divers
+    - QCM : choisir une question parmi un ensemble fini
+* Utilise des graders (délibération logique et pédagogique des réponses élèves, re-médiation possible pour re-jeu)
+    - Python : contrôle du code élève avec des doctest
+    - C : compilation et exécution du code élève avec comparaison avec l'attendu (arguments, stdin, expected stdout)
+    - nombreux petits graders dédiés à des situations spécifiques
+* Tests automatiques (simulation de jeu, de construction d'exercices(builder) et de correction d'exercices(grader) )
+
 
 
 ## Sandbox (sécurisation d'exécution)
