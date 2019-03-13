@@ -165,6 +165,14 @@ la manière la plus saine d'encapsuler les systèmes de gestions de version pour
 aux utilisateurs tout en leur permettant de jouir de leur puissance.
 
 
+![Création de ressource](https://github.com/PremierLangage/plconception/edit/master/PROJETS/create_version.png)
+
+![Amélioration de ressource](https://github.com/PremierLangage/plconception/edit/master/PROJETS/amelioration_version.png)
+
+![Downgrade de ressource](https://github.com/PremierLangage/plconception/edit/master/PROJETS/downgrade_version.png)
+
+
+
 ## Techniquement à l'intérieur
 
 ### Le repository git à l'intérieur
@@ -178,6 +186,11 @@ Normalement, le git caché à l'intérieur devrait avoir pour commit :
     243523@#$%23^^%# : nthiery publish new version of computer_sciences/programmation/C++/hanoi.pl
     $@#$@#%^^3432342 : Work of Hugo on computer_sciences/programmation/C++/hanoi.pl
     243523@#$%23^^%# : nthiery publish new version of computer_sciences/programmation/C++/hanoi.pl
+
+Les lignes Work of USER on REPERTOIRE sont des commit internes correspondants au modifications locales
+d'utilisateurs sur leurs versions courrantes de différentes ressources. Ce sont des sauvegardes interne
+qui n'existe pas dans le partage haut niveau du versionnage pédagogiques. Ces commit git interne devrait
+normalement être les plus nombreux...
 
 
 
