@@ -40,7 +40,7 @@ Dernière modification : 13 mars 2019
   exercices/activités).
 
 
-## Éditeur des ressources pédagogiques
+## Éditeur en ligne des ressources pédagogiques (Module Editor)
 
 * Navigation dans l'arborescence (dépôt par dépôt) des ressources pédagogiques
 * Arborescence réductible répertoire par répertoire (gain de place, commodité d'affichage)
@@ -71,9 +71,15 @@ Dernière modification : 13 mars 2019
 
 
 
-## Sandbox (sécurisation d'exécution)
+## Sécurisation des exécutions (Sandbox Docker)
 
-Une sandbox utilisant docker fonctionne avec quelque accoups. Lenteur, trop lourd, manque un jail.
+* PL a vocation à exécuter massivement du code produit par des personnes faillibles.
+     - Erreur de code en production d'exercice (les enseignants se trompent aussi...)
+     - Erreur dangeureuse des élèves en utilisation normale
+     - Erreur dûes à des utilsations de personnes mal intentionnées
+* Mise en place d'une sandbox utilisant docker fonctionnelle mais non fluide pour le moment. 
+  Lenteurs, trop lourd, manque un jail.
+  
 
 ## Connecteur LTI 
 
