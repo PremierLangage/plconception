@@ -1,24 +1,21 @@
 
 # Acteurs et leurs GOALS (objectifs)
 
-## Étudiants (acteur principal):
+## Objectifs des Étudiants (acteur principal):
 
-apprendre :
+Le première objectif qui vient à l'esprit est **Apprendre** mais ce n'est pas toujours ce qui ressort des échange avec les étudiants. En effet la plateforme est considérée comme une aide et pas comme la base, la base de l'apprentissage passe par l'enseignement soit en présentiel soit sous forme de lecture (livre, video, audio). 
 
-HHHHH
+La plateforme devient un élement de **découverte**,d'un outil de **renforcement/approfondissement** d'une notion délicate et puis plus prosaiquement comme outil de préparation à une épreuve **révision / entrainement / ancrage mémoriel** . 
 
-découverte . 
-renforcement/approfondissement . 
-révision / entrainement / ancrage mémoriel . 
-participer (connaitre les évènement, les dates, les activités, les lieux, les forums, etc...)Chat/ listes/ info/ documents / etc cf. moodle . 
+Un point social est de **participer** à un enseignement c'est à dire connaitre les évènements, les dates, les activités, les lieux, les forums, les Chats, listes, info, documents etc cf. moodle . 
+Et donc connaitre son appartenance à **une classe, un groupe, un groupe un projet** et pouvoir se **positionner** dans ce groupement  et pouvoir dialoguer avec le groupe. Il faut éventuellement penser la posibilité de créer des groupes informels (non connus de la classe et du prof). 
 
-a une classe / a un groupe / a groupe un projet . 
-connaitre /lire /comprendre son positionnement . 
-Être Évalué . 
+Un des atouts de la plateforme est de pouvoir être **Évalué** avec des critères qui seront objectifs car communs ! et donc "apriori" non biaisés (mais je dit cela avec beaucoup de prudence car les énoncés les plus "neutres" sont parfois discriminants). 
+Comment être évalué le principe de la plateforme **auto-evaluation (automatique)**, mais aussi pouvoir  
+**passer un examen / participer à une évaluation** dans ce cas une partie de la correction est faite de façon automatique et une partie est faite manuellement (ce qui implique un cas d'utilisation spécifique). 
 
-auto-evaluation (automatique) . 
-passer un examen / participer à une évaluation . 
-créer un porte folio . 
+La plateforme doit permettere l'export de ces évaluation vers un **porte folio** manara par exemple.
+
 Fournir un élément d'évaluation (copie, réponse, document, archive, upload) . 
 auto-apprentissage :  
 
