@@ -21,6 +21,12 @@ td=teacher dashboard
 N=navigation  
 B=Barem (comment est calculé la nte qui remonte à moodle)
 
+En discution  
+P= Prérequis 
+O= Objectifs (AAV et ontologie)
+
+
+
 
 Références : modules WIMS
 
