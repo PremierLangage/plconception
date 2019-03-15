@@ -1,7 +1,13 @@
 
 # PortFolio
 
-Le portfolio 
+Le portfolio « Collection structurée des travaux d'un étudiant et des commentaires qui leur sont attachés, qui fait foi de ses compétences montrant des traces pertinentes de ses réalisations. Les travaux conservés, et parfois affichés, sont sélectionnés en fonction de critères établis par l'étudiant et par l'enseignant » ( Bibeau, 2007)
+
+Donc un outil parrallèle aux diplomes et certificats qui peut donner une idée plus fine et plus précise des qualités d'un candidat à une embauche. 
+
+Les portfolio dans le cadre PL sont des objets externe pour lesquels nous pouvons fournir des éléments.
+FIXME: doit on garder des informations, y a t'il un moyen d'exporté des résultats un format etc.
+
 
 
 ## Portfolio de présentation
