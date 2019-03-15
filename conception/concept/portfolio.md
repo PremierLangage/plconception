@@ -1,7 +1,7 @@
 
-# Porte Folio
+# PortFolio
 
-Le porte folio 
+Le portfolio 
 
 
 ## Portfolio de présentation
@@ -107,8 +107,8 @@ Ce type de portfolio est plus axé sur le processus d'élaboration du travail de
 
     Il présente sa collection et son analyse à son prof ou autres personnes pouvant le soutenir dans sa démarche d'apprentissage (rétroaction et évaluation formative)
 
-### Ces étapes peuvent être réalisées plusieurs fois!
-RappelRôle du prof
+Ces étapes peuvent être réalisées plusieurs fois!
+### Rôle du prof
 
     Soutenir l'élève dans le choix ses productions (critères) et leur classement
 
@@ -121,3 +121,48 @@ RappelRôle du prof
     Plan de développement en lien avec la maîtrise de la langue ou d'habiletés TIC
 
     Portfolio de stage servant à faire un suivi et donner de la rétroaction formative
+
+## Portfolio de développement professionnel
+
+Ce type de portfolio présente une collection de productions et de réflexions documentant son cheminement professionnel dans le temps. Il comprend généralement un curriculum vitæ.
+
+    Recueillir et classer
+
+    Analyser et réfléchir
+
+    Partager (au choix)
+
+### Méthode
+
+    Recueillir et classer ses productions significatives en fonction par exemple des sections suggérées par Bibeau:
+
+        des disciplines étudiées,
+
+        de ses champs d'intérêt
+
+        des projets réalisés ou en cours de réalisation
+
+    Analyse et réfléchit sur ses productions
+
+    Présente (partage) le contenu choisi de son portfolio
+
+## Portfolio mixte
+
+Il est possible de combiner plusieurs finalités des modèles précédents.
+Exempledémarche de réalisation de bilans d'étape dans un programme
+
+    Cueillette et classement des productions tout au long de la formation
+
+    Sélection des productions pour constituer un « dossier » d'apprentissage en fonction des objectifs lors de cours donnés
+
+    Objectivation (prendre conscience de ses apprentissages ainsi que son processus d'apprentissage) principalement avec le « dossier » d'apprentissage lors de cours donnés
+
+    Buts et moyens à prendre pour s'améliorer (ses apprentissages, son processus d'apprentissage) lors de cours donnés
+
+    Préparation et présentation (partage) d'un dossier de présentation à des personnes choisies (profs, pairs, employeurs, etc.).
+
+    Ce dossier pourrait en être un d'évaluation lors de cours donnés. 
+
+### Remarque
+
+Ces étapes peuvent être réalisées plusieurs fois! 
