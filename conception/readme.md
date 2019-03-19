@@ -14,9 +14,9 @@ Un des atouts de la plateforme est de pouvoir être **Évalué** avec des critè
 Comment être évalué le principe de la plateforme **auto-evaluation (automatique)**, mais aussi pouvoir  
 **passer un examen / participer à une évaluation** dans ce cas une partie de la correction est faite de façon automatique et une partie est faite manuellement (ce qui implique un cas d'utilisation spécifique). 
 
-La plateforme doit permettere l'export de ces évaluation vers un **porte folio** manara par exemple.
+La plateforme doit permettere l'export de ces évaluation vers un **portfolio** mahara par exemple.
 
-Fournir un élément d'évaluation (copie, réponse, document, archive, upload) . 
+Fournir un élément d'évaluation  (copie, réponse, document, archive, upload) . 
 auto-apprentissage :  
 
 définir ces objectifs d'apprentissage
