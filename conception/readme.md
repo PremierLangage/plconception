@@ -9,23 +9,30 @@ La plateforme devient un élement de **découverte**,d'un outil de **renforcemen
 
 Un point social est de **participer** à un enseignement c'est à dire connaitre les évènements, les dates, les activités, les lieux, les forums, les Chats, listes, info, documents etc cf. moodle . 
 Et donc connaitre son appartenance à **une classe, un groupe, un groupe un projet** et pouvoir se **positionner** dans ce groupement  et pouvoir dialoguer avec le groupe. Il faut éventuellement penser la posibilité de créer des groupes informels (non connus de la classe et du prof). 
+La participation a une activé de groupe doit être outillé (documents partagés, version, chats, workflots, planning etc).
 
 Un des atouts de la plateforme est de pouvoir être **Évalué** avec des critères qui seront objectifs car communs ! et donc "apriori" non biaisés (mais je dit cela avec beaucoup de prudence car les énoncés les plus "neutres" sont parfois discriminants). 
 Comment être évalué le principe de la plateforme **auto-evaluation (automatique)**, mais aussi pouvoir  
 **passer un examen / participer à une évaluation** dans ce cas une partie de la correction est faite de façon automatique et une partie est faite manuellement (ce qui implique un cas d'utilisation spécifique). 
 
-La plateforme doit permettere l'export de ces évaluation vers un **portfolio** mahara par exemple.
+Fournir un élément d'évaluation  (copie, réponse, document, archive, upload), la plateforme doit permettre le téléversement de documents. 
 
-Fournir un élément d'évaluation  (copie, réponse, document, archive, upload) . 
-auto-apprentissage :  
+L'étudiant doit pouvoir communiquer sur les ressources avec les enseignants ou les créateurs (debug).
+L'étudiant doit pouvoir accèder a une structure d'entre-aide modérée (pas de solution direct des exercices) co construite avec les étudiants et les enseignants.
 
-définir ces objectifs d'apprentissage
-sérendipity
-gérer ces connaissances / acquis
+#### auto-apprentissage 
+Il faut libérer l'apprenant qu'il puisse structurer et définir ces objectifs d'apprentissage, qu'il soit dans une démarche
+sérendipité quand aux matières/disciplines/sujets qu'il peut ajouter a ses objectfs.
 
-valider des acquis
-capitaliser des acquis
-exporter / publier ces acquis
+
+#### Gestion des Acquis 
+Il faut qu'il puisse gérer ces connaissances / acquis 
+Faire valider des acquis de façon automatique ou par des pairs ou par des examinateurs certifiés. 
+capitaliser ces acquis (conservation automatique et durable). 
+exporter / publier ces acquis. 
+La plateforme doit permettre l'export de ces évaluation vers un **portfolio** mahara par exemple. 
+
+
 
 ## Enseignants :
 
