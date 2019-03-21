@@ -53,6 +53,10 @@ que toutes les mini-modifications de cet auteurs ont toutefois déclanchés des 
 
 ### Rechercher et ouvrir des ressources
 
+
+**Définition d'une RESSOURCE (RESOURCE):**
+Une ressource est un ensemble de données que l'on peut exporter sur un Serveur d'ASSETS et qui est interprétable par le moteur d'exercices PLAYEXO et par le moteur d'activités ACTIVITY 
+
 On peut ouvrir une ressource en parcourrant l'arborescence du dépot logique ?
 
 * QUEL EST L'UNITÉ POUR LA RESSOURCE ? 
@@ -62,11 +66,15 @@ On peut ouvrir une ressource en parcourrant l'arborescence du dépot logique ?
 * PEUT-ON LAISSER LES FICHIERS EN ACCÈS LIBRE ? SINON, ON ÉDITE QUOI ?
 
 
-Si un fichier = une ressources :
+Si un fichier est une ressource :
 * permet de laisser les gens se pronemer dans l'arborescence du git sous-jacent ?
 * modifier la version courante d'un fichier --> faire une amélioration sur une version finale ?
+Problèmes: 
+- un fichier n'est pas testable ni évaluable hors contexte 
+- un fichier peux participer à
 
-Si un fichier != une ressources :
+
+Si un fichier != une ressource :
 * il faudra interdire l'accès aux fichiers pour modifications ?
 * on ne peut modifier que les choses indexé pédagogiquement sinon c'est le chaos ?
 * comment gérer les ressources multi fichiers ?
