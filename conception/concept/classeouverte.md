@@ -4,7 +4,3 @@
 Une classe ouverte est une [classe](./classe.md) accessible à tous.
 
 
-<!---
-Author :
-Validator : Jordan
--->
