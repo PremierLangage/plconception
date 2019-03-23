@@ -13,17 +13,19 @@ Une des fonctionnalités attendues du référentiel est de permettre de voir l'a
 
 Enfin le projet se veut expérimental et donc nous souhaitons pouvoir analyser la mise en œuvre de ces cours et TP par la plate-forme. Pour cela nous avons besoin de sauvegarder l'ensemble des interactions entre les apprenants et la plate-forme [besoin 6]. Un module de statistiques complémentaire doit permettre d'extraire toutes les informations pertinantes de ces parcours.
 
-Pour l'éventuelle transformation en MOOC, il faut pouvoir ajouter des feedback a un exercice a posteriori, l'idée est de pouvoir répondre a un élève qui a mal répondu a un exercice et que cette réponse soit enregistré si l'on rencontre la même erreur. De la même façon ceci peut être un indice « hint » qui est fournis dans le cas d'un exercice ou les élèves bloquent [besoin 7].
+Pour l'éventuelle transformation en MOOC, il faut pouvoir ajouter des feedbacks à un exercice a posteriori, l'idée est de pouvoir répondre à un élève qui a mal répondu à un exercice et que cette réponse soit enregistré si l'on rencontre la même erreur. De la même façon ceci peut être un indice « hint » qui est fournis dans le cas d'un exercice ou les élèves bloquent [besoin 7].
 
-Les exerciseurs de programmation peuvent complétés par un ensemble de types d’exercices [qui existent déjà mais doivent être adaptés] [besoin 8] gift, AMC, SCORM, etc
+Les exerciseurs de programmation peuvent être complétés par un ensemble de types d’exercices [qui existent déjà mais doivent être adaptés] [besoin 8] gift, AMC, SCORM, etc
 
-Le partage des ressources [besoin 9] est une tache complexe il faut proposer une editorialisation qui permettent de faire rencontrer des dévelopeurs d'exercices aléatoires et constructifs (complexes à écrire), les enseignants (qui connaisse le besoin direct de leurs élèves: ne savent pas faire une règle de 3), les didactitiens (l'ordre d'apprentissage, le niveau de feedback, la forme des exercices, le travail sur la métacognition), les chercheurs (nouvelles formes de suivi, d'activités, indicateurs, etc).
+Le partage des ressources [besoin 9] est une tache complexe il faut proposer une éditorialisation qui permette de faire rencontrer différents acteurs : des développeurs d'exercices aléatoires et constructifs (complexes à écrire), les enseignants (qui connaissent le besoin direct de leurs élèves: ne savent pas faire une règle de 3), les didacticiens (l'ordre d'apprentissage, le niveau de feedback, la forme des exercices, le travail sur la métacognition), les chercheurs (nouvelles formes de suivi, d'activités, indicateurs, etc). Cette éditorialisation permettre de faire apparaitre des versions validées et qualifiées des ressources par améliorations successives.
+
 
 Les indicateurs [besoin 10] forment une classe de besoin à part entière, il nous faut des indicateurs très variés et très différents en fonction des utilisateurs.
 
+Les ressources doivent êttre permanenttes, disponibles, acessibles, dévouvrables (recencement) et ouvertes à la réutilisatinn et l'extension. [besoin 11].
 
 
-Les exigences suivantes sont plus ponctuelles et à intégrer au endroits appropriés.
+Les exigences suivantes sont plus ponctuelles et à intégrer aux endroits appropriés.
 
 * [activity] Un outil de validation de forme pour les projets de programmation.
 
