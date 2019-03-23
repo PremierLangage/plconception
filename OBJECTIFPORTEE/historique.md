@@ -33,11 +33,11 @@ Les exigences suivantes sont plus ponctuelles et à intégrer aux endroits appro
 
 * Il faut différentes formes d'exercices (la plateforme ne doit pas être barbante)
 
-* [exoprog] Fussy output (ce que les débutants ont du mal a voire: les blancs les passages à la ligne les textes inutiles (la valeur est : val)). Si l’appréciation est fussy elle détecte ces écarts à la norme et les signales.
+* [exoprog] Fussy output (ce que les débutants ont du mal a voir: les blancs les passages à la ligne les textes inutiles (la valeur est : val)). Si l’appréciation est fussy elle détecte ces écarts à la norme et les signales.
 
-* outil de détection de plagiat [ceci est il important dans les exercices??] pour les projets.
+* outil de détection de plagiat pour les projets et les exercices (réponses trop rapides...).
 
-* [tag] l'étiquetage des exercice sur l'ontologie permet a un apprenant de revenir sur une notion/concept d'une part en demandant un exercice supplémentaire ou en accédant a un module de cours correspondant.
+* [tag] l'étiquetage des exercice sur l'ontologie permet à un apprenant de revenir sur une notion/concept d'une part en demandant un exercice supplémentaire ou en accédant à un module de cours correspondant.
 
 * Il faut que les sujets de TP prennent en compte notre souhait d'avoir des variations de comportement en fonction des élèves.
 
@@ -45,41 +45,41 @@ Les exigences suivantes sont plus ponctuelles et à intégrer aux endroits appro
 
 ### besoins/solutions
 
-besoin 1 : exerciseur de programmation, beson initial du projet, nécessite une sécurisation de l'évaluation du travail des étudiant.
-Solution: Une sandbox externalisé utilisant une technique de  Jail et le gestionnaire de containeur DOCKER pour sécuriser les évaluations.
+besoin 1 : exerciseur de programmation, beson initial du projet, nécessite une sécurisation de l'évaluation du travail des étudiant.  
+Solution: Une sandbox externalisée utilisant une technique de  Jail et le gestionnaire de containeur DOCKER pour sécuriser les évaluations.
 
-besoin 2 : exerciseur automatique
-Solution : un langage de programmation des exercices permettant de modifier l'exercice a partir d'un aléa, de faire varier la difficulté grace à un paramêtre, de faire varier les feedback "retours", cela sans rendre la création d'exercices plus difficile, permettre de créer de nouveau type d'exercices facilement.  
+besoin 2 : exerciseur automatique. 
+Solution : un langage de programmation des exercices permettant de modifier l'exercice a partir d'un aléa, de faire varier la difficulté grâce à un paramètre, de faire varier les feedback "retours", cela sans rendre la création d'exercices plus difficile, permettre de créer de nouveaux types d'exercices facilement.  
 
-besoin 3:adaptation 
+besoin 3:adaptation  
 Solution: Chaque apprenant est traité de façon distincte sur la plateforme, c'est le mélange des activité et de la connaissance de l'apprenant qui permet une adpatation constante du parcourt.
-L'apprenant choisissant le mode d'accès qu'il souhaite aux exercice avec le mode : chalenge, apprentissage, révision, entrainement. La plateforme proposant alors un exercice conforme à la demande. Bien entendu ce n'est pas le seul mode, l'enseignant pouvant définir un parcourt strict. 
+L'apprenant choisissant le mode d'accès qu'il souhaite aux exercices avec un mode : chalenge, apprentissage, révision, entrainement. La plateforme proposant alors un exercice conforme à la demande. Bien entendu ce n'est pas le seul mode, l'enseignant pouvant définir un parcourt strict. 
 
-besoin 4: outil de mesure de la connaissance d'un apprenant (d'un groupe)
+besoin 4: outil de mesure de la connaissance d'un apprenant (d'un groupe). 
 Solution : Utiliser des ontologies, bien documenté dans la littérature scientifique ce model convient bien.
 
-
-besoin 5: Des interface éfficasse car graphiques.
-Solution : Permettre que les utilisateurs fassent le choix des indicateurs qu'ils souhaitent voir sur leur progressions (resp. la progression du groupe pour les enseignants). Parmis ces indicateur, la vue de l'ontologie est un indicateur obligatoire.
+besoin 5: Des interfaces éfficasses car graphiques. 
+Solution : Permettre que les utilisateurs fassent le choix des indicateurs qu'ils souhaitent voir sur leur progression (resp. la progression du groupe pour les enseignants). Parmi ces indicateurs, la vue de l'ontologie est un indicateur important.
 
 besoin 6: Conservation des parcourts avec [Anonymisation](https://fr.wikipedia.org/wiki/Anonymisation)
-Solution: Utilisation de deux modes de sauvegarde, un version interne et une version anonymé utilisant l'interface xAPI de sauvegarde de parcours.
+Solution: Utilisation de deux modes de sauvegarde, un version interne et une version anonymisée utilisant l'interface xAPI de sauvegarde de parcours.
 
-beson 7:  ajouter des feedback a un exercice a posteriori
+beson 7:  ajouter des feedbacks a un exercice a posteriori. 
 Solution: Les décorateurs la posibilité d'ajouter des décorateurs sur les exercices qui vont changer de façon générique leur comportement, cette solution élégante dans son principe n'est pas encore validé par un POC.
 
-besoin 8: Compatibilité avec différents format d'exercices en particulier WIMS, exo7 gift, AMC, SCORM, etc
+besoin 8: Compatibilité avec différents format d'exercices en particulier WIMS, exo7 gift, AMC, SCORM, etc. 
 Solution: de nouveau la solution passe par un langage de programmation des exerices, 
 
-besoin 9: Partage multi-auteur de l'edition des ressources.
+besoin 9: Partage multi-auteur de l'edition des ressources.  
 Solution: Pas de solution imédiate il nous faut trouver un compromis en la simpicité et le partage, 
 nous avons lancer un projet parrallèle pour nous donner une solution c'est le projet [WIMS-Edition](wimdsed.besoin.md). 
 
 
-besoin 10 : Les indicateurs  forment une classe de besoin à part entière, il nous faut des indicateurs très variés et très différents en fonction des utilisateurs.
-Solution: Un système de plugins, de widgets et de procedure qui permettent de construire directement sur la plateforme l'indicateur que l'on souhaite, la librairie graphique qui le permet n'est pas encore choisie.
+besoin 10 : Les indicateurs  forment une classe de besoin à part entière, il nous faut des indicateurs très variés et très différents en fonction des utilisateurs.  
+Solution: Un système de plugins, de widgets et de procedures qui permettent de construire directement sur la plateforme l'indicateur que l'on souhaite, la librairie graphique qui le permet n'est pas encore choisie.
 
- 
+ besoin 11: ressources permanenttes, disponibles, acessibles, dévouvrables.  
+ Solution: un serveur unique de ressources. Des serveur d'assets par entités de formation.
 
 
 
