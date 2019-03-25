@@ -39,10 +39,7 @@ Connection par L.T.I, création automatique des utilisateurs et des cours (a par
 * Écran d'acceuil listant toutes les ressources PL accessible à
   l'utilisateur préalablement identifié par L.T.I.
 * Utilisateur Prof : visualisation synthétique par code couleur de
-  l'état d'avancement des participant sur la ressource résumée
-  (tableau à double entrées indexé par les utilisateurs L.T.I. de la
-  ressources et dont les colonnes indexent les ressources de type
-  exercices/activités).
+  l'état d'avancement des participant sur la ressource, tableau à double entrée ligne:apprenant, colone: exercice, contenant une couleur indiquant le nuiveau d'avancement (réussite, échec, etc).
 
 
 ## Éditeur en ligne des ressources pédagogiques (Module Editor)
