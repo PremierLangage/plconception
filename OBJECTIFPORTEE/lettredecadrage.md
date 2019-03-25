@@ -1,7 +1,3 @@
-% Lettre de cadrage 
-% Dominique Revuz
-% \today 
-
 
 # Qui ? Quoi ? Où ? Quand ? Comment ? Combien ? Pourquoi ?
 
