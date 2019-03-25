@@ -32,7 +32,7 @@ textes.bad= Saisissez la liste de mauvaises réponses une par ligne.
 
 Pour simplifier l'ecriture des inputs sont proposé des prémix
 ```pl
-good= !listoftexts
+good= Liste de bonnes valeurs|listoftexts
 ```
 Listoftexts est un élément de formulaire html permettant de saisir un liste de textes multilignes.
 
