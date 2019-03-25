@@ -85,7 +85,7 @@ D'un avis général de nos collègues les LMS sont fort utiles mais ils ne répo
 
 ## Où  ?
 
-Nous proposons à l'UPEM un service national de gestion de ressources utilisables pour l'édition de ressources. Chaque institution est responsable de la mise en place de serveurs locaux pour la gestion des actifs . Remarque: Ressource élément réutilisable, actif : la ressource dans le contexte de la classe (avec des élèves et des données).
+Nous proposons à l'UPEM un service national de gestion de ressources utilisables pour l'édition de ressources. Chaque institution est responsable de la mise en place de serveurs locaux pour la gestion des actifs . Rappelons que nous entendons par ressource tout élément réutilisable,  et par actif : la ressource dans le contexte de la classe (avec des élèves et des données).
 
 
 Ainsi chaque unviersité ou académie sera maître du déploiement des environement d'utilisation. Et la monté en charge se fera graduellement et de façon horizontale.
