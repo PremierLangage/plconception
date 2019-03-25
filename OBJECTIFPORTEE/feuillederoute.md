@@ -16,6 +16,11 @@ Trois parties :
 Dernière modification : 13 mars 2019
 
 
+## LTI 
+
+Connection par L.T.I, création automatique des utilisateurs et des cours (a partir d'une activité créée préalablement).
+
+
 ## Partage des ressources pédagogiques entre enseignants éditeurs (Module GitLoad)
 
 * Possibilité de brancher autant de dépôts git que possible
@@ -31,8 +36,8 @@ Dernière modification : 13 mars 2019
 
 ## Gestion de classes (Module ClasseManagement)
 
-* Écran de listage de toutes les ressources PL accessible à
-  l'utilisateur identifié par L.T.I.
+* Écran d'acceuil listant toutes les ressources PL accessible à
+  l'utilisateur préalablement identifié par L.T.I.
 * Utilisateur Prof : visualisation synthétique par code couleur de
   l'état d'avancement des participant sur la ressource résumée
   (tableau à double entrées indexé par les utilisateurs L.T.I. de la
