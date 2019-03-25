@@ -168,11 +168,13 @@ IL faut que l'on affiche les diff et que l'on porpose la possibilité de changer
 
 ## INDICATEURS
 
-- API 
+- Index sur la table answer: index users, pl, activité 
+- API d'accès a des données sur les types pl et users pout accèder rapidement à des statistiques.
+
 
 ## Connecteur LTI 
 
-- Remonté de notes dans moodle 
+- Remonté de notes d'activité dans moodle 
 
 ## Exercices 
 
@@ -182,6 +184,9 @@ IL faut que l'on affiche les diff et que l'on porpose la possibilité de changer
 
 
 # T2
+
+
+
 
 ## Serveurs ASSETS serveur RESSOURCES 
 
