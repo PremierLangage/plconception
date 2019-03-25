@@ -25,6 +25,9 @@ text=<input type="textarea" >
 bad=<input type="textarea" >
 nb=<input type="number" >
 
+textes.title=Title
+textes.bad= Saisissez la liste de mauvaises réponses une par ligne. 
+
 ```
 
 Pour simplifier l'ecriture des inputs sont proposé des prémix
