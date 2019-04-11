@@ -1,7 +1,7 @@
 # plconception
 La partie conception du projet de plateforme d'enseignement "Premierlangage".
 
-Ce sous projet de permier langage à pour objectif de faire la conception du logiciel. 
+Ce sous _projet_ de permier langage à pour objectif de faire la conception du logiciel. 
 
 Vous trouverez dans le répertoire OBJECTIFPORTE des éléments statégiques de la conception.
 
