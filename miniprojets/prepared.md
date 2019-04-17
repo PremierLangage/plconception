@@ -20,21 +20,20 @@ optional=nb,nbright
 # le template à ajouter 
 type=/template/qcm.pl 
 # le type de chaque balise pour faire du control et 
-title=<input type="text" >
-text=<input type="textarea" >
-bad=<input type="textarea" >
-nb=<input type="number" >
+title={ input_title }
+input.title.type=text
+input.title.label=Saisissez le titre de votre exercice
 
-textes.title=Title
-textes.bad= Saisissez la liste de mauvaises réponses une par ligne. 
-
+text={input_text}
+input.text.type=textarea
+input.text.label=Saisissez l'énnoncé de votre exercice
+bad={ input_bad }
+...
+nb={ input_nb}
+...
 ```
-
-Pour simplifier l'ecriture des inputs sont proposé des prémix
-```pl
-good= Liste de bonnes valeurs|listoftexts
-```
-Listoftexts est un élément de formulaire html permettant de saisir un liste de textes multilignes.
+IL existe des **types** spécifique à pl (non HTML) comme liste de texte, list de numériques etc. 
+ou le nombre d'éléments est dynamique
 
 
 Enfin si l'on veux contraindre un peux plus la saisie il est possible d'ajouter des validateur ou des vérifieurs.
@@ -43,21 +42,23 @@ Enfin si l'on veux contraindre un peux plus la saisie il est possible d'ajouter 
 Valideur code javascript qui vérifie dans le navigateur les valeurs saisies.
 ```pl
 # Validator 
-validator.nb.function= function f(v){ return v>2 || v==0; }
+input.nb.validator= function f(v){ return v>2 || v==0; }
 validator.nb.text= La valeur doit être un entier soit nul soit supérieur à 2. 
 validator.title.function= function f(v) { return !(";" in v) ; }
 validator.title.text= Pas de ; dans les titres
 ```
+
+
 Vérifieurs avec la même syntaxe mais en python sur le serveur
 ```pl
 # verificators 
-verificator.nb.function==
-def f(v):
+input.nb.verificator==
+def verif(v):
   return v>2 or v==0
 ==
-verificator.nb.text= La valeur doit être un entier soit nul soit supérieur à 2. 
-verificator.title.function= ...
-verificator.title.text= Pas de ; dans les titres
+input.nb.verificatorfeedback= La valeur doit être un entier soit nul soit supérieur à 2. 
+input.title.verificator= ...
+input.verificator.title.verificatorfeedback= Pas de ; dans les titres
 ```
 
 il faut que les prémix formulent des validator et des verificators pour les variables sur lesquelles ils sont appliqués.
