@@ -7,5 +7,5 @@ Les miniprojets sont des propositions pour un groupe d'élèves:
 1. [Un lien avec mahara](portfolio.md)  
 1. [Outil d'amphi](votar.md)  
 1. [Editeur pour sociologue](editorforphd.md)  
-1. [Exercices préparer](prepared.md)
+1. [Exercices préparés](prepared.md)
 
