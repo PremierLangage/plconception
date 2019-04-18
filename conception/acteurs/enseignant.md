@@ -16,10 +16,12 @@ Les enseignants utilisent la plateforme pour faire leurs enseignements, ils ont 
   * définir des modalités de validation de ces objectifs
   * ajouter une feuille d'exercices (pltp) à un cours.
   * ajouter un exercice à une feuille d'exercice.
-* Créer une Classe.
+* Gérer la Classe
   * Inscrire des élèves(Etudiant). (Possibilité de connecter des élèves par LTI a partir d'un LMS).
   * Suivre un groupe d'élèves.
-  * Corriger les étudiants
+* Animer la classe
+  * modifier des dates d'ouverture fermeture d'activité
+  * donner du f les étudiants
   * Demander la création de groupe
 * Valider un tag, un exercice ou une ressource (change de rôle et devient taggeur)
 
