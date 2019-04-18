@@ -9,17 +9,18 @@ Utilisateur primaire
 Les enseignants utilisent la plateforme pour faire leurs enseignements, ils ont besoin de :
 
 * Créer un cours
+** Définir les objectifs d'apprentissage visés pour le cours (compétences)
+** Définir une ontologie 
+** Affecter des activités (permettant d'apprendre) au cours.
+** Affecter des ressources a un cours.
+** Définir des modalités de validation de ces objectifs
+** Ajouter une feuille d'exercices (pltp) à un cours.
+** Ajouter un exercice à une feuille d'exercice.
 * Créer une Classe.
-* Inscrire des élèves(Etudiant). (Possibilité de connecter des élèves par LTI a partir d'un LMS).
-* Définir des objectifs d'apprentissage visés pour le cours (compétences)
-* Définir des activités permettant d'apprendre.
-* Définir des modalités de validation de ces objectifs
-* Ajouter une feuille d'exercices (pltp) à un cours.
-* Ajouter un exercice à une feuille d'exercice.
-* Suivre un groupe d'élèves.
-* Corriger les étudiants
-* Créer un atelier
-* Editer un graphe
+** CRUD (create read update delete) le cours 
+** Inscrire des élèves(Etudiant). (Possibilité de connecter des élèves par LTI a partir d'un LMS).
+** Suivre un groupe d'élèves.
+** Corriger les étudiants
 * Demander la création de groupe
 * Valider un tag, un exercice ou une ressource
 
