@@ -43,3 +43,26 @@ Fruits attendus :
         autoévaluation/ évaluation par les pairs, d'un exercice  suivant une grille critériée ...
         possibilité de création automatique de groupes avec homogénéité entre groupes (l'ensemble des compétences attendues sont représentées dans  le groupe) et de demander un travail de partage entre les étudiants pour que tous les étudiants progressent dans l'ensemble des compétences à travers une remédiation entre pairs.[création d'activités permettant d'entrainer les compétences l'intelligence collective pour les élèves]
 
+
+# Quelques remarques sur les grilles critèriées
+
+## Quelques critères 
+
+Objectifs du travail : respect de la tâche et de ses exigences. Ce critère porte essentiellement sur la tâche accomplir, c’est-à-dire si le travail répond à la question posée ou correspond à la tâche exigée dans la forme attendue.
+
+Respect des normes de présentation telles qu’énoncées dans les consignes. Ce critère renvoie à la présentation matérielle du travail : utilisation d’un système de référence constant entre le texte et la bibliographie, police d’écriture, pagination, mise en page, etc.
+
+Qualité de la langue et de la rédaction. La qualité du français, tant au plan de la grammaire que de style, est ici abordée. Au-delà de la syntaxe, de l’orthographe et de la grammaire, ce critère comporte aussi une composante sur la clarté de l’expression ainsi que le ton adopté dans le travail.
+
+Repérage et mobilisation de la littérature grise et scientifique. Il s’agit ici d’évaluer la qualité et la pertinence des références et leur utilisation pour soutenir l’argumentaire dans un texte.
+
+Argumentation et logique. Ce critère évalue le cheminement logique, ou le fil conducteur, du texte dans son ensemble ainsi qu’à l’intérieur des paragraphes, par exemple la facilité à repérer les idées et la logique de leur développement.
+
+Compréhension et capacité de synthèse. Ce critère évalue la démonstration de la compréhension du sujet d’étude, notamment à travers la délimitation du sujet à l’étude, ainsi que la synthèse de l’objet d’étude, c’est-à-dire la concision ainsi que la capacité à présenter et distinguer les idées principales et accessoires.
+
+Jugement critique. Ce critère se déploie en trois étapes. D’abord, il évalue comment le travail compare et contraste des idées, ou fait dialoguer les auteurs. Ensuite, il évalue la capacité à questionner, saisir et nuancer la problématique à l’étude et la littérature scientifique qui soutient l’argumentaire. Enfin, il évalue la capacité de l’étudiant à tirer un sens nouveau à partir de son argumentaire et à se positionner à l’égard des idées et des critiques des auteurs évoqués dans le texte.
+
+Structure du travail. Ce critère évalue la structure du texte et de ses parties, soit la structure de l’introduction, du développement et de la conclusion. Il évalue aussi l’importance relative du développement par rapport à ces parties ainsi que la présence et la qualité des titres et sous-titres dans le texte.
+
+
+
