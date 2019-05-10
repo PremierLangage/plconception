@@ -18,6 +18,8 @@ alors il la voit grisée sur le serveur de ressources.
 - version
 - meta
 
+# BarRessources
+
 ## Planning
 
 Le type ressource contient dans ses meta le status d'ouverture par défaut
