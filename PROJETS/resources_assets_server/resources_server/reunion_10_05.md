@@ -1,5 +1,9 @@
 # PL
 
+## Badges
+
+## Notifications
+
 ## Activité
 
 Les activités sont liés à une version. 
@@ -12,7 +16,11 @@ alors il la voit grisée sur le serveur de ressources.
 - pull
 - droits
 - version
+- meta
 
+## Planning
+
+Le type ressource contient dans ses meta le status d'ouverture par défaut
 
 ## Sandbox
 
@@ -21,3 +29,5 @@ alors il la voit grisée sur le serveur de ressources.
 # Q&A
 
 - Plusieurs Q&A (liés aux cours par les tags)
+- Un plus spécifique pour le serveur de ressources
+- annotations
