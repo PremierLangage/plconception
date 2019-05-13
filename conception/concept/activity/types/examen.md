@@ -11,7 +11,7 @@ Les conditions spécifiques :
 - ni les scores ni les feedback ne sont fournis 
 - dans le cas d'un exercice avec une phase de correction syntaxique de la réponse, les erreurs sont remontées aux élèves.
 - la seed utilisé est la même pour tout le monde 
-- l'ordre des exercices est aléatoire et ils sont indentifiés par des numéros ou des texts non significatifs : question 1, problème 1, Question A
+- l'ordre des exercices est aléatoire et ils sont indentifiés par des numéros ou des texts non significatifs : question 1, problème 1, Question A. Mais pour conserver une équité les exercices doivent être fournis par groupes d'exercices de niveau équivalents.
 
 - l'accès a la feuille d'exercices est limité au machine de la salle de tp (option)
 - l'accès est limités au étudiants sur place (option).
