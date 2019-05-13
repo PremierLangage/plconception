@@ -9,3 +9,5 @@ un mode en ligne qui propose des exercices selon un alogrithme de recommandation
 
 ## L'algorithme 
 
+CF MS
+
