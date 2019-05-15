@@ -16,13 +16,14 @@ Lorsque la date limite de création des groupes est dépassé, un système d'"au
 
 ## Exemple de devoir maison
 
+```pl
 title=Devoir maison n°1  
 introduction==
 
 Devoir sur les chaînes de caractère
 
 ==
-type=dm | type : string
+type=dm #  type : string
 subject==
 
 @ path/string.pl
@@ -37,6 +38,7 @@ deposit.number=1 # type : int | Nombre maximum de fichier à rendre, 0 pour illi
 deposit.size=20 # type : int | Taille max d'un fichier en Mo  
 restriction.begin=26/11/1996-00:05 # type : date() | date de début du devoir maison  
 restriction.end=26/12/1996-00:05 # type=date() | date de fin du devoir maison  
+```
 
 ## Création de groupe
 
