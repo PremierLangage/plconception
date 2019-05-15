@@ -24,20 +24,21 @@ Devoir sur les chaînes de caractère
 
 ==
 type=dm #  type : string
-subject==
+subject=@ path/string.pl # a subject 
+# link=http://drhome/sujet.html # the subject in a external site 
 
-@ path/string.pl
-
-==
 date.group=26/09/1996-00:05 # type : date() | Date limite de création des groupes  
 date.deposit= 26/09/1996-00:05 # type : date() | Date à partir de laquelle on peut rendre le devoir  
 date.limit=26/10/1996-00:05 # type : date() | Date limite pour rendre le devoir  
 overtime=true # type : boolean | Autorisation de rendu avec retard  
-deposit.type=unique # type : string | unique si un seul des membre du groupe doit rendre le devoir ou all si tous le membres doivent le rendre  
+deposit.type=unique # type : string | /unique/ si un seul des membre du groupe doit rendre le devoir ou /all/ si tous le membres doivent le rendre  
 deposit.number=1 # type : int | Nombre maximum de fichier à rendre, 0 pour illimité  
 deposit.size=20 # type : int | Taille max d'un fichier en Mo  
 restriction.begin=26/11/1996-00:05 # type : date() | date de début du devoir maison  
 restriction.end=26/12/1996-00:05 # type=date() | date de fin du devoir maison  
+
+
+
 ```
 
 ## Création de groupe
