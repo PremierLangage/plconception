@@ -11,3 +11,5 @@
 6) Création des groupes: 
   - automatique avec algo
   - autoaffectation (salons avec mot de passe)
+
+[Devoir maison](../../devoirmaison/donnerundevoirmaison.md)
