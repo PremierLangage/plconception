@@ -8,7 +8,9 @@ Clés nécessaires :
 groupe=Id groupe   # Un entier représentant l’identifiant d’un groupe.
 
 strategy=xxx .py  
-# String qui représente le nom d’un fichier .py représentant une stratégie. Les stratégies sont tous stockés dans un même dossier. Si aucune stratégie n'est mise, la stratégie par défaut est choisit automatiquement.
+# String qui représente le nom d’un fichier .py représentant une stratégie. 
+Les stratégies sont tous stockés dans un même dossier.
+Si aucune stratégie n'est mise, la stratégie par défaut est choisit automatiquement.
 
 # Un ou plusieurs chemin menant à un ou plusieurs fichier .pltp
 # liens vers des ressources 
