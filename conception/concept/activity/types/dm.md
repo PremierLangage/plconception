@@ -13,3 +13,8 @@
   - autoaffectation (salons avec mot de passe)
 
 [Devoir maison](../../devoirmaison/donnerundevoirmaison.md)
+
+
+Remarque pour les projets de programmation il faut utiliser un logiciel de qualification comme:  
+- pylama pour le python : pip install pylama
+- [java software metrics](https://www.monperrus.net/martin/java-metrics)
