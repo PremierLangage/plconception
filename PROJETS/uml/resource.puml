@@ -1,0 +1,19 @@
+@startuml
+
+skinparam defaultFontName Monospaced
+skinparam monochrome true
+
+class Resource << (M,#00FFFF) >> {
+    int        <b>pk</b>
+    int      version
+    str      name
+    str      commit
+    Date     creation
+    User     author      <i>FK</i>
+    Metadata meta        <i>FK</i>
+    Resource prev        <i>FK</i>
+    Resource next        <i>FK</i>
+    Resource deps        <i>M2M</i>
+}
+
+@enduml
