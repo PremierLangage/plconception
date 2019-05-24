@@ -125,6 +125,7 @@ définir des informations a stocker dans la base
 ## Inspecteurs:
 
 définir les programmes (aav par niveaux)
+récupérer des AAV pour construire un programme 
 
 # Parties prenantes
 
