@@ -39,27 +39,27 @@ La plateforme doit permettre l'export de ces évaluation vers un **portfolio** m
 L'enseignant est aussi un Enseignant non éditeur (cf.) est observateur des ressources qu'il a dans sont cours/classe
 définir des objectifs de formation (en équipe) d'un cours/classe
 
-création (aav/ ops / grains/ éléments d'ontologies)
-copie
-partage
-ontologies
-Choisir et structurer les ressources d'un cours/classe  (en équipe)
+création (aav/ ops / grains/ éléments d'ontologies). 
+copie. 
+partage. 
+ontologies. 
+Choisir et structurer les ressources d'un cours/classe  (en équipe). 
 
-recherche / sélection / comparaison
-classement / organisation  / hiérarchisation,
+recherche / sélection / comparaison. 
+classement / organisation  / hiérarchisation,  
 séquencement (ouverture/fermeture, ordre)
-paramétrage des ressources
-ASK (demande de ressources)
-Gestion de la classe
+paramétrage des ressources. 
+ASK (demande de ressources). 
+Gestion de la classe. 
 
-groupes TP/TD etc
-organisation des groupes projets  (binomes, auto organisation etc )
-Notes : barem , export etc
-Manipulation des informations institutionnelles accessibles
-Gestion du changement d'année
+groupes TP/TD etc. 
+organisation des groupes projets  (binomes, auto organisation etc ). 
+Notes : barem , export etc. 
+Manipulation des informations institutionnelles accessibles. 
+Gestion du changement d'année. 
 
-reset des données spécifique
-capitalisation
+reset des données spécifique. 
+capitalisation. 
 
 ## Enseignant non éditeur :
 
