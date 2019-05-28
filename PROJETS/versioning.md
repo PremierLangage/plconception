@@ -287,7 +287,7 @@ qu'un importe de builder importe toujours la dernière version de ce builder ? F
   * *(Q.C.)* C'est le principale problème, il y a un problème dans tout les cas: Si une ressource se sert toujours de la dernière 
   version d'une dépendance, celle-ci peut casser la ressource lors d'une mise à jour. A l'inverse, si elle ne se sert pas 
   automatiquement de la dernière version, il sera nécesssaire de mettre à jour chaque ressource manuellement.
- * *(D.R.)* IL faut parler d'**ASSETS**, un asset est défini sur une ressource versionnée, quand on fait un **reload** il faut que 
+  * *(D.R.)* IL faut parler d'**ASSETS**, un asset est défini sur une ressource versionnée, quand on fait un **reload** il faut que 
  l'on prenne des décisions sur ce que l'on veux charger, soit à la main, soit en choisisant un algorithme, du type "toutes les 
  versions validées", "les dernirère versions", "les versions postérieur à ma version avec le tag='label jaune'". 
  Ainsi l'asset garde l'information de version, c'est le rafraichissement qui réalise le réalignement.
