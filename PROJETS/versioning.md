@@ -259,7 +259,8 @@ modification, 4 vous différencier en créant un exercice différent de la derni
   * *(D.R.)* Ouaip. 
 
 * *(N.B.)* Question : Une inode Unix contient de nombreuse date... Est-ce suffisant ou faut-il dater dans des fichiers de méta données les versions ? Fichier unix = ? = fichier de version
-  * *(Q.C.)* La date de création de l'inode me semble suffisante. (D.R.) Ouaip moi aussi.
+  * *(Q.C.)* La date de création de l'inode me semble suffisante.
+  * *(D.R.)* Ouaip moi aussi.
   
 
 * *(N.B.)* Peut-on supprimer des version ? Est ce que c'est bien ? Est ce que c'est pas dérangeant...
