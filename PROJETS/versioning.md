@@ -231,7 +231,7 @@ création de nouveaux fichier from scratch à une et une seule version père.
     ```
 
 * *(N.B.)* Question : À terme, on veut stocker quoi ? Demandez à D.R. s'il a déjà des idées (statistiques, méta-données, infor
-auto-générées, q[my_list[x:x+5] for x in range(0, len(my_list),5)]ualification des ressources, review, tests, vaidations, etc)...
+auto-générées, qualification des ressources, review, tests, vaidations, etc)...
   * *(D.R.)* : Nicolas Toute ta liste est effectivement au programme, mais il faut distinguer deux type d'informations, les
   informations "manuelles/créatives" qui sont produites par une édition d'un utilisateur, exemple : exercice, activité, structure
   de cours, AAV, ontologie, video, sound etc.
