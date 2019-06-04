@@ -1,13 +1,18 @@
 # Cours
 
 
-Un cours est un patron de classe. 
+Un cours est une ressource.
 
-- peut être fabriqué a partir de rien (première version). 
+Un cours est un asset basé sur un cours-ressource. 
 
-- peut être fabriqué a partir d'une classe. 
-
-- toutes les classes faites a partir d'un cours sont connues et le lien est conservé.
+Un cours-ressource est:
+- une liste d'AAV (aquis d'apprentissage visés) de niveau 1. 
+- un lien vers des AATP (aquis d'apprentissage terminaux du programme) qui figure dans le supplément au diplome.
+- une liste de ressources de type section-chapitre.
+Un cours-ressource est: une liste de ressources de type section-chapitre.
+- associé à une discipline (ceci ne peux être vide et doit être rempli à la création).
+- associé à un niveau (niveau des élèves: L1, CM2, BTS, etc voire nomenclature officielle/wims)
+- associé à un thème (thème: classement dans la discipline)  
 
 
 Un cours est un ensemble de notion à assimiler (que l'on représente aussi sous forme de graphe de notion) et qui doit permettre aux étudiants de réussir les exercices qui sont associés au cours. (Exemple:un cours de C, probabilité, python ...)
@@ -36,7 +41,3 @@ Chaque cours contient une ou plusieurs [activités](activity.md).
 
 
 
-<!---
-Author : Hugo
-Validator : Jordan
--->
