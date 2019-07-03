@@ -21,6 +21,8 @@ Aucunes des personnes indiquées n'est a 100 % sur le projet ayant toutes un emp
   - C Calle  (apprenti)(UPEM)
   - M Cisse  (apprenti)(UPEM)
   - Nicolas Salegéro (ingenieur)(CRI UPEM)
+ - Coordinateur projet:
+  - Lou Hamonic
 - Développement des ressources : 
   - Nicolas Borie : enseignant en informatique (UPEM)
   - David Doyen : enseignant en Mathématiques (UPEM)
