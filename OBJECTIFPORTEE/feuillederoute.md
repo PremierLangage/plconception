@@ -4,7 +4,7 @@
 
 # Feuille de Route
 
-Trois parties :
+**Trois** parties :
 
  [T0](./feuillederoute.md#t0) ce qui existe aujourd'hui  
  [T1](./feuillederoute.md#t1) Objectif de la prochaine version (1.0)  
