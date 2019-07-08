@@ -48,8 +48,10 @@ Un AAV a Trois type de "réponse"
 
 ### Q&A 
 
+une page de garde qui explique 
+
 l'idée de pouvoir le mettre dans moodle, lien LTI,
-automatiquement je met en contxte le cours et ses tags (les TAGS de Classement du cours).
+automatiquement je met en contexte le cours et ses tags (les TAGS de Classement du cours).
 
 lien type : https://pl.u-pem.fr/QA/
 avec toutes les données LTI 
@@ -57,6 +59,7 @@ quentin fait une redirection (ou ce qu'il faut pour que tu ai accès au cours et
 
 Pleins de trucs : les dernier messages, des messages punaisés, bla bla, créativité de Jeremy.
 
+NB: UNE ENTRÉE GÉNÉRIQUE OU L'ON VOIE TOUTES LES QUESTIONS NON RÉPONDUES
 
 le lien interne du menu PL (base.html) doit aussi pointé avec un cours en parametre.
 
