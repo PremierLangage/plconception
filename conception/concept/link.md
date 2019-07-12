@@ -1,5 +1,5 @@
-## Lien Interne
-# Idée Générale :
+# Lien Interne
+## Idée Générale :
   L'idée c'est de fournir une syntaxe brève, afin de pouvoir écrire des liens internes vers des ressources de notre système, tel que :
   - Des activités (#A_ID_activity)
   - Des évaluations (#E_ID_eval)
@@ -14,8 +14,8 @@
 
 Les liens internes seront surtout utilisés dans les AAV et QA.
 
-# Obtention des liens internes :
+## Obtention des liens internes :
   Il doit être possible de récupérer le lien interne d'une ressource.
 
-# Syntaxe proposée :
+## Syntaxe proposée :
   
