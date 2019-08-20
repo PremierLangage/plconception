@@ -4,7 +4,7 @@
 Objectif : Le cas d'utilisation crud indicateur permet à un didactitien de créer un élément de tableau de bord.
 
 
-Résumé général : Les indicateurs sont stockés dans la base cf. [Indicateur](../concept/indicateur.md).
+Résumé général : Les indicateurs sont stockés dans la base cf. [Indicateur](../../concept/indicateur.md).
 
 Les indicateurs sont définis par :
 - les objets (answer, user, exo , feuilles, activity, etc )
