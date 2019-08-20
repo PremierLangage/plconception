@@ -7,8 +7,6 @@ L'administrateur LMS est l'acteur qui gère tous les étudiants, les enseignemen
 
 Il peut supprimer ou ajouter un étudiant à une classe, administrer un cours (suppression, création, suppression d'un exercice...), ou encore associer une classe à un cours.
 
-C'est lui qui attribut le karma à un enseignant.
-
 Il peut aussi modifier la réputation d'un utilisateur.
 
 ### Données primaires
