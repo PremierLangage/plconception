@@ -2,6 +2,8 @@
 
 Acteur secondaire
 
+Hérite de enseignant. (un enseignant est analystre pour son cours).
+
 L'utilisateur analyste est celui qui à partir des données (moyenne d'un exercice, temps pour le faire ...) trouve les exercices, les stratégies, les cours, ainsi que toutes les activitées les plus efficaces afin de faire comprendre une notion à un étudiant. L'analyste peut créer des indicateurs à partir de ces données.
 
 Besoins :
@@ -21,14 +23,8 @@ Statistiques (taux de réussite des exercices, le temps passé pour faire chaque
 
 ## Cas d'utilisation associées
 
-[Accéder à une feuille d'exercice](../casutilisation/analyste/analysedestraces.md)
+[Accéder aux trace d'une feuille d'exercice](../casutilisation/analyste/analysedestraces.md)
 
 [Gestion des indicateurs (CRUD)](../casutilisation/analyste/crud-indicateur.md)
 
-=======
-
-<!--- 
-Author : Hugo 
-Validator : Raphael 
--->
 
