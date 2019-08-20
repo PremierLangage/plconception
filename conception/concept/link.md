@@ -1,4 +1,5 @@
 # Lien Interne
+
 ## Idée Générale :
   L'idée c'est de fournir une syntaxe brève, afin de pouvoir écrire des liens internes vers des ressources de notre système, tel que :
   - Des activités (#A_ID_activity)
@@ -19,3 +20,12 @@ Les liens internes seront surtout utilisés dans les AAV et QA.
 
 ## Syntaxe proposée :
   
+Le mieux est de pouvoir référencer tout ce qui concerne des personnes avec `@` suivit du nom de la personne / groupe :
+
+* `@qcoumes`
+* `@admin`
+* `@AP1_2019`
+* `@editor`
+* ...
+
+et les objets avec `#` suivit de l'ID de l'objet (`#21`). Il n'est pas forcément nécessaire de différencier l'objet si ceux si possède chacun une clé unique.
