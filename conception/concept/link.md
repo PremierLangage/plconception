@@ -29,3 +29,4 @@ Le mieux est de pouvoir référencer tout ce qui concerne des personnes avec `@`
 * ...
 
 et les objets avec `#` suivit de l'ID de l'objet (`#21`). Il n'est pas forcément nécessaire de différencier l'objet si ceux si possède chacun une clé unique.
+
