@@ -1,7 +1,9 @@
 # Lien Interne
 
 ## Idée Générale :
-  L'idée c'est de fournir une syntaxe brève, afin de pouvoir écrire des liens internes vers des ressources de notre système, tel que :
+  L'idée c'est de fournir une syntaxe brève, afin de pouvoir écrire des liens internes vers des ressources de notre système,ainsi quand on parse du text contenant #TYPENUMERO c'est remplacé par un lien vers 
+  l'objet de type TYPE et d'ID NUMERO en fonction du type de l'objet c'est le mode preview ou accès  standard comme dans le cas d'une demande.
+  
   - Des activités (#A_ID_activity)
   - Des évaluations (#E_ID_eval)
   - Des exercices (#X_ID_exo)
@@ -10,8 +12,7 @@
   - Des utilisateurs (@User)
   - Des cercles (@0_Cercle)
   
-(en preview uniquement)
-
+ 
 
 Les liens internes seront surtout utilisés dans les AAV et QA.
 
