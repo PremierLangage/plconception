@@ -1,5 +1,10 @@
 # Le tuteur
 
+le tuteur est connecté au système et est tuteur pour un cours donné,
+il peut accèder aux analytics d'une etudiant,
+il accède au "chat room" du cours et peut répondre aux questions et est administrateur sur le chat.
+
+
 Le tuteur répond aux questions des étudiants (de préférence par une question).
 
 Il ne fixe pas les objectifs du cours. 
