@@ -2,8 +2,10 @@
 
 Champs d'un exercice une feuille ou un cours.
 
-Les exercices pl sont des dictionnaires, chaque couple clef valeur est appelé une balise. 
+Un autre terme est la clef (key), ce qui est naturel comme les ressources sont des dictionnaires python. 
 
+
+Les exercices pl sont des dictionnaires, chaque couple clef valeur est appelé une balise. 
 Par exemple :
 <pre>
   text==
