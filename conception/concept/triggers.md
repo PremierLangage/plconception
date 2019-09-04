@@ -16,7 +16,7 @@ Les activités sont stockées en base de données de la manière qui suit :
 + students
 + parent
 
-Si les champs **PL*, **open**, ou **users**  changent, on envoie une notification à tous les étudiants concernés (dans cet exemple)
+Si les champs **PL**, **open**, ou **users**  changent, on envoie une notification à tous les étudiants concernés (dans cet exemple)
 
 ## Implémentation
 
