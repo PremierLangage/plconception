@@ -1,8 +1,19 @@
 # Triggers
 
 
-Les Triggers dans PL sont des déclencheurs, ils s'activent au moment où certaines données en BDD viennent d'être créees ou modifiées.
-Ex :
+
+Les Triggers sont des déclencheurs, ils s'activent au cours de certains évènements, une fois activé ils produisent une notification.
+
+Exemple : j'installe une trigger sur une ressource (un template) de façon a être prévenu quand celle ci est modifiée. je choisi de recevoir un mail en plus de ma notification interne. 
+
+
+Deux familles d'évènements:
+- suivi des ressources 
+  création/modification/etc d'une ressource triggers au niveau de la base de ressources,
+- suivi des élèves (assets): 
+ - des notifications pour les profs,
+ - des notifications pour les élèves
+
 
 Les activités sont stockées en base de données de la manière qui suit :
 
