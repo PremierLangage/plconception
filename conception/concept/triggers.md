@@ -15,6 +15,9 @@ Deux familles d'évènements:
  - des notifications pour les élèves
 
 
+
+
+## Un exemple avec une ressource activité 
 Les activités sont stockées en base de données de la manière qui suit :
 
 #### Activity
