@@ -2,6 +2,8 @@
 see: 
 https://github.com/PremierLangage/premierlangage/issues/254
 
+https://github.com/PremierLangage/plconception/issues/72
+
 
 Sous projet AMI : correction collective d'examen/partiels, production de grilles critériées/ intelligence collective
 
