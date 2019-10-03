@@ -1,22 +1,17 @@
-# Administrateur LMS
+# LMS
 
-Acteur secondaire
 
-L'administrateur LMS est l'acteur qui gère tous les étudiants, les enseignements, les classes:
- - Inscription, CRUD (student,teacher,classes)
+Learning Managment system
 
-Il peut supprimer ou ajouter un étudiant à une classe, administrer un cours (suppression, création, suppression d'un exercice...), ou encore associer une classe à un cours.
+### Données produites
+PROTOCOL LTI
+Etudiant:numero nom prenom etc
+Roàle: etudiant,enseignant,enseignant non editeur 
+cours: nom, identifiant, 
 
-Il peut aussi modifier la réputation d'un utilisateur.
+### Données r&écupérées 
 
-### Données primaires
+Protocol LTI
+Notes: numéroetudiant+valeur+identifiantactivité/cours
 
-Etudiant, enseignant, cours , exercices, classe, karma, réputation
 
-### Données générées
-
-classe, cours, exercice, karma, réputation
-
-### Cas d'utilisation associées
-
-- Administration du LMS 
