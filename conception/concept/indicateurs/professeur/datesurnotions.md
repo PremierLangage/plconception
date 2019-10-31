@@ -1,4 +1,4 @@
-# Nombre de notions vu/validé en fonction de la date
+# Nombre de notions vues/validées en fonction de la date
 
 Permet à l'enseignant de voir l'avancement des élèves sur le cours .
 
