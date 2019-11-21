@@ -1,4 +1,4 @@
-# Aquits d'apprentissage Visés : Grains
+# Acquis d'apprentissage Visés : Grains
 
 Les grains/AAV/LO (learning Outcomes) sont des objectifs de formations pemettant de décrire des ressources.
 
