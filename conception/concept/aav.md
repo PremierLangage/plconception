@@ -2,11 +2,11 @@
 
 ## Régles de construction d'un AAV
 
-	A. Spécifier le public
-	B. Spécifier le moment dans l’apprentissage lorsque les objectifs devront être atteints (à l’issue de …)
-	C. Décrire le comportement visé par un verbe d’action centré sur l’étudiant et spécifier/délimiter le contenu (l’étudiant est/sera capable de …)
-	D. Décrire les conditions, les situations, les circonstances, le contexte
-	E. Indiquer le niveau de performance attendu
+A. Spécifier le public
+B. Spécifier le moment dans l’apprentissage lorsque les objectifs devront être atteints (à l’issue de …)
+C. Décrire le comportement visé par un verbe d’action centré sur l’étudiant et spécifier/délimiter le contenu (l’étudiant est/sera capable de …)
+D. Décrire les conditions, les situations, les circonstances, le contexte
+E. Indiquer le niveau de performance attendu
 
 
 
