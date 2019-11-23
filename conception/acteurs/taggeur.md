@@ -1,4 +1,4 @@
-# Taggeur / curateur
+# Taggeur
 
 Acteur secondaire
 
