@@ -33,3 +33,7 @@ Q&A-AAV :
 Notification : middle ware  de detection d'ACTIONS, gestion ds bagdes, Karma , Programmeur de Notification et badges
 
 Liens Internes + BarExo + preview 
+
+Cercles : une organisation de groupes en fonction de leurs affinités, la définition d'affinité devra évoluer avec le temps, pour le moment c'est la discipline, vous etes dans les cercles des diciplines pour lesquelles vous produiser des ressources. Les cercles donne accès(possible de voire la liste) aux personnes du cercle et a un forum du cercle.
+
+
