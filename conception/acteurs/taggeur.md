@@ -1,4 +1,4 @@
-# Taggeur
+# Taggeur / curateur
 
 Acteur secondaire
 
@@ -6,7 +6,7 @@ Un taggeur est une personne ayant un karma suffisant dans la discipline, ou pouv
 le rôle tagger donne aussi accès à la construction du graphe savant des grains/tag de la discipline. 
 
 Pour le système avoir un bon karma ou avoir le rôle tagger permet de modifier les tags d'un exercice dont on est pas propriétaire. 
-Le taggeur a aussi le droit de modifier un grain (identifiant, nom, description) et de modifier le "graphe savant" de la discipline.
+Le taggeur a aussi le droit de modifier un grain/AAV (identifiant, nom, description) et de modifier le "graphe savant" de la discipline.
 
 ## Fonctionnalités demandées.
 
@@ -26,7 +26,10 @@ tout les autres
 
 ### Données primaires
 
-Karma du taggeur dans la discipline dans laquelle il veut tagger, liste des tags (noms des grains)
+Karma du taggeur dans la discipline dans laquelle il veut tagger, liste des tags (noms des grains),
+le karma s'obtient par co-optation et/ou par suffisement d'actions dans la disclipline.
+
+
 
 ### Données secondaires
 
@@ -36,7 +39,3 @@ tag, notification
 
 ## Cas d'utilisation associées
 
-<!--- 
-Author : Hugo 
-Validator : Raphael 
--->
