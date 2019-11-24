@@ -8,6 +8,8 @@ L'utilisateur analyste est celui qui à partir des données (moyenne d'un exerci
 
 Besoins :
 Si l'analyste n'arrive pas à fabriquer son indicateur il peut faire un export excel des données.
+L'export de donne en question contient la table anwser limité aux exercices et activité d'un cours et pour les etudiants de ce cours.
+
 
 ### Données générées
 
@@ -19,4 +21,4 @@ Statistiques (taux de réussite des exercices, le temps passé pour faire chaque
 
 [Gestion des indicateurs (CRUD)](../casutilisation/analyste/crud-indicateur.md)
 
-
+Voir indicateurs onthefly/after. 
