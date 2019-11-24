@@ -8,7 +8,6 @@ Learning Managment system
 * [Specifications 1.1](https://www.imsglobal.org/specs/ltiv1p1/implementation-guide)
 * [Specifications 1.2](https://www.imsglobal.org/specs/ltiv1p2/implementation-guide)  
 * [Specifications 2.0](https://www.imsglobal.org/specs/ltiv2p0/implementation-guide)  
-* [Specifications 2.1](https://www.imsglobal.org/specs/ltiv2p1/implementation-guide)  
 
 
 ### LMS -> PL
@@ -32,7 +31,7 @@ Informations récupérables depuis le LMS:
   * Role
   * ID de l'utilisateur sur le LMS
 
-***Note :*** Les informations ne sont unique que pour un LMS, il faut donc coupler le LMS à celle-ci si une instance de PL se sert de plusieurs LMS.
+***Note :*** Les informations ne sont unique que pour un LMS, il faut donc coupler le LMS à celles-ci si une instance de PL se sert de plusieurs LMS.
 
 ### PL -> LMS
 
