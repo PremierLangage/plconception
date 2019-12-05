@@ -1,6 +1,15 @@
 # Acquis d'apprentissage Visés
 
-## Régles de construction d'un AAV
+Les AAV (Acquis d'apprentissage Visés) sont les objets frontière de notre logiciel, les objets qui permettent de réunir tout les acteurs autour d'un concept commun qui est utile pour tous.
+
+Pour plus d'information sur les AAV se repporter au site : 
+https://fa2l.be 
+
+# AAVN 
+AAV Numériques, le problème de la définition actuelle des aav par fa2l bien que très adapté 
+
+
+## Canevas de construction d'un AAV
 
 1) Spécifier le public
 1) Spécifier le moment dans l’apprentissage lorsque les objectifs devront être atteints (à l’issue de …)
