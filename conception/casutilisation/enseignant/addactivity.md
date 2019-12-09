@@ -1,32 +1,18 @@
-# Gérer les activités d'un cours
+# Ajouter une activité dans un asset
 
 
-Objectif : Permettre à un enseignant d'ajouter une activité à un cours. Modifier les paramêtres d'accessibilité de l'activité.
+Objectif : Permettre à un enseignant d'ajouter une activité à un cours-asset.
+ Modifier les paramêtres d'accessibilité de l'activité.
 
 
 
-Résumé général : Deux posibilités 
-A) Par Gitload et LTI
-B) Dans le tableau de Bord du cours sans LTI
-
-# Version A: Avec LTI
-## Pré-requis:
-	- l'utilisateur est connecté en tant que professeur éditeur.
-	- le connecteur LTI doit être défini dans le LMS et PL doit être configuré pour ce LMS cf.[ConnectionLMS](connectionlms.md)
-## Résumé
-L'enseignant parcourt les fichiers choisis un fichier activité (exemple: pltp) et le charge avec le bouton load (déclencheur).
-Le système : vérifie que l'actvité  est valide en termes syntaxiques.
-	- créer une structure d'activité 
-	- affiche le lien vers cette activité
-l'enseignant copie le lien dans le connecteur LTI de son LMS:
-A la première connection l'activité sera créée dans le cours correspondant sur PL.
-
-# Version B: Sans LTI
 Attention dans cette version le table de bord des cours doit être fonctionnel. Dans cette configuration le LMS n'est pas nécessaire.
+
 ## Pré-requis 
 - le professeur a un compte PL de professeur
 - le cours existe et le professeur à le droit d'édition dessus
 - le tableau de bord du cours est ouvert et affiche le bouton "ajouter une activité" 
+
 ## Résumé 
 - commence quand le professeur click sur "ajouter activité"
 - le système affiche la page "ajout d'une activité" dans le cours actif (parametre de la page)
