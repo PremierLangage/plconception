@@ -1,13 +1,20 @@
-# Ajouter cours
+# Ajouter cours sur un site d'asset
 
-Remarque préliminaire la création d'un cours est une activité complexe qui ne se fait pas en une fois.
-Le cas d'utilisation ici est uniquement de l'instance du cours pour en suite pouvoir le modifier, l'étendre etc.
-Attention la création d'un cours est une activité coté ressource et pas coté asset. 
-
-Objectif : Permettre à un enseignant d'ajouter un cours dans la plateforme.
-
-Résumé: Quand un enseignant ajoute une activité pl dans un cours LTI( vmoodle ou autre) à la première connection le cours PL correspondant au cours LTI est créé que se soit une connection élève ou professeur.
-
-L'interface correspondant à ce cas d'utilisation est dans le protocol LTI.
+Version 1.0: Ce cas d'utilisation est réalisé par LTI a travers le LMS. 
 
 
+
+
+Le cas d'utilisation ici est uniquement pour créer l'instance du cours pour en suite pouvoir le modifier, l'étendre etc.
+Attention la création d'un cours est une activité coté ressource et pas coté asset (voir le cas d'utilisation [createcourse.md](createcourse.md)). 
+
+Objectif : Créer les données lians les utilisateurs (enseignants et apprenants) et les assets. 
+
+
+
+Résumé: Quand un enseignant ajoute un lien de cours LTI ( dans son LMS moodle ou autre) à la première connection LTI le cours PL correspondant est créé que se soit une connection élève ou professeur.
+
+Le résultat est de créer un asset de cours vide (cf. [../../concept/coursvide.md](coursvide.md)) qui dans la zone activité pour l'enseignant ne contient qu'un seul bouton qui est "ajouter une ressource de type cours". 
+
+
+Le bouton permet de se connecter au serveur de ressources, en mode search & compose, avec le cours courrant comme cible. 
