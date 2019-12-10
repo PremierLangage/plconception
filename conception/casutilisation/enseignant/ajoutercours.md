@@ -14,7 +14,7 @@ Objectif : Créer les données lians les utilisateurs (enseignants et apprenants
 
 Résumé: Quand un enseignant ajoute un lien de cours LTI ( dans son LMS moodle ou autre) à la première connection LTI le cours PL correspondant est créé que se soit une connection élève ou professeur.
 
-Le résultat est de créer un asset de cours vide (cf. [../../concept/coursvide.md](coursvide.md)) qui dans la zone activité pour l'enseignant ne contient qu'un seul bouton qui est "ajouter une ressource de type cours". 
+Le résultat est de créer un asset de cours vide (cf. [coursvide.md](../../concept/coursvide.md)) qui dans la zone activité pour l'enseignant ne contient qu'un seul bouton qui est "ajouter une ressource de type cours". 
 
 
 Le bouton permet de se connecter au serveur de ressources, en mode search & compose, avec le cours courrant comme cible. 
