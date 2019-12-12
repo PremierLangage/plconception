@@ -5,11 +5,11 @@ Les AAV (Acquis d'apprentissage Visés) sont les objets frontière de notre logi
 Pour plus d'information sur les AAV se repporter au site : 
 https://fa2l.be 
 
-# AAVN 
+## AAVN 
 AAV Numériques, le problème de la définition actuelle des aav par fa2l bien que très adapté 
 
 
-## Canevas de construction d'un AAV
+### Canevas de construction d'un AAV
 
 1) Spécifier le public
 1) Spécifier le moment dans l’apprentissage lorsque les objectifs devront être atteints (à l’issue de …)
@@ -30,10 +30,10 @@ On appel "Ontologie Par défaut" ou "Ontologie du domaine" est une ontologie sp�
 Cf. [ontologie](ontology.md)
 
 
-# Références 
+## Références 
 Une autre approche des grains est celle utilisée dans les cours : https://docs.moodle.org/3x/fr/Objectifs les objectifs pédagogiques.
 
-## Cas d'utilisation associé
+### Cas d'utilisation associé
 
 [Editer un grain](../casutilisation/createur/editergrain.md)
 
@@ -41,7 +41,7 @@ Une autre approche des grains est celle utilisée dans les cours : https://docs.
 
 
 
-## Verbes de Bloom
+### Verbes de Bloom
 
 Banque de verbes associés à la taxonomie de Bloom
 
