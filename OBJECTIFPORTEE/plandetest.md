@@ -15,3 +15,4 @@ Pour chaque lot est défini un plan de test fonctionnel qui prouve :
   Vérifier que l'acteur ZZ peut réaliser le cas d'utilisation YY.
   Vérifier que l'acteur ZZ peut réaliser le cas d'utilisation YY dans le scénario alternatif KK.
   
+
