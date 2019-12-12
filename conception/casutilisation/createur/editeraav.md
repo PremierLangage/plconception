@@ -1,10 +1,19 @@
-# Editer un grain
+# Editer un AAV
+
+Remarque:Si l'AAV n'existe pas. C'est une création. voir le [cas d'utilisation de création](creationaav.md)
+
+Objectif : Permet à un enseignant d'éditer un aav présent dans une de ses disciplines.
+
+Résumé général : 
+
+S'effectue lorsqu'un enseignant veut modifier un AAV.
+Editer un AAV revient à modifier le contenu associé a l'AAV, les ressources (les exercices, les feuilles ou les cours, etc). Les AAV pré-requis, les aav particpants, les activités associées, les évaluations associées, la discipline, la thématique
+
+Les curateurs peuvent également modifier le texte de l'AAV, sa description et la discipline associé. Ils peuvent aussi supprimer un aav.
 
 
-Objectif : Permet à un enseignant d'éditer un grain présent dans une de ses disciplines.
 
-Résumé général : S'effectue lorsqu'un enseignant veut modifier un grain. Editer un grain revient à modifier le contenu associé au grain, les exercices, les feuilles ou les cours. Le créateur peut également modifier le nom du grain, sa description et sa discipline associé. Il peut aussi supprimer un grain.
-
+<!--- 
 
 # Données :
 
@@ -85,7 +94,7 @@ Concurrency    Quand un créateur modifie un grain, les autres créateurs ne peu
 Include Use Cases    [Sauvegarde continue](../../concept/zonetampon.md)
  
 
-<!--- 
+
 Author : Raphael
 Validator : Hugo
 -->
