@@ -19,7 +19,7 @@ Elles permettent de
     • donner des informations « méta » aux étudiants (une activité pourrait-être de valider et ou proposer de nommer les concepts utilisés dans un exercice)  
     • de faire de l’adaptatif, de la validation des choix des profs (est-ce le meilleur ordre/ adpatation suivant les profils d’étudiants…)  
 
-# Construction d'une ontologie 
+## Construction d'une ontologie 
 
 Toutes les ontologies sont construite sur le même principe.
 Des **objets externes** sont associés de façon univoques à des **noeuds** de l'ontologie. 
@@ -27,8 +27,8 @@ Les Noeuds de l'ontologie sont associés par des **relations** typées (le type 
 
 L'affichage des ontologie ce fait avec un module utilisant graphviz (cf. [Vieux Projet pl](http://pl.univ-mlv.fr) )
 
-# Types logiques 
-## Ontologie du domaine
+## Types logiques 
+### Ontologie du domaine
 L'ontologie du domaine est un graphe de Noeuds (chaque Noeud est lié de façon univoque avec un grains défini dans la discipline).
 
 Les relations entre les Noeuds sont pour le moment (20/02/2019) limités a une relation de prérequis. 
@@ -36,11 +36,15 @@ Un grain A est le prérequis du grain B si il faut avoir compris A pour apprendr
 
 Elle est utilisée pour représenter les relations dans les connaissances de base d'un domaine/une discipline/un cours particulier.
 
-## Ontologie Pratiques
+### Ontologie Pratiques
 
 Les ontologies pratiques de PL sont utilisées soit pour une representation des connaissance comme les ontologie de domaine. Soit dans une approche plus pratique (d'ou le nom), ou l'ontologie est un outil de gestion de la progresssion de l'élève.
 
 L'ontologie est utilisée pour mesurer l'avancement (avec les Noeuds maitrisés), piloter la progresssion en proposant des exercices à la limites des connaissances de l'élève, exprimer le niveau atteint par l'élève (affichage de la liste des Noeuds limites).
+
+### Folksonomies
+
+Ontologie créée par les tags donnés par les utilisateurs.
 
 
 
