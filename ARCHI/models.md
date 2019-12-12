@@ -1,5 +1,21 @@
 
-# Quelques models
+# les models du projet
+
+AAV
+Cours
+Activitées/Ressources
+META
+Notifications/Badges
+Utilisateurs/groupes/cercles
+Assets
+Answers/stats
+Fichiers
+
+
+
+
+## modeles au 
+
 
 activity/models.py:class SessionActivity(models.Model):
 filebrowser/models.py:class Directory(models.Model):
