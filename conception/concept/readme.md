@@ -67,7 +67,6 @@
 1. [portfolio.md](portfolio.md)
 1. [previewer.md](previewer.md)
 1. [profil.md](profil.md)
-1. [readme.md](readme.md)
 1. [recommandation.md](recommandation.md)
 1. [referencement.md](referencement.md)
 1. [reflexivite.md](reflexivite.md)
