@@ -12,12 +12,11 @@ Les ressouces ont une méthode "publish(PLserveur)" qui permet de les charger da
 
 Les ressources éditables ont:
 - un classement dans Yggdrasil
-- un Objectif / grain   mesurable/validable/"gradable"
+- des aav auquels la ressource participe
 - une discution 
 - une structure de stockage
 - des dépendances
 - des utilisateurs/propriétaire/observateurs/editeurs/
-- des grains associés (de façon légère)
 
 # Les ressources PL 
 
@@ -28,26 +27,24 @@ Les ressources sont des objets de la base de donnée :
 
 1. Une référence sur la dernière version de la ressource et la possibilité de remonter dans les versions … (diff, voir la version , voir le patch) … avoir la date et l’utilisateur … blâme/praise 
 2. Meta Data
-    1. Statut d’usage (jamais servit, une classe, classes multiples)
-    2. ?? FIXME  Héritage, dépendances
-    3. Tags (attention ils sont distincts des tags intra ressources ???? FIXME )
-    4. Statistiques 
+    1. Statut d’usage (ne pas utiliser, exam, jamais servi, une classe, classes multiples)
+    2. Héritage, dépendances, bundle 
+    3. Statistiques json complexe voir module de stats 
         1. Nombre de classe utilisant 
         2. Nombre d’utilisation 
         3. Exercices 
             1. Nombre d’essai moyen pour réussir
             2. Taux de réussite 
-    5. Labels: (open ended)
+    4. Labels: (open ended)
         1. Label Rouge
         2. Label Upem
         3. Label Euler
  
 
 Types de ressources PL
-- exercices INFORMATIONS : Fichiers text / pdf /autre format non modifiable 
-- Liens vers des documents externes 
-- Exercices 
-- Activités 
+- exercices INFORMATIONS : Fichiers text / pdf / video/ podcast /autres formats non modifiable sur la plateforme 
+- Liens vers des documents externes (i.e. pas stockés sur la plateforme (la question du cache ?))
+- Tout les types Exercices 
+- Tout les types Activités 
 - Sections/chapitres/cours/listes_de_ressources 
-- Protocoles de validations 
-
+- Protocoles de validations (i.e. activités couplés présentiel / plateforme)

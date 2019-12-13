@@ -1,10 +1,10 @@
 
 # Ontologie
 
-Les ontologie de Premierlangage sont de deux formes, les "ontologie du domaine", qui sont définies sur les grains (du domaine).
+Les ontologie de Premierlangage sont de deux formes, les "ontologie du domaine", qui sont définies sur les aavs (du domaine).
 Les "ontologies pratiques" qui sont des ontologies spécifiques à une activité, un cours ou une classe.
 
-Elles sont basées toutes deux sur le même type de donné: Ontologie, la différence est de pouvoir associer dans le premier cas uniquement des grains, dans le deuxième cas n'importe quelle ressource peut être associée à un noeud de l'ontologie.
+Elles sont basées toutes deux sur le même type de donné: Ontologie, la différence est de pouvoir associer dans le premier cas uniquement des aavs, dans le deuxième cas n'importe quelle ressource peut être associée à un noeud de l'ontologie.
 
 
 Pour pouvoir faire de l’apprentissage adaptatif, il est essentiel de rattacher les exercices à des concepts/ des cartes concepts / à des variables didactiques, à une/des ontologie(s), à des objectifs d’apprentissage visés… Toutes ces informations peuvent être déposées et/ou validées par des acteurs différents : 
@@ -29,10 +29,10 @@ L'affichage des ontologie ce fait avec un module utilisant graphviz (cf. [Vieux 
 
 ## Types logiques 
 ### Ontologie du domaine
-L'ontologie du domaine est un graphe de Noeuds (chaque Noeud est lié de façon univoque avec un grains défini dans la discipline).
+L'ontologie du domaine est un graphe de Noeuds (chaque Noeud est lié de façon univoque avec un aavs défini dans la discipline).
 
 Les relations entre les Noeuds sont pour le moment (20/02/2019) limités a une relation de prérequis. 
-Un grain A est le prérequis du grain B si il faut avoir compris A pour apprendre B.
+Un aav A est le prérequis du aav B si il faut avoir valider A pour apprendre B.
 
 Elle est utilisée pour représenter les relations dans les connaissances de base d'un domaine/une discipline/un cours particulier.
 

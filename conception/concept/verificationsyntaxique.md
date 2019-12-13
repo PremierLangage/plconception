@@ -19,4 +19,5 @@ Les erreurs possibles :
 4) Erreur de Syntaxe ou d'exécution dans le code de l'étudiant. C'est pour ses pieds mais il faut lui remonter l'information mais c'est au gradeur de le faire dans le champ feedback de la réponse de la sandbox.
 
 
-\frac{\sqrt{67}}{\PI}
+$\frac{\sqrt{67}}{88}$
+

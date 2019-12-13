@@ -5,8 +5,16 @@ Les AAV (Acquis d'apprentissage Visés) sont les objets frontière de notre logi
 Pour plus d'information sur les AAV se repporter au site : 
 https://fa2l.be 
 
+[regardez le fichier taxonomieofAAV.md](taxonomieofAAV.md)
+
 ## AAVN 
-AAV Numériques, le problème de la définition actuelle des aav par fa2l bien que très adapté 
+AAV Numériques, le problème de la définition actuelle des aav par fa2l bien que très adapté a la description d'une formation n'est pas adpatée a la construction d'une structure générale d'information et de savoir faires.
+
+
+
+## Editeur d'aav
+
+https://byrdseed.com/differentiator/index.php?l=fr
 
 
 ### Canevas de construction d'un AAV
@@ -19,23 +27,23 @@ AAV Numériques, le problème de la définition actuelle des aav par fa2l bien q
 
 
 
-Les grains/AAV/LO (learning Outcomes) sont des objectifs de formations pemettant de décrire des ressources.
+Les AAV/LO (learning Outcomes) sont des objectifs de formations pemettant de décrire des ressources.
 
 
-Un grain est une notion ou un objectif pédagogique. Les liens de prérequis qu'il peut avoir sont définis dans une ontologie.
+Un aav est une notion ou un objectif pédagogique. Les liens de prérequis qu'il peut avoir sont définis dans une ontologie.
 
-A un grain est associé au moins une ressource (ou un demande de ressource dans le Q&A),
-On appel la "ressource principale" d'un grain une ressource permettant de valider l'aquisition du grain.
-On appel "Ontologie Par défaut" ou "Ontologie du domaine" est une ontologie spécifique aux grains. 
+A un aav est associé au moins une ressource (ou un demande de ressource dans le Q&A),
+On appel la "ressource principale" d'un aav une ressource permettant de valider l'aquisition du aav.
+On appel "Ontologie Par défaut" ou "Ontologie du domaine" est une ontologie spécifique aux aavs. 
 Cf. [ontologie](ontology.md)
 
 
 ## Références 
-Une autre approche des grains est celle utilisée dans les cours : https://docs.moodle.org/3x/fr/Objectifs les objectifs pédagogiques.
+Une autre approche des aavs est celle utilisée dans les cours : https://docs.moodle.org/3x/fr/Objectifs les objectifs pédagogiques.
 
 ### Cas d'utilisation associé
 
-[Editer un grain](../casutilisation/createur/editergrain.md)
+[Editer un aav](../casutilisation/createur/editeraav.md)
 
 [Editer une ontologie](../casutilisation/createur/crudontology.md)
 

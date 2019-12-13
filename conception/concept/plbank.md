@@ -13,10 +13,6 @@
 * les feuilles
 * les cours
 * les graphes
-* les grains
+* les aavs
 * ...
 
-<!---
-Author :
-Validator : Jordan
--->
