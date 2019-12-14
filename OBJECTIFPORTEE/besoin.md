@@ -24,14 +24,17 @@ L'objectif de ce document est de proposer une vue générale de ce que la platef
  3) Un editeur d'activité (c'est un outil de partage soit d'explication pour l'enseignant sur comment réalisé une activité pédagogique,
  soit directement une activité de plateforme c'est à dire ou l'apprenant utilise le support numérique pour apprendre). Les activités sont principalement formatives mais peuvent être certificatives quand les modalités sont adéquates.
  4) Un outil de gestion de la classe (Outil de gestion de la formation, des cours et des élèves). Construire une progression conforme au programme visé. Organiser dans le temps (pas les planning) les enseignements entre eux, les liens de pré-requis étant formalisés
+  - Outil de construction du cours à partir des ressources partagé
+  - outils de suivi des élèves dans les activités,
+    - ce qui est compris 
+    - identifier les décrocheurs et ceux ayant de mauvaise approches métacognitives
+  - outil de jury, permettant de s'affranchir des notes et d'avoir une approche plus holistique
 
-
-
-
-
-- l'aspect outil : plateforme gratuite access 24/7 sur ordinateur et téléphone 
-- l'aspect qualité: controle de la valeur didactique/pedagogique par un consencus scientifique et un retour d'expérience 
-
+Quelques qualités pour que cette proposition fonctionne :
+- accès : plateforme gratuite accès 24/7 sur ordinateur et téléphone 
+- qualité des ressources: controle de la valeur didactique/pedagogique par un consencus scientifique et un retour d'expérience 
+- partage : les ressources sont communautaires
+- ergonomique: pas de difficulté de prise en main.
 
 
 ### Besoins fonctionnels 
