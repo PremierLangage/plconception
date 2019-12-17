@@ -8,6 +8,7 @@ Les miniprojets sont des propositions pour un groupe d'élèves:
 1. [Outil d'amphi](votar.md)  
 1. [Editeur pour sociologue](editorforphd.md)  
 1. [Exercices préparés](prepared.md)
+1. [News feed and Chats](chatnews.md)
 1. [Construction de groupes](groupegenerator.md)
 1. [IA appliqué aux traces](iatrace.md)
 1. [Stats appliqué aux traces](stats.md)
