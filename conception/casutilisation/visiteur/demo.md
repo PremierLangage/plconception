@@ -1,79 +1,15 @@
-# Faire une démonstration
+# Jouer une démonstration
 
+Prérequis: [construire un asset de démo](../createur/makedemo.md)
 
 Objectif :  Permettre à un visiteur de faire un test de l'application.
 
-Résumé général: Lorsqu'un visiteur est sur l'application on lui propose de faire une petite démonstrations ou il pourras effectuer quelques exercices dans le but de lui montrer les différentes fonctionnalité de l'application et qu'il puisses les tester.
+Résumé général: Un visiteur (personne non identifié) se connect sur une url de démo. 
 
-# Données :
+Déclencheur : Se déclenche lorsqu'un visiteur arrive avec un davigateur sur l'URL
+ https://pl.u-pem.fr/demo/<id>/.
 
-Acteur Principal : Visiteur
+Dans ce cas la l'utilisateur (si il n'est pas identifié est "connecté" comme l'utilisateur _anonyme_).
 
-Acteurs secondaires : Admin
-
-Concurrence : Non
-
-Déclencheur : Se déclenche lorsqu'un visiteur clique sur le bouton faire une demo.
-
-## Pré-conditions :
-
-Avoir une connexion internet.
-
-Au moins une feuille d'exercices disponible.
-
-## Post Conditions :
-
-En cas de succès : Le visiteur fini la [démonstration](../etudiant/accesfeuilleexercice.md), on lui propose donc de [s'inscrire](./inscription.md) sur l'application.
-
-
-En cas d'échec : Si le visiteur quitte la démo on reviens sur la page d'acceuil des visteurs.
-
-# Navigation / IHM  :
-
-Principe de navigation du scénario principal, organisation de l'IHM.
-Le visiteur choisi de faire une demo et se lance dans une feuille d'exercice aléatoire de différente discipline.
-
-## Scénarios :
-
-# MAIN SUCCESS SCENARIO
-
-Step    Action
-
-S    Le visiteur est sur la page d'acceuil et choisie de faire une démo.
-
-1    Ce cas d'utilisation commence quand le visiteur clique sur le bouton "Faire une démo" ou quand on entre l'url de démo dans un navigateur.
-
-2    Il a accès à une feuille d'exercice qu'il peut faire.
-
-3    Une fois la feuille finie il a la possibilité de s'inscrire sur le site.
-
-4    Ce cas d'utilisation se finit lorsque le visiteur s'inscrit sur l'application ou quitte le site.
-
-
-EXTENSION SCENARIOS
-
-Step    Branching Condition
-
-1	 Lorsque le visiteur ne finit pas la feuille et quitte avant. Etape 3 du scénario principale.
-
-na.  Action causing branching:
-
-1 : On reviens à la page d'acceuil des visiteurs.
-
-# RELATED INFORMATION
-
-Include Use Cases    [Inscription](./inscription.md) [Exercice](../etudiant/accesfeuilleexercice.md)
-
-## Qualités de la feuille d'exercice utilisé dans la démo 
-
-La feuille d'exercice doit parcourrir des exemples tirés de plusieurs disciplines :
- programmation, math, anglais, grammaireCM1, c2i
-avec des exemple des type d'exercices différents 
-Quelle stratégie ?
-
-
-<!--- 
-Author : Jordan
-Validator : Raphael
--->
-
+l'ID dans l'url donne accès a un asset qui a été spécifiquement construit pour faire une démo,
+voire le cas d'utilisation du créateur, "construire un asset de démo". 
