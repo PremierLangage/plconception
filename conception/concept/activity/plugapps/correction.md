@@ -3,7 +3,7 @@
 
 La page de correction permet d'accèder a une page d'évaluation pour les questions **Ouvertes** ou **semi-ouvertes**.
 
-Cette page d'évaluation d'une question contient l'**enonce** de la question un tableau **reponses** + **evaluation** correspondantes (boutons avec une note 0/1/2/3/4) et une **grille critèriée**  (modifiable directement, ajout) permettant l'évaluation. (remarque dans un mode dynamique il est possible d'imaginer que si l'on ajoute une nouvelle ligne dans la grille critèrié tout les reponses évaluer avant doivent être réévaluées).
+Cette page d'évaluation d'une question contient l'**enonce** de la question un tableau **reponses** + **evaluation** correspondantes (boutons avec une note 0/1/2/3/4) et une **grille critèriée**  (modifiable directement, ajout) permettant l'évaluation. (remarque dans un mode dynamique il est possible d'imaginer que si l'on ajoute une nouvelle ligne/un nouveau critère/une nouvelle valeur dans la grille critèrié tout les reponses évaluées avant doivent être réévaluées).
 
 # la page de note
 
