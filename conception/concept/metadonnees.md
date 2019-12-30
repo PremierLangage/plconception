@@ -12,6 +12,8 @@ etc.
 
 Si la ressource est une évaluation (utilisation au moins une fois comme évaluation).
 
+
+
 ## méta données ajoutées
 
 Les méta données ajoutées doivent être sous une forme distribuée, càd que les éditions des un n'ont pas d'effet sur les éditions des autres.
