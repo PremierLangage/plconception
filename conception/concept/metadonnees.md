@@ -1,5 +1,5 @@
 
-# metadonnées 
+# Métadonnées 
 
 Les méta données sont des informations associées aux ressources. 
 
