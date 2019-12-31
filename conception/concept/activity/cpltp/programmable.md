@@ -48,13 +48,15 @@ Cette classe à des methodes suivante qui vont nous permettre de programmer des 
 ```python
 Class Activity:
 
-  def score(): """ Returns the score of the activity. If the activity is a pl this is direct.
+  def score(): 
+ """ Returns the score of the activity. If the activity is a pl this is direct.
     Else the activity must define an score base on the sub activities used in it. 
     Default value : If there is a global variable score in the pltp use the value stored there, else return zero. 
     The global variable is of the responsability of **runner** code in the case of a ppltp.
   """ 
 
-  def status(): """ Returns the status (sucess, failed, not started, stopped/abandonné). 
+  def status():
+  """ Returns the status (sucess, failed, not started, stopped/abandonné). 
           If the activity is a pl this is direct.
           Else the activity must define an status base on the sub activities used in it.
           Default value : If there is a global variable status in the pltp use the value stored there,
@@ -62,13 +64,14 @@ Class Activity:
         The global variable is of the responsability of **runner** code in the case of a ppltp.
         """
 
-  def exec(rerun=False): """ if rerun==False and if the status of the activity is success or failed.
-                            Return immedialty with True or False. 
-                            ELSE The current activity yields to this smaller activity. 
-                            The activity is loadded 
-                            Bread crumps are updated.
-                            This is the new Bottom Activity.
-                        """
+  def exec(rerun=False): 
+    """ if rerun==False and if the status of the activity is success or failed.
+        Return immedialty with True or False. 
+        ELSE The current activity yields to this smaller activity. 
+        The activity is loadded 
+        Bread crumps are updated.
+        This is the new Bottom Activity.
+    """
    def init():""" prepare the activity for execution see @pavell9000 """
    def start():""" idem """
 ```
