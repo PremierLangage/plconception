@@ -45,6 +45,7 @@ Dans le script tous les pl qui ont été chargés (au moment de la publication d
 
 Cette classe à des methodes suivante qui vont nous permettre de programmer des activités complexes basées sur des activités plus simples.
 
+```python
 Class Activity:
 
   def score(): """ Returns the score of the activity. If the activity is a pl this is direct. Else the activity must define an score base on the sub activities used in it. Default value : If there is a global variable score in the pltp use the value stored there, else return zero. 
@@ -63,7 +64,8 @@ Class Activity:
                         """
    def init():""" prepare the activity for execution see @pavell9000 """
    def start():""" idem """
-   
+```
+
 The code of the **runner** is state less. Meaning you should write your code thinking it will be restarted each time the activity is activated. 
 
 
