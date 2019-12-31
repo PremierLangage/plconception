@@ -94,7 +94,8 @@ while pl2.score() + pl3.score() + pl4.score() < 100: #
 
 ```
 
-Has you can see on this exemple as exec replace the current activity we need to rerun the script to knows witch sub activity (the pl in this case) must be run/executed. 
+Has you can see on this exemple as exec replace the current activity.
+We need to rerun the **runner** script to knows witch is the next sub activity to run (a plX in this case).
 
 
 
