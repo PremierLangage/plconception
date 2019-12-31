@@ -12,25 +12,25 @@ Un ppltp est un fichier au format pl:
 avec une balise information,
 des déclaration de pl 
 l'état actuel est des lignes de la forme
-
+```
   @ url 
-
+```
 par défaut cela créer une variable plID ou ID est l'indice de la déclaration dans le fichier : pl0 pl1 etc.
 
-Comme c'est pas commode la syntaxe 
-
+Comme c'est pas commode la syntaxe suivante  permet d'avoir un ordre quelconque pour les fichiers:
+```
   @ url [variablename]
- 
- permet d'avoir un odre quelconque pour les fichiers 
+``` 
+
  
  enfin la syntaxe suivante permet de créer une liste de pl nommée **name** (ou une syntaxe équivalente FIXME @mcisse)
- 
- name@@
- url
- url
- url
- ...
- @@
+ ```
+   name@@
+   url
+   url
+   url
+   ...
+   @@
 
 
 Enfin la balise **runner** (je n'ai pas fait mon choix encore) contient le "code" de l'activité.
