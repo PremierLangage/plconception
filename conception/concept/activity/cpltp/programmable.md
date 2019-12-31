@@ -31,7 +31,7 @@ Comme c'est pas commode la syntaxe suivante  permet d'avoir un ordre quelconque 
    url
    ...
    @@
-
+```
 
 Enfin la balise **runner** (je n'ai pas fait mon choix encore) contient le "code" de l'activité.
 
