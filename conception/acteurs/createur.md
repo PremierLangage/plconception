@@ -2,7 +2,7 @@
 
 Le créateur produit des exercices, des feuilles, des templates ... réutilisables sur la plate forme.
 La distinction du rôle vient de l'action "**n'importe qui peut créer des élements PL**".
-Par contre tout élément pl doit subir un **[processus éditorial](../../concept/edition.md)** ce processus éditorial validant l'élément et structurant l'intégration de l'exercice dans la base d'exercice PL.
+Par contre tout élément pl doit subir un **[processus éditorial](../concept/edition.md)** ce processus éditorial validant l'élément et structurant l'intégration de l'exercice dans la base d'exercice PL.
 
 
 ## Fonctionnalités demandées.
