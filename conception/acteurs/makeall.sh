@@ -7,7 +7,7 @@ cat $i >>all.tutu
 done
 
 mv all.tutu all.md
-pandoc all.md -o all.pdf
+pandoc --toc -N all.md -o all.pdf
 
 
 

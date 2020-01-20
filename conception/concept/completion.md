@@ -13,3 +13,4 @@ La forme de complétion la plus forte est la validation.
 c'est à mettre en relation avec l'état d'un exercice.
 
 [State](state.md)
+

@@ -11,8 +11,3 @@ Dans le previewer il y a des éléments en plus par rapport à l'éxecuteur d'un
 - il est possible de modifier ces valeurs, l'exercice sera alors automatiquement réaffiché avec ces nouveaux paramètres.
 
 Remarques: Ces valeurs ne font pas partie de l'exercice.
-
-<!---
-Author : 
-Validator : Jordan
--->
