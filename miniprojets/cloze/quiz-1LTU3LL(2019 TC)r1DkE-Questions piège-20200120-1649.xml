@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$$/top</text>
+
+    </category>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$$/top/Décliner (1ère classe d'adjectifs)</text>
+
+    </category>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/top/Décliner (1ère classe d'adjectifs)/Questions piège</text>
+
+    </category>
+  </question>
+
+<!-- question: 2490215  -->
+  <question type="cloze">
+    <name>
+      <text>Bonus nauta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline l'expression : "le bon matelot"<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=bonus nauta~%100%nauta bonus}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=boni nautae~%100%nautae boni}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=bone nauta~%100%nauta bone}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=boni nautae~%100%nautae boni}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=bonum nautam~%100%nautam bonum}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=bonos nautas~%100%nautas bonos}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=boni nautae~%100%nautae boni}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=bonorum nautarum~%100%nautarum bonorum}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=bono nautae~%100%nautae bono}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=bonis nautis~%100%nautis bonis}<span><br /></span></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=bono nauta~%100%nauta bono}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=bonis nautis~%100%nautis bonis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>Attention au genre ! <em>Nauta, -ae</em> (le matelot) est un mot <span style="text-decoration: underline;">masculin</span> de la 1ère déclinaison. L'adjectif doit donc s'accorder au masculin même si le nom se décline comme <em>rosa, -ae</em>...</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>bon : bonus, -a, -um</p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+<!-- question: 2490276  -->
+  <question type="cloze">
+    <name>
+      <text>gens superba</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>&nbsp;</p>
+<h2 style="text-align: center;">Décline l'expression : "la famille orgueilleuse"<br><br></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center">&nbsp;</p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br>SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br>PLURIEL</strong>
+<p align="center">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superba gens~%100%gens superba}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbae gentes~%100%gentes superbae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superba gens~<span>%100%gens superba}</span></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbae gentes~%100%gentes superbae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbam gentem~%100%gentem superbam}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbas gentes~%100%gentes superbas}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbae gentis~%100%gentis superbae}<br></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbarum gentium~%100%gentium superbarum}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbae genti~%100%genti superbae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbis gentibus~%100%gentibus superbis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superba gente~%100%gente superba}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbis gentibus~%100%gentibus superbis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><b>La famille orgueilleuse</b>&nbsp;: <i>gens superba</i></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p><span><i>la famille</i></span> : <b>gens, gentis, f</b>.&nbsp;</p><p>Attention au génitif pluriel : combien de consonnes avant la désinence du génitif singulier ?</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><i>orgueilleux</i>&nbsp;: <b>superbus, -a, -um.&nbsp;</b></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Essaie encore !</p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+<!-- question: 2490196  -->
+  <question type="cloze">
+    <name>
+      <text>gens superba</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>&nbsp;</p>
+<h2 style="text-align: center;">Décline l'expression : "la famille orgueilleuse"<br><br></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center">&nbsp;</p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br>SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br>PLURIEL</strong>
+<p align="center">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superba gens~%100%gens superba}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbae gentes~%100%gentes superbae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superba gens~<span>%100%gens superba}</span></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbae gentes~%100%gentes superbae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbam gentem~%100%gentem superbam}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbas gentes~%100%gentes superbas}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbae gentis~%100%gentis superbae}<br></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbarum gentium~%100%gentium superbarum}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbae genti~%100%genti superbae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbis gentibus~%100%gentibus superbis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superba gente~%100%gente superba}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbis gentibus~%100%gentibus superbis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><b>La famille orgueilleuse</b>&nbsp;: <i>gens superba</i></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p><span><i>la famille</i></span> : <b>gens, gentis, f</b>.&nbsp;</p><p>Attention au génitif pluriel : combien de consonnes avant la désinence du génitif singulier ?</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><i>orgueilleux</i>&nbsp;: <b>superbus, -a, -um.&nbsp;</b></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Essaie encore !</p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+<!-- question: 2490174  -->
+  <question type="cloze">
+    <name>
+      <text>gens superba</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>&nbsp;</p>
+<h2 style="text-align: center;">Décline l'expression : "la famille orgueilleuse"<br><br></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center">&nbsp;</p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br>SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br>PLURIEL</strong>
+<p align="center">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superba gens~%100%gens superba}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbae gentes~%100%gentes superbae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superba gens~<span>%100%gens superba}</span></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbae gentes~%100%gentes superbae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbam gentem~%100%gentem superbam}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbas gentes~%100%gentes superbas}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbae gentis~%100%gentis superbae}<br></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=superbarum gentium~%100%gentium superbarum}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbae genti~%100%genti superbae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbis gentibus~%100%gentibus superbis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superba gente~%100%gente superba}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=superbis gentibus~%100%gentibus superbis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><b>La famille orgueilleuse</b>&nbsp;: <i>gens superba</i></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p><span><i>la famille</i></span> : <b>gens, gentis, f</b>.&nbsp;</p><p>Attention au génitif pluriel : combien de consonnes avant la désinence du génitif singulier ?</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><i>orgueilleux</i>&nbsp;: <b>superbus, -a, -um.&nbsp;</b></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Essaie encore !</p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+<!-- question: 2490217  -->
+  <question type="cloze">
+    <name>
+      <text>Liber jucundus</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline l'expression : "le livre agréable"<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=jucundus liber~%100%liber jucundus}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=jucundi libri~%100%libri jucundi}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=jucunde liber~%100%liber jucunde}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=jucundi libri~%100%libri jucundi}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=jucundum librum~%100%librum jucundum}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=jucundos libros~%100%libros jucundos}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=jucundi libri~%100%libri jucundi}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=jucundorum librorum~%100%librorum jucundorum}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=jucundo libro~%100%libro jucundo}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=jucundis libris~%100%libris jucundis}<span><br /></span></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=jucundo libro~%100%libro jucundo}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=jucundis libris~%100%libris jucundis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>le livre : liber, libri, m</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>agréable : jucundus, -a, -um</p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+<!-- question: 2490216  -->
+  <question type="cloze">
+    <name>
+      <text>Magnus ager</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline l'expression : "le grand champ"<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=magnus ager~%100%ager magnus}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=magni agri~%100%agri magni}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=magne ager~%100%ager magne}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=magni agri~%100%agri magni}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=magnum agrum~%100%agrum magnum}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=magnos agros~%100%agros magnos}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=magni agri~%100%agri magni}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=magnorum agrorum~%100%agrorum magnorum}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=magno agro~%100%agro magno}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=magnis agris~%100%agris magnis}<span><br /></span></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=magno agro~%100%agro magno}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=magnis agris~%100%agris magnis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>Le champ : ager, agri, m</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>grand : magnus, -a, -um</p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+<!-- question: 2490159  -->
+  <question type="cloze">
+    <name>
+      <text>Pulchra dea</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>&nbsp;</p>
+<h2 style="text-align: center;">Décline l'expression : "la belle déesse"<br><br></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center">&nbsp;</p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br>SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br>PLURIEL</strong>
+<p align="center">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra dea~%100%dea pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrae deae~%100%deae pulchrae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra dea~%100%dea pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrae deae~%100%deae pulchrae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchram deam~%100%deam pulchram}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchras deas~%100%deas pulchras}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchrae deae~%100%pulchrae deae}<br></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrarum dearum~%100%dearum pulchrarum}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchrae deae~%100%deae pulchrae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchris deis~%100%deis pulchris}<span><br></span></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra dea~%100%dea pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchris deis~%100%deis pulchris}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>la déesse : dea, deae, f</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>beau : pulcher, -chra, -chrum</p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+<!-- question: 2490195  -->
+  <question type="cloze">
+    <name>
+      <text>Pulchra pax</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>&nbsp;</p>
+<h2 style="text-align: center;">Décline l'expression : "la belle paix"<br><br></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center">&nbsp;</p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br>SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br>PLURIEL</strong>
+<p align="center">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra pax~%100%pax pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrae paces~%100%paces pulchrae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra pax~%100%pax pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrae paces~%100%paces pulchrae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchram pacem~%100%pacem pulchram}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchras paces~%100%paces pulchras}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchrae pacis~%100%pacis pulchrae}<br></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrarum pacum~%100%pacum pulchrarum}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchrae paci~%100%paci pulchrae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchris pacibus~%100%pacibus pulchris}<span><br></span></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra pace~%100%pace pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchris pacibus~%100%pacibus pulchris}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>La belle paix : <b>pulchra pax</b></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>la paix : <b>pax, pacis, f</b></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>beau : <b>pulcher, -chra, -chrum.</b>&nbsp;Attention à l'élision du -e- dans la déclinaison !</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Essaie encore !</p>]]></text>
+    </hint>
+  </question>
+
+<!-- question: 2490275  -->
+  <question type="cloze">
+    <name>
+      <text>Pulchra pax</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>&nbsp;</p>
+<h2 style="text-align: center;">Décline l'expression : "la belle paix"<br><br></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center">&nbsp;</p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br>SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br>PLURIEL</strong>
+<p align="center">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra pax~%100%pax pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrae paces~%100%paces pulchrae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra pax~%100%pax pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrae paces~%100%paces pulchrae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchram pacem~%100%pacem pulchram}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchras paces~%100%paces pulchras}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchrae pacis~%100%pacis pulchrae}<br></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrarum pacum~%100%pacum pulchrarum}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchrae paci~%100%paci pulchrae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchris pacibus~%100%pacibus pulchris}<span><br></span></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra pace~%100%pace pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchris pacibus~%100%pacibus pulchris}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>La belle paix : <b>pulchra pax</b></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>la paix : <b>pax, pacis, f</b></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>beau : <b>pulcher, -chra, -chrum.</b>&nbsp;Attention à l'élision du -e- dans la déclinaison !</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Essaie encore !</p>]]></text>
+    </hint>
+  </question>
+
+<!-- question: 2490175  -->
+  <question type="cloze">
+    <name>
+      <text>Pulchra pax</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>&nbsp;</p>
+<h2 style="text-align: center;">Décline l'expression : "la belle paix"<br><br></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center">&nbsp;</p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br>SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br>PLURIEL</strong>
+<p align="center">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra pax~%100%pax pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrae paces~%100%paces pulchrae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra pax~%100%pax pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrae paces~%100%paces pulchrae}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchram pacem~%100%pacem pulchram}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchras paces~%100%paces pulchras}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchrae pacis~%100%pacis pulchrae}<br></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br><span>{1:SHORTANSWER:=pulchrarum pacum~%100%pacum pulchrarum}</span><br></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchrae paci~%100%paci pulchrae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchris pacibus~%100%pacibus pulchris}<span><br></span></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchra pace~%100%pace pulchra}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=pulchris pacibus~%100%pacibus pulchris}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>La belle paix : <b>pulchra pax</b></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>la paix : <b>pax, pacis, f</b></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>beau : <b>pulcher, -chra, -chrum.</b>&nbsp;Attention à l'élision du -e- dans la déclinaison !</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Essaie encore !</p>]]></text>
+    </hint>
+  </question>
+
+<!-- question: 2490176  -->
+  <question type="cloze">
+    <name>
+      <text>urbs magna</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>&nbsp;</p>
+<h2 style="text-align: center;">Décline l'expression : "la grande ville"<br><br></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center">&nbsp;</p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br>SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br>PLURIEL</strong>
+<p align="center">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=magna urbs~%100%urbs magna}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magnae urbes~%100%urbes magnae}<br></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br>{1:SHORTANSWER:=magna urbs~%100%urbs magna}<br></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magnae urbes~%100%urbes magnae}<br></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magnam urbem~%100%urbem magnam}<br></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magnas urbes~%100%urbes magnas}<br></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magnae urbis~%100%urbis magnae}<br></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magnarum urbium~%100%urbium magnarum}<br></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magnae urbi~%100%urbi magnae}<br></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magnis urbibus~%100%urbibus magnis}<br></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br>ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magna urbe~%100%urbe magna}<br></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><br>{1:SHORTANSWER:=magnis urbibus~%100%urbibus magnis}<br></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span>La grande ville</span>&nbsp;:<span><span><b>&nbsp;magna</b></span></span><b>&nbsp;urbs</b><b>, f</b><span>&nbsp;(gén.</span><b>&nbsp;magnae</b><b>&nbsp;urbis</b><b>).</b></p><p><span>Attention, le nom est un faux imparisyllabique : gén. pl. <span><b>urb</b><span><b style="text-decoration: underline;">ium</b>.</span></span></span></p>]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p><span><span><span>la ville</span></span></span> : <b>urbs, urbis, f</b>.&nbsp;</p><p><br></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><span>grand</span>&nbsp;: <b>magnus, -a, -um.&nbsp;</b></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Attention au génitif pluriel : combien de consonnes avant la désinence du génitif singulier ?<br></p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+</quiz>

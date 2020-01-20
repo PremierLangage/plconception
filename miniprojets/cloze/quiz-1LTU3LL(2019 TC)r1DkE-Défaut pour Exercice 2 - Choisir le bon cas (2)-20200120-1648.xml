@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$$/top</text>
+
+    </category>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/top/Défaut pour Exercice 2 - Choisir le bon cas (2)</text>
+
+    </category>
+  </question>
+
+<!-- question: 2561894  -->
+  <question type="cloze">
+    <name>
+      <text>Françoise 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><span style="font-size: medium; background-color: #ccffcc;"><strong><em><span style="text-decoration: underline;"><em>Chaque parole</em></span></em></strong> des <strong>« </strong><span style="text-decoration: underline;"><strong><em>bonne</em>s</strong></span><strong> </strong>» la faisait sursauter ; incommodée par<strong> <em><span style="text-decoration: underline;"><em>tous leurs pas</em></span></em></strong>, elle s’interrogeait sur <em><span style="text-decoration: underline;"><strong>eux</strong></span></em> ; c’est que nous avions déménagé.</span></p>
+<p><br />- "<em><strong>chaque parole</strong></em>" se mettra au cas : <span>{1:MULTICHOICE:=<span>accusatif</span>#Mauvaise réponse<span>~vocatif#Mauvaise réponse<span>~%100%nominatif</span></span>#Bonne réponse<span>~génitif#Mauvaise réponse<span>~datif#Mauvaise réponse<span>~ablatif#Mauvaise réponse</span></span></span>}</span></p>
+<p><span><span>- "<em><strong>bonnes</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%génitif#Bonne réponse~accusatif#Mauvaise réponse~datif#Mauvaise réponse~ablatif#Mauvaise réponse}</span></span></p>
+<p><span><span><span>- "<em><strong>tous leurs pas</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%ablatif#Bonne réponse~accusatif#Mauvaise réponse~datif#Mauvaise réponse~<span>génitif</span>#Mauvaise réponse}</span></span></span></p>
+<p><span><span><span><span>- <em><strong>"eux"</strong></em> se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%ablatif#Bonne réponse~accusatif#Mauvaise réponse~datif#Mauvaise réponse~génitif#Mauvaise réponse}</span></span></span></span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span style="font-size: 13px; line-height: 1.231;">- </span><em style="font-size: 13px; line-height: 1.231;">chaque parole </em><span style="font-size: 13px; line-height: 1.231;">: SUJET du verbe "</span><em style="font-size: 13px; line-height: 1.231;">faisait</em><span style="font-size: 13px; line-height: 1.231;">" =&gt; </span><strong style="font-size: 13px; line-height: 1.231;">nominatif</strong><span style="font-size: 13px; line-height: 1.231;">             <br />- </span><em style="font-size: 13px; line-height: 1.231;">des « bonnes » </em><span style="font-size: 13px; line-height: 1.231;">: COMPLEMENT DU NOM "parole" =&gt; </span><strong style="font-size: 13px; line-height: 1.231;">génitif<br />- </strong><em>t</em><em><span style="font-size: 13px; line-height: 1.231;">ous leurs pas</span></em><span style="font-size: 13px; line-height: 1.231;"> : COMPLEMENT CIRCONSTANCIEL (complément d'agent du verbe passif "<em>incommodée</em>") =&gt; </span><strong style="font-size: 13px; line-height: 1.231;">ablatif<br /></strong><strong style="font-size: 13px; line-height: 1.231;"><strong>-</strong></strong> <em>eux</em> : COMPLEMENT CIRCONSTANCIEL =&gt; <strong>ablatif</strong></p>]]></text>
+    </generalfeedback>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>Pour <em>"des bonnes</em>" : analyse la nature du mot dont ce groupe est le complément.</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><span>Pour </span><em>"tous leurs pas</em><span>" : examine la préposition qui précède ce groupe. Quelle fonction indique-t-il ?</span></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Examine la valeur du groupe "<em>chaque parole"</em> par rapport au verbe principal de la phrase.</p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+<!-- question: 2561892  -->
+  <question type="cloze">
+    <name>
+      <text>Françoise 3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><span style="font-size: medium; background-color: #ccffcc;">Certes, <em><span style="text-decoration: underline;"><strong>l</strong><strong>es domestiques</strong></span></em> ne remuaient pas moins dans <em><span style="text-decoration: underline;"><strong>le « sixième »</strong></span></em> de <span style="text-decoration: underline;"><strong>notre ancienne demeure</strong></span><em> </em>; mais elle <span style="text-decoration: underline;"><strong><em>les</em></strong></span> connaissait ; elle avait fait de leurs allées et venues <span style="text-decoration: underline;"><em><strong>des choses amicales</strong></em></span>.<br /></span></p>
+<p><br />- "<em><strong>les domestiques</strong></em>" se mettra au cas : <span>{1:MULTICHOICE:=<span>accusatif</span>#Mauvaise réponse<span>~vocatif#Mauvaise réponse<span>~%100%nominatif</span></span>#Bonne réponse<span>~génitif#Mauvaise réponse<span>~datif#Mauvaise réponse<span>~ablatif#Mauvaise réponse</span></span></span>}</span></p>
+<p><span><span><span>- "<em><strong>le sixième</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%ablatif#Bonne réponse~accusatif#Mauvaise réponse~datif#Mauvaise réponse~<span>génitif</span>#Mauvaise réponse}</span></span></span></p>
+<p><span><span>- "<em><strong>notre ancienne demeure</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%génitif#Bonne réponse~accusatif#Mauvaise réponse~datif#Mauvaise réponse~ablatif#Mauvaise réponse}</span></span></p>
+<p><span><span><span>- "<em><strong>les</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%accusatif#Bonne réponse~<span>ablatif</span>#Mauvaise réponse~datif#Mauvaise réponse~<span>génitif</span>#Mauvaise réponse}</span></span></span></p>
+<p><span><span><span><span>- "<em><strong>des choses amicales</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%accusatif#Bonne réponse~ablatif#Mauvaise réponse~datif#Mauvaise réponse~génitif#Mauvaise réponse}</span></span></span></span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span style="font-size: 13px; line-height: 1.231;">- </span><em style="font-size: 13px; line-height: 1.231;">les domestiques </em><span style="font-size: 13px; line-height: 1.231;">: SUJET du verbe "</span><em style="font-size: 13px; line-height: 1.231;">remuaient</em><span style="font-size: 13px; line-height: 1.231;">" =&gt; </span><strong style="font-size: 13px; line-height: 1.231;">nominatif</strong></p>
+<p><span style="font-size: 13px; line-height: 1.231;">- <em>le sixième</em> : COMPLEMENT CIRCONSTANCIEL de LIEU =&gt; <strong>ablatif</strong></span></p>
+<p><span style="font-size: 13px; line-height: 1.231;">- </span><em style="line-height: 1.231;"><span style="font-size: 13px; line-height: 1.231;">de notre ancienne demeure</span></em><span style="font-size: 13px; line-height: 1.231;"> : COMPLEMENT DU NOM "<em>domestiques"</em> =&gt; </span><strong style="font-size: 13px; line-height: 1.231;">génitif</strong></p>
+<p><span style="font-size: 13px; line-height: 1.231;">- <em>l</em></span><em><span style="font-size: 13px; line-height: 1.231;">es</span></em><span style="font-size: 13px; line-height: 1.231;"> : COD du verbe "<em>connaissait</em>" =&gt; </span><strong style="font-size: 13px; line-height: 1.231;">accusatif<br /></strong></p>
+<p><span style="line-height: 1.231;">- <em>des choses amicales</em></span><span style="line-height: 1.231;"> : COD du verbe "<em>avait fait</em>" =&gt; </span><strong style="line-height: 1.231;">accusatif</strong><span style="line-height: 1.231;"> </span></p>]]></text>
+    </generalfeedback>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>Pour <em>"les</em>" : restitue le groupe de mots que ce pronom remplace. </p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><span>Pour </span><em>"les</em><span>" : q<span>uelle est la fonction de ce pronom par rapport au verbe "</span><em>connaissait</em><span>" ?</span></span></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Examine la valeur du groupe "<em>les domestiques"</em> par rapport au verbe principal de la phrase.</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p>Pour "<em>des choses amicales</em>" : restitue l'ordre canonique de la phrase pour bien analyser la nature des compléments.</p>]]></text>
+    </hint>
+  </question>
+
+<!-- question: 2561893  -->
+  <question type="cloze">
+    <name>
+      <text>Françoise 4</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><span style="font-size: medium; background-color: #ccffcc;">Maintenant elle portait au <span style="text-decoration: underline;"><strong>silence</strong></span> même une <em><strong><span style="text-decoration: underline;">attention douloureuse.<br /><br /></span></strong></em></span></p>
+<p><span><span>- "<em><strong>silence</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%datif#Bonne réponse~accusatif#Mauvaise réponse~<span>génitif</span>#Mauvaise réponse~ablatif#Mauvaise réponse}</span></span></p>
+<p><span><span><span>- "<em><strong>une attention douloureuse</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%accusatif#Bonne réponse~<span>ablatif</span>#Mauvaise réponse~datif#Mauvaise réponse~<span>génitif</span>#Mauvaise réponse}</span></span></span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p> </p>
+<p>- <em>au silence même</em> : COS / complément d'attribution =&gt; <strong>datif</strong> <br /> <em>- une attention douloureuse</em> : COD du verbe "portait" =&gt; <strong>accusatif</strong></p>
+<p><span style="font-size: 13px; line-height: 1.231;"> </span></p>]]></text>
+    </generalfeedback>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>Pour <em>"une attention douloureuse</em>" : replace les mots dans l'ordre canonique de la phrase.</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><span>Pour </span><em>"une attention douloureuse</em><span>" : q<span>uelle est la fonction de ce pronom par rapport au verbe "</span><em>portait</em><span>" ?</span></span></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><span>Pour </span><em>"au silence</em><span>" : quelle est la fonction de ce pronom par rapport au verbe "<em>portait</em>" ?</span></p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+<!-- question: 2561891  -->
+  <question type="cloze">
+    <name>
+      <text>Françoise 5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p><span style="font-size: medium;"><span style="background-color: #ccffcc; line-height: 1.231;">Et comme </span><span style="background-color: #ccffcc;"><span style="text-decoration: underline;"><strong><em>notre nouveau quartier</em></strong></span><strong><em> </em></strong></span><span style="background-color: #ccffcc; line-height: 1.231;">paraissait aussi calme que le boulevard sur lequel nous avions donné jusque là était bruyant, </span><em style="background-color: #ccffcc; line-height: 1.231;"><span style="text-decoration: underline;"><strong>l</strong><strong>a chanson</strong></span></em><span style="background-color: #ccffcc; line-height: 1.231;"> (distincte, même de loin, quand elle est faible comme un motif d’orchestre) </span><em style="background-color: #ccffcc; line-height: 1.231;"><strong><span style="text-decoration: underline;">d’un homme</span></strong> <span style="text-decoration: underline;"><strong>qui</strong></span></em><span style="background-color: #ccffcc; line-height: 1.231;">passait, faisait venir <em><span style="text-decoration: underline;"><strong>des larmes</strong></span></em> aux yeux de </span><span style="background-color: #ccffcc;"><span style="text-decoration: underline;"><strong><em>Françoise</em></strong></span><strong><em> </em></strong></span><span style="background-color: #ccffcc; line-height: 1.231;">en exil.</span></span></p>
+<p> </p>
+<p><span><span>- "<em><strong>notre nouveau quartier</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=datif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%<span>nominatif</span>#Bonne réponse~accusatif#Mauvaise réponse~<span>génitif</span>#Mauvaise réponse~ablatif#Mauvaise réponse}</span></span></p>
+<p><span><span><span>- "<em><strong>la chanson</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=datif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%nominatif#Bonne réponse~accusatif#Mauvaise réponse~génitif#Mauvaise réponse~ablatif#Mauvaise réponse}</span></span></span></p>
+<p><span><span><span>- "<em><strong>d'un homme</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%génitif#Bonne réponse~<span>ablatif</span>#Mauvaise réponse~datif#Mauvaise réponse~<span>accusatif</span>#Mauvaise réponse}</span></span></span></p>
+<p><span><span><span><span>- <em><strong>"qui"</strong></em> se mettra au cas : </span><span>{1:MULTICHOICE:=datif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%nominatif#Bonne réponse~accusatif#Mauvaise réponse~génitif#Mauvaise réponse~ablatif#Mauvaise réponse}</span></span></span></span></p>
+<p><span><span><span><span><span>- <em><strong>"des larmes"</strong></em> se mettra au cas : </span><span>{1:MULTICHOICE:=datif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%accusatif#Bonne réponse~<span>nominatif</span>#Mauvaise réponse~génitif#Mauvaise réponse~ablatif#Mauvaise réponse}</span></span></span></span></span></p>
+<p><span><span><span><span><span>- "<em><strong>Françoise</strong></em>" se mettra au cas : </span><span>{1:MULTICHOICE:=nominatif#Mauvaise réponse~vocatif#Mauvaise réponse~%100%génitif#Bonne réponse~ablatif#Mauvaise réponse~datif#Mauvaise réponse~accusatif#Mauvaise réponse}</span></span></span></span></span></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>-        <span style="text-decoration: underline;">notre nouveau quartier</span> : SUJET du verbe "<em>paraissait" </em>=&gt; <strong>nominatif<br /></strong><span style="line-height: 1.231;">-        </span><span style="text-decoration: underline;">la chanson</span><span style="line-height: 1.231;"> : SUJET du verbe "<em>faisait venir" </em>=&gt; </span><strong style="line-height: 1.231;">nominatif<br /></strong><span style="line-height: 1.231;">-        </span><span style="text-decoration: underline;">d’un homme</span><span style="line-height: 1.231;"> : COMPLEMENT DU NOM "chanson" =&gt; </span><strong style="line-height: 1.231;">génitif<br /></strong><strong style="line-height: 1.231;">-       </strong><span style="line-height: 1.231;"> </span><span style="line-height: 1.231; text-decoration: underline;">qui</span><strong style="line-height: 1.231;"> :</strong> SUJET du verbe <em>"passait" </em>=&gt;<strong style="line-height: 1.231;"> <strong>nominatif<br /><span>-        </span></strong></strong><span style="text-decoration: underline;">des larmes</span><strong style="line-height: 1.231;"><strong><span> : </span></strong></strong>COD =&gt;<strong style="line-height: 1.231;"><strong><span> </span><strong>accusatif</strong><br /></strong></strong><span style="line-height: 1.231;">-        </span><span style="text-decoration: underline;">Françoise</span><span style="line-height: 1.231;"> : COMPLEMENT DU NOM "yeux" =&gt; </span><strong style="line-height: 1.231;">génitif</strong></p>]]></text>
+    </generalfeedback>
+    <penalty>0.2500000</penalty>
+    <hidden>0</hidden>
+    <hint format="html">
+      <text><![CDATA[<p>Pour <em>"qui</em>" : réfléchis à sa fonction par rapport au verbe de la proposition <span style="text-decoration: underline;">relative</span> ("passait").</p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><span>Pour </span><em>"d'un homme</em><span>" : q<span>uelle est la nature du mot dont ce nom est complément, verbe ou nom ?</span></span></p>]]></text>
+      <clearwrong/>
+    </hint>
+    <hint format="html">
+      <text><![CDATA[<p><span>Pour </span><em>"Françoise</em><span>" : le mot est-il complément d'un verbe ou d'un nom ?</span></p>]]></text>
+      <clearwrong/>
+    </hint>
+  </question>
+
+</quiz>
