@@ -20,6 +20,7 @@ On commence par appartenir au cercle des créateurs, puis par exemple au cercle 
 
 Les cercles ont un forum associé.
 Les cercles ont un framavox (ou l'équivalent) associé: ce qui permet de prendre des décisions, de faire des sondages etc.
+Les cercles peuvent créer un label lié au cercle avec des modalités d'attribution. 
 
 
 ## Création d'un cerle 
