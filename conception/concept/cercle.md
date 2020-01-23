@@ -16,7 +16,7 @@ Pour créer un mini cercle il faut au minimum 3 ou 4 personnes (à discuter)
 
 Pour créer un cercle, il faut au minimum 7 ou 10 personnes (à discuter). 
 
-On commence par appartenir au cercle des créateurs, puis au cercle des matheux, puis au cercle des enseignants de  maths terminal, ou cercle des algébristes....
+On commence par appartenir au cercle des créateurs, puis par exemple au cercle des matheux, puis au cercle des enseignants de  maths terminal, ou cercle des algébristes
 
 Les cercles ont un forum associé.
 Les cercles ont un framavox (ou l'équivalent) associé: ce qui permet de prendre des décisions, de faire des sondages etc.
