@@ -33,6 +33,8 @@ Comme c'est pas commode la syntaxe suivante  permet d'avoir un ordre quelconque 
    @@
 ```
 
+On a également une balise **barem** exécutée juste avant le runner quand on dépile
+
 Enfin la balise **runner** (je n'ai pas fait mon choix encore) contient le "code" de l'activité.
 
 La balise runner  est un script python qui est exécuté dans un environnement protégé (pyenv réduit ou sur la sandbox) et qui n'a pas accès directement au code django (éventuellement peut obtenir des informations en utilisant une api restfull avec les bon droits i.e. je ne peux accèder qu'aux information de l'utilisateur et des assets du cours.)
@@ -58,7 +60,7 @@ Class Activity:
  """ 
 
   def status():
-  """ Returns the status (sucess, failed, not started, stopped/abandonné). 
+  """ Returns the status (sucess, failed, not started, stopped/skipped). 
     If the activity is a pl this is direct.
     Else the activity must define an status base on the sub activities used in it.
     Default value : If there is a global variable status in the plt
@@ -66,20 +68,30 @@ Class Activity:
     The global variable is of the responsability of **runner** code in the case of a ppltp.
   """
 
-  def exec(rerun=False): 
+  def exec(rerun=False, seed=None, exam=False): 
     """
     if rerun==False and if the status of the activity is success or failed.
     Return immedialty with True or False. 
     ELSE The current activity yields to this smaller activity. 
     The activity is loadded 
     Bread crumps are updated.
-    This is the new Bottom Activity.
+    This is the new Top Activity.
     """
-   def init():""" prepare the activity for execution see @pavell9000 """
-   def start():""" idem """
+  
+  def report():
+    """
+    TODO en lien avec stats
+    """
 ```
 
-The code of the **runner** is state less. Meaning you should write your code thinking it will be restarted each time the activity is activated. 
+The code of the **runner** is state less. Meaning you should write your code thinking it will be restarted each time the activity is activated.
+
+Exemple :
+```
+barem==
+(pl1.score() + pl2.score() + pl3.score()) / 2
+==
+```
 
 
 ```python 
@@ -92,9 +104,6 @@ while pl2.score() + pl3.score() + pl4.score() < 100: #
   pl2.exec();
   pl3.exec();
   pl4.exec();
-
-
-
 ```
 
 Has you can see on this exemple as exec replace the current activity.
