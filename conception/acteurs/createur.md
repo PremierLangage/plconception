@@ -29,7 +29,10 @@ Il a besoin de validation, de tests, de framework de tests. Il veut des retours 
 Il faut un mécanisme (organisation) pour faire passer du code de l'exercice vers le template et du template vers la librairie promotion.
 
 
+## Créateurs et cercles
 
+Les créateurs sont inscrits dans des cercles.
+Le fait d'appartenir ou d'être administareur de cercle donne des droits, comme donner des labels.
 
 
 ## Cas d'utilisation associées
