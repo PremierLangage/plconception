@@ -2,10 +2,9 @@
 
 
 
-Les Triggers sont des déclencheurs, ils s'activent au cours de certains évènements, une fois activé ils produisent une notification.
+Les Triggers sont des déclencheurs, ils s'activent au cours de certains évènements, une fois activés ils produisent une notification.
 
 Exemple : j'installe une trigger sur une ressource (un template) de façon a être prévenu quand celle ci est modifiée. je choisi de recevoir un mail en plus de ma notification interne. 
-
 
 Deux familles d'évènements:
 - suivi des ressources 
@@ -15,7 +14,7 @@ Deux familles d'évènements:
  - des notifications pour les élèves
 
 
-
+## FIXME des problème avec la description suivante des triggers
 
 ## Un exemple avec une ressource activité 
 Les activités sont stockées en base de données de la manière qui suit :
