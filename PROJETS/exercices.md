@@ -22,10 +22,11 @@
 - SortList
 - DragDrop
 - TextSelect
-  - Quand on sélectionne un mot, le fond coloré fait légèrement bouger le texte. Il faurait ajuster ça.
+  - Quand on sélectionne un mot, le fond coloré écarte légèrement le texte. Il faurait ajuster ça.
   - Pour une totale flexibilité, il serait préférable que le composant demande un texte indiquant les unités sélectionnables (avec des accolades par exemple ).
   `"{N'}{ai}-{je} {donc} {tant} {vécu} {que} {pour} {cette} {infamie} ?"`
   Cela permet de choisir les unités sélectionnables comme on veut. Cela permet aussi d'avoir des balises html pour une mise en forme du texte.
+  - Conséquence : suppression de l'option `separator`.
   - Pour faciliter la tâche des créateurs d'exercice, il faudrait bien entendu des méthodes dans le composant (ou des fonctions dans bibliothèque) pour, dans certains cas, mettre automatiquement un texte brut sous cette forme (exemples : texte en français avec chaque mot sélectionnable, texte anglais avec chaque mot sélectionnable, etc.)
   - Renommer selections -> selection, word/free -> unit/free
   - Il faudrait un mode `single` (true or false) qui ne permet de sélectionner qu'une seule unité (quand on clique sur une unité, l'unité précédemment sélectionée est déselectionnée ; même principe dans le mode free).
@@ -34,7 +35,11 @@
 
 - Nom ?
 - Apparence et navigation
+  - Quand on revien sur un exercice déjà validé, l'ancienne réponse est encore visible mais pas le feedback.
+  - Quand on réussit un exercice, cela ne change pas la couleur de l'exercice dans le menu de navigation.
+  - Il faudrait alléger le code couleur du menu de navigation.
 - Syntaxe de décoration des exercices
+
 
 ## Composants annexes : timer, hint
 
