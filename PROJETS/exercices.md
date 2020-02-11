@@ -14,9 +14,21 @@
 
 ## Champs de réponse de base
 
-Composants Input, Radio, Checkbox, DragDrop, MatchList, SortList, TextSelect.
-
-- Finalisation des composants
+- Input
+- Radio
+- Checkbox
+- MatchList
+  - Agrandir la zone de drop.
+- SortList
+- DragDrop
+- TextSelect
+  - Quand on sélectionne un mot, le fond coloré fait légèrement bouger le texte. Il faurait ajuster ça.
+  - Pour une totale flexibilité, il serait préférable que le composant demande un texte indiquant les unités sélectionnables (avec des accolades par exemple ).
+  `"{N'}{ai}-{je} {donc} {tant} {vécu} {que} {pour} {cette} {infamie} ?"`
+  Cela permet de choisir les unités sélectionnables comme on veut. Cela permet aussi d'avoir des balises html pour une mise en forme du texte.
+  - Pour faciliter la tâche des créateurs d'exercice, il faudrait bien entendu des méthodes dans le composant (ou des fonctions dans bibliothèque) pour, dans certains cas, mettre automatiquement un texte brut sous cette forme (exemples : texte en français avec chaque mot sélectionnable, texte anglais avec chaque mot sélectionnable, etc.)
+  - Renommer selections -> selection, word/free -> unit/free
+  - Il faudrait un mode `single` (true or false) qui ne permet de sélectionner qu'une seule unité (quand on clique sur une unité, l'unité précédemment sélectionée est déselectionnée ; même principe dans le mode free).
 
 ## Feuille d'exercices (`pltp`)
 
