@@ -18,6 +18,7 @@
 
 - Input
 - Radio
+  - Option AutoSubmit
 - Checkbox
   - Barèmes
 - MatchList
@@ -32,7 +33,7 @@
   Cela permet de choisir les unités sélectionnables comme on veut. Cela permet aussi d'avoir des balises html pour une mise en forme du texte.
   - Conséquence : suppression de l'option `separator`.
   - Pour faciliter la tâche des créateurs d'exercice, il faudrait bien entendu des méthodes dans le composant (ou des fonctions dans bibliothèque) pour, dans certains cas, mettre automatiquement un texte brut sous cette forme (exemples : texte en français avec chaque mot sélectionnable, texte anglais avec chaque mot sélectionnable, etc.)
-  - Il serait très pratique d'avoir une syntaxe et une méthode pour envoyer au composant un texte en indiquant quelles unités sont les bonnes réponses (entre crochet par exemple). Ex :  `{Arthur} [a] {horreur} {de} {la} {marche} {à} {pied}.`
+  - Il serait très pratique d'avoir une syntaxe et une méthode pour envoyer au composant un texte en indiquant quelles unités sont les bonnes réponses (entre double accolades par exemple). Ex :  `{Arthur} {{a}} {horreur} {de} {la} {marche} {à} {pied}.`
   - Renommer selections -> selection, word/free -> unit/free
   - Il faudrait un mode `single` (true or false) qui ne permet de sélectionner qu'une seule unité (quand on clique sur une unité, l'unité précédemment sélectionée est déselectionnée ; même principe dans le mode free).
 
