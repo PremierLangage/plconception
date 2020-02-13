@@ -18,11 +18,13 @@
 ## Champs de réponse de base
 
 - Options génériques de style pour les composants.
+- Options inline/alignement plus claires.
 
 [Exemples](https://pl.u-pem.fr/activity/play/256/)
 
 - Input
   - Statut de la chaîne vide dans le mode numérique : acceptée ou pas ?
+  - Prefix (et bien aligné verticalement)
 - Radio
   - Option AutoSubmit
 - Checkbox
@@ -37,6 +39,9 @@
   - Option qui force les étiquettes à s'ajuster à la taille de la zone de drop quand on les droppent.
   - Le focus quand on passe la souris sur une zone de drop fait bouger les éléments.
   - Pas de focus lors qu'on passe sur une zone de drop quand on n'a pas d'étiquettes sélectionnée.
+  - Une étiquette posée sur une zone de drop peut-être déplacée vers une autre zone mais pas dédoublée.
+  - Mode avec étiquette à usage unique.
+  - Trouver un mécanisme pour gérer facilement l'ensemble des drags et drops.
 - TextSelect
   - Quand on sélectionne un mot, le fond coloré écarte légèrement le texte. Il faurait ajuster ça.
   - Pour une totale flexibilité, il serait préférable que le composant demande un texte indiquant les unités sélectionnables (avec des accolades par exemple ). Ex : `"{N'}{ai}-{je} {donc} {tant} {vécu} {que} {pour} {cette} {infamie} ?"`
