@@ -6,7 +6,7 @@
 
 * Suppression de l'élément `author`. Création d'un lien *About this exercice* en bas de page qui contiendrait toutes les informations techniques sur l'exercice.
 * Simplification des boutons  : on ne garde que le bouton *Valider* avec possibilité de le cacher et de personnaliser son apparence.
-* Autre organisation du template.
+* Autre organisation des blocs du template (feedback et aide contextuelle sur le côté par exemple,...) 
 
 ## Builder `before` et grader `evaluator`
 
