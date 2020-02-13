@@ -76,6 +76,11 @@
   - Problème de focus
 - Composant `JSXGraph`
   - Responsive
+- Composant MathMatrix
+  - Classe avec constructeur du composant à partir d'une matrice (dans différents formats), valeur de la matrice dans différents formats.
+  - Champs MathInput pour les coefficients.
+  - Philosophie du resize : on voit une sous-matrice d'une plus grande matrice déjà définie.
+  
 - Utilisation de Matplotlib pour produire des graphiques. Regarder mpl3d
 - Bibliothèque `utilsmath`
 
