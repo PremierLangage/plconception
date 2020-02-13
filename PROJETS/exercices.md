@@ -1,5 +1,7 @@
 # Exercices
 
+- Problème de fluidité lors des validations/actualisations.
+
 ## Template `pl.html`
 
 [pl.html](apps/playexo/templates/playexo/pl.html)
