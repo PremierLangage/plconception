@@ -56,8 +56,9 @@
 - Syntaxe de décoration des exercices
 
 
-## Composants annexes : timer, hint
+## Composants annexes : countdown, hint
 
+- Une place réservée pour le countdown dans le template.
 
 ## Exercices de mathématiques
 
