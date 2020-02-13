@@ -34,6 +34,9 @@
 - SortList
   - Barèmes
 - DragDrop
+  - Option qui force les étiquettes à s'ajuster à la taille de la zone de drop quand on les droppent.
+  - Le focus quand on passe la souris sur une zone de drop fait bouger les éléments.
+  - Pas de focus lors qu'on passe sur une zone de drop quand on n'a pas d'étiquettes sélectionnée.
 - TextSelect
   - Quand on sélectionne un mot, le fond coloré écarte légèrement le texte. Il faurait ajuster ça.
   - Pour une totale flexibilité, il serait préférable que le composant demande un texte indiquant les unités sélectionnables (avec des accolades par exemple ). Ex : `"{N'}{ai}-{je} {donc} {tant} {vécu} {que} {pour} {cette} {infamie} ?"`
