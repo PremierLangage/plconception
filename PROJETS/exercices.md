@@ -24,7 +24,7 @@
 - Radio
   - Option AutoSubmit
 - Checkbox
-  - Barèmes
+  - Barèmes : ajouter un barème "un item coché parmi les bons items"
 - MatchList
   - Barèmes
   - Agrandir la zone de drop.
