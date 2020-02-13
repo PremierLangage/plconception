@@ -45,6 +45,7 @@
   - Quand on réussit un exercice, cela ne change pas la couleur de l'exercice dans le menu de navigation.
   - Il faudrait alléger le code couleur du menu de navigation.
   - Si on abandonne le bouton nouveau tirage dans l'exercice, il faut pouvoir l'ajouter dans la feuille.
+  - Recharchement du bloc exercice seulement.
 - Syntaxe de décoration des exercices
 
 
