@@ -72,7 +72,8 @@
 
 - Builder et grader spécifiques
 - Composant `MathInput`
-  - Clavier virtuels de base. Comment insérer facilement son propre clavier.
+  - Claviers virtuels de base. Comment insérer facilement son propre clavier.
+  - Problème de focus
 - Composant `JSXGraph`
   - Responsive
 - Utilisation de Matplotlib pour produire des graphiques. Regarder mpl3d
