@@ -75,7 +75,7 @@
   - Clavier virtuels de base. Comment insérer facilement son propre clavier.
 - Composant `JSXGraph`
   - Responsive
-- Utilisation de Matplotlib pour produire des graphiques.
+- Utilisation de Matplotlib pour produire des graphiques. Regarder mpl3d
 - Bibliothèque `utilsmath`
 
 ## Exercices de programmation Python
