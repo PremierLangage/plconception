@@ -20,6 +20,7 @@
 [Exemples](https://pl.u-pem.fr/activity/play/256/)
 
 - Input
+  - Statut de la chaîne vide dans le mode numérique : acceptée ou pas ?
 - Radio
   - Option AutoSubmit
 - Checkbox
