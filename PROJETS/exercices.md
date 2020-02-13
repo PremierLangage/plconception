@@ -74,6 +74,7 @@
 - Composant `MathInput`
   - Clavier virtuels de base. Comment insérer facilement son propre clavier.
 - Composant `JSXGraph`
+  - Responsive
 - Utilisation de Matplotlib pour produire des graphiques.
 - Bibliothèque `utilsmath`
 
