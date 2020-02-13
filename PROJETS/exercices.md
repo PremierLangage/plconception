@@ -15,6 +15,8 @@
 
 ## Champs de réponse de base
 
+- Options génériques de style pour les composants.
+
 [Exemples](https://pl.u-pem.fr/activity/play/256/)
 
 - Input
