@@ -16,4 +16,4 @@ string=string.replace(/\{([^\{\}]*)\}/g, function(match,p) {
 
 - Supprimer la propriété `separator`.
 
-- Ajouter une propriété `unique` : booléen qui indique si on peut faire une ou plusieurs sélections.
+- Ajouter une propriété `single` : booléen qui indique si on peut faire une ou plusieurs sélections.
