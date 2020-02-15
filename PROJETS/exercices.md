@@ -6,6 +6,7 @@
 
 [pl.html](apps/playexo/templates/playexo/pl.html)
 
+* Titre avec une police plus petite. Badge à côté du tire quand l'exercice est réussi.
 * Suppression de l'élément `author`. Création d'un lien *About this exercice* en bas de page qui contiendrait toutes les informations techniques sur l'exercice.
 * Simplification des boutons  : on ne garde que le bouton *Valider* avec possibilité de le cacher et de personnaliser son apparence.
 * Autre organisation des blocs du template (feedback et aide contextuelle sur le côté par exemple,...) 
@@ -19,6 +20,7 @@
 
 - Options génériques de style pour les composants.
 - Options inline/alignement plus claires.
+- Synchronisation des composants lorsqu'ils sont dans des listes.
 
 [Exemples](https://pl.u-pem.fr/activity/play/256/)
 
@@ -56,9 +58,10 @@
 
 - Nom ?
 - Apparence et navigation
-  - Quand on revien sur un exercice déjà validé, l'ancienne réponse est encore visible mais pas le feedback.
+  - Quand on revieny sur un exercice déjà validé, l'ancienne réponse est encore visible mais pas le feedback.
   - Quand on réussit un exercice, cela ne change pas la couleur de l'exercice dans le menu de navigation.
   - Il faudrait alléger le code couleur du menu de navigation.
+  - Tronquer le titre des exercices dans le menu de navigation quand ils sont trop longs.
   - Si on abandonne le bouton nouveau tirage dans l'exercice, il faut pouvoir l'ajouter dans la feuille.
   - Recharchement du bloc exercice seulement.
 - Syntaxe de décoration des exercices
