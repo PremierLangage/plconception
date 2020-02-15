@@ -1,6 +1,6 @@
 # Composant `TextSelect`
 
-## Modifications
+## Modifications .html/.ts/.scss
 
 - Changer la sémantique de la propriété `text` : le texte doit indiquer par des accolades les unités sélectionnables.
 
@@ -17,3 +17,5 @@ string=string.replace(/\{([^\{\}]*)\}/g, function(match,p) {
 - Supprimer la propriété `separator`.
 
 - Ajouter une propriété `single` : booléen qui indique si on peut faire une ou plusieurs sélections (faux par défaut).
+
+- Ajouter une propriété `disabled`.
