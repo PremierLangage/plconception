@@ -9,4 +9,4 @@
   * si la source est cloneable et la cible est droppable, on copie le content de la source dans le content de la cible ;
   * si la source n'est pas cloneable et la cible est droppable, on échange le content de la source et le content de la cible.
   
- * Implémenter un comportant analogue au drag and drop à base clics.
+ * Implémenter un comportant analogue au drag and drop à base de clics.
