@@ -14,7 +14,9 @@
 ## Builder `before` et grader `evaluator`
 
 - Gestion du nombre de tentatives autorisées
-- Options de mise en forme du feedback
+- Options de mise en forme du feedback.
+- Possibilité de définir un environnement pour les exec de before et evaluator.
+- Possibilité de définir des fonctions de sérialisation/désérialisation.
 
 ## Champs de réponse de base
 
@@ -73,7 +75,7 @@
 
 ## Exercices de mathématiques
 
-- Builder et grader spécifiques
+- Environnement pour les exec + fonctions de sérialisation/désérialisation des objets sympy
 - Composant `MathInput`
   - Claviers virtuels de base. Comment insérer facilement son propre clavier.
   - Problème de focus
