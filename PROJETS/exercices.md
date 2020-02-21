@@ -78,7 +78,7 @@
 - Environnement pour les exec + fonctions de sérialisation/désérialisation des objets sympy
 - Composant `MathInput`
   - Claviers virtuels de base. Comment insérer facilement son propre clavier.
-  - Problème de focus
+  - Problème de focus: cliquer sur le champ doit suffire, sans besoin de cliquer sur le clavier.
 - Composant `JSXGraph`
   - Responsive
 - Composant MathMatrix
