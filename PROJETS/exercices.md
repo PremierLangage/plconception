@@ -4,12 +4,22 @@
 
 ## Template `pl.html`
 
-[pl.html](apps/playexo/templates/playexo/pl.html)
+* Titre avec une police plus petite.
+* Feedback sous forme de popover ?
+* Regrouper tous les boutons et toutes les infos dans une barre de navigation (sticky ?) sur le côté ou en bas :
+  * Bouton `Valider`
+  * Score
+  * Nombre de tentatives restantes (optionnel)
+  * Countdown (optionnel)
+  * Bouton `Nouveau tirage`(optionnel)
+  * Bouton `Indication`(optionnel)
+  * Bouton `Aide` (optionnel)
+  * Bouton `Feedback` (pour revoir le feedback si après avoir fermé le popover feedback)
+  * Bouton `A propos` (optionnel)
 
-* Titre avec une police plus petite. Badge à côté du tire quand l'exercice est réussi.
-* Suppression de l'élément `author`. Création d'un lien *About this exercice* en bas de page qui contiendrait toutes les informations techniques sur l'exercice.
-* Simplification des boutons  : on ne garde que le bouton *Valider* avec possibilité de le cacher et de personnaliser son apparence.
-* Autre organisation des blocs du template (feedback et aide contextuelle sur le côté par exemple,...) 
+Pour donner une idée, voilà une démo très simple (qui s'adapte aux petits écrans en collapsant les boutons de droite).
+
+[Démo de barre de navigation](https://pl.u-pem.fr/filebrowser/option?name=test_pl&path=Yggdrasil/template/basic2.pl)
 
 ## Builder `before` et grader `evaluator`
 
