@@ -19,3 +19,5 @@ string=string.replace(/\{([^\{\}]*)\}/g, function(match,p) {
 - Ajouter une propriété `single` : booléen qui indique si on peut faire une ou plusieurs sélections (faux par défaut).
 
 - Ajouter une propriété `disabled`.
+
+- Ajouter une propriété `cssSelection`. Cette propriété définit une ou des classes CSS qui s'appliquent aux unités sélectionnées.
