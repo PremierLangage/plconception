@@ -1,5 +1,5 @@
 
-# Personalisation 
+# Personalisation des parcours 
 
 
 La personnalisation passe par un diagnostique qui permet de structurer l'élèves de la classe sur plusieurs critères (numeration, factorsation, etc ) en 3 groupes dans chaque critère. 
