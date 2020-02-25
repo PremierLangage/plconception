@@ -28,6 +28,8 @@ En première lecture pour les donnnées automatiques il faut une table contenant
 
 Pour les données ajoutés une deuxième table (ou pas) mais je trouve que l'on a trops de table json qui ne doivent pas être très efficasse ... FIXME.
 
+# types d'information  
+Usage hors ligne, présentiel, 
 
 # Besoin 
 
