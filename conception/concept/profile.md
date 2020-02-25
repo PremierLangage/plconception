@@ -7,4 +7,5 @@
 
 - Bagdes et karma et récompenses 
 
-- Choisir les cercles visibles 
+- Choisir les cercles visibles / fonction dans le cercle : Pres, Dir, Phy, autres
+
