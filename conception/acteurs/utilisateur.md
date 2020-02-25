@@ -7,5 +7,6 @@ soit par un accès login/password une fois que la personne s'est inscrite avec l
 
 ## cas d'utilisation de l'utilisateur 
 
-[Modifier son profile](../casutilisation/visiteur/editprofil.md)
-[Consulter un profile](../casutilisation/visiteur/readprofil.md)
+[Modifier son profile](../casutilisation/utilisateur/affichemodifprofil.md
+)
+[Consulter un profile](../casutilisation/utilisateur/readprofil.md)
