@@ -7,6 +7,5 @@ soit par un accès login/password une fois que la personne s'est inscrite avec l
 
 ## cas d'utilisation de l'utilisateur 
 
-[S'inscrire au site](../casutilisation/visiteur/inscription.md)  
-[acceder](../casutilisation/utilisateur/acceder.md)
-
+[Modifier son profile](../casutilisation/visiteur/editprofil.md)
+[Consulter un profile](../casutilisation/visiteur/readprofil.md)
