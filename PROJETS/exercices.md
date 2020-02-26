@@ -30,6 +30,7 @@ Pour donner une idée, voilà une démo très simple (qui s'adapte aux petits é
 
 ## Champs de réponse de base
 
+- Créer des groupes de composants
 - Options génériques de style pour les composants.
 - Options inline/alignement plus claires.
 - Synchronisation des composants lorsqu'ils sont dans des listes.
