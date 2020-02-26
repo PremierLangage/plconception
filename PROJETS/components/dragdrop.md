@@ -17,4 +17,4 @@
 Demos : https://pl.u-pem.fr/filebrowser/demo/11901/ https://pl.u-pem.fr/filebrowser/demo/11902/
 
   
- * Implémenter un comportant analogue au drag and drop à base de clics (clic sur la source puis clic sur la cible).
+ * Implémenter un comportement analogue au drag and drop à base de clics (clic sur la source puis clic sur la cible).
