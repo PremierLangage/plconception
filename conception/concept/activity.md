@@ -13,11 +13,12 @@ Une activité exporte des tableaux de bord : studentactivitydashboard, teacherac
 une activité a une navigation 
 Une activité a un barème (outil permettant le calcul d'une note).
 
-Activité= P O S F*+ E  I N B  (spécial: sd* td*) 
-i=introduction  
-S= Strategie   
-F= pltp  
-N=navigation  
+
+
+i=introduction  page d'acceuil de l'activité peut contenir des dashboards
+S= Strategie  ou runner
+F= pltp ou liste des exercices participant à l'activité
+N=navigation si l'activité en propose une 
 B=Barem (comment est calculé la nte qui remonte à moodle)
 E=Evaluator (permet de calculer la validation de l'activité) 
 
@@ -29,13 +30,5 @@ CHANGEMENT les deux éléments suivant ne sont plus intégrés dans toutes les a
 sd=student dashboard  
 td=teacher dashboard  
 
-
-Références : modules WIMS
-
-## LTI et activités
-
-L'activité est l'unité de partage entre les LMS (moodle and co) et PL, mais l'avtivité doit être associé à un cours visible du MLS et de PL.
-
-FIXME Une activité à une URL qui peut être utilisé dans le connecteur LTI.  Le connecteur LTI définie un identifiant externe qui est utilisé pour identifier l'activité dans PL.
 
 
