@@ -44,6 +44,7 @@ Pour donner une idée, voilà une démo très simple (qui s'adapte aux petits é
 - Checkbox
   - Barèmes : ajouter un barème "un item coché parmi les bons items"
   - Retour à la ligne sur le mode horizontal.
+  - Formule de score personnalisable (pareil pour les composants MatchList et DragDrop)
 - MatchList
   - Barèmes
   - Agrandir la zone de drop.
