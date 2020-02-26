@@ -22,14 +22,24 @@ Ainsi toutes les métas données de ce type sont de la forme:
     user X donne la propriété Y à la ressource.
     la propriété Y est soit un lien entre ressource,soit un json (ce qui permet d'ajouter de nouvelle propréitéé au fur et a mesure).
 
+### Quelques type de méta données 
+
+FIXME: Groupe de travail sur le sujet;
+
+* utilisabilité: en production, utilisable, a valider, a patrouiller 
+* cercle: labels-du-cercle
+* tests: test fonctionnels, test-automatiques, etc 
+* niveau scolaire: X,y,z
+* Qualité: Excellent, bon , correct, a revoir
+* Usage:  hors ligne, présentiel, groupes, examen, evaluation, formatif, mixte,etc
+
+
 # Implémentation 
 
 En première lecture pour les donnnées automatiques il faut une table contenant un json avec les données statistiques par ressource. Puis une fois que le système sera un peu plus stabilisé une table avec des entrées fixes pour des recherche plus rapides.
 
 Pour les données ajoutés une deuxième table (ou pas) mais je trouve que l'on a trops de table json qui ne doivent pas être très efficasse ... FIXME.
 
-# types d'information  
-Usage hors ligne, présentiel, 
 
 # Besoin 
 
