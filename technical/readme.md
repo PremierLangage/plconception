@@ -10,4 +10,7 @@ Vous trouverez dans ce répertoire les élements de spécification technique du 
 
 * [logiciel de base de donnée](bd.md)
 
+* [logiciel de gestion des interaction dynamiques](sock.md)
+
 * [Elements de gestion de projet](gestion.md)
+
