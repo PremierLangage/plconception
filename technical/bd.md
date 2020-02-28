@@ -9,7 +9,7 @@
 - Pas de configurations, elle ne nécessite que la SQLite library
 - Elle stocke l'entièreté de sa base sur un seul et unique fichier. (SQLite database files have a maximum size of about 140 TB.)
 - Mise à jour en continue, donc très peu de perte voire aucune en cas de crash
-- Portabilité 32bits et 64bits, compatible LE and BE architectures.
+- Portabilité 32bits et 64bits, compatible LE (Litlle Endian) et BE (Big Endian) architectures.
 - Utilisable avec tous les langages de programmations (pas de problèmes de compatibilités)
 - Pas de problèmes de rétro compatibilités.
 
