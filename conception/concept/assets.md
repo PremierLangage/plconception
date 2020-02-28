@@ -11,6 +11,7 @@ Par contre l'asset contient un ensemble d'informations supplémentaires par rapp
 
 ## Les liens entre assets 
 Il est possible d'ajouter des liens entre assets qui ont le même rôle (localement) que les liens entre ressources.
+Les liens sont des couples (nomdulien, assetvisé) donc unidirectionel et typés.
 
 
 ##  Données d'assets
@@ -18,6 +19,7 @@ Il est possible d'ajouter des liens entre assets qui ont le même rôle (localem
 La structure de données d'asset contient:
 * la visibilité de l'asset (accessible ou non par les étudiants)
 * les dates de debut, fin, ouverture, retard etc
+* modalité d'évaluation : il est possible de surcharger les modalités d'évaluation de la ressource.
 
 
 
