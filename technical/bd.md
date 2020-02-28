@@ -61,6 +61,6 @@ L'indexation du fulltext est possible en PostGreSQL ->
 
 https://www.postgresql.org/docs/9.5/textsearch.html
 
-Egalement en MySQL, cependant cela utilise innodb, qui est une technologie récente pour supported la conccurence, triggers et transactions bien mieux qu'avant, mais en dépit de cela il perd de ses anciennes performances.
+Egalement en MySQL, cependant cela utilise innodb, qui est une technologie récente pour supporter la conccurence, triggers et transactions bien mieux qu'avant, mais en dépit de cela il perd de ses anciennes performances.
 
 https://dev.mysql.com/doc/refman/5.6/en/innodb-fulltext-index.html
