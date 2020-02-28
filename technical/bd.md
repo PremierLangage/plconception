@@ -1,5 +1,5 @@
 
-# Base de donnée
+# Base de données
 
 # SQLite3 avantages :
 - SQLite a l'avantage d'avoir des BDD très légères, elle est donc pratique pour tous les logiciels embarqués sur des appareils : ex smartphone pour une application.
