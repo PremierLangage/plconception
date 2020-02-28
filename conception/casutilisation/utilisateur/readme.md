@@ -10,6 +10,8 @@ En suite l'utilisateur peut si il le souhaite se créer un mot de passe (sécuri
 ## Communiquer 
 
 communiquer avec les enseignants, les élèves, une classe, un groupe , un  utilisateur,
-par email, docpartagé, discution, autre ?
 
-
+* email, 
+* docpartagé, 
+* discution (chat),
+* recevoir les notifications 
