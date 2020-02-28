@@ -19,7 +19,9 @@ SQLite désavantages :
 
 # Pourquoi PostGreSQL :
 
-##Un peu d'histoire : 
+Dans la quasi-totalité de ce qui va suivre, je vais parler des différences entre MySQL et PostGreSQL qui sont à ce jour les deux meilleurs dans leurs catégories :
+
+## Un peu d'histoire : 
 Historiquement MySQL avait la réputation d'avoir une BDD extrêmement rapide pour une lecture incroyablement rapide mais au détriment d'un coût bien plus grand pour toutes les requêtes mixées avec des opérations d'écriture.
 
 Postgres quant à lui était un peu plus modéré au niveau des performances, avec des lectures bien moins spectaculaires, cependant contrairement a MySQL il était capable d'écrire de très grands montants de données bien plus effiacement et de gérer la conccurence bien mieux.
