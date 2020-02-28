@@ -2,7 +2,7 @@
 # Base de donnée
 
 #SQLite3 avantages :
-	-SQLite a l'avantage d'avoir des BDD très légères, elle est donc pratique pour tous les logiciels embarqués sur des appareils : ex smartphone pour une application.
+	* SQLite a l'avantage d'avoir des BDD très légères, elle est donc pratique pour tous les logiciels embarqués sur des appareils : ex smartphone pour une application.
 	- Performances très correctes en W/R, environ 35% plus efficace qu'avec un filesystem.
 	- Ne garde en mémoire que ce qui est demandé, pas de données inutiles en mémoire. (si SQLite n'a besoin que d'une partie du fichier elle ne stocke que cette partie)
 	- Ecriture par partie, elle n'édite que ce qui a été changé.
