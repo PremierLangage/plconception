@@ -10,11 +10,11 @@ Une activité  est définie par un fichier au format pl contenant des référenc
 
 Une activité a un barème (outil permettant le calcul d'une note).
 
-Activité= P O S F E  I N B  (spécial: sd* td*) 
-i=introduction  
-S= Strategie   
-F= pltp  (ensembles de référence d'exercices ou d'activités)
-N=navigation  
+
+i=introduction  page d'acceuil de l'activité peut contenir des dashboards
+S= Strategie  ou runner
+F= pltp ou liste des exercices participant à l'activité
+N=navigation si l'activité en propose une 
 B=Barem (comment est calculé la nte qui remonte à moodle)
 E=aquisitor (permet de calculer l'aquisition de l'activité) 
 R=Runner (permet de calculer le chemin suivi par l'apprenant)
@@ -34,12 +34,5 @@ Une version simplifié sera proposé sur la base de l'aquisition de l'activité.
 une activité réussie par un utilisateur et dite aquise. C'est l'activité qui défini cet état de fait.
 
 
-
-
-## LTI et activités
-
-L'activité est l'unité de partage entre les LMS (moodle and co) et PL, mais l'avtivité doit être associé à un cours visible du MLS et de PL.
-
-FIXME Une activité à une URL qui peut être utilisé dans le connecteur LTI.  Le connecteur LTI définie un identifiant externe qui est utilisé pour identifier l'activité dans PL.
 
 
