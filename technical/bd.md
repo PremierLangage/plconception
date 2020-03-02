@@ -1,7 +1,12 @@
 
 # Base de données
 
-# SQLite3 avantages :
+Pour le développement nous utilisons SQlite3 pour la simplicité de mise en oeuvre et la possibilité d'avoir des base de tests dans un seul fichier.
+
+Pour la production nous utilisons PostGreSQL pour sa réputation de stabilité et que l'équipe OPS avec la quelle nous travaillons a une bonne maitrise de cette base. Le deuxième élément est que la recherche "fulltext" est implémenté nativement et que nous en avons besoins dans le cadre de la version 1.0. 
+
+
+### SQLite3 avantages :
 - SQLite a l'avantage d'avoir des BDD très légères, elle est donc pratique pour tous les logiciels embarqués sur des appareils : ex smartphone pour une application.
 - Performances très correctes en W/R, environ 35% plus efficace qu'avec un filesystem.
 - Ne garde en mémoire que ce qui est demandé, pas de données inutiles en mémoire. (si SQLite n'a besoin que d'une partie du fichier elle ne stocke que celle-ci)
@@ -49,11 +54,13 @@ Cependant il est important de mentionner que même si PostGreSQL comporte de tr�
 
 ## Désavantage de PostGreSQL notable :
 Pour chaque nouvelle connection de client, il alloue tout de même 10MB environ car il crée un nouveau processus.
-# Django 
-Django reste un paramètre essentiel dans le choix de la technologie.
-En l'occurence il utilise SQLite par défaut, cependant MySQL et PostGreSQL sont tout à fait possible avec également.
-## MongoDB 
-Le couple python/mongoDB semble réputé pour les services Web mais à ce jour je ne me suis pas assez documenté sur cela.
+
+## Django et base de données
+
+Django reste un paramètre essentiel dans le choix de la technologie, heureusement django est capable d'utiliser de nombreuses base de données différentes et en particulier PostGreSQL.
+
+
+## Références
 
 Quelques features sur les stats serveurs sont baseline pour PostGreSQL ->
 
