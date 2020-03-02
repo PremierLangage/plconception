@@ -20,7 +20,3 @@ Exemple :
 Un étudiant Toto doit noter un étudiant Titi sur 20. La note maximale qu'il peut donner est donc 20/20. L'application (pl) donne une note de 18/20 à Titi et Toto donne la note de 10/20 à Titi. Après avoir noté Titi, Toto obtient une note pour la qualité de sa correction. La note maximale que Toto peut attribuer est de 20 et la différence est de 8, Toto obtient donc un 12/20 pour sa correction.
 
 
-<!---
-Author : Hugo
-Validator : Jordan
--->

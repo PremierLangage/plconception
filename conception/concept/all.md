@@ -1,8 +1,9 @@
 Title: Glossaire 
-Date: Tue Feb  4 11:32:02 CET 2020
+Date: Mon Mar  2 16:21:58 CET 2020
 
 <!-- aav.md -->
 <a id="aav.md"></a>
+
 ## Acquis d'apprentissage Visés
 
 Les AAV (Acquis d'apprentissage Visés) sont les objets frontière de notre logiciel, les objets qui permettent de réunir tout les acteurs autour d'un concept commun qui est utile pour tous.
@@ -82,11 +83,44 @@ Banque de verbes associés à la taxonomie de Bloom
 
  Créer, inventer, interpréter, concevoir, imaginer, improviser, innover, trouver, composer, confectionner, élaborer, fabriquer, mettre au point, modifier, rédiger, produire.
 
+
+<!-- acquisition.md -->
+<a id="acquisition.md"></a>
+
+
+##  Acquisition 
+
+
+Le concept de  acquisition est le fait qu'un élève maitrise ou non une notion.
+
+Plusieurs possibilité de calcul de cette propriété :
+- sommative (au moins N exercices sur la notion terminés avec succès).
+- certains exercices sont des validateurs le sucess implique la maitrise 
+- demander à l'élève son avis : maitrise t'il la notion ?? engagement et reflexion reflexive ....
+
+###  acquisition d'une activité 
+
+En partant du principe qu'une activité est un ensemble d'exercices, voir de ressources à consulter, est-ce possible de noter cette activité ?
+
+La question est : comment constater qu'une activité est réussie ou échouée ?
+Deux options sont souhaitées :
+
+    toutes les ressources doivent être acquises 
+    certaines ressources (réussies, consultées) permettent d'acquérire  l'activité : 
+    + elles devront être sélectionnées à la création de l'activité
+    + Elles pourraient être multiples : soit la ressource 1, soit la resource 1 bis ou les deux
+
+La question se posent aussi pour un cours qui serait un ensemble d'activité
+une des solutions est d'utiliser le langage de programmation des activité et que le code de l'activité positionne l'informaiton dans l'aav ou les aav correspondants.
+
+
+
 <!-- actions.md -->
 <a id="actions.md"></a>
+
 ## Actions
 
-Les actions sont une formalisation des activités des utilisateurs sur le site PL.
+Les actions sont une formalisation des interactions des utilisateurs sur le site PL.
 
 Une action est faite par un utilisateur et une ressource. 
 Les actions de base sont:
@@ -104,102 +138,83 @@ La réalisation (success) d'une action entraine des opération du système:
 |Créer exercice |Créer un nouvel exercice|  /discipline/createexercice | Avoir le rôle de créateur  |[Responsable de formation](glossaire.html#acteurs/reponsable)|
 |Créer exercice en ajoutant des paramètres de notification|             |         |        |                 |
 |        |             |         |        |                 |
+
 <!-- activity.md -->
 <a id="activity.md"></a>
+
 
 ## Activité
 
 Une activité est une Ressource.
 Elle est transformée en asset à la ajout dans une classe.
 
-Une activité peut être utilisé dans plusieurs cours, mais il existe une instance distincte pour chaque cours. 
+Une activité peut être utilisé dans plusieurs cours, mais il existe une instance distincte dans chaque cours. 
 
-Une activité contient à minima une Stratégie standard et au moins un fichier pltp.
+Une activité  est définie par un fichier au format pl contenant des références d'exercices, et une balise **runner** inidiquant sont comportement. 
 
-Une activité exporte des tableaux de bord : studentactivitydashboard, teacheracivitydashboard utilisables dans les tableaux de bords correspondants.
-
-une activité a une navigation 
 Une activité a un barème (outil permettant le calcul d'une note).
 
-Activité= P O S F*+ E  I N B  (spécial: sd* td*) 
-i=introduction  
-S= Strategie   
-F= pltp  
-N=navigation  
+
+i=introduction  page d'acceuil de l'activité peut contenir des dashboards
+S= Strategie  ou runner
+F= pltp ou liste des exercices participant à l'activité
+N=navigation si l'activité en propose une 
 B=Barem (comment est calculé la nte qui remonte à moodle)
-E=Evaluator (permet de calculer la validation de l'activité) 
+E=aquisitor (permet de calculer l'aquisition de l'activité) 
+R=Runner (permet de calculer le chemin suivi par l'apprenant)
 
 En discution: Défini dans la ressource ou dans l'asset ? Fonction de du cours ? 
 P= Prérequis 
 O= Objectifs (AAV et ontologie)
 
-CHANGEMENT les deux éléments suivant ne sont plus intégrés dans toutes les activités. 
+CHANGEMENT les éléments suivant ne sont plus intégrés dans toutes les activités. 
+Une activité exporte des tableaux de bord : studentactivitydashboard, teacheracivitydashboard utilisables dans les tableaux de bords correspondants.
 sd=student dashboard  
 td=teacher dashboard  
+Une version simplifié sera proposé sur la base de l'aquisition de l'activité.
+
+### Aquisition
+
+une activité réussie par un utilisateur et dite aquise. C'est l'activité qui défini cet état de fait.
 
 
-Références : modules WIMS
-
-### LTI et activités
-
-L'activité est l'unité de partage entre les LMS (moodle and co) et PL, mais l'avtivité doit être associé à un cours visible du MLS et de PL.
-
-FIXME Une activité à une URL qui peut être utilisé dans le connecteur LTI.  Le connecteur LTI définie un identifiant externe qui est utilisé pour identifier l'activité dans PL.
-
-
-<!-- activitydashboard.md -->
-<a id="activitydashboard.md"></a>
-
-## studentactivitydashboard
-
-Tableau de bord exporté par une activité retourne une div contenant un indicateur (voir les tableaux de bord)
-qui peut être intégré dans le tableau de bord d'un etudiant.
-
-## teacheractivity dashboard 
-
-indicateur qui peut être intégré dans le tableau de bord d'un enseignant
-<!-- area51.md -->
-<a id="area51.md"></a>
-## Area51
-
-Area51 est la zone qui contient tous les exercices qui ne sont associé à aucune discipline et/ou cours.
-Elle contient tous les exercices qui ne sont pas créé à partir d'un cours.
-
-Cette zone existera par défaut les exercices dedans en seront pas visibles sauf pour leur propriétaire.
-
-Ceci peut être vue comme le repertoire personnel de chaqu'un.
-
-En fonction du besoin effectif nous utiliserons l'une ou l'autre approche.
-
-cf [Rerpertoire Personnel](glossaire.html#home.md).
 
 
 
 <!-- ask.md -->
 <a id="ask.md"></a>
+
+
 ## Ask 
+
 [voire demande](glossaire.html#demande.md) 
+
 <!-- assets.md -->
 <a id="assets.md"></a>
+
   
 
-## Assets 
+##  Assets (actifs)
 
-Assets: class elements, specific, assigned to a class related to a resource.
-Assets are used in a class with students, an asset is linked to a resource (like an instance to its class in OOP).
-The code of the resource is used in the asset, but no modification of the resource is done in the class (except exceptional debug situations yielding a reload).
-Assets contain a finite set of information pertaining to the interaction of the asset with the student: (opening hours, access conditions, ..., teacher evaluations, etc).
- Those pieces of information are common to every asset, and, an HTML editor of these values is needed.
 
-Les assets sont des instanciations des ressources. Une fois la ressource chargée la partie ressource ne peut pas être modifiée sur le serveur d'assets sans être préalablement changée sur le serveur de ressources.
+Assets (actifs): activités (ressource) affectées dans une classe. Les actifs sont utilisés dans une classe avec des étudiants, un actif est lié à une ressource (comme une instance à sa classe dans la POO). Le code de la ressource est utilisé dans l'actif, mais aucune modification de la ressource n'est effectuée dans la classe (à l'exception des situations de débogage exceptionnelles necessitant un rechargement (reload) ).
+Les actifs contiennent un ensemble fini d'informations relatives à l'interaction de l'actif avec l'élève: (heures d'ouverture, conditions d'accès, ..., évaluations des enseignants, etc.). Cette structure d'informations est commune à tous les actifs et un éditeur HTML de ces valeurs est nécessaire;
+
+Les actifs sont des instanciations des ressources. Une fois la ressource chargée la partie ressource ne peut pas être modifiée sur le serveur d'assets sans être préalablement changée sur le serveur de ressources.
 Par contre l'asset contient un ensemble d'informations supplémentaires par rapport à la ressource.
 
 ### Les liens entre assets 
 Il est possible d'ajouter des liens entre assets qui ont le même rôle (localement) que les liens entre ressources.
+Les liens sont des couples (nomdulien, assetvisé) donc unidirectionel et typés.
+
+
+###  Données d'assets
 
 L'utilité de ces liens est de pouvoir faire des liens entre aav et ressources.
-
-
+La structure de données d'asset contient:
+* la visibilité de l'asset (accessible ou non par les étudiants)
+* les dates de debut, fin, ouverture, retard etc
+* modalité d'évaluation : il est possible de surcharger les modalités d'évaluation de la ressource.
 
 
 
@@ -207,6 +222,7 @@ L'utilité de ces liens est de pouvoir faire des liens entre aav et ressources.
 
 <!-- atelier.md -->
 <a id="atelier.md"></a>
+
 ##  Atelier
 
 Un atelier permet aux étudiants de se corriger entre eux. (Grâce à une grille d'évaluation)
@@ -233,8 +249,10 @@ Un étudiant Toto doit noter un étudiant Titi sur 20. La note maximale qu'il pe
 Author : Hugo
 Validator : Jordan
 -->
+
 <!-- badge.md -->
 <a id="badge.md"></a>
+
 ## Badge
 
  Un badge est une récompense attribuée à un acteur, attestée par un logo visuel, et ouvrant eventuellement des droits.
@@ -274,8 +292,10 @@ comme par exemple le nombre d'exercice crée, le temps passé sur les exercices 
 
 L'admin PLaTOn crée les badges.
 
+
 <!-- balise.md -->
 <a id="balise.md"></a>
+
 ## Balises
 
 Champs d'un exercice une feuille ou un cours.
@@ -302,8 +322,10 @@ Une balise ne peut être None.
 
 Il existe de nombreux types de balises (title, from,extends etc..).
 
+
 <!-- barredexercice.md -->
 <a id="barredexercice.md"></a>
+
 ## Barre d'exercice
 
 La barre d'exercice est un affichage HTML d'un exercice sur une seul ligne. 
@@ -318,16 +340,20 @@ La bare contient des boutons qui permettent différentes actions:
 Il est aussi possible de cliquer sur un bouton affichant la discussion sur l'exercice en question et un autre pour afficher un indicateur (à choisir). 
 
 Les badges de l'exercice sont visibles: Labbel Rouge, académie de Versailles, LDAR++, comprehénsible, sans Fôtes.
+
 <!-- barrefeuille.md -->
 <a id="barrefeuille.md"></a>
+
 
 ## BARREFEUILLE
 
 TODO
 un affichage intelligent d'un lien de feuille de TP.
 avec plein de goodies
+
 <!-- centredenotification.md -->
 <a id="centredenotification.md"></a>
+
 ## Centre de notification
 
 Le centre de notification regroupe l'ensemble des notifications d'un utilisateur (Validation, Défi, Groupe etc..).
@@ -341,8 +367,10 @@ L'utilisateur peut désactiver les notifications qu'il veut dans le [profil](glo
 Author : Hugo
 Validator : Jordan
 -->
+
 <!-- cercle.md -->
 <a id="cercle.md"></a>
+
 ## Les cercles
 
 Les cercles sont des ensembles d'utilisateurs.
@@ -357,33 +385,52 @@ Il existe des cercles publiques, privés, automatiques.
 Le cercle par défaut de tous les créateurs est le cercle créateur. On y est inscrit par défaut.
 (on peut se faire virer ....).
 
-Pour créer un mini cercle il faut au minimum 3 ou 4 personnes (à discuter)
-
-Pour créer un cercle, il faut au minimum 7 ou 10 personnes (à discuter). 
+Pour créer un cercle il faut au minimum 3  personnes (un président, un directeur scientifique, un physionomiste )
 
 On commence par appartenir au cercle des créateurs, puis par exemple au cercle des matheux, puis au cercle des enseignants de  maths terminal, ou cercle des algébristes
 
 ### Outils d'un cercle 
 
 Les cercles ont un forum associé.
-Les cercles ont un framavox (ou l'équivalent) associé: ce qui permet de prendre des décisions, de faire des sondages etc.
+Les cercles ont un framavox (ou l'équivalent loomio) associé: ce qui permet de prendre des décisions, de faire des sondages etc.
 Les cercles peuvent créer un label lié au cercle avec des modalités d'attribution. 
 
-Les cercles ont droit à des labels 1 label pour un groupe de 7, et plus de labels en fonction du nombre de paticipants (à discuter)
+Les cercles ont droit à 1 label puis en fonction des "victoires" et du karma total du cercle plus de labels.
 
 Les demandes des cercles sont priorisées. 
 
 
 ### Création d'un cerle 
 
-- page de proposition de cercles 
-- quelqu'un propose un cercle en définissant son titre et son objet et optionnellement un mot de passe
+- page de proposition de cercles existant ou en recherche de participants 
+- quelqu'un propose un cercle en définissant son titre et son objet (description des objectifs du cercle) et optionnellement un mot de passe 
+
 - tout le monde peut de demander à rejoindre un cercle. 
    - Certains cercles sont ouverts (tout le monde peut les rejoindre)
    - Certains cercles sont privés (il faut être co-opté pour rentrer)
    - Certains cerlces sont automatiques (quand on a créé un cours de maths de terminal on est automatiquement dans le cercle des profs de maths de terminal)
+   
+ 
+ ## Propriétés  d'un cercle
+
+
+- loomio  (il votes, sondages, listes, forum, etc).
+
+
+
+### Fonctionnement des cercles
+
+- le président pilote les propriétés d'accès du cercle et met en place les outils de communication
+- les physionomiste peuvent accepter des membre, virer des membres etc  
+
+- les responsables peuvent déléguer leur capacités 
+- le directeur scientifique  est responsable de qualité des production du cercle 
+- le cercle définit sont fonctionnement interne (loomio) 
+
+
 <!-- chatbot.md -->
 <a id="chatbot.md"></a>
+
 ## Chat bot
 
 Robot de discussion.
@@ -396,8 +443,10 @@ En plus il peut envoyer des messages privés et envoyer des documents aux élèv
 Author :
 Validator : Jordan
 -->
+
 <!-- classe.md -->
 <a id="classe.md"></a>
+
 ##  Classe
 
 Une classe a un nom.
@@ -414,19 +463,18 @@ Une classe a un niveau: CM2, 6ème, Terminal, L2, M1
 [adminsitration LMS](glossaire.html#../casutilisation/adminLMS/administrationlms.md)
 
 
-<!---
-Author : Hugo
-Validator : Jordan
--->
 <!-- classeouverte.md -->
 <a id="classeouverte.md"></a>
+
 
 ## Classe ouverte 
 Une classe ouverte est une [classe](glossaire.html#./classe.md) accessible à tous.
 
 
+
 <!-- classificationdisciplinaire.md -->
 <a id="classificationdisciplinaire.md"></a>
+
 ## Classification disciplinaire
 
 #### WIMS Taxonomie
@@ -481,13 +529,17 @@ Dans ce cas la on connait aussi le chemin qui mène de la racine jusqu'au mot re
 Author : Jordan
 Validator :
 -->
+
 <!-- classroom.md -->
 <a id="classroom.md"></a>
+
 ## Classroom
 
 Représente le concept contenant des élèves, sur le serveur d'asset.
+
 <!-- completion.md -->
 <a id="completion.md"></a>
+
 
 ## complétion 
 
@@ -504,8 +556,10 @@ c'est à mettre en relation avec l'état d'un exercice.
 
 [State](glossaire.html#state.md)
 
+
 <!-- cours.md -->
 <a id="cours.md"></a>
+
 ## Cours
 
 
@@ -549,8 +603,10 @@ Chaque cours contient une ou plusieurs [activités](glossaire.html#activity.md).
 
 
 
+
 <!-- coursvide.md -->
 <a id="coursvide.md"></a>
+
 
 ## Objet coursvide
 
@@ -562,37 +618,25 @@ Avec le cours vide un certain nombre de notifications sont affectées à l'ensei
 
 
 TODO TBC
-<!-- defi.md -->
-<a id="defi.md"></a>
-## Défis
 
-La compétition permet à un étudiant de lancer un défi à un ou plusieurs autres étudiants de leur classe.
-Le créateur du défi doit décider de la deadline du défi.
+<!-- curation.md -->
+<a id="curation.md"></a>
 
-Il y a plusieurs défis :
 
-* Les défis de rapidité (celui qui termine la feuille le plus rapidement possible).
 
-* Les défis de réussite (celui qui réussit la feuille en utilisant le moins d'essai possible).
+## Curation
 
-* Les défis de taille (programme le plus court pour résoudre un problème).
+La curation sur Platon est l'action de modifier les métadonnées d'une VERSION de Ressource.
 
-* Les défis de temps d'éxecution (le programme qui résoud le problème le plus rapidement possible)
+L'idée est d'avoir des indicateurs de qualité.
 
-Etc ...
+FIXME: liste non exhaustive;
 
-Pour cela, il doit choisir une feuille d'exercice, puis il peut ajouter un où plusieurs étudiant de sa classe à une liste. Puis il doit valider le défi. Le défi est ensuite envoyé à chaque utilisateurs de la liste, qui est ainsi notifier avec une [notification](glossaire.html#notification.md).
+Voir (meta Données)[metadonnees.md]
 
-### Cas d'utilisation associé
-
-[donner un défi](glossaire.html#../casutilisation/etudiant/donnerexercice.md)
-
-<!---
-Author :
-Validator : Jordan
--->
 <!-- demande.md -->
 <a id="demande.md"></a>
+
 ## Demande (ask)
 
 La demande (Ask) permet à un créateur de demander la création d'un exercice. Pour cela il doit donner une description précise de l'exercice qu'il souhaite avoir:
@@ -611,8 +655,19 @@ sous question, ups/downs, liens, propositions, etc et KARMA !!
 
 
 
+
+<!-- demo.md -->
+<a id="demo.md"></a>
+
+
+## Une ressource démo
+
+C'est un asset sur le server de ressource a la quelle tout le monde peut accèder.
+
+
 <!-- devoirmaison.md -->
 <a id="devoirmaison.md"></a>
+
 ##  Devoir maison
 
 Un devoir maison est une feuille d'exercice que les étudiants doivent faire sur une durée déterminée fixée par un enseignant.
@@ -624,8 +679,10 @@ L'enseignant peut intervenir pendant la durée du devoir pour éditer le DM de t
 
 [créer/piloter/terminer un devoir maison](glossaire.html#../acteurs/casutilisation/enseignant/dm.md)
 
+
 <!-- discipline.md -->
 <a id="discipline.md"></a>
+
 ## Discipline
 
 Toutes les informations : cours, exercices, aav, ressources, sont organisé par disciplines. 
@@ -634,8 +691,10 @@ FIXME Une discipline spéciale : humanité, nous sommes tous karmique pour cette
 
 La discipline à un nom (clef unique), une description, et un utilisateur référent (dictateur bienveillant) avec un email et des membres (utilisateurs identifiés).
 
+
 <!-- droits.md -->
 <a id="droits.md"></a>
+
 
 Seul un administrateur Django a la possibilité de donner, modifier ou supprimer des droits(CRUD) de tous les utilisateurs autres que des administrateurs django. Par défaut l'administrateur Django a tous les droits.
 
@@ -719,8 +778,10 @@ En visibilité totale il aura accès à tout ses groupes et cours.
 En anonyme il n'aura accès à rien.
 
 
+
 <!-- editeurdechamps.md -->
 <a id="editeurdechamps.md"></a>
+
 ## Editeur de champs
 
 Mode d'édition ou chaque [balise](glossaire.html#balise.md) de pl peut être éditée.
@@ -730,8 +791,10 @@ Les balises de pl ont une valeur par défaut que l'on modifie grâce à l'édite
 Author : 
 Validator : Jordan
 -->
+
 <!-- edition.md -->
 <a id="edition.md"></a>
+
 ## Le processus editorial
 
 FIXME (Si le créateur a suffisament de karma pour le valider directement ?) Quand un élément est créer sur pl il est considéré comme public, comme une page wikipédia,
@@ -748,8 +811,10 @@ par tag (mot clefs) et dans les classements disciplinaires.
 Par exemple: Discipline = informatique/python, tag=functioncall, text= Ecrire une fonction f qui retourne .... 
 Si l'on cherche dans les exercices de python il n'appraitra qu'une fois validé.
 
+
 <!-- evaluation.md -->
 <a id="evaluation.md"></a>
+
 
 ## Evaluation 
 
@@ -775,8 +840,10 @@ Soit l'on a une approche sommative ou la réussite à l'ensemble des sous-aav pe
 
 Le choix de l'approche varie d'une équipe enseignante à l'autre et des sujets et disciplines participantes de l'aav. 
 
+
 <!-- exercice.md -->
 <a id="exercice.md"></a>
+
 ##  Exercice
 
 Un exercice permet à un utilisateur de s'entraîner de manière autonome.
@@ -813,8 +880,10 @@ Les exercices à valider doivent apparaitre dans le [centre de notification](glo
 Author : Hugo
 Validator : Jordan
 -->
+
 <!-- export.md -->
 <a id="export.md"></a>
+
 
 ## Export 
 
@@ -825,16 +894,20 @@ Deux formats d'export/import :
 - le format json
 
 Chaque éléments des modèles django doit avoir deux fonctions export(file,format) et import(file,format).
+
 <!-- feedback.md -->
 <a id="feedback.md"></a>
+
 
 ## Feedback
 
 Bilan sur un exercice, feuille,...
 
 
+
 <!-- feuille.md -->
 <a id="feuille.md"></a>
+
 ##  Feuille / sheet / pltp
 
 C'est une feuille qui regroupe plusieurs [exercices](glossaire.html#exercice.md). Synonyme : pltp.
@@ -863,14 +936,10 @@ Chaque feuille d'exercice modifiée doit être rechargée afin d'être mises à 
 Author : Hugo
 Validator : Jordan
 -->
-<!-- fqm.md -->
-<a id="fqm.md"></a>
 
-| Function   | id   |  Quality        | Mesure         | Description  |
-| :----------|:-- | :-------------- | :------------- |:----|
-| affiche le tableau de bord           | 1 | Vitesse | <1s | l'affichage du tableau de bord de l'utilisateur ne doit pas être trop longue |
 <!-- grader.md -->
 <a id="grader.md"></a>
+
 ## Grader
 
 Un grader est un logiciel python capable d'évaluer un exercice.
@@ -884,13 +953,17 @@ qui est exécuter sur la sandbox grace à la commande: python3 grader.py
 Author : 
 Validator : Jordan
 -->
+
 <!-- hint.md -->
 <a id="hint.md"></a>
 
 
+
 hint est une balise qui signale que l'on peut afficher les valeurs attendu dans les messages de test.
+
 <!-- home.md -->
 <a id="home.md"></a>
+
 
 
 ## Home 
@@ -905,15 +978,16 @@ Quand un exercice stocké dans le home est publié, il est copié dans la partie
 
 à la place un fichier référence est stocké. 
 
+
 <!-- index.md -->
 <a id="index.md"></a>
+
 Title: Concepts
-Date: Tue Feb  4 11:31:33 CET 2020
+Date: Wed Feb 26 17:00:50 CET 2020
 1. [aav.md](glossaire.html#glossaire.html#aav.md)
+1. [acquisition.md](glossaire.html#glossaire.html#acquisition.md)
 1. [actions.md](glossaire.html#glossaire.html#actions.md)
 1. [activity.md](glossaire.html#glossaire.html#activity.md)
-1. [activitydashboard.md](glossaire.html#glossaire.html#activitydashboard.md)
-1. [area51.md](glossaire.html#glossaire.html#area51.md)
 1. [ask.md](glossaire.html#glossaire.html#ask.md)
 1. [assets.md](glossaire.html#glossaire.html#assets.md)
 1. [atelier.md](glossaire.html#glossaire.html#atelier.md)
@@ -931,8 +1005,9 @@ Date: Tue Feb  4 11:31:33 CET 2020
 1. [completion.md](glossaire.html#glossaire.html#completion.md)
 1. [cours.md](glossaire.html#glossaire.html#cours.md)
 1. [coursvide.md](glossaire.html#glossaire.html#coursvide.md)
-1. [defi.md](glossaire.html#glossaire.html#defi.md)
+1. [curation.md](glossaire.html#glossaire.html#curation.md)
 1. [demande.md](glossaire.html#glossaire.html#demande.md)
+1. [demo.md](glossaire.html#glossaire.html#demo.md)
 1. [devoirmaison.md](glossaire.html#glossaire.html#devoirmaison.md)
 1. [discipline.md](glossaire.html#glossaire.html#discipline.md)
 1. [droits.md](glossaire.html#glossaire.html#droits.md)
@@ -943,7 +1018,6 @@ Date: Tue Feb  4 11:31:33 CET 2020
 1. [export.md](glossaire.html#glossaire.html#export.md)
 1. [feedback.md](glossaire.html#glossaire.html#feedback.md)
 1. [feuille.md](glossaire.html#glossaire.html#feuille.md)
-1. [fqm.md](glossaire.html#glossaire.html#fqm.md)
 1. [grader.md](glossaire.html#glossaire.html#grader.md)
 1. [hint.md](glossaire.html#glossaire.html#hint.md)
 1. [home.md](glossaire.html#glossaire.html#home.md)
@@ -962,11 +1036,12 @@ Date: Tue Feb  4 11:31:33 CET 2020
 1. [panier.md](glossaire.html#glossaire.html#panier.md)
 1. [parametrages.md](glossaire.html#glossaire.html#parametrages.md)
 1. [partage.md](glossaire.html#glossaire.html#partage.md)
-1. [personalisation.md](glossaire.html#glossaire.html#personalisation.md)
+1. [personalisation-des-parcours.md](glossaire.html#glossaire.html#personalisation-des-parcours.md)
 1. [plbank.md](glossaire.html#glossaire.html#plbank.md)
 1. [portfolio.md](glossaire.html#glossaire.html#portfolio.md)
+1. [preferences.md](glossaire.html#glossaire.html#preferences.md)
 1. [previewer.md](glossaire.html#glossaire.html#previewer.md)
-1. [profil.md](glossaire.html#glossaire.html#profil.md)
+1. [profile.md](glossaire.html#glossaire.html#profile.md)
 1. [promotion.md](glossaire.html#glossaire.html#promotion.md)
 1. [publication.md](glossaire.html#glossaire.html#publication.md)
 1. [recommandation.md](glossaire.html#glossaire.html#recommandation.md)
@@ -993,8 +1068,10 @@ Date: Tue Feb  4 11:31:33 CET 2020
 1. [validation.md](glossaire.html#glossaire.html#validation.md)
 1. [verificationsyntaxique.md](glossaire.html#glossaire.html#verificationsyntaxique.md)
 1. [version.md](glossaire.html#glossaire.html#version.md)
+
 <!-- indicateur.md -->
 <a id="indicateur.md"></a>
+
 ## Indicateur
 
 Un indicateur est élément graphique qui affiche des données d'un cours.
@@ -1012,16 +1089,20 @@ Author :
 Validator : Jordan
 -->
 
+
 <!-- individualisation.md -->
 <a id="individualisation.md"></a>
+
 
 ## Individualisation 
 
 
 Chaque élève se vois proposer des exercices spécifiques.
 
+
 <!-- karma.md -->
 <a id="karma.md"></a>
+
 ## Karma
 
 Le karma est un entier qui représente le droit d'un enseignant dans une discipline (Exemple : Prog C, python, java ...).
@@ -1081,8 +1162,10 @@ Le niveau permet de réalisé certaines actions.
  * possibilité de commenter un aav 
 
 + **karma> (1*ressource+10*comments+) **
+
 <!-- label.md -->
 <a id="label.md"></a>
+
 ## Labels
 
 
@@ -1145,17 +1228,21 @@ La ressource est en production et le label est posé quand on remonte la premiè
 
 
 
+
 <!-- liensressources.md -->
 <a id="liensressources.md"></a>
+
 
 ## Rlinks 
 
 Les liens ressource (Rlinks) sont des liens qui pointe sur une ressource, 
-il sont parfois affichés comme des  barexos (cf. [barexo](glossaire.html#barexo.md)
+il sont parfois affichés comme des  barexos (cf. [barexo](glossaire.html#barexo.md) )
+
 
 
 <!-- link.md -->
 <a id="link.md"></a>
+
 ## Lien Interne
 
 ### Idée Générale :
@@ -1189,8 +1276,38 @@ Le mieux est de pouvoir référencer tout ce qui concerne des personnes avec `@`
 
 et les objets avec `#` suivit de l'ID de l'objet (`#21`). Il n'est pas forcément nécessaire de différencier l'objet si ceux si possède chacun une clé unique.
 
+
+<!-- lti.md -->
+<a id="lti.md"></a>
+
+
+## LTI (Learning tools interoperability)  
+
+Protocole utilisé pour accèder à la plateforme PLaTon. 
+LTI permet la création d'utilisateur et de classes de manière transparente depuis un LMS, il permet aussi la remonté des notes de PLaTon vers le LMS.
+
+
+### Création d'un utilisateur
+
+Lorsqu'un utilisateur clique pour la première sur un lien LTI depuis un LMS, un utilisateur équivalent est créé à partir des informations du LMS.
+
+### Création d'une classe
+
+En ce qui concerne la classe, plusieurs cas de figure se présentent :
+
+* Si la classe n'existe pas encore sur PLaTon :
+  * Si l'utilisateur est un enseignant, celui-ci arrive sur un formulaire de création de classes pré-remplie avec les informations du LMS.
+  * Si l'utilisateur n'est pas un enseignant, celui-ci reçoit une erreur 403.
+ 
+* Si la classe existe déjà, l'utilisateur est ajouté à la classe avec le même rôle que celui qu'il avait sur le LMS.
+
+### Remonté des notes
+
+LTI permet la remonté d'une note par utilisateur pour chaque lien LTI créé. De plus, afin que la remonté soit possible pour un utilisateur, celui-ci doit avoir cliqué au moins une fois sur le lien correspondant.
+
 <!-- metacognition.md -->
 <a id="metacognition.md"></a>
+
 
 ## Meta Cognition
 
@@ -1204,8 +1321,10 @@ Exemples de métacognitions :
 
 
 
+
 <!-- metadonnees.md -->
 <a id="metadonnees.md"></a>
+
 
 ## Métadonnées 
 
@@ -1230,6 +1349,18 @@ Ainsi toutes les métas données de ce type sont de la forme:
     user X donne la propriété Y à la ressource.
     la propriété Y est soit un lien entre ressource,soit un json (ce qui permet d'ajouter de nouvelle propréitéé au fur et a mesure).
 
+#### Quelques type de méta données 
+
+FIXME: Groupe de travail sur le sujet;
+
+* utilisabilité: en production, utilisable, a valider, a patrouiller 
+* cercle: labels-du-cercle
+* tests: test fonctionnels, test-automatiques, etc 
+* niveau scolaire: X,y,z
+* Qualité: Excellent, bon , correct, a revoir
+* Usage:  hors ligne, présentiel, groupes, examen, evaluation, formatif, mixte,etc
+
+
 ## Implémentation 
 
 En première lecture pour les donnnées automatiques il faut une table contenant un json avec les données statistiques par ressource. Puis une fois que le système sera un peu plus stabilisé une table avec des entrées fixes pour des recherche plus rapides.
@@ -1244,8 +1375,10 @@ Il faut un éditeur de méta données ajoutées.
 Il faut spécifier dans le module de stats les stats que l'on stocke dans l
 
 
+
 <!-- notification.md -->
 <a id="notification.md"></a>
+
 ##  Notification
 
 Une notification est un message qui alerte l'utilisateur.
@@ -1273,8 +1406,10 @@ Author : Hugo
 Validator : Jordan
 -->
 
+
 <!-- ontology.md -->
 <a id="ontology.md"></a>
+
 
 ## Ontologie
 
@@ -1328,16 +1463,20 @@ Ontologie créée par les tags donnés par les utilisateurs.
 
 cf. 
 http://www.journaldunet.com/developpeur/tutoriel/theo/070403-ontologie.shtml
+
 <!-- pagedediscution.md -->
 <a id="pagedediscution.md"></a>
+
 
 ## Une page de discution
 
 Une page de discution est liée (automatiquement) à chaque ressource.
 
 La page de discution, 
+
 <!-- panier.md -->
 <a id="panier.md"></a>
+
 ## Panier
 
 Quand on travaille à la fabrication d'une feuille automatiquement un panier (futur feuille) est créer dans lequel on place tous les exercices que l'on sélectionne.
@@ -1352,8 +1491,10 @@ et fournir l'introduction de la feuille d'exercice (le pltp).
 Author :
 Validator : Jordan
 -->
+
 <!-- parametrages.md -->
 <a id="parametrages.md"></a>
+
 ## Paramétrages
 
 ### Le paramétrage ce fait sur un Asset
@@ -1396,8 +1537,10 @@ Ouverture et fermeture d’une feuille/ d’un exercice
 Dépendance au niveau d’un amphi (a priori pour limiter  le travail du prof), d’un groupe, de l’individualisation. 
 discuter/décider des priorités pour les modifications de ces dates : le prof de TD a-t-il ou non la priorité sur le prof d’amphi ?  
 d’un individu (l’individualisation est-elle prioritaire sur le travail en groupe : i.e. une fois qu’une activité a été modifiée au niveau individuel, une modification au niveau groupe n’est prise en compte que sous des conditions à définir). 
+
 <!-- partage.md -->
 <a id="partage.md"></a>
+
 
 
 ## Partage 
@@ -1455,10 +1598,12 @@ Perte d'edition collaborative, il n'y a pas de conservations des modifications e
 ### Avantage 
 
 Le prof peut modifier les exos appliqués a ces élèves "facilement". Sans rendre de comptes.
-<!-- personalisation.md -->
-<a id="personalisation.md"></a>
 
-## Personalisation 
+<!-- personalisation-des-parcours.md -->
+<a id="personalisation-des-parcours.md"></a>
+
+
+## Personalisation des parcours 
 
 
 La personnalisation passe par un diagnostique qui permet de structurer l'élèves de la classe sur plusieurs critères (numeration, factorsation, etc ) en 3 groupes dans chaque critère. 
@@ -1472,8 +1617,10 @@ Les exercices sont écrit de tel facons qu'ils sont préalablement préparés po
 Quand l'élève réalise l'exercice la plateforme lui présente l'exercice avec pour chaque critère pertinant l'adaptation de son niveau/groupe.
 
  
+
 <!-- plbank.md -->
 <a id="plbank.md"></a>
+
 ## Le repertoire plbank
 
  plbank est un répertoire partagé par toutes les instances de pl. Quelque soit la discipline le langage ou autres.
@@ -1492,8 +1639,10 @@ Quand l'élève réalise l'exercice la plateforme lui présente l'exercice avec 
 * les aavs
 * ...
 
+
 <!-- portfolio.md -->
 <a id="portfolio.md"></a>
+
 
 ## PortFolio
 
@@ -1668,8 +1817,24 @@ Exempledémarche de réalisation de bilans d'étape dans un programme
 #### Remarque
 
 Ces étapes peuvent être réalisées plusieurs fois! 
+
+<!-- preferences.md -->
+<a id="preferences.md"></a>
+
+##  Préférences
+
+Le préférences permet à un utilisateur connecté de "paramétrer" son compte.
+On peut choisir certaines options :
+Le mode daltonien
+Le mode nuit
+Choisir la langue (français, anglais, ...)
+Choix d'activation des notifications ou non
+
+Page d'accueil : Par défaut un utilisateur est connecté à la dernière page sur laquelle il était (Session ? Cookie ? en Base ?) ou bien il est toujours placé sur son tableau de bord ou son profil. L'idée est d'avoir une page d'accueil modifiable comme les browsers.
+
 <!-- previewer.md -->
 <a id="previewer.md"></a>
+
 ## Previewer
 
 Le previewer est une zone d'affichage d'un exercice qui permet de tester à la fois l'interface mais aussi le comportement de l'exercice, d'une feuille, d'une strategie etc.
@@ -1683,29 +1848,25 @@ Dans le previewer il y a des éléments en plus par rapport à l'éxecuteur d'un
 - il est possible de modifier ces valeurs, l'exercice sera alors automatiquement réaffiché avec ces nouveaux paramètres.
 
 Remarques: Ces valeurs ne font pas partie de l'exercice.
-<!-- profil.md -->
-<a id="profil.md"></a>
-##  Profil
 
-Le profil permet à un utilisateur connecté de "paramétrer" son compte.
-On peut choisir certaines options :
-Le mode daltonien
-Le mode nuit
-Choisir la langue (français, anglais, ...)
-Choix d'activation des notifications ou non
+<!-- profile.md -->
+<a id="profile.md"></a>
 
-Page d'accueil : Par défaut un utilisateur est connecté à la dernière page sur laquelle il était (Session ? Cookie ? en Base ?) ou bien il est toujours placé sur son tableau de bord ou son profil. L'idée est d'avoir une page d'accueil modifiable comme les browsers.
 
-### Cas d'utilisation associé
+## Profile 
 
-[Afficher le profil](glossaire.html#../casutilisation/utilisateur/affichemodifprofil.md)
+- Choix d'Avatar 
 
-<!--- 
-Author : Hugo 
-Validator : Jordan
--->
+- Présentation "à la" linkedin
+
+- Bagdes et karma et récompenses 
+
+- Choisir les cercles visibles / fonction dans le cercle : Pres, Dir, Phy, autres
+
+
 <!-- promotion.md -->
 <a id="promotion.md"></a>
+
 
 ## Promotion (action) 
 
@@ -1719,8 +1880,10 @@ Réécriture -> lib standard
 
 
 Ne pas confondre avec la notion de cohorte. 
+
 <!-- publication.md -->
 <a id="publication.md"></a>
+
 
 ## Publication 
 
@@ -1732,28 +1895,36 @@ Cette publication a pour effet de déclancher  la deuxième
 
 2) Publication d'une ressource privé en ressource publique.
 
+
 <!-- recommandation.md -->
 <a id="recommandation.md"></a>
+
 
 ## Recommandation 
 
 apprendre des traces des apprenants création d'un profile de l'apprenant et recherche par similarité:
 (agrégation, clustering, ) 
 avec des profiles types qui premettent de faire des recommandations aka AMAZON.
+
 <!-- referencement.md -->
 <a id="referencement.md"></a>
+
 
 ## Referencement 
 
 l'idee est de créer une balise markdown friendly pour inclure des liens dans un enoncé PL (du style de la balise latex $% texte latéxifié %$). En imaginant que "type" soit un concept dans une antologie, "balise type balise" produira un lien cliquable dans l'énoncé PL vers la description du concept dans l'ontologie.
+
 <!-- reflexivite.md -->
 <a id="reflexivite.md"></a>
+
 
 ## Reflexivite
 
 la capacité d'un etudiant
+
 <!-- reputation.md -->
 <a id="reputation.md"></a>
+
 ## Réputation
 
 La réputation est un nombre indiquant l'activité d'un enseignant ou d'un étudiant. (Activité == s'il propose des bons tags, des bons exercices, si il gagne des défis ...)
@@ -1766,8 +1937,10 @@ Il augmente lorsque l'enseignant ou l'étudiant propose des exercices et des tag
 Author : Hugo 
 Validator : Jordan
 -->
+
 <!-- ressource.md -->
 <a id="ressource.md"></a>
+
 
 ## Ressources 
 
@@ -1830,8 +2003,10 @@ Les ressources sont des objets de la base de donnée :
 
 
 
+
 <!-- rights.md -->
 <a id="rights.md"></a>
+
 
 ## Droits d'acces à une asset-activité
 
@@ -1862,8 +2037,10 @@ Les deux dates. time d'ouverture et de fermeture.
 
 
 
+
 <!-- salon.md -->
 <a id="salon.md"></a>
+
 ##  Salon
 
 Un salon permet aux étudiants d'une même classe de former des groupes de manière autonome.
@@ -1882,8 +2059,10 @@ On peut associer une activité ou un atelier à un salon.
 Author : Hugo
 Validator : Jordan
 -->
+
 <!-- saloninteractif.md -->
 <a id="saloninteractif.md"></a>
+
 ##  Salon interactif
 
 Un salon interactif est un salon créer par les enseignants pour une classe. Chaque étudiant de la classe peut ensuite rejoindre le groupe.
@@ -1898,8 +2077,10 @@ Les réponses données par les étudiants sont anonymes ou pas, c'est à l'ensei
 Author : Hugo 
 Validator : Jordan
 -->
+
 <!-- sandbox.md -->
 <a id="sandbox.md"></a>
+
 ##  Sandbox
 
 Une sandbox est un mécanisme qui permet d'éxecuter du code avec moins de risque pour le serveur. Son rôle dans PL est d'éxecuter le code écrit par les étudiants dans les exercices.
@@ -1917,8 +2098,10 @@ La sandbox doit renvoyer au serveur qui lui a envoyé les programmes à tester :
 Author : Hugo
 Validator :
 -->
+
 <!-- seed.md -->
 <a id="seed.md"></a>
+
 ## La seed
 
 
@@ -1929,8 +2112,10 @@ Première fois seed=1
 
 La seed d'un exercice est la seed utilisé pour le build de l'exercice.
 
+
 <!-- shortcuts.md -->
 <a id="shortcuts.md"></a>
+
 
 ## Les touches de raccourci 
 
@@ -1939,15 +2124,19 @@ FIXME quelles touches quelles
 <pre>
 https://www.w3.org/2002/09/tests/keys.html
 </pre>
+
 <!-- sourceexercice.md -->
 <a id="sourceexercice.md"></a>
+
 ## Source d'exercice
 
 La source d'un exercice c'est le code qui forme un exercice.
 Il est composé de balise et suit la syntaxe [PL](glossaire.html#plsyntaxe.md).
 Le code est stocké dans un fichier .pl.
+
 <!-- state.md -->
 <a id="state.md"></a>
+
 
 
 ## State (état)
@@ -1973,8 +2162,10 @@ Ce principe peut être appliqué au activitées en générales avec un état sim
 Validé avec les implémentations
 
 
+
 <!-- tableaudebord.md -->
 <a id="tableaudebord.md"></a>
+
 ## Dashboard
 
 le tableau de bord d'un utilisateur est la page par défaut toujours accessible avec le lien dashboard (à définir).
@@ -2012,8 +2203,10 @@ https://elearningindustry.com/learner-dashboards-how-effectively-can-it-increase
 Author : Hugo 
 Validator : Jordan
 -->
+
 <!-- tag.md -->
 <a id="tag.md"></a>
+
 ## tag
 
 Un tag est une étiquette attribuée à chaque [exercice](glossaire.html#exercice.md) pour définir à quels [aav](aav.md) l'exercice est lié.
@@ -2027,8 +2220,10 @@ Les [tags](glossaire.html#tag.md) en attente de validation doivent apparaitre da
 
 [valider un tag](glossaire.html#../casutilisation/enseignant/validation.md)
 
+
 <!-- taxonomieofAAV.md -->
 <a id="taxonomieofAAV.md"></a>
+
 
 
 ## Wiley
@@ -2050,8 +2245,10 @@ Les [tags](glossaire.html#tag.md) en attente de validation doivent apparaitre da
 1. Type of logic contained in object—Describes the common function of algorithms and procedures within the learning object.
 1. Potential for inter-contextual reuse—Describes the number of different learning contexts in which the learning object might be used (that is, the object’s poten- tial for reuse in different content areas or domains).
 1. Potential for intra-contextual reuse—Describes the number of times the learning object might be reused within the same content area or domain.
+
 <!-- timer.md -->
 <a id="timer.md"></a>
+
 
 ## Un timer pour un exercice
 
@@ -2123,8 +2320,10 @@ function chrono(){
 </script>
 
 </pre>
+
 <!-- todolist.md -->
 <a id="todolist.md"></a>
+
 
 ## Todo liste  (Activité)
 
@@ -2138,8 +2337,10 @@ Les exercices doivent être trouvé avec un mécanisme de recherche similaire (m
 
 
 
+
 <!-- travaildegroupes.md -->
 <a id="travaildegroupes.md"></a>
+
 
 
 ## Travail de groupe 
@@ -2188,8 +2389,10 @@ Les outils numérique du travail en équie documents partagés, version, chats, 
 
 
 
+
 <!-- triggers.md -->
 <a id="triggers.md"></a>
+
 ## Triggers
 
 
@@ -2234,8 +2437,10 @@ Dans tous les cas chaque user peut subscribe à une activité (par exemple).
 Pour chaque subscribe on ajoute dans une liste en python à quel évènement on a souscrit. Quand une création/modification est faite en base de données on envoie une notification à ceux concernés.
 
 Pour faire ça on utilisera les signaux de Django (presave, postsave etc)
+
 <!-- types.md -->
 <a id="types.md"></a>
+
 ##  Types
 
 Les types d'exercices :
@@ -2257,36 +2462,26 @@ Les types d'exercices :
 Author :
 Validator : Jordan
 -->
+
 <!-- validation.md -->
 <a id="validation.md"></a>
 
+
+
 ## Validation 
 
+Une ressource valide est une ressource fonctionnelle. 
 
-Le concept de validation est le fait qu'un élève maitrise ou non une notions.
+Pour devenir valide une ressource doit être validée par une utilisateur autorisé.
 
-Plusieurs possibilité de calcul de cette propriété :
-- sommative (au moins N exercices sur la notion terminés avec succès).
-- certains exercices sont des validateurs le sucess implique la maitrise 
-- demander à l'élève son avis : maitrise t'il la notion ?? engagement et reflexion reflexive ....
+Voir 
+[karma](glossaire.html#karma.md)
 
-### Validation d'une activité 
-
-En partant du principe qu'une activité est un ensemble d'exercices, voir de ressources à consulter, est-ce possible de noter cette activité ?
-
-La question est : comment constater qu'une activité est réussie ou échouée ?
-Deux options sont souhaitées :
-
-    toutes les ressources doivent être validées
-    certaines ressources (réussies, consultées) permettent de valider l'activité : 
-    + elles devront être sélectionnées à la création de l'activité
-    + Elles pourraient être multiples : soit la ressource 1, soit la resource 1 bis ou les deux
-
-La question se posent aussi pour un cours qui serait un ensemble d'activité
 
 
 <!-- verificationsyntaxique.md -->
 <a id="verificationsyntaxique.md"></a>
+
 ## La verification syntaxique
 
 La vérification syntaxique est un problème qui doit être traité de façon la plus large possible, en effet il est important pour le programmeur d'exercice de comprendre où est l'erreur qui fait que son exercice ne marche pas.
@@ -2310,8 +2505,10 @@ Les erreurs possibles :
 
 $\frac{\sqrt{67}}{88}$
 
+
 <!-- version.md -->
 <a id="version.md"></a>
+
 
 ## Versions 
 
@@ -2320,3 +2517,4 @@ $\frac{\sqrt{67}}{88}$
 2- Tout le monde partage le même système de gestion de versions  
 3- Il est possible de voir les différences avec les versions précédentea et de les editer  
 4- IL est possible de MARKER une version  
+

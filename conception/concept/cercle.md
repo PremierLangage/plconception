@@ -1,5 +1,7 @@
 # Les cercles
 
+Les cercles sont très important dans le logiciel pour structurer les interactions, le travail, l'accès.
+
 Les cercles sont des ensembles d'utilisateurs.
 Les cercles ont un propriétaire et des administrateurs capables d'accepter et virer des utilisateurs.  
 Les cercles ont des labels propres qui permettent d'étiqueter les exercices.  
@@ -16,8 +18,15 @@ Pour créer un cercle il faut au minimum 3  personnes (un président, un directe
 
 On commence par appartenir au cercle des créateurs, puis par exemple au cercle des matheux, puis au cercle des enseignants de  maths terminal, ou cercle des algébristes
 
+On à deux type d'accès à un cercle, observateur et participant. L'observateur reçoit des notifications et peux accèder au ressources du cercle (en particulier les workbench). Le participant peux editer les ressources. 
+
+Il est facile d'être observateur du cercle des créateurs, il est difficile d'être admis dans les participant du cercle (il faut prouver que l'on est attentif à ne pas fournir des ressoures non valide);
+
+
+
 ## Outils d'un cercle 
 
+Les cercles ont un [atelier](atelier.md) associé. 
 Les cercles ont un forum associé.
 Les cercles ont un framavox (ou l'équivalent loomio) associé: ce qui permet de prendre des décisions, de faire des sondages etc.
 Les cercles peuvent créer un label lié au cercle avec des modalités d'attribution. 

@@ -1,6 +1,6 @@
 # Actions
 
-Les actions sont une formalisation des activités des utilisateurs sur le site PL.
+Les actions sont une formalisation des interactions des utilisateurs sur le site PL.
 
 Une action est faite par un utilisateur et une ressource. 
 Les actions de base sont:

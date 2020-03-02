@@ -1,14 +1,26 @@
 # Barre d'exercice
 
-La barre d'exercice est un affichage HTML d'un exercice sur une seul ligne. 
+Pour l'interface de search and compose il est nécessaire d'avoir une présentation compacte d'un maximum d'information sur les objets remontés par la recherche de façon a ce que l'utilisateur puisse faire un choix raisoné des ressources qu'il veux utiliser dans son cours.
 
-C'est une barre contenant la discipline de l'exercice, son niveau, son nom, un metadata (validité, liste des cercle où il est).
+l'idée de la barre d'exercice est un affichage HTML d'un exercice sur une seule ligne. 
 
-La bare contient des boutons qui permettent différentes actions:  
+Cette "barre" doit apporter un maximum d'informations sur les statistiques "créateur" sur la ressource. 
+D'autre part la barre doit donner accès à la ressource, en preview, en edition, etc
+
+## Informations contenues 
+
+* la discipline de l'exercice,
+*  son niveau,
+*  son nom,
+*  un metadata (validité, liste des cercle où il est).
+*  badgesi/labels de l'exercice sont visibles: Labbel Rouge, académie de Versailles, LDAR++, comprehénsible, sans Fôtes.
+
+## Les boutons 
+
+les boutons permettent d'ouvrir des nouveaux onglets/fenetre de façon a conserver l'acivité de search and compose.
+La barre contient des boutons qui permettent différentes actions:  
 -preview lance une nouvelle fenetre de preview de l'exercice   
--extends lance une fenetre d'edition d'un exercice ititialisé avec la ligne extends= référence de l'exercice de la bare d'exercice  
--fork lance une fenetre d'edition de l'exercice lui même avec la sauvegarde qui fabriquera un pull request.
+- edition lance une nouvelle fenetre d'edition avec plusieurs possibilités (fork, extends,edit). 
+- aav lance une fenetre contenant les aav référencés par la ressource.
+- discussion sur la ressource si la page existe.
 
-Il est aussi possible de cliquer sur un bouton affichant la discussion sur l'exercice en question et un autre pour afficher un indicateur (à choisir). 
-
-Les badges de l'exercice sont visibles: Labbel Rouge, académie de Versailles, LDAR++, comprehénsible, sans Fôtes.

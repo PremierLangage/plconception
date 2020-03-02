@@ -1,21 +1,29 @@
 
 
-rm all.md nrm.md readme.md
+rm all.md nrm_md readme.md
 
-echo "\tableofcontents" >>all.tutu
-echo "\section{Glossaire}" >>all.tutu 
+echo "Title: Concepts" >table.tutu
+echo "Date: $(LANG=en date)" >>table.tutu
+echo >>nrm_md
+
+echo "Title: Glossaire " >all.tutu
+echo "Date: $(LANG=en date)" >>all.tutu
+echo >>all.tutu
+#echo "\tableofcontents" >>all.tutu
+#echo "\section{Glossaire}" >>all.tutu 
 for i in *.md 
 do
 echo "<!-- $i -->" >>all.tutu
-cat $i| sed -e "s/^#/##/" >>all.tutu
-echo "1. [$i]($i)" >>nrm.md
+echo "<a id=\"$i\"></a>" >>all.tutu
+echo >>all.tutu
+cat $i| sed -e "s/^#/##/" -e "s/](/](glossaire.html#/"  >>all.tutu
+echo "1. [$i](glossaire.html#$i)" >>table.tutu
+echo >>all.tutu
 done
 
-mv nrm.md readme.md 
+mv table.tutu	index.md
 mv all.tutu all.md
-pandoc -V geometry:margin=1.5cm all.md -o all.pdf
 
-git commit -m "refection readme" readme.md 
 
 
 

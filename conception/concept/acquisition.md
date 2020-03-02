@@ -1,5 +1,5 @@
 
-#  acquisition 
+#  Acquisition 
 
 
 Le concept de  acquisition est le fait qu'un élève maitrise ou non une notion.

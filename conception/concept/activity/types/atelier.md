@@ -20,4 +20,4 @@ rendus en groupes
 
 ## atelier "mélangé"
 
-Mélange de question pouvertes et fermées
+Mélange de questions ouvertes et fermées

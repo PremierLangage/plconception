@@ -57,3 +57,8 @@ Le niveau permet de réalisé certaines actions.
  * possibilité de commenter un aav 
 
 + **karma> (1*ressource+10*comments+) **
+
+## Réputation 
+
+le karma est basé sur le même principe que la réputation sur stackoverflow.
+
