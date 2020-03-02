@@ -6,7 +6,7 @@ echo "## Activity " >>all.tutu
 for j in standard types plugapps 
 do
 echo "### **$j**" >>all.tutu 
-echo $j/readme.md >>all.tutu
+cat $j/readme.md >>all.tutu
 for i in $j/*.md
 do
 if test $i == $j/readme.md
