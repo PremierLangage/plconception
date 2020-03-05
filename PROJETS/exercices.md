@@ -99,11 +99,17 @@ Pour donner une idée, voilà une démo très simple (qui s'adapte aux petits é
   - Philosophie du resize : on voit une sous-matrice d'une plus grande matrice déjà définie.
   
 - Utilisation de Matplotlib pour produire des graphiques. Regarder mpl3d
-- Bibliothèque `utilsmath`
+- Bibliothèques autour de `sympy`:
+ - `sympy2latex` : conversion d'objets sympy en latex (essentiellement une personnalisation du printer latex de sympy)
+ - `latex2sympy` : parsing de chaînes latex en sympy (basé sur le parser de chaînes de sympy)
+ - `randsympy` : générations aléatoires d'objets sympy (matrices, polynômes, etc.)
+ - `evalsympy` : évaluation des réponses
 
 ## Exercices de programmation Python
 
-- Builder et grader spécifiques ? Bibliothèques ?
+- Le grader d'Antoine semble très bien (flexible, user-friendly, très propre)
+- Ecrire quelques démos d'exercices typiques
+- Rééfléchir à un feedback plus léger ?
 
 ## Exercices à étapes
 
