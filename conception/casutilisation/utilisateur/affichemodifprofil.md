@@ -4,60 +4,24 @@ Objectif :  Permettre à un utilisateur d'afficher et/ou de modifier les informa
 
 Résumé général : Dans l'entête tout les utilisateurs on un bouton "Profil", qui leurs permettent d'afficher et de modifier les informations de leur compte utilisateurs, il y a les réglages application mode nuit mode daltonien etc... c'est modification sont effectif dès que l'utilisateur choisie de les activés. Et pour les informations profils (Nom, Prénom, mail etc...) L'utilisateur dois valider pour que les modifications soient pris en compte et sauvegardé dans la base de données. 
 
-# Données
-
-
-Acteur Principal : Utilisateur
-
-Acteurs secondaires : Admin
-
-Fréquence   : fréquence de la connexion
-
-Concurrence : Non
-
+## Pré-conditions
 Déclencheur : se déclenche lors d'un clique bouton sur "profil" ou de l'entré de l'URL dans le navigateur.
 
-
-## Pré-conditions
-
-### Données d'entrées :
-
-    compte utilisateur (login)
-
-Avoir un compte dans la base de donnée, pour cela il dois [s'inscrire](../visiteur/inscription.md).
-L'inscription dois être effectué préalablement et donc avoir rempli les informations d'inscription.
-
-
-## Post Conditions
-
-### Donnée sortie :
-
-    login
-
-	nom (impossibilité de modification)
-
-	prenom (impossibilité de modification)
-
-	genre (homme/femme) (impossibilité de modification)
-
-	date de naissance
-
-	langue
-
-	mail
-
-	mot de passe (caché, possibilité de la modif)
-
-	mode daltonien
-
-	mode nuit
-
-	notification oui/non
+## Champs du profile 
+* nom (impossibilité de modification)
+* prenom (impossibilité de modification)
+* genre (homme/femme) (impossibilité de modification)
+* date de naissance
+* langue
+* mail
+* mot de passe [ modification dans une view spécial]
+* mode daltonien
+* mode nuit
+* notification oui/non
 
 
-En cas de succès : L'utilisateur a accès à la modification de son profil, il peut donc modifié ou juste voir ses informations et réglé ses paramètres application.
-
-En cas d'échec : S'il y a échec cela veut dire que "l'utilisateur" n'as pas de compte, il est donc un visiteur et on le redirige vers la page où il pourra s'inscrire.
+ 
+L'utilisateur a accès à la modification de son profil, il peut donc modifié ou juste voir ses informations et réglé ses paramètres application.
 
 
 # Navigation / IHM 
