@@ -1,9 +1,9 @@
 # Suivre une classe
 
 
-Objectif :  Permet à un enseignant de suivre une classe qui suit son cours. 
+Objectif :  Permet à un enseignant de suivre une de ses classes. 
 
-Résumé général: L'enseignant choisi une classe, le tableau de bord de la classe apparait, il peut modifier le tableau de bord, dans les différents indicateurs il peut choisir d'accéder aux informations d'un élève. Une fois qu'il a lu suffisement d'informations il peut en déduire certaines informations comme les exercices trop difficiles, trop long, les élèves qui ont le plus de difficultés.
+Résumé général: L'enseignant choisi une classe, le tableau de bord de la classe apparait, il peut modifier le tableau de bord, dans les différents indicateurs il peut choisir d'accéder aux informations d'un élève. Une fois qu'il a lu suffisement d'informations il peut en déduire certaines informations comme les exercices trop difficiles, trop long, les élèves qui ont le plus de difficultés, des actions qu'il doit mener
 
 # Données :
 
