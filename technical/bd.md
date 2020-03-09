@@ -1,7 +1,7 @@
 
 # Base de données
 
-Pour le développement nous utilisons SQlite3 pour la simplicité de mise en oeuvre et la possibilité d'avoir des base de tests dans un seul fichier.
+Pour le développement nous utilisons SQlite3 pour la simplicité de mise en oeuvre et la possibilité d'avoir des bases de données de tests dans un seul fichier.
 
 Pour la production nous utilisons PostGreSQL pour sa réputation de stabilité et que l'équipe OPS avec la quelle nous travaillons a une bonne maitrise de cette base. Le deuxième élément est que la recherche "fulltext" est implémenté nativement et que nous en avons besoins dans le cadre de la version 1.0. 
 
@@ -27,7 +27,7 @@ SQLite désavantages :
 Dans la quasi-totalité de ce qui va suivre, je vais parler des différences entre MySQL et PostGreSQL qui sont à ce jour les deux meilleurs dans leurs catégories :
 
 ## Un peu d'histoire : 
-Historiquement MySQL avait la réputation d'avoir une BDD extrêmement rapide pour une lecture incroyablement rapide mais au détriment d'un coût bien plus grand pour toutes les requêtes mixées avec des opérations d'écriture.
+Historiquement MySQL avait la réputation d'avoir une BDD avec une lecture incroyablement rapide mais au détriment d'un coût bien plus grand pour toutes les requêtes mixées avec des opérations d'écriture.
 
 Postgres quant à lui était un peu plus modéré au niveau des performances, avec des lectures bien moins spectaculaires, cependant contrairement a MySQL il était capable d'écrire de très grands montants de données bien plus effiacement et de gérer la conccurence bien mieux.
 
@@ -35,15 +35,16 @@ Postgres quant à lui était un peu plus modéré au niveau des performances, av
 
 Choisir MySQL ou PostgreSQL pour les performances n'a plus beaucoup de sens, les deux seront bons mais plutôt pour les features qui vont avec.
 
-PostgreSQL est une BDD puremement relationnelle, et pour cela elle inclue l'héritable de table et la surchage. (Elle est également plus proche des standards SQL que MySQL)
+PostgreSQL est une BDD puremement relationnelle, et pour cela elle inclue l'héritage de table et la surchage. (Elle est également plus proche des standards SQL que MySQL)
 
 ## Point important : 
 - Encore aujourd'hui Postgres gère mieux la conccurence que MySQL sans lock en lecture et peut créer des indexes en mode non bloquant en utilisant plusieurs cores CPU -> CREATE INDEX CONCURRENTLY.
 - Les triggers et transactions sont très bien gérés en PostgreSQL, qui est connu pour garantir l'intégrité des données.
-- En MySQL de sérieux bugs encore à ce jour sont connus en  ce qui concerne les triggers notamment.
+- En MySQL de sérieux bugs encore à ce jour sont connus en  ce qui concerne les triggers et transactions notamment.
+- MySQL utilise InnoDB qui est la nouvelle technologie permettant à MySQL de gérer bien mieux les transactions et les triggers mais perd du coup sa plus-value sur sa vitesse en écriture.
 
 ### Prise en main et configuration : 
-PostGreSQL est généralement bien plus effiace avec une installation par défaut que MySQL qui demande une configuration bien plus pointilleuse.
+PostGreSQL est généralement bien plus efficace avec une installation par défaut que MySQL qui demande une configuration bien plus pointilleuse.
 
 ### Adaptabilité :
 PostGreSQL peut supporter de nombreux type de données tel que (geometric/GIS, network address types, JSONB qui peuvent être indexés, ainsi que des UUID natives et des timestamps) qui ne sont pas disponibles en MySQL.
