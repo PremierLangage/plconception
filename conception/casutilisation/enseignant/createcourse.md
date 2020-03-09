@@ -4,10 +4,9 @@
 
 Remarque préliminaire:  la création d'un cours est une activité complexe qui ne se fait pas en une fois.
 
-Un cours est une ressource, quand le cours est transformé en asset il lui est adjoint un cf. coursvide. 
+Prérequis : Le cours a été créer dans le cas d'utilisation [Ajout d'un cours](ajoutercours.md).
+
+Utitilisation des éditeurs search&compose and asseteditor.
 
 
-Un cours est composé :
-
-- un ensemble de 
 
