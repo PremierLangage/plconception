@@ -19,6 +19,6 @@ objectifs:
  * percevoir son positionnement dans la promo/le groupe/la classe
  * récuperer dans le eportefolio la réussite au cours
 
-## Apprendre quelquechose:
+## Apprendre quelquechose: 2.0
 
 choisir un sujet d'intérêt par sérendipité (objectif à long terme)
