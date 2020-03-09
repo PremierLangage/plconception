@@ -6,22 +6,24 @@ Résumé général : Dans l'entête tout les utilisateurs on un bouton "Profil",
 
 ## Pré-conditions
 Déclencheur : se déclenche lors d'un clique bouton sur "profil" ou de l'entré de l'URL dans le navigateur.
+ 
+L'utilisateur a accès à la modification de son profil, il peut donc modifier ou juste voir ses informations et régler ses paramètres applicatifs.
 
-## Champs du profile 
+## Champs du profile / préférences
 * nom (impossibilité de modification)
 * prenom (impossibilité de modification)
 * genre (homme/femme) (impossibilité de modification)
-* date de naissance
-* langue
-* mail
+* date de naissance (pas obligatoire)
+* langue (d'affichage des menus)
+* mail (celui du lms)
 * mot de passe [ modification dans une view spécial]
-* mode daltonien
-* mode nuit
-* notification oui/non
+* mode daltonien 
+* mode nuit (ou thèmes)
+* notification oui/non (accepter ou refuser les notifications)
+* liste des cercles auquels l'utilisateur appartient
 
 
- 
-L'utilisateur a accès à la modification de son profil, il peut donc modifier ou juste voir ses informations et réglé ses paramètres application.
+
 
 
 
