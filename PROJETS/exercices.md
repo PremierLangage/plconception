@@ -109,7 +109,10 @@ Pour donner une idée, voilà une démo très simple (qui s'adapte aux petits é
 
 - Le grader d'Antoine semble très bien (flexible, user-friendly, très propre)
 - Ecrire quelques démos d'exercices typiques
-- Rééfléchir à un feedback plus léger ?
+- Réfléchir à un feedback plus léger ?
+- Option fail_fast au niveau d'un groupe de tests (ex : on fait tous les tests de base mais on ne passe aux tests aléatoires que si tous les tests de base sont ok)
+- Dire précisément la version de Python utilisée (sur l'éditeur ? dans l'énoncé ?)
+- Sur l'éditeur, le dropdown de choix de langage est un peu gros. Et quand il n'y a pas de choix, il faudrait remplacer le dropdown par une simple étiquette.
 
 ## Exercices à étapes
 
