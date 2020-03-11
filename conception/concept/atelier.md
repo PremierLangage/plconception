@@ -2,15 +2,18 @@
 
 # Atelier 
 
-l'atelier est un environement permettant la création d'un workbench/workspace/établi qui permet la création de ressources.
+l'atelier est un environnement permettant la création des données et fichiers accessibles par un établi(workbench/workspace). L'etabli étant l'environnement qui permet la création de ressources.
 
 
-un atelier est un ensemble de répertoires qui sont édités par les participants au cercle qui contiennent des ressources utilisable par les membres du groupes.
+Un atelier est un ensemble de répertoires et fichier qui sont éditables (CRUD) par le "directeur scientifique" du cercle lié. 
+Cet ensemble de fichier apparait dans tout les établis du cercle et des cercle inclus, et sont donc utilisable par les membres du cercle et des cercles inclus.
 
 exemple: un fond de carte, une liste de verbes irréguliers, un exercice type, un calcul de PkA, etc.
 
-Quand un membre du groupe créer un établi il récupère l'ensemble des répertoire de l'atelier.
+Quand un membre du groupe créer un établi il récupère l'ensemble des répertoire de l'atelier du cercle et des cercle englobant.
 
+Le Cercle Ygddrasil contient tout les cercles.
+Tout le monde est membre du cercle yggdrasil, le président est le BDFL du projet. 
 
 ## Atelier enchasés 
 
