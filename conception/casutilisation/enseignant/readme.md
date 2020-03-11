@@ -1,13 +1,29 @@
 
 # Cas d'utilisation de l'acteur enseignant 
 
-## Créer un cours 
+## Ajouter une classe
 
-Permet à l'enseignant de créer un cours dans le quel il peut ensuite travailler.
+Permet à l'enseignant de créer une classe qu'il peut modifier et dans laquelle il peut ensuite travailler.
+Objectif: créer un nouveau cours/classe. 
 
+## Initialiser la classe  
+
+A la première connection l'enseignant doit définir le cours qui vas servir de base.
+la base est définie avec un cours : soit un cours vide soit un cours archivé, dans l
+
+Objectif: definir la base du cours.
+
+## Modifier la classe 
+
+Permet à l'enseignant de modifier la liste des ressources de la classe.
+L'enseignant utilise soit reload soit search&xompose.
+Objectif: 
 
 ## Travailler / enseigner 
-L'enseignant travaille sur la plateforme au sein d'un cours avec les objectifs suivants :
+
+Pré-requis: la classe à été créée et initialisée.
+
+L'enseignant travaille sur la plateforme au sein d'une classe avec les objectifs suivants :
 - proposer des aav, ressources et évaluations à ses élèves
 - organiser le planning 
 - suivre la progression du(es) groupe(s) et des élèves
