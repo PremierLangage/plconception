@@ -1,7 +1,7 @@
 # Front-End
-L'interface web (Front-End) de PLaTon, peut être divisé en 2 parties :
+L'interface web (Front-End) de PLaTon peut être divisé en 2 parties :
 
-- des pages dynamiques créés avec Angular (version 9+)
+- des pages dynamiques et web components créés avec Angular (version 9+)
 - des pages genérés côté serveur grâce au langage de templating de Django Jinja 2
 
 # Angular
@@ -52,13 +52,18 @@ La dernière version de AngularJS, AngularJS 1.7, la dernière version de Angula
 
 # Angular avec Django
 
-Pour le projet PLaTon, l'utilisation d'Angular consiste à créer des custom elements (web components) avec Angular qui seront consumés dans les templates Django et non des applications complètes comme c'est fait habituellement.
+L'architecture Front-End de la PLaTon est basé sur une architecture de [micro-frontend](https://micro-frontends.org).
+
+Pour la plateforme, l'utilisation d'Angular consiste à créer des custom elements (web components) avec Angular qui seront consumés dans les templates Django et non des applications complètes comme c'est fait habituellement.
 
 Ces custom elements peuvent être complexes comme l'éditeur de code de la plateforme ou simple comme un simple diagramme et pourront commnuniquer avec le backend de la plateforme en utilisant l'API rest fournit par ce dernier.
 
-L'avantage de cette approche est que l'équipe de dev front peut être séparé en 2 parties (ceux qui maitrisent Angular et crée des éléments graphiques complexes et ceux qui front du HTLM/JS simple avec Jinja en utilisant les éléments graphiques.
+L'avantage de cette approche est que l'équipe de dev front peut être séparé en 2 parties:
 
-C'est une architecture [micro-frontend](https://micro-frontends.org)
+- ceux qui font du Angular et crée des éléments graphiques complexes
+
+- ceux qui font du HTLM/CSS/JS avec Jinja en utilisant les éléments graphiques. Au yeux de ces derniers les custom elements sont juste des balises HTML classiques avec des fonctionnalités puissantes et une API d'utilisation.
+
 
 ## References:
 
