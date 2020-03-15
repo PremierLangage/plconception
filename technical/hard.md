@@ -4,7 +4,7 @@
 
 * À ce jour, ces VMs sont configurées comme suit :
 
-## PROD
+## Prod
 
 Servers de production disponibles directement sur le web.
 
@@ -18,7 +18,7 @@ Servers de production disponibles directement sur le web.
 |SOFT      |Apache / Python / Django / PostgreSQL    |Apache / Python / Django / docker                       |
 
 
-## PRE-PROD
+## Pre-Prod
 
 Serveur permettant de tester la plateforme dans les mêmes conditions que sur **Prod**.
 Accessible depuis le web.
@@ -32,7 +32,7 @@ Accessible depuis le web.
 |OS        |debian (version 10.1 "buster")                          |
 |SOFT      |Apache / Python / Django / PostgreSQL / docker          |
 
-## TEST
+## Test
 
 Serveurs permettant aux devs d'effectuer divers tests nécessitant un serveur live. Accessible seulement depuis *eduroam*.
 
