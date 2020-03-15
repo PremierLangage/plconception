@@ -54,9 +54,9 @@ La dernière version de AngularJS, AngularJS 1.7, la dernière version de Angula
 
 Pour le projet PLaTon, l'utilisation d'Angular consiste à créer des custom elements (web components) avec Angular qui seront consumés dans les templates Django et non des applications complètes comme c'est fait habituellement.
 
-Ces custom elements peuvent être complexes comme l'éditeur de code de la plateforme ou simple comme un simple diagramme et pourront commnuniquer avec le backend de la plateforme utilisant l'API rest fournit par ce dernier.
+Ces custom elements peuvent être complexes comme l'éditeur de code de la plateforme ou simple comme un simple diagramme et pourront commnuniquer avec le backend de la plateforme en utilisant l'API rest fournit par ce dernier.
 
-L'avantage de cette approche est que l'équipe de dev front peut être séparé en 2 parties (ceux qui maitrisent Angular et crée des éléments graphiques complexes et ceux qui font du HTLM/JS simple avec Jinja en utilisant les éléments graphiques.
+L'avantage de cette approche est que l'équipe de dev front peut être séparé en 2 parties (ceux qui maitrisent Angular et crée des éléments graphiques complexes et ceux qui front du HTLM/JS simple avec Jinja en utilisant les éléments graphiques.
 
 C'est une architecture [micro-frontend](https://micro-frontends.org)
 
