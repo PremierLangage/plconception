@@ -11,6 +11,9 @@ Utilisé NGINX nous permettra donc d'implémenter les WebSockets, nous permettan
 
 Daphne est une surcouche de NGINX permettant d''utiliser les protocole HTTP, HTTP2, grâce à [ASGI](https://github.com/django/asgiref/blob/master/specs/asgi.rst) et [ASGI-HTTP](https://github.com/django/asgiref/blob/master/specs/www.rst).
 
+URL: ASGI https://github.com/django/asgiref/blob/master/specs/asgi.rst  
+URL: ASGI-HTTP https://github.com/django/asgiref/blob/master/specs/www.rst  
+
 Il supporte la négotiation automatique de protocole ; il n'y a pas besoin de préfixer les URL avec le bon protocole pour différencier les requête HTTP et WebSocket (`https://` / `ws://`).
 
 ## Django
