@@ -73,10 +73,3 @@ na.  Action causing branching:
 RELATED INFORMATION
 
 Include Use Cases	[Centre de notification](../../concept/centredenotification.md) [Editeur](../../concept/editeurdechamps.md) [Sauvegarde continu](../../concept/zonetampon.md) 
-
-
-
-<!--- 
-Author : Jordan
-Validator : Raphael
--->
