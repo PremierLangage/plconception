@@ -1,10 +1,12 @@
 
 # Modules 
 
-La liste suivante à pour objectif de lister les "modules" c'est à dire des groupes de fonctionnalités
-qui compose le logiciel dans sont ensemble.
+FIXME
 
-playexo : permet d'afficher un exercice communiquer la reponse de l'élève vers la sandbox rediriger l'évaluation vers l'activité courrante puis afficher le resultat et sauvegarder la réponse+évaluation+feedback+infoactivité dans la table "answer" 
+La liste suivante à pour objectif de lister les "modules" c'est à dire des groupes de fonctionnalités
+qui compose le logiciel dans son ensemble.
+
+playexo : permet d'afficher un exercice, communiquer la reponse de l'élève vers la sandbox, rediriger l'évaluation vers l'activité courrante puis afficher le resultat et sauvegarder la réponse+évaluation+feedback+infoactivité dans la table "answer" (FIXME il y a d'autres tables maintenant).
 
 playactivity: permet  d'afficher une activité
 
@@ -36,4 +38,4 @@ Liens Internes + BarExo + preview
 
 Cercles : une organisation de groupes en fonction de leurs affinités, la définition d'affinité devra évoluer avec le temps, pour le moment c'est la discipline, vous etes dans les cercles des diciplines pour lesquelles vous produiser des ressources. Les cercles donne accès(possible de voire la liste) aux personnes du cercle et a un forum du cercle.
 
-
+sandbox: Evaluation des exercices.
