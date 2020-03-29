@@ -1,0 +1,14 @@
+@startuml
+
+actor Etudiant
+Etudiant --> (activite-recommandation) 
+Etudiant --> (afficher-completion) 
+Etudiant --> (afficher-completion-group) 
+Etudiant --> (auto-inscription-classe) 
+Etudiant --> (exporter-cours-portfolio) 
+Etudiant --> (interagir-exercice) 
+Etudiant --> (lire-tabledebord-individuel) 
+Etudiant --> (login) 
+Etudiant --> (réaliser-activité) 
+Etudiant --> (travailler) 
+@enduml

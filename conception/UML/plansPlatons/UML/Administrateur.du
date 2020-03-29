@@ -1,0 +1,7 @@
+@startuml
+skinparam handwritten true
+
+actor Administrateur
+Administrateur --> (crud-tag) 
+Administrateur --> (edition-classificationdisciplinaire) 
+@enduml

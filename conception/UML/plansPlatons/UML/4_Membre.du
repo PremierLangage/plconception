@@ -1,0 +1,34 @@
+@startuml
+
+actor Membre
+(login) <|-- (aav-add-ressource) : extends 
+(connection-discord) <|-- (acceder-discord) : extends 
+(crud-metadonnes-ressource) <|-- (addremove-label-ressource) : extends 
+(Futur) <|-- (analyser-besoin-hint) : extends 
+(creer-cours) <|-- (choisir-cercle) : extends 
+(login) <|-- (choisir-etabli) : extends 
+(login) <|-- (connection-chat-membre) : extends 
+(login) <|-- (connection-discord) : extends 
+(login) <|-- (construire-etabli-double) : extends 
+(login) <|-- (crud-aav) : extends 
+(login) <|-- (crud-calcul-indicateur-ressource) : extends 
+(login) <|-- (crud-exercice-prepare) : extends 
+(login) <|-- (crud-metadonnes-ressource) : extends 
+(login) <|-- (crud-ressource-demo) : extends 
+(login) <|-- (crud-test-in-preview) : extends 
+(login) <|-- (definir-seed-preview) : extends 
+Membre --> (editer-cours-ressource) 
+(Futur) <|-- (editer-ontologie) : extends 
+(edition-ressource) <|-- (editer-versions) : extends 
+(edition-ressource) <|-- (edition-activite-programmable) : extends 
+(edition-ressource) <|-- (edition-composite) : extends 
+(edition-ressource) <|-- (edition-feuille) : extends 
+(choisir-etabli) <|-- (edition-ressource) : extends 
+Membre --> (login) 
+(Futur) <|-- (modifier-droits-ressource) : extends 
+(login) <|-- (modifier-ressource-metadata) : extends 
+(crud-metadonnes-ressource) <|-- (modifier-tag) : extends 
+(login) <|-- (preview-ressource) : extends 
+(edition-ressource) <|-- (publier-ressource) : extends 
+(login) <|-- (recherche-ressource) : extends 
+@enduml

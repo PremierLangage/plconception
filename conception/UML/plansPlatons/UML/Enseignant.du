@@ -1,0 +1,31 @@
+@startuml
+skinparam handwritten true
+
+actor Enseignant
+Enseignant --> (crud-asset) 
+Enseignant --> (asset-metadata-edition) 
+Enseignant --> (crud-classe) 
+Enseignant --> (afficher-completion) 
+Enseignant --> (afficher-completion-group) 
+Enseignant --> (modifier-completion) 
+Enseignant --> (editer-cours-asset) 
+Enseignant --> (editer-cours-ressource) 
+Enseignant --> (recharger-cours) 
+Enseignant --> (choisir-cercle) 
+Enseignant --> (creer-cours) 
+Enseignant --> (Integrer-moncours) 
+Enseignant --> (réaliser-activité) 
+Enseignant --> (editer-modalités-completion) 
+Enseignant --> (partage-cours) 
+Enseignant --> (archiver-cours) 
+Enseignant --> (modifier-evaluation-metadata-asset) 
+Enseignant --> (exporter-notes) 
+Enseignant --> (consulter-indicateur-individuel-collectif) 
+Enseignant --> (valider-aav-etudiant) 
+Enseignant --> (definir-regle-acquisition) 
+Enseignant --> (choisir-visibilité-completion) 
+Enseignant --> (lire-tabledebord-groupe) 
+Enseignant --> (inscription-etudiant-classe) 
+Enseignant --> (exporter-stats) 
+Enseignant --> (valider-portfolio) 
+@enduml

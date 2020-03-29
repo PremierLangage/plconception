@@ -1,0 +1,16 @@
+@startuml
+skinparam handwritten true
+
+actor Createur
+Createur --> (crud-aav) 
+Createur --> (aav-add-ressource) 
+Createur --> (programmer-activité) 
+Createur --> (programmer-ressource) 
+Createur --> (creation-cercle) 
+Createur --> (definir-seed-preview) 
+Createur --> (crud-test-in-preview) 
+Createur --> (crud-grille-feedback) 
+Createur --> (crud-badge-createur) 
+Createur --> (analyser-erreurs-activite) 
+Createur --> (ecrire-tabledebord) 
+@enduml

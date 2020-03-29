@@ -1,0 +1,99 @@
+order	actor	UC	UCLINK	concept	comment
+1	Administrateur	aav-add-ressource	login	aav	 Création de liens entre les ressources et les aav cela fait partie de l'approche O&R (Q&A).
+1	Membre	aav-add-ressource	login	demande	
+1	Utilisateur	accèder-demo		demo	
+2	Membre	acceder-discord	connection-discord	salon	
+3	Etudiant	activite-recommandation		recommandation	 un sous module complet à décrire pour juillet 
+2	Membre	addremove-label-ressource	crud-metadonnes-ressource	label	
+1	Enseignant	afficher-completion	Enseigner	completion	 L'enseignant souhaite savoir si un élève donné a fini une activité.
+1	Etudiant	afficher-completion		completion	 Je veux savoir si j'ai terminé l'asset ? suffisement ? complettement ? Quel note m'a donné le prof 
+1	Enseignant	afficher-completion-group	Enseigner	completion	 L'enseignant souhaite savoir comment/quelle proportion des élèves d'un groupe donné a fini une activité.
+1	Etudiant	afficher-completion-group		completion	 Qui a terminé voir le cas d'utilisaitoin [afficher-completion.md](afficher-completion.md)
+1	Utilisateur	afficher-notifications	login	notification	
+1	Utilisateur	afficher-profile		karma	
+4	Membre	analyser-besoin-hint	Futur	hint	
+4	Didactitien	analyser-comportement-metacognitif		metacognition	
+3	Createur	analyser-erreurs-activite		feedback	 Se rapprocher du cas d'utilisation [modifier-completion.md](modifier-completion.md)
+4	Didactitien	analyser-reponces		personalisation-des-parcours	
+2	Enseignant	archiver-cours	login	cours	Cette activité permet de transformer un cours nouveau en une ressource partagable. ceci termine l'existance de la classe correspondantes (gain de place). les données sont fournies au serveur central.
+1	Enseignant	asset-metadata-edition	Enseigner	assets	 Les meta data de l'asset ou données de cours de l'asset sont éditable directement il faut un editeur de champs ('à la admin')
+3	Utilisateur	auto-inscription		classeouverte	 Comment la personne peut avoir accès au cours, comment elle peut avoir le cours dans sa liste (asset prduit par qui). Beaucoup de difficultés avec ce cas d'utilisatioin.Que doit faire le système pour que les activités/assets enregistre leur utilisation par la personne 
+4	Etudiant	auto-inscription-classe		classe	 v1.0 passage par moodle 
+1	Membre	choisir-cercle	creer-cours	cours	
+1	Membre	choisir-etabli	login	etabli	 
+3	Enseignant	choisir-visibilité-completion	Evaluer	completion	 Permet de faire la rétention des notes 
+1	President	communication-cercle		cercle	 Nous pensons exporter cette problèmatique sur un outil externe loomio/discord mais le cas d'utilisation doit faire le tour de la question sur ce qui est possible ou non. En lien avec [envoyer-notification.md](envoyer-notification.md)
+2	Membre	connection-chat-membre	login	chatbot	 Le système doit donner accès au chat du cercle par un lien ce qui veux dire que l'on peux avoir des membre du chat qui ne sont pas membre du cercle
+2	Membre	connection-discord	login	pagedediscution	
+1	Utilisateur	connection-lti		lti	 Expliciter le comportement (dépend du profile de l'utilisateur: revenir au même endrois, revenior à l'acceuil) faire le lien avec [../utilisateur/login](../utilisateur/login.md)
+1	Enseignant	connexionLTI			Idem utilisateur
+1	Membre	construire-etabli-double	login	etabli	 Prendre deux etabli et en faire un seul (on hérite des fichiers des deux)
+2	Enseignant	consulter-indicateur-individuel-collectif	Evaluer	indicateur	
+1	Createur	creation-cercle	login	cercle	 Ce cas d'utilisation fait intervenir 3 utilisateurs qui se distribut les capacitées du cercle : president, directeur-scientifique, editeur, physionomiste
+1	Enseignant	creer-cours	Enseigner	coursvide	Permet de créer un cours avec rien dedans (un cours vide) Utilise [choisir-cercle.md](choisir-cercle.md). Quand le prof créer son cours il doit le placer dans un cercle disciplinaire.
+1	Membre	crud-aav	login	aav	 Création des aav et modification remarque il faut faire attention ào la destruction 
+1	Enseignant	crud-asset	creer-cours	assets	 L'édition des assets est indirecte il faut editer la ressource correspondante, et faire un rechargement ce que doit expliquer le cas d'utilisation. Le search & compose des assets.
+3	Createur	crud-badge-createur		badge	" La création consiste à définir quelles actions sur le site produise le badge il faut expliquer que l'on a une table indépendante, qui stocke les ""actions"" et donc les badges ne sont pas rétroactifs."
+2	Membre	crud-calcul-indicateur-ressource	login	indicateur	 a partir des indicateurs de base TBD construire un indicateur
+1	Enseignant	crud-classe	connexionLTI	classe	 Une classe permet d'organiser un cours (cours-moodle= classe-platon, contient des élèves et des assets).
+2	Membre	crud-exercice-prepare	login	editeurdechamps	 Sous cas de edition ressource [edition-ressource.md](edition-ressource.md)
+2	Createur	crud-grille-feedback		feedback	 A concevoir avec  [modifier-completion.md](modifier-completion.md)
+1	Membre	crud-metadonnes-ressource	login	metadonnees	 Ici le cas d'utilisatioin explicite les informations que l'on peut modifier et comment 
+1	Membre	crud-ressource-demo	login	demo	 l'idée est comment transforme t'on une demo en ressource, peut on recharger une démo ? 
+1	Administrateur	crud-tag	login	tag	 Les tags sont globaux et définis par l'administrateur (ou un membre de cercle pilotage/root/admin )
+1	Membre	crud-test-in-preview	login	tests	Gestion des tests de ressources dans la preview 
+3	Enseignant	definir-regle-acquisition	Evaluer	acquisition	 Ici c'est la version programmable de l'acquisition d'un aav l'avtivité doit calculer seule l'aquistion
+1	Membre	definir-seed-preview	login	seed	Possibilité de choisir la seed dans l'interface de preview
+4	Didactitien	definir-statistiques		personalisation-des-parcours	
+1	Utilisateur	demande-aav		demande	" Il faut pouvoir editer la demande en suite donc un ""crud"" avec des particularités."
+3	Createur	ecrire-tabledebord		tableaudebord	
+1	Utilisateur	edit-profile		profile	 Contient aussi les préférences 
+1	DirecteurScientifique	editer-atelier		atelier	 ce use case est important pour créer les ateliers et les établis. L'edition de l'atelier est un forme de search and compose ?? je ne sais pas . DR a discuter 
+1	Membre	editer-cours-ressource		cours	 Dans le cas ou l'enseignant veut modifier un asset élèmentaire et donc ddoit repasser par l'éditeur et un reload. Ceci est un cas d'utilisation complexe.
+2	Enseignant	editer-modalités-completion	crud-asset	completion	 ce use case permet de spécifier des règles d'asset pour la completion (basé sur la completion des activités de l'asset, a mettre en ligne avec la correction de l'asset).
+4	Membre	editer-ontologie	Futur	ontology	
+0	Membre	editer-versions	edition-ressource	version	Permet de comparer les versions et de créer une version suplémentaire.
+2	Membre	edition-activite-programmable	edition-ressource	individualisation	
+2	Administrateur	edition-classificationdisciplinaire		classificationdisciplinaire	 L'organisation des cercles ce fait principalement a partir de cette classification. il faut pouvoir réorganiser les cercle si il y a un changement ce qui explique ce cas d'utilisation.
+1	Membre	edition-composite	edition-ressource	editeur	
+1	Membre	edition-feuille	edition-ressource	feuille	Sous cas de [edition-composite.md](edition-composite.md)
+1	Membre	edition-ressource	choisir-etabli	editeur	 dépend de [choisir-etabli.md](choisir-etabli.md)
+1	Enseignant	Enseigner	login		
+1	President	envoyer-notification		notification	
+1	Enseignant	Evaluer	Enseigner		Permet à l’enseignant de réaliser des évaluation/collecter les évaluation 
+4	Etudiant	exporter-cours-portfolio		portfolio	
+2	Enseignant	exporter-notes	Enseigner	export	Ouiap deux options remonté dans moodle ou export excel
+4	Enseignant	exporter-stats	Evaluer	export	export des stats pour le prof 
+2	Candidats	Faire-un-test		candidature	Permet d’envoyer a un candidat une feuille d’exercice à usage unique pour laquelle on récupère l’évaluation.
+1	Physionomiste	gestion-cercle		cercle	 Possibilité de jetter/banir/rendre muet retirer les droits etc bien entendu changer les droits 
+4	Enseignant	inscription-etudiant-classe	Enseigner	classe	 Permettre à l'ensrignant d'ajouter un etudiant ou un autre enseignant dans son cours (eventuellemnt grae à moodle)
+1	Enseignant	Integrer-moncours	creer-cours	classe	L'idée est de décrire comment récupperer tout les supports de cours d'un prof et de montrer comment passer chaque élément textes/video/podcates,  pdf , exercices problems devoirs -, tp , et comment faire des évaluation 
+0	Etudiant	interagir-exercice		exercice,activity	 ce cas est le plus important
+3	Enseignant	lire-tabledebord-groupe	Evaluer	tableaudebord	
+3	Etudiant	lire-tabledebord-individuel		tableaudebord	
+1	Utilisateur	login	connection-lti	centredenotification	 explication de l'accès général à la plateforme avec l'interface générale IHM et les notification profile etc qui peuvent être déclanché 
+1	Enseignant	login			Idem utilisateur
+1	Etudiant	login			Idem utilisateur
+1	Membre	login			Idem utilisateur
+1	Enseignant	modifier-completion	Enseigner	completion	 Ceci est un use case de correction, meta donnée de l'asset, si l'asset de fait pas de la complétion programmable, ce use case permet de valider la completion d'une activité.
+3	Membre	modifier-droits-ressource	Futur	droits	
+2	Enseignant	modifier-evaluation-metadata-asset	crud-asset	evaluation	  doublons ? avec [editer-modalités-completion.md](editer-modalités-completion.md)
+1	Membre	modifier-ressource-metadata	login	curation	 Modifier et completter, ajouter des tags et labels niveau commentaires etc il faut faire la liste de ce qui est possible. en particulier la validation de la ressource (le travail  du groupe eller).
+1	Membre	modifier-tag	crud-metadonnes-ressource	tag	
+3	Utilisateur	optenir-bagde		badge	 Le badge doit être construit sur des actions quand l'action à lieux l'utisateur recoit une notification de badge
+4	Utilisateur	ouvrir-centrenotification		centredenotification	
+2	Enseignant	partage-cours	login	cours	Cette activité permet de transformer un cours nouveau en une ressource partagable. ceci peut être une mise à jour, le cours continue (c'est pour fournir au milieu de l'année le cours à un collègue).
+1	Utilisateur	premiere-connection		lti	 Expliciter ici ce que le système optient comme information grace à la connecxion lti
+1	Membre	preview-ressource	login	liensressources	Expliciter ce qu'est un lien preview et comment cela s'utilise.
+1	Createur	programmer-activité	login	activity	 En utilisant l'éditeur (faire simple) cf voir la documentation du langage 
+1	Createur	programmer-ressource	login	ressource	 En utilisant l'éditeur (faire simple) cf voir la documentation du langage pour les exercices et les fichiers de cours
+1	DirecteurScientifique	promouvoir-ressource		cercle	 Action de prendre une ressource dans un cercle inférieur et de la placer dans un cercle supérieur
+1	Membre	publier-ressource	edition-ressource	publication	difficulté affectez ce Use case à nimdanor 
+2	Enseignant	réaliser-activité	Enseigner	activity	 Ici le cas d'utilsation explique comment un enseignant peut participer a une activité (todo, correction, amphi interactif)
+1	Etudiant	réaliser-activité		activity	 en lien avec le UC:travail l'étudiant utilise une activité
+1	Enseignant	recharger-cours	crud-asset	cours	De nouvelles version des ressources utilsées sont disponibles, l'enseignant souhaite choisir les ressources qu'il veut remplacer dans sa classe [editer-cours-ressource.md](editer-cours-ressource.md) 
+1	Membre	recherche-ressource	login	discipline	
+1	Etudiant	travailler		actions,activity,data-activity,classe,aav,assets	 Travailler pour un étudiant doit couvrir l'ensemble de l'interface utilisateur de l'étudiant
+1	Visiteur	Utiliser-demo		demo	Permet de voir des exercices de démo
+3	Enseignant	valider-aav-etudiant	Evaluer	acquisition	 L'idée est que l'on peut valider un aac pour un étudiant de façon manuelle 
+4	Enseignant	valider-portfolio	Evaluer	portfolio	

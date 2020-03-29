@@ -1,0 +1,11 @@
+@startuml
+
+actor Createur
+Createur --> (analyser-erreurs-activite) 
+(login) <|-- (creation-cercle) : extends 
+Createur --> (crud-badge-createur) 
+Createur --> (crud-grille-feedback) 
+Createur --> (ecrire-tabledebord) 
+(login) <|-- (programmer-activité) : extends 
+(login) <|-- (programmer-ressource) : extends 
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+skinparam handwritten true
+
+actor Etudiant
+Etudiant --> (interagir-exercice) 
+Etudiant --> (afficher-completion) 
+Etudiant --> (afficher-completion-group) 
+Etudiant --> (travailler) 
+Etudiant --> (réaliser-activité) 
+Etudiant --> (activite-recommandation) 
+Etudiant --> (lire-tabledebord-individuel) 
+Etudiant --> (auto-inscription-classe) 
+Etudiant --> (exporter-cours-portfolio) 
+@enduml

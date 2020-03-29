@@ -1,0 +1,15 @@
+@startuml
+skinparam handwritten true
+
+actor Utilisateur
+(login) --> (afficher-notifications) : uses
+Utilisateur --> (demande-aav) 
+Utilisateur --> (accèder-demo) 
+Utilisateur --> (afficher-profile) 
+Utilisateur --> (connection-lti) 
+Utilisateur --> (premiere-connection) 
+Utilisateur --> (edit-profile) 
+Utilisateur --> (optenir-bagde) 
+Utilisateur --> (auto-inscription) 
+Utilisateur --> (ouvrir-centrenotification) 
+@enduml

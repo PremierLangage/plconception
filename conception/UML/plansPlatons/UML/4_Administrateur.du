@@ -1,0 +1,7 @@
+@startuml
+
+actor Administrateur
+(login) <|-- (aav-add-ressource) : extends 
+(login) <|-- (crud-tag) : extends 
+Administrateur --> (edition-classificationdisciplinaire) 
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+
+actor Membre
+(edition-ressource) <|-- (editer-versions) : extends 
+(login) <|-- (modifier-ressource-metadata) : extends 
+(login) <|-- (aav-add-ressource) : extends 
+(login) <|-- (crud-ressource-demo) : extends 
+(edition-ressource) <|-- (edition-composite) : extends 
+(choisir-etabli) <|-- (edition-ressource) : extends 
+(login) <|-- (choisir-etabli) : extends 
+(login) <|-- (construire-etabli-double) : extends 
+(edition-ressource) <|-- (edition-feuille) : extends 
+(login) <|-- (crud-metadonnes-ressource) : extends 
+(edition-ressource) <|-- (publier-ressource) : extends 
+(crud-metadonnes-ressource) <|-- (modifier-tag) : extends 
+Membre --> (login) 
+(login) <|-- (recherche-ressource) : extends 
+(login) <|-- (preview-ressource) : extends 
+@enduml

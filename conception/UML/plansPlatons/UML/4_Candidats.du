@@ -1,0 +1,5 @@
+@startuml
+
+actor Candidats
+Candidats --> (Faire-un-test) 
+@enduml

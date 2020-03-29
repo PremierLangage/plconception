@@ -1,0 +1,7 @@
+@startuml
+skinparam handwritten true
+
+actor President
+President --> (communication-cercle) 
+President --> (envoyer-notification) 
+@enduml
