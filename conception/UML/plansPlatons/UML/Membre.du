@@ -1,0 +1,35 @@
+@startuml
+
+
+actor Membre
+(edition-ressource) --> (editer-versions) : uses
+(login) --> (modifier-ressource-metadata) : uses
+(login) --> (aav-add-ressource) : uses
+(login) --> (crud-ressource-demo) : uses
+(edition-ressource) --> (edition-composite) : uses
+(choisir-etabli) --> (edition-ressource) : uses
+(login) --> (choisir-etabli) : uses
+(login) --> (construire-etabli-double) : uses
+(edition-ressource) --> (edition-feuille) : uses
+(login) --> (crud-metadonnes-ressource) : uses
+(edition-ressource) --> (publier-ressource) : uses
+(crud-metadonnes-ressource) --> (modifier-tag) : uses
+(login) --> (connection-chat-membre) : uses
+(login) --> (crud-exercice-prepare) : uses
+(login) --> (crud-calcul-indicateur-ressource) : uses
+(edition-ressource) --> (edition-activite-programmable) : uses
+(crud-metadonnes-ressource) --> (addremove-label-ressource) : uses
+(login) --> (connection-discord) : uses
+(connection-discord) --> (acceder-discord) : uses
+
+Membre --> (login) 
+(login) --> (recherche-ressource) : uses
+(login) --> (preview-ressource) : uses
+@enduml
+
+@startuml
+
+(Futur) --> (analyser-besoin-hint) : uses
+(Futur) --> (editer-ontologie) : uses
+(Futur) --> (modifier-droits-ressource) : uses
+@enduml

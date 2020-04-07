@@ -1,0 +1,15 @@
+@startuml
+
+actor Utilisateur
+Utilisateur --> (accèder-demo) 
+(login) <|-- (afficher-notifications) : extends 
+Utilisateur --> (afficher-profile) 
+Utilisateur --> (auto-inscription) 
+Utilisateur --> (connection-lti) 
+Utilisateur --> (demande-aav) 
+Utilisateur --> (edit-profile) 
+(connection-lti) <|-- (login) : extends 
+Utilisateur --> (optenir-bagde) 
+Utilisateur --> (ouvrir-centrenotification) 
+Utilisateur --> (premiere-connection) 
+@enduml

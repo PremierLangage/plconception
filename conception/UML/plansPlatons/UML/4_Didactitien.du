@@ -1,0 +1,7 @@
+@startuml
+
+actor Didactitien
+Didactitien --> (analyser-comportement-metacognitif) 
+Didactitien --> (analyser-reponces) 
+Didactitien --> (definir-statistiques) 
+@enduml

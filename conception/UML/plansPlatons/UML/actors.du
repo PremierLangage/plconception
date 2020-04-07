@@ -1,0 +1,26 @@
+@startuml
+
+actor AnalysteDidactitien
+actor Etudiant
+actor Enseignant
+actor DirecteurScientifique
+actor Membre
+actor Createur
+actor Administrateur
+actor Physionomiste
+
+actor Utilisateur
+actor President
+
+Utilisateur --|> AnalysteDidactitien
+Membre--|> Createur
+Membre --|> DirecteurScientifique
+Utilisateur --|> Administrateur
+Utilisateur --|> Etudiant
+Membre--|> President
+Membre--|> Physionomiste
+Membre--|> Enseignant
+Utilisateur --|> Membre
+
+
+@enduml

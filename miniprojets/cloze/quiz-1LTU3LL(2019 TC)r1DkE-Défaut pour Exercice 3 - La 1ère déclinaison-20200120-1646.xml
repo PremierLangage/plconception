@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$$/top</text>
+
+    </category>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$course$/top/Défaut pour Exercice 3 - La 1ère déclinaison</text>
+
+    </category>
+  </question>
+
+<!-- question: 2558875  -->
+  <question type="cloze">
+    <name>
+      <text>Ancilla</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "servante" : ancilla, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ancilla}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=ancillae}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ancilla}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=ancillae}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ancillam}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=ancillas}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ancillae}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=ancillarum}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ancillae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ancillis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ancilla}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ancillis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2487847  -->
+  <question type="cloze">
+    <name>
+      <text>Ancilla</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "servante" : ancilla, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ancilla}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=<span>ancillae</span></span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ancilla</span></span><span style="line-height: 1.231;">}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=<span>ancillae</span></span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ancillam</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=<span>ancillas</span></span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ancillae</span>}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=<span>ancillarum</span></span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ancillae</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ancillis</span>}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ancilla</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ancillis</span>}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2558882  -->
+  <question type="cloze">
+    <name>
+      <text>Ara</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "autel" : ara, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ara}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>arae</span>}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ara</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>arae</span>}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ara</span>m}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>aras</span>}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ara</span>e}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ara</span>rum}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ara</span>e}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>aris</span>}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>ara</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=aris}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2558876  -->
+  <question type="cloze">
+    <name>
+      <text>Ara</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "autel" : ara, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ara}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=arae}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ara}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=arae}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=aram}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=aras}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=arae}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ararum}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=arae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=aris}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=ara}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=aris}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2487843  -->
+  <question type="cloze">
+    <name>
+      <text>Domina</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "maîtresse" : domina, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=domina}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>dominae</span>}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>domina</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>dominae</span>}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>dominam</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>dominas</span>}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>dominae</span>}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>domina</span>rum}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>dominae</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>dominis</span>}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>domina</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2558877  -->
+  <question type="cloze">
+    <name>
+      <text>Domina</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "maîtresse" : domina, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=domina}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominae}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=domina}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominae}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominam}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominas}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominae}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominarum}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=domina}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=dominis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2558879  -->
+  <question type="cloze">
+    <name>
+      <text>Fabula</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "fable" : fabula, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabula}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulae}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabula}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulae}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulam}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulas}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulae}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabularum}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabula}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2487846  -->
+  <question type="cloze">
+    <name>
+      <text>Fabula</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "fable" : fabula, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabula}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulae}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabula}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulae}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulam}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulas}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulae}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabularum}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabula}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=fabulis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2558881  -->
+  <question type="cloze">
+    <name>
+      <text>Poena</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "peine, châtiment" : poena, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poena}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=</span><span>poena</span><span>e}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>poen</span></span><span style="line-height: 1.231;">a}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=</span><span>poena</span><span>e}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>poena</span>m}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=</span><span>poenas</span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>poena</span>e}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=</span><span>poenarum</span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>poena</span>e}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poenis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>poena</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poenis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2558874  -->
+  <question type="cloze">
+    <name>
+      <text>Poena</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "peine, châtiment" : poena, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poena}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=poenae}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poena}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=poenae}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poenam}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=poenas}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poenae}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=poenarum}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poenae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poenis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poena}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=poenis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2558878  -->
+  <question type="cloze">
+    <name>
+      <text>Statua</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "statue" : statua, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statua}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=statuae}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statua}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=statuae}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statuam}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=statuas}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statuae}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=statuarum}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statuae}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statuis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statua}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statuis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+<!-- question: 2487842  -->
+  <question type="cloze">
+    <name>
+      <text>Statua</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p> </p>
+<h2 style="text-align: center;">Décline le mot "statue" : statua, ae, f.<br /><br /></h2>
+<div align="center">
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top" width="77">
+<p align="center"> </p>
+</td>
+<td style="text-align: center;" valign="top" width="142">
+<p><strong><br />SINGULIER</strong></p>
+</td>
+<td style="text-align: center;" valign="top" width="142"><strong><br />PLURIEL</strong>
+<p align="center"> </p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />nominatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statua}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=<span>statuae</span></span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />vocatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>statua</span></span><span style="line-height: 1.231;">}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=<span>statuae</span></span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />accusatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>statuam</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=<span>statuas</span></span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />génitif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>statuae</span>}<br /></span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br /><span>{1:SHORTANSWER:=<span>statuarum</span></span><span>}</span><br /></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />datif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>statuae</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statuis}</span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" width="77">
+<p align="center"><strong><br />ablatif</strong></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=<span>statua</span>}</span></p>
+</td>
+<td valign="top" width="142">
+<p align="center"><span><br />{1:SHORTANSWER:=statuis}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+</quiz>

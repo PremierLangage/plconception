@@ -1,0 +1,31 @@
+@startuml
+
+actor Enseignant
+(Enseigner) <|-- (afficher-completion) : extends 
+(Enseigner) <|-- (afficher-completion-group) : extends 
+(login) <|-- (archiver-cours) : extends 
+(Enseigner) <|-- (asset-metadata-edition) : extends 
+(Evaluer) <|-- (choisir-visibilité-completion) : extends 
+Enseignant --> (connexionLTI) 
+(Evaluer) <|-- (consulter-indicateur-individuel-collectif) : extends 
+(Enseigner) <|-- (creer-cours) : extends 
+(creer-cours) <|-- (crud-asset) : extends 
+(connexionLTI) <|-- (crud-classe) : extends 
+(Evaluer) <|-- (definir-regle-acquisition) : extends 
+(crud-asset) <|-- (editer-modalités-completion) : extends 
+(login) <|-- (Enseigner) : extends 
+(Enseigner) <|-- (Evaluer) : extends 
+(Enseigner) <|-- (exporter-notes) : extends 
+(Evaluer) <|-- (exporter-stats) : extends 
+(Enseigner) <|-- (inscription-etudiant-classe) : extends 
+(creer-cours) <|-- (Integrer-moncours) : extends 
+(Evaluer) <|-- (lire-tabledebord-groupe) : extends 
+Enseignant --> (login) 
+(Enseigner) <|-- (modifier-completion) : extends 
+(crud-asset) <|-- (modifier-evaluation-metadata-asset) : extends 
+(login) <|-- (partage-cours) : extends 
+(Enseigner) <|-- (réaliser-activité) : extends 
+(crud-asset) <|-- (recharger-cours) : extends 
+(Evaluer) <|-- (valider-aav-etudiant) : extends 
+(Evaluer) <|-- (valider-portfolio) : extends 
+@enduml

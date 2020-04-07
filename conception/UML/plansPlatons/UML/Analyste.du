@@ -1,0 +1,7 @@
+@startuml
+skinparam handwritten true
+
+actor Analyste
+Analyste --> (analyser-reponces) 
+Analyste --> (definir-statistiques) 
+@enduml
