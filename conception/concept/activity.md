@@ -11,13 +11,13 @@ Une activité  est définie par un fichier au format pl contenant des référenc
 Une activité a un barème (outil permettant le calcul d'une note).
 
 
-i=introduction  page d'acceuil de l'activité peut contenir des dashboards
-S= Strategie  ou runner
-F= pltp ou liste des exercices participant à l'activité
-N=navigation si l'activité en propose une 
-B=Barem (comment est calculé la nte qui remonte à moodle)
-E=aquisitor (permet de calculer l'aquisition de l'activité) 
-R=Runner (permet de calculer le chemin suivi par l'apprenant)
+i=introduction  page d'acceuil de l'activité peut contenir des dashboards. 
+S= Strategie  ou runner. 
+F= pltp ou liste des exercices participant à l'activité. 
+N=navigation si l'activité en propose une   
+B=Barem (comment est calculé la nte qui remonte à moodle). 
+E=aquisitor (permet de calculer l'aquisition de l'activité)   
+R=Runner (permet de calculer le chemin suivi par l'apprenant). 
 
 En discution: Défini dans la ressource ou dans l'asset ? Fonction de du cours ? 
 P= Prérequis 
