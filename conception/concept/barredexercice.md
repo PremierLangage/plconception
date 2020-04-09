@@ -23,4 +23,6 @@ La barre contient des boutons qui permettent différentes actions:
 - edition lance une nouvelle fenetre d'edition avec plusieurs possibilités (fork, extends,edit). 
 - aav lance une fenetre contenant les aav référencés par la ressource.
 - discussion sur la ressource si la page existe.
+> **(Cf. Schéma) **
+![Schema](https://raw.githubusercontent.com/PremierLangage/plconception/master/conception/concept/image/concept-exercise-bar.png)
 
