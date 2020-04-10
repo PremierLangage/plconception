@@ -12,16 +12,16 @@ Une activité a un barème (outil permettant le calcul d'une note).
 
 
 i=introduction  page d'acceuil de l'activité peut contenir des dashboards.  
-S= Strategie  ou runner.   
+S= Strategie  ou runner (les stratégie sont des runner préprogrammés).   
 F= pltp ou liste des exercices participant à l'activité  
 N=navigation si l'activité en propose une    
 B=Barem (comment est calculé la nte qui remonte à moodle).  
-E=aquisitor (permet de calculer l'aquisition de l'activité)    
+E=aquisitor (permet de valider un aav associé à l'activité)   
 R=Runner (permet de calculer le chemin suivi par l'apprenant).  
+O= Objectifs (AAV et ontologie)
 
 En discution: Défini dans la ressource ou dans l'asset ? Fonction de du cours ? 
 P= Prérequis 
-O= Objectifs (AAV et ontologie)
 
 CHANGEMENT les éléments suivant ne sont plus intégrés dans toutes les activités. 
 Une activité exporte des tableaux de bord : studentactivitydashboard, teacheracivitydashboard utilisables dans les tableaux de bords correspondants.
