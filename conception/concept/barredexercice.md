@@ -1,6 +1,6 @@
 # Barre d'exercice
 
-Pour l'interface de search and compose il est nécessaire d'avoir une présentation compacte d'un maximum d'information sur les objets remontés par la recherche de façon a ce que l'utilisateur puisse faire un choix raisoné des ressources qu'il veux utiliser dans son cours.
+Pour l'interface de search and compose il est nécessaire d'avoir une présentation compacte d'un maximum d'information sur les objets remontés par la recherche de façon à ce que l'utilisateur puisse faire un choix raisonné des ressources qu'il veut utiliser dans son cours.
 
 l'idée de la barre d'exercice est un affichage HTML d'un exercice sur une seule ligne. 
 
