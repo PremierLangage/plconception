@@ -3,6 +3,14 @@
 
 Les méta données sont des informations associées aux ressources. 
 
+## Métadonnées et versions 
+
+Par défaut si l'on édite pas les métadonnées elle sont les mémes que la version précédente de la ressource (récursivement, jusqu'a la valeur par défaut de la version zéro).
+
+## Valeur par défaut des métadonnées
+
+??? FIXME 
+
 ## Méta données automatiques
 Les méta données automatiques sont essentiellement statistiques,
 nombre d'utilisation, temps de réalisation, temps moyen, temps médian,
