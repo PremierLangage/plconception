@@ -4,13 +4,15 @@ Objectif : Permettre à un enseignant de corriger toutes les feuilles d'exercice
 
 Résumé général : Un enseignant après avoir sélectionner un cours et une activité qu'il a choisit d'evaluer (en plus de l'évaluation automatique de pl). Une nouvelle page d'interaction s'ouvre sur le **mode correction** de l'activité. Dans le mode correction l'enseignant peux choisir un élève et voir ses réponses à l'activité. Il peut modifier l'évaluation et ajouter un commentaire sur chaque réponse. Les commentaires et modifications sont pris en compte automatiquement. Le undo est disponible. En fin d'édition l'ensemble des modifications est sauvegardé automatiquement.
 
+TODO: Discussion sur la correction anonymisée
+
 # Données
 
 Acteur Principal : Enseignant
 
 Acteurs secondaires : Admin
 
-Concurrence : Non
+Concurrence : Non ## Vraiment? Cas d'usage: une équipe d'enseignants corrige simultanément un examen.
 
 Déclencheur : Se déclenche lorsqu'un enseignant clique sur un de ses cours, il a alors la possibilité de voir les "taches" qu'il a donné aux étudiants d'une classe qui suit ce cours.
 
