@@ -24,7 +24,7 @@ Cartable
 ==
 ~~~
 
-* Exemple 2
+## Exemple 2
 
 ~~~
 extends = model/basic/sortlist.pl
