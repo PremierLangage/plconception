@@ -49,7 +49,7 @@ shuffle = false
 ## Exemple 3 (génération des données par un script)
 
 ~~~
-extends = model/basic/sortlist.pl
+extends = model/basic/radio.pl
 
 text ==
 Sélectionner le plus petit nombre de la liste suivante.
