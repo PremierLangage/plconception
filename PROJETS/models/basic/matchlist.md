@@ -44,10 +44,12 @@ nbsample = 4
 
 
 #  A partir d'un fichier 
+l'idée est qu'un même fichier de données soit utilisable pour plusieurs types d'exercices.
+
  FIXME 
 
 
-# Dans le cas surjectif (ou injectif) 
+## Dans le cas surjectif (ou injectif) 
 
 Pour le moment pas de solution FIXME.
 
