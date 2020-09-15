@@ -43,6 +43,10 @@ nbsample = 4
 ~~~
 
 
+#  A partir d'un fichier 
+ FIXME 
+
+
 # Dans le cas surjectif (ou injectif) 
 
 Pour le moment pas de solution FIXME.
