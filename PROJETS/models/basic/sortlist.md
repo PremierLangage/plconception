@@ -62,6 +62,8 @@ Jean Castex
 nbsample = 5
 
 scoring = "KendallTau"
+
+demo = https://pl.u-pem.fr/filebrowser/demo/25075/
 ~~~
 
 ## Exemple 3 (génération des données par un script)
@@ -80,4 +82,32 @@ sortedlist = sorted(rd.sample(range(1, 100), 5))
 ~~~
 
 ## Exemple 4 (lecture des données dans un fichier externe)
+
+/exemple/sortedlistfile.pl 
+
+~~~
+extends = /model/basic/sortlist.pl
+@ fichierdedonnee.csv [truc.csv]
+column=noms # Choix de la columns 
+
+text==
+En utilisant Drag and Drop, rangez les valeurs dans l'ordre.
+==
+
+before==
+import csv
+
+with open("truc.csv","r") as csvfile:
+    reader = csv.DictReader(csvfile)
+    # Lecture de la column dans l'ordre du fichier
+    lue = [ row[column] for row in reader]
+
+sortedlist= "\n".join(lue)
+import sys
+print("Copie terminée", file=sys.stderr)
+
+
+
+==
+~~~
 
