@@ -7,7 +7,7 @@ Le modèle `model/basic/matchlist.pl` permet de fabriquer des exercices où l'é
 * `nbsample` (entier).
 * `scoring`. Cette clé définit le barème de l'exercice.
 
-## Exemple 1
+## Une bijection clé-valeurs
 
 ~~~
 extends = model/basic/matchlist.pl
@@ -41,3 +41,18 @@ Suisse;Berne
 
 nbsample = 4
 ~~~
+
+
+# Dans le cas surjectif (ou injectif) 
+
+Pour le moment pas de solution FIXME.
+
+Pourquoi c'est intéressant certaines liste de connaissance définise des types ou catégories.
+Plusieurs approches sont possibles.
+
+Soit permettre l'association de plusieurs clé sur la même valeur => que le composant le permet.
+Cela implique que l'evaluateur doit vérifier l'assiciation et pas utiliser une association par pairs.
+
+Soit faire un tirage ou le sous ensemble est une bijection.
+
+
