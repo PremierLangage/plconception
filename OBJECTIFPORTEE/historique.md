@@ -67,17 +67,17 @@ L'apprenant choisissant le mode d'accès qu'il souhaite aux exercices avec un mo
 besoin 4: outil de mesure de la connaissance d'un apprenant (d'un groupe).  
 Solution : Utiliser des ontologies, bien documenté dans la littérature scientifique ce model convient bien.
 
-besoin 5: Des interfaces éfficasses car graphiques.   
+besoin 5: Des interfaces efficaces car graphiques.   
 Solution : Permettre que les utilisateurs fassent le choix des indicateurs qu'ils souhaitent voir sur leur progression (resp. la progression du groupe pour les enseignants). Parmi ces indicateurs, la vue de l'ontologie est un indicateur important.
 
-besoin 6: Conservation des parcourts avec [Anonymisation](https://fr.wikipedia.org/wiki/Anonymisation)
+besoin 6: Conservation des parcours avec [Anonymisation](https://fr.wikipedia.org/wiki/Anonymisation)
 Solution: Utilisation de deux modes de sauvegarde, un version interne et une version anonymisée utilisant l'interface xAPI de sauvegarde de parcours.
 
-beson 7:  ajouter des feedbacks a un exercice a posteriori.  
+beson 7:  ajouter des feedbacks à un exercice a posteriori.  
 Solution: Les décorateurs la posibilité d'ajouter des décorateurs sur les exercices qui vont changer de façon générique leur comportement, cette solution élégante dans son principe n'est pas encore validé par un POC.
 
 besoin 8: Compatibilité avec différents format d'exercices en particulier WIMS, exo7 gift, AMC, SCORM, etc.  
-Solution: de nouveau la solution passe par un langage de programmation des exerices, 
+Solution: De nouveau la solution passe par un langage de programmation des exerices, 
 
 besoin 9: Partage multi-auteur de l'edition des ressources.  
 Solution: Pas de solution imédiate il nous faut trouver un compromis en la simpicité et le partage, 
@@ -87,18 +87,18 @@ nous avons lancer un projet parrallèle pour nous donner une solution c'est le p
 besoin 10 : Les indicateurs  forment une classe de besoin à part entière, il nous faut des indicateurs très variés et très différents en fonction des utilisateurs.  
 Solution: Un système de plugins, de widgets et de procedures qui permettent de construire directement sur la plateforme l'indicateur que l'on souhaite, la librairie graphique qui le permet n'est pas encore choisie.
 
-besoin 11: ressources permanenttes, disponibles, acessibles, dévouvrables.  
+besoin 11: ressources permanentes, disponibles, acessibles, dévouvrables.  
 Solution: un serveur unique de ressources. Des serveur d'assets par entités de formation.
 
 besoin 12: Partage des ressources et communauté d'édition.  
-Solution: un système de partage de fichier/ressources simple à la wikipédia, avec un système de notification, des cercles d'utilisateurs, des outils de discutions (slack), un système de Q&A pour les demandes(AAV) et les réponses (Activités, Evaluation, SAAV:sous aav). Un système de gestion de version (git) pour les éléments programmables sensibles.
+Solution: un système de partage de fichier/ressources simple à la wikipédia, avec un système de notification, des cercles d'utilisateurs, des outils de discussions (slack), un système de Q&A pour les demandes(AAV) et les réponses (Activités, Evaluation, SAAV:sous aav). Un système de gestion de version (git) pour les éléments programmables sensibles.
 
 
-besoin 13: Les étudiants ont des ordinateurs différents des systèmes différents utilisent des tablettes et téléphone portables.  
+besoin 13: Les étudiants ont des ordinateurs différents des systèmes différents utilisent des tablettes et téléphones portables.  
 Solution: Une plateforme utilisable sur un navigateur et une architecture web responsive. 
 
 besoin 14: L'université de Marne la Vallée n'a pas vocation a fournir un service national de LMS.   
-Solution: Deux types de serveur, un serveur de ressources national (initialement à l'UPEM) et des serveurs d'Assets dans tous les établissement qui en ont besoin, le serveur d'assets pouvant une fois les ressources téléchargées être utilisé hors ligne. 
+Solution: Deux types de serveur, un serveur de ressources national (initialement à l'UPEM) et des serveurs d'Assets dans tous les établissements qui en ont besoin, le serveur d'assets pouvant une fois les ressources téléchargées être utilisé hors ligne. 
 
 
 **historique** D Revuz 
