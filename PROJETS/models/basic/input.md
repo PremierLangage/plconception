@@ -1,9 +1,13 @@
-# Réponse textuelle libre
+# `input`
 
-Le modèle `model/basic/input.pl` permet de fabriquer des exercices avec un champ de réponse textuel libre.
+Le modèle `input` permet de fabriquer des exercices avec un champ de réponse textuel libre.
+
+[![](inpu1.png)](https://pl.u-pem.fr/filebrowser/demo/33986/)
 
 ## Clés spécifiques
-* `solution` (chaîne de caractères). Cette clé contient la ou les solutions.
+
+* `text` (chaîne de caractères). Enoncé de l'exercice.
+* `solution` (chaîne de caractères). Solution de l'exercice.
 * `casesensitive` (booléen). Cette clé détermine si l'évaluation de la réponse tien compte de la casse ou pas. Par défaut, cette clé vaut `false`.
 * `diffmeasure` ("EditDist", "EditRatio"). Cette clé définit la mesure utilisée pour calculer l'écart entre la réponse entrée par l'élève et la solution.
 * `tolerance` (nombre). Cette clé définit l'écart maximal accepté (pour la mesure définit dans `diffmeasure`).
