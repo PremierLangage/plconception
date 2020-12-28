@@ -10,10 +10,11 @@ Acteur Principal : Enseignant
 
 Acteurs secondaires : Admin
 
-Concurrence : Non
+Concurrence : Non # Vraiment? Cas d'usage: une équipe d'enseignants corrige collectivement un examen
 
 Déclencheur : Se déclenche lorsqu'un enseignant clique sur un de ses cours, il a alors la possibilité de voir les "taches" qu'il a donné aux étudiants d'une classe qui suit ce cours.
 
+TODO: discussion sur la correction anonymisée
 
 ## Pré-conditions
 
